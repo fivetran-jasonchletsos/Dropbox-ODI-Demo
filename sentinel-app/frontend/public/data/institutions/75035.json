@@ -1,0 +1,115 @@
+{
+  "cert_id": "75035",
+  "name": "Commonwealth Exchange Bank",
+  "city": "White Plains",
+  "state": "NY",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.078,
+  "branches": 3,
+  "established_year": 1942,
+  "risk_score": 51,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 11.84,
+  "net_charge_off_ratio_pct": 0.72,
+  "return_on_assets_pct": 0.73,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 3,
+      "deposits_b": 0.065
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "DC",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "MS",
+      "count": -2,
+      "deposits_b": 0.006
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.073,
+      "npl_ratio": 0.96,
+      "capital_ratio": 12.68
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.074,
+      "npl_ratio": 1.08,
+      "capital_ratio": 12.77
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.074,
+      "npl_ratio": 1.14,
+      "capital_ratio": 12.91
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.075,
+      "npl_ratio": 1.18,
+      "capital_ratio": 13.08
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.076,
+      "npl_ratio": 1.16,
+      "capital_ratio": 12.76
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.077,
+      "npl_ratio": 1.23,
+      "capital_ratio": 13.06
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.074,
+      "npl_ratio": 1.27,
+      "capital_ratio": 12.78
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.072,
+      "npl_ratio": 1.35,
+      "capital_ratio": 12.54
+    }
+  ],
+  "ai_summary": "Commonwealth Exchange Bank (White Plains, NY) holds $0.08B in deposits across 3 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 11.84% and ROA of 0.73% benchmark this institution against <100M peers."
+}

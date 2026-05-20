@@ -1,0 +1,120 @@
+{
+  "cert_id": "32152",
+  "name": "Commonwealth Financial",
+  "city": "Springfield",
+  "state": "AZ",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.259,
+  "branches": 9,
+  "established_year": 1924,
+  "risk_score": 46,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.33,
+  "net_charge_off_ratio_pct": 0.86,
+  "return_on_assets_pct": 2.1,
+  "branches_by_state": [
+    {
+      "state": "AZ",
+      "count": 6,
+      "deposits_b": 0.184
+    },
+    {
+      "state": "WV",
+      "count": 1,
+      "deposits_b": 0.033
+    },
+    {
+      "state": "TN",
+      "count": 1,
+      "deposits_b": 0.016
+    },
+    {
+      "state": "MT",
+      "count": 1,
+      "deposits_b": 0.012
+    },
+    {
+      "state": "CA",
+      "count": 0,
+      "deposits_b": 0.014
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Arizona Heritage Bank",
+      "close_date": "2011-07-25",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Lake & Sterling Bank",
+      "close_date": "2011-05-02",
+      "charter_class": "SB",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "River & Valley Bank",
+      "close_date": "2010-01-03",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Frontier Financial",
+      "close_date": "2009-01-10",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.249,
+      "npl_ratio": 0.96,
+      "capital_ratio": 12.2
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.255,
+      "npl_ratio": 1,
+      "capital_ratio": 12.14
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.269,
+      "npl_ratio": 0.99,
+      "capital_ratio": 11.96
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.275,
+      "npl_ratio": 1.02,
+      "capital_ratio": 11.85
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.275,
+      "npl_ratio": 1.14,
+      "capital_ratio": 11.73
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.289,
+      "npl_ratio": 1.17,
+      "capital_ratio": 11.76
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.29,
+      "npl_ratio": 1.14,
+      "capital_ratio": 11.76
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.288,
+      "npl_ratio": 1.17,
+      "capital_ratio": 11.46
+    }
+  ],
+  "ai_summary": "Commonwealth Financial (Springfield, AZ) holds $0.26B in deposits across 9 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.33% and ROA of 2.10% benchmark this institution against 100M-1B peers."
+}

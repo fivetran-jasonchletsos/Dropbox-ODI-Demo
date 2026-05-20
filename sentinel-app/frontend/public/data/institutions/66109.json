@@ -1,0 +1,115 @@
+{
+  "cert_id": "66109",
+  "name": "Capital Partners Bank",
+  "city": "Arlington",
+  "state": "VA",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 4.556,
+  "branches": 68,
+  "established_year": 1951,
+  "risk_score": 44,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 8.47,
+  "net_charge_off_ratio_pct": 0.97,
+  "return_on_assets_pct": 1.81,
+  "branches_by_state": [
+    {
+      "state": "VA",
+      "count": 53,
+      "deposits_b": 3.524
+    },
+    {
+      "state": "CO",
+      "count": 7,
+      "deposits_b": 0.49
+    },
+    {
+      "state": "AK",
+      "count": 3,
+      "deposits_b": 0.203
+    },
+    {
+      "state": "HI",
+      "count": 5,
+      "deposits_b": 0.339
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2024-02-11",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Citizens State Bank",
+      "close_date": "2019-09-18",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2013-03-27",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2011-12-08",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 4.148,
+      "npl_ratio": 1.18,
+      "capital_ratio": 8.48
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 4.22,
+      "npl_ratio": 1.28,
+      "capital_ratio": 8.25
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 4.125,
+      "npl_ratio": 1.29,
+      "capital_ratio": 8.02
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 3.978,
+      "npl_ratio": 1.33,
+      "capital_ratio": 7.78
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 3.841,
+      "npl_ratio": 1.31,
+      "capital_ratio": 7.43
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 3.898,
+      "npl_ratio": 1.37,
+      "capital_ratio": 7.22
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 3.787,
+      "npl_ratio": 1.46,
+      "capital_ratio": 6.86
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 3.656,
+      "npl_ratio": 1.51,
+      "capital_ratio": 6.65
+    }
+  ],
+  "ai_summary": "Capital Partners Bank (Arlington, VA) holds $4.56B in deposits across 68 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 8.47% and ROA of 1.81% benchmark this institution against 1B-10B peers."
+}

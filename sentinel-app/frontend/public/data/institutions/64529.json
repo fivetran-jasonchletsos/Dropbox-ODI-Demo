@@ -1,0 +1,120 @@
+{
+  "cert_id": "64529",
+  "name": "Sterling State Bank",
+  "city": "Detroit",
+  "state": "MI",
+  "charter_class": "SM",
+  "asset_class": "10B-100B",
+  "deposits_b": 45.348,
+  "branches": 139,
+  "established_year": 1902,
+  "risk_score": 35,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 10.73,
+  "net_charge_off_ratio_pct": 0.13,
+  "return_on_assets_pct": 1.41,
+  "branches_by_state": [
+    {
+      "state": "MI",
+      "count": 80,
+      "deposits_b": 25.975
+    },
+    {
+      "state": "OK",
+      "count": 18,
+      "deposits_b": 5.958
+    },
+    {
+      "state": "NV",
+      "count": 9,
+      "deposits_b": 2.859
+    },
+    {
+      "state": "DE",
+      "count": 8,
+      "deposits_b": 2.594
+    },
+    {
+      "state": "CO",
+      "count": 24,
+      "deposits_b": 7.961
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Capital Federal",
+      "close_date": "2017-07-12",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Cornerstone State",
+      "close_date": "2011-11-20",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Michigan First Bank",
+      "close_date": "2011-02-11",
+      "charter_class": "SA",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Frontier Federal Bank",
+      "close_date": "2010-11-10",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 40.713,
+      "npl_ratio": 0.29,
+      "capital_ratio": 10.77
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 39.718,
+      "npl_ratio": 0.35,
+      "capital_ratio": 10.54
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 39.004,
+      "npl_ratio": 0.31,
+      "capital_ratio": 10.35
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 40.928,
+      "npl_ratio": 0.33,
+      "capital_ratio": 10.67
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 42.532,
+      "npl_ratio": 0.44,
+      "capital_ratio": 10.8
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 42.648,
+      "npl_ratio": 0.43,
+      "capital_ratio": 10.65
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 44.422,
+      "npl_ratio": 0.39,
+      "capital_ratio": 10.65
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 47.027,
+      "npl_ratio": 0.35,
+      "capital_ratio": 10.8
+    }
+  ],
+  "ai_summary": "Sterling State Bank (Detroit, MI) holds $45.35B in deposits across 139 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 10.73% and ROA of 1.41% benchmark this institution against 10B-100B peers."
+}

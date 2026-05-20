@@ -1,0 +1,120 @@
+{
+  "cert_id": "85627",
+  "name": "Liberty Exchange Bank",
+  "city": "Los Angeles",
+  "state": "CA",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.059,
+  "branches": 2,
+  "established_year": 2001,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.8,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 2.5,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 1,
+      "deposits_b": 0.038
+    },
+    {
+      "state": "MO",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "LA",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "NY",
+      "count": 1,
+      "deposits_b": 0.002
+    },
+    {
+      "state": "TX",
+      "count": -2,
+      "deposits_b": 0.006
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.053,
+      "npl_ratio": 0.26,
+      "capital_ratio": 15.63
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.13,
+      "capital_ratio": 15.91
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.1,
+      "capital_ratio": 15.95
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.1,
+      "capital_ratio": 16.23
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.1,
+      "capital_ratio": 16.09
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.056,
+      "npl_ratio": 0.1,
+      "capital_ratio": 16.06
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.059,
+      "npl_ratio": 0.1,
+      "capital_ratio": 15.81
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.059,
+      "npl_ratio": 0.1,
+      "capital_ratio": 15.45
+    }
+  ],
+  "ai_summary": "Liberty Exchange Bank (Los Angeles, CA) holds $0.06B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.80% and ROA of 2.50% benchmark this institution against <100M peers."
+}

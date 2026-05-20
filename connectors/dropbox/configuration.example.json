@@ -1,0 +1,13 @@
+{
+  "auth_mode": "shared_link",
+  "shared_link_url": "https://www.dropbox.com/scl/fo/q4jd4lluy7p6k9518y4nf/AEKPm_VQpAO3kYpMVLmlFok?rlkey=1yty6apyq82j3jsit3a390hq0&dl=0",
+  "shared_link_password": "",
+
+  "dropbox_access_token": "REPLACE_WITH_DROPBOX_APP_TOKEN",
+
+  "_folder_path_doc": "Used only when auth_mode=token. Path inside the Dropbox app's scope, e.g. /Apps/ODI-Demo or /.",
+  "folder_path": "",
+
+  "max_rows_per_file": "250000",
+  "include_extensions": "csv,tsv,xlsx,xls,json,ndjson,jsonl,parquet,pdf"
+}

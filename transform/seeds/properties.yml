@@ -1,0 +1,269 @@
+version: 2
+
+# ============================================================
+# Seed definitions for the Sentinel ODI demo.
+#
+# These seeds mirror the public FDIC datasets that arrive via the
+# Fivetran Dropbox connector. In `target: dev` we run dbt entirely
+# against these seeds so the demo works without bronze landings.
+# In `target: prod` the bronze pass-throughs flip to source() refs.
+# ============================================================
+
+seeds:
+  - name: fdic_failed_bank_list
+    description: |
+      FDIC Failed Bank List — one row per FDIC-insured institution that
+      has failed since 2008. Mirrors the public CSV published at
+      https://www.fdic.gov/bank/individual/failed/banklist.html.
+      Includes real high-profile failures (WaMu, IndyMac, SVB, Signature,
+      First Republic, Silvergate) plus realistic synthetic rows.
+    config:
+      column_types:
+        bank_name: varchar(255)
+        city: varchar(128)
+        state: varchar(2)
+        cert: integer
+        acquiring_institution: varchar(255)
+        closing_date: date
+        fund: varchar(8)
+    columns:
+      - name: bank_name
+        description: Legal name of the failed institution.
+        data_tests:
+          - not_null
+      - name: city
+        description: Headquarters city of the failed institution.
+      - name: state
+        description: Two-letter U.S. state code.
+        data_tests:
+          - not_null
+      - name: cert
+        description: FDIC certificate number — primary key across all FDIC datasets.
+        data_tests:
+          - not_null
+      - name: acquiring_institution
+        description: Acquirer at resolution (or 'Self-Liquidation' if none).
+      - name: closing_date
+        description: Date the institution was closed by its regulator.
+        data_tests:
+          - not_null
+      - name: fund
+        description: FDIC fund that absorbed the loss (DIF since 2006).
+
+  - name: fdic_institutions
+    description: |
+      FDIC-insured institutions master file. Mirrors the institution-level
+      records in the public INSTITUTIONS2.CSV download. ~200 synthetic
+      rows spanning all 50 states + DC, every charter class
+      (N/NM/SM/SB/SA), and every asset tier from community banks (<$100M)
+      to G-SIBs (>$100B). Anchored by real top-10 mega-banks so the
+      demo presents recognizable names.
+    config:
+      column_types:
+        cert: integer
+        name: varchar(255)
+        namehcr: varchar(255)
+        city: varchar(128)
+        stalp: varchar(2)
+        zip: varchar(10)
+        bkclass: varchar(2)
+        charter_type: varchar(32)
+        estymd: date
+        dateupdt: date
+        asset: bigint
+        dep: bigint
+        eq: bigint
+        netinc: bigint
+        roa: float
+        roe: float
+        regagnt: varchar(8)
+    columns:
+      - name: cert
+        description: FDIC certificate number — primary key.
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: Legal institution name.
+        data_tests:
+          - not_null
+      - name: namehcr
+        description: Top-tier holding company name (may equal `name` for standalones).
+      - name: city
+        description: Headquarters city.
+      - name: stalp
+        description: Two-letter state code for the headquarters.
+        data_tests:
+          - not_null
+      - name: zip
+        description: Headquarters ZIP code (as string to preserve leading zeros).
+      - name: bkclass
+        description: FDIC charter class.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [N, NM, SM, SB, SA]
+      - name: charter_type
+        description: Coarse charter type — Commercial or Savings.
+      - name: estymd
+        description: Establishment date.
+      - name: dateupdt
+        description: As-of date for the financial fields.
+      - name: asset
+        description: Total assets in $ thousands.
+      - name: dep
+        description: Total deposits in $ thousands.
+      - name: eq
+        description: Total equity capital in $ thousands.
+      - name: netinc
+        description: Net income for the most recent fiscal year in $ thousands.
+      - name: roa
+        description: Return on assets, percent (e.g. 1.20 means 1.20%).
+      - name: roe
+        description: Return on equity, percent.
+      - name: regagnt
+        description: Primary federal regulator (OCC, FDIC, FRB).
+
+  - name: fdic_summary_of_deposits
+    description: |
+      FDIC Summary of Deposits — branch-level deposit balances. Mirrors
+      the per-branch records in the public SOD CSV. ~1500 branch rows
+      across the ~200 institutions for 2024, with a partial 2023 set so
+      year-over-year analytics work.
+    config:
+      column_types:
+        year: integer
+        cert: integer
+        namefull: varchar(255)
+        branname: varchar(255)
+        address: varchar(255)
+        city: varchar(128)
+        stalp: varchar(2)
+        zipbr: varchar(10)
+        depsumbr: bigint
+        bkclass: varchar(2)
+        bkmo: varchar(1)
+        uninumbr: integer
+    columns:
+      - name: year
+        description: Survey year (June 30 snapshot).
+        data_tests:
+          - not_null
+      - name: cert
+        description: FDIC certificate number of the parent institution.
+        data_tests:
+          - not_null
+      - name: namefull
+        description: Parent institution name.
+      - name: branname
+        description: Branch name.
+      - name: address
+        description: Branch street address.
+      - name: city
+        description: Branch city.
+      - name: stalp
+        description: Branch state (may differ from HQ state for multi-state banks).
+        data_tests:
+          - not_null
+      - name: zipbr
+        description: Branch ZIP code.
+      - name: depsumbr
+        description: Branch deposits in $ thousands.
+      - name: bkclass
+        description: FDIC charter class of the parent.
+      - name: bkmo
+        description: Main-office flag (Y for the branch flagged as main office).
+      - name: uninumbr
+        description: Unique branch identifier — primary key in this table.
+        data_tests:
+          - not_null
+          - unique
+
+  - name: state_fips
+    description: |
+      Reference seed mapping the 51 U.S. state codes (50 states + DC) to
+      state names, FIPS codes, and U.S. Census regions. Used by every
+      gold model that needs full state names or regional roll-ups.
+    config:
+      column_types:
+        state_code: varchar(2)
+        state_name: varchar(64)
+        fips_code: varchar(2)
+        region: varchar(16)
+    columns:
+      - name: state_code
+        description: Two-letter USPS state code.
+        data_tests:
+          - not_null
+          - unique
+      - name: state_name
+        description: Full state name.
+        data_tests:
+          - not_null
+      - name: fips_code
+        description: Two-digit FIPS code.
+      - name: region
+        description: U.S. Census region.
+        data_tests:
+          - accepted_values:
+              values: [Northeast, Midwest, South, West]
+
+  - name: _files
+    description: |
+      Dev-only fixture mirroring the Fivetran `_FILES` metadata table.
+      Six rows: three active FDIC source files plus three legacy /
+      error entries so the ODI provenance demo has realistic variety.
+    config:
+      column_types:
+        path: varchar(512)
+        name: varchar(255)
+        extension: varchar(16)
+        size_bytes: bigint
+        rev: varchar(64)
+        client_modified: timestamp
+        server_modified: timestamp
+        row_count: integer
+        column_count: integer
+        sheet_count: integer
+        table_name: varchar(128)
+        status: varchar(16)
+        error: varchar(512)
+        synced_at: timestamp
+    columns:
+      - name: path
+        description: Full Dropbox path.
+        data_tests:
+          - not_null
+          - unique
+      - name: status
+        description: ok | metadata_only | error
+        data_tests:
+          - accepted_values:
+              values: [ok, metadata_only, error]
+
+  - name: charter_class_definitions
+    description: |
+      Reference seed defining the five FDIC charter classes (N, NM, SM,
+      SB, SA), their human-readable labels, and primary federal
+      regulator. Used by `dim_institution` and the risk score formula
+      (charter-class risk multiplier).
+    config:
+      column_types:
+        charter_class: varchar(2)
+        charter_label: varchar(64)
+        charter_description: varchar(255)
+        regulator: varchar(8)
+    columns:
+      - name: charter_class
+        description: FDIC charter class code.
+        data_tests:
+          - not_null
+          - unique
+          - accepted_values:
+              values: [N, NM, SM, SB, SA]
+      - name: charter_label
+        description: Human-readable charter label.
+      - name: charter_description
+        description: Long-form definition of the charter.
+      - name: regulator
+        description: Primary federal regulator (OCC, FDIC, FRB).

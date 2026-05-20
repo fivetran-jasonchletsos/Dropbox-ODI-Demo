@@ -1,0 +1,113 @@
+{
+  "cert_id": "49995",
+  "name": "Beacon National",
+  "city": "Plainview",
+  "state": "NH",
+  "charter_class": "SA",
+  "asset_class": "1B-10B",
+  "deposits_b": 9.811,
+  "branches": 60,
+  "established_year": 1893,
+  "risk_score": 46,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.14,
+  "net_charge_off_ratio_pct": 0.79,
+  "return_on_assets_pct": 1.29,
+  "branches_by_state": [
+    {
+      "state": "NH",
+      "count": 45,
+      "deposits_b": 7.286
+    },
+    {
+      "state": "AL",
+      "count": 5,
+      "deposits_b": 0.859
+    },
+    {
+      "state": "OH",
+      "count": 5,
+      "deposits_b": 0.771
+    },
+    {
+      "state": "FL",
+      "count": 2,
+      "deposits_b": 0.352
+    },
+    {
+      "state": "PR",
+      "count": 1,
+      "deposits_b": 0.136
+    },
+    {
+      "state": "IN",
+      "count": 2,
+      "deposits_b": 0.407
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "New Hampshire First Bank",
+      "close_date": "2010-05-05",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "New Hampshire National Bank",
+      "close_date": "2009-08-11",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 8.489,
+      "npl_ratio": 0.94,
+      "capital_ratio": 11.69
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 8.96,
+      "npl_ratio": 0.91,
+      "capital_ratio": 11.58
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 9.315,
+      "npl_ratio": 0.99,
+      "capital_ratio": 11.86
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 9.74,
+      "npl_ratio": 1,
+      "capital_ratio": 11.74
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 10.022,
+      "npl_ratio": 1.1,
+      "capital_ratio": 11.72
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 10.13,
+      "npl_ratio": 1.16,
+      "capital_ratio": 11.94
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 10.237,
+      "npl_ratio": 1.27,
+      "capital_ratio": 12.13
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 10.514,
+      "npl_ratio": 1.29,
+      "capital_ratio": 12.4
+    }
+  ],
+  "ai_summary": "Beacon National (Plainview, NH) holds $9.81B in deposits across 60 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.14% and ROA of 1.29% benchmark this institution against 1B-10B peers."
+}

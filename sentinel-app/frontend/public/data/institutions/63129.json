@@ -1,0 +1,115 @@
+{
+  "cert_id": "63129",
+  "name": "Mercantile Holdings",
+  "city": "New York",
+  "state": "NY",
+  "charter_class": "SA",
+  "asset_class": ">100B",
+  "deposits_b": 2057.871,
+  "branches": 3359,
+  "established_year": 1904,
+  "risk_score": 18,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.54,
+  "net_charge_off_ratio_pct": 0.92,
+  "return_on_assets_pct": 2.23,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 1919,
+      "deposits_b": 1175.362
+    },
+    {
+      "state": "NJ",
+      "count": 400,
+      "deposits_b": 245.196
+    },
+    {
+      "state": "PR",
+      "count": 231,
+      "deposits_b": 141.63
+    },
+    {
+      "state": "CT",
+      "count": 809,
+      "deposits_b": 495.682
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1713.382,
+      "npl_ratio": 0.98,
+      "capital_ratio": 13.21
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1708.277,
+      "npl_ratio": 0.96,
+      "capital_ratio": 12.89
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1709.844,
+      "npl_ratio": 0.89,
+      "capital_ratio": 12.82
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1687.491,
+      "npl_ratio": 0.81,
+      "capital_ratio": 12.79
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 1785.59,
+      "npl_ratio": 0.83,
+      "capital_ratio": 12.6
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 1754.555,
+      "npl_ratio": 0.74,
+      "capital_ratio": 12.81
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 1796.201,
+      "npl_ratio": 0.79,
+      "capital_ratio": 12.91
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1763.333,
+      "npl_ratio": 0.7,
+      "capital_ratio": 12.86
+    }
+  ],
+  "ai_summary": "Mercantile Holdings (New York, NY) holds $2057.87B in deposits across 3359 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.54% and ROA of 2.23% benchmark this institution against >100B peers."
+}

@@ -1,0 +1,115 @@
+{
+  "cert_id": "27199",
+  "name": "Cardinal & Cardinal Trust",
+  "city": "Miami",
+  "state": "FL",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.019,
+  "branches": 2,
+  "established_year": 2000,
+  "risk_score": 29,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.73,
+  "net_charge_off_ratio_pct": 0.72,
+  "return_on_assets_pct": 0.83,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 2,
+      "deposits_b": 0.016
+    },
+    {
+      "state": "ID",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "LA",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "NY",
+      "count": -2,
+      "deposits_b": 0.001
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.017,
+      "npl_ratio": 0.88,
+      "capital_ratio": 10.61
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.016,
+      "npl_ratio": 0.81,
+      "capital_ratio": 10.71
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.016,
+      "npl_ratio": 0.76,
+      "capital_ratio": 10.52
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 0.75,
+      "capital_ratio": 10.3
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 0.79,
+      "capital_ratio": 10.31
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.018,
+      "npl_ratio": 0.76,
+      "capital_ratio": 10.31
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.018,
+      "npl_ratio": 0.68,
+      "capital_ratio": 10.57
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.019,
+      "npl_ratio": 0.72,
+      "capital_ratio": 10.68
+    }
+  ],
+  "ai_summary": "Cardinal & Cardinal Trust (Miami, FL) holds $0.02B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.73% and ROA of 0.83% benchmark this institution against <100M peers."
+}

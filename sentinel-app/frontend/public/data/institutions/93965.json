@@ -1,0 +1,115 @@
+{
+  "cert_id": "93965",
+  "name": "Independence Trust Bank",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.057,
+  "branches": 1,
+  "established_year": 1926,
+  "risk_score": 38,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.49,
+  "net_charge_off_ratio_pct": 0.75,
+  "return_on_assets_pct": 0.98,
+  "branches_by_state": [
+    {
+      "state": "PA",
+      "count": 1,
+      "deposits_b": 0.041
+    },
+    {
+      "state": "SC",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "IA",
+      "count": 1,
+      "deposits_b": 0.005
+    },
+    {
+      "state": "KY",
+      "count": -2,
+      "deposits_b": 0.005
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Republic First Bank",
+      "close_date": "2024-04-26",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pinnacle Community Bank",
+      "close_date": "2013-07-17",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Capital State Bank",
+      "close_date": "2011-05-11",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Plains Financial",
+      "close_date": "2011-03-02",
+      "charter_class": "SB",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.054,
+      "npl_ratio": 0.9,
+      "capital_ratio": 12.79
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.053,
+      "npl_ratio": 0.82,
+      "capital_ratio": 12.42
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.94,
+      "capital_ratio": 12.37
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.87,
+      "capital_ratio": 12.5
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.054,
+      "npl_ratio": 0.99,
+      "capital_ratio": 12.41
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.057,
+      "npl_ratio": 1.08,
+      "capital_ratio": 12.15
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 1.1,
+      "capital_ratio": 12.26
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.057,
+      "npl_ratio": 1.05,
+      "capital_ratio": 12.59
+    }
+  ],
+  "ai_summary": "Independence Trust Bank (Pittsburgh, PA) holds $0.06B in deposits across 1 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.49% and ROA of 0.98% benchmark this institution against <100M peers."
+}

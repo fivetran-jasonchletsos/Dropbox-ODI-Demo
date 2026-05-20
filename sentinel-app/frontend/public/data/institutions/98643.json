@@ -1,0 +1,115 @@
+{
+  "cert_id": "98643",
+  "name": "Heritage & Commonwealth Savings",
+  "city": "Spokane",
+  "state": "WA",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.218,
+  "branches": 25,
+  "established_year": 1958,
+  "risk_score": 5,
+  "risk_tier": "low",
+  "capital_ratio_pct": 10.81,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 0.17,
+  "branches_by_state": [
+    {
+      "state": "WA",
+      "count": 20,
+      "deposits_b": 5.652
+    },
+    {
+      "state": "MD",
+      "count": 2,
+      "deposits_b": 0.713
+    },
+    {
+      "state": "PA",
+      "count": 1,
+      "deposits_b": 0.4
+    },
+    {
+      "state": "AR",
+      "count": 2,
+      "deposits_b": 0.453
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Independence & Citizens Trust",
+      "close_date": "2015-04-28",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "United & Cornerstone Savings",
+      "close_date": "2012-11-05",
+      "charter_class": "SA",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Cardinal Banking",
+      "close_date": "2012-06-28",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Coastal Mutual Bank",
+      "close_date": "2011-11-07",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 6.13,
+      "npl_ratio": 0.15,
+      "capital_ratio": 11.71
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.383,
+      "npl_ratio": 0.12,
+      "capital_ratio": 11.84
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 6.762,
+      "npl_ratio": 0.1,
+      "capital_ratio": 11.72
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 6.958,
+      "npl_ratio": 0.1,
+      "capital_ratio": 11.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.981,
+      "npl_ratio": 0.11,
+      "capital_ratio": 11.62
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.861,
+      "npl_ratio": 0.14,
+      "capital_ratio": 11.34
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.99,
+      "npl_ratio": 0.1,
+      "capital_ratio": 11.13
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 7.24,
+      "npl_ratio": 0.1,
+      "capital_ratio": 11.08
+    }
+  ],
+  "ai_summary": "Heritage & Commonwealth Savings (Spokane, WA) holds $7.22B in deposits across 25 branches and remains well-capitalized with healthy earnings. Capital ratio of 10.81% and ROA of 0.17% benchmark this institution against 1B-10B peers."
+}

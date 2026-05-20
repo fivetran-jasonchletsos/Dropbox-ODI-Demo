@@ -1,0 +1,125 @@
+{
+  "cert_id": "35635",
+  "name": "Commonwealth Exchange",
+  "city": "Augusta",
+  "state": "GA",
+  "charter_class": "NM",
+  "asset_class": "10B-100B",
+  "deposits_b": 46.522,
+  "branches": 378,
+  "established_year": 1932,
+  "risk_score": 9,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.01,
+  "net_charge_off_ratio_pct": 0.34,
+  "return_on_assets_pct": 0.36,
+  "branches_by_state": [
+    {
+      "state": "GA",
+      "count": 278,
+      "deposits_b": 34.27
+    },
+    {
+      "state": "ME",
+      "count": 27,
+      "deposits_b": 3.313
+    },
+    {
+      "state": "ND",
+      "count": 27,
+      "deposits_b": 3.345
+    },
+    {
+      "state": "AZ",
+      "count": 15,
+      "deposits_b": 1.819
+    },
+    {
+      "state": "SC",
+      "count": 11,
+      "deposits_b": 1.385
+    },
+    {
+      "state": "MO",
+      "count": 20,
+      "deposits_b": 2.389
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First & First Trust",
+      "close_date": "2012-10-27",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2012-07-18",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Pinnacle & Sterling Bank",
+      "close_date": "2012-06-25",
+      "charter_class": "SM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Mountain National Bank",
+      "close_date": "2012-06-06",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 42.123,
+      "npl_ratio": 0.42,
+      "capital_ratio": 12.9
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 42.049,
+      "npl_ratio": 0.31,
+      "capital_ratio": 13
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 41.582,
+      "npl_ratio": 0.34,
+      "capital_ratio": 12.61
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 40.256,
+      "npl_ratio": 0.26,
+      "capital_ratio": 12.43
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 39.584,
+      "npl_ratio": 0.3,
+      "capital_ratio": 12.77
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 38.989,
+      "npl_ratio": 0.39,
+      "capital_ratio": 12.9
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 39.798,
+      "npl_ratio": 0.42,
+      "capital_ratio": 12.87
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 39.084,
+      "npl_ratio": 0.35,
+      "capital_ratio": 12.59
+    }
+  ],
+  "ai_summary": "Commonwealth Exchange (Augusta, GA) holds $46.52B in deposits across 378 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.01% and ROA of 0.36% benchmark this institution against 10B-100B peers."
+}

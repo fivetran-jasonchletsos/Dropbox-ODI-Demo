@@ -1,0 +1,115 @@
+{
+  "cert_id": "99396",
+  "name": "Citizens & Frontier Bank",
+  "city": "El Paso",
+  "state": "TX",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.887,
+  "branches": 5,
+  "established_year": 1968,
+  "risk_score": 50,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 11.65,
+  "net_charge_off_ratio_pct": 1.2,
+  "return_on_assets_pct": 0.49,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 4,
+      "deposits_b": 0.641
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.076
+    },
+    {
+      "state": "NY",
+      "count": 1,
+      "deposits_b": 0.045
+    },
+    {
+      "state": "CO",
+      "count": -1,
+      "deposits_b": 0.125
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.776,
+      "npl_ratio": 1.29,
+      "capital_ratio": 10.47
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.759,
+      "npl_ratio": 1.39,
+      "capital_ratio": 10.08
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.781,
+      "npl_ratio": 1.4,
+      "capital_ratio": 9.93
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.779,
+      "npl_ratio": 1.54,
+      "capital_ratio": 10.13
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.763,
+      "npl_ratio": 1.6,
+      "capital_ratio": 10.33
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.795,
+      "npl_ratio": 1.57,
+      "capital_ratio": 10.38
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.767,
+      "npl_ratio": 1.55,
+      "capital_ratio": 10.52
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.76,
+      "npl_ratio": 1.64,
+      "capital_ratio": 10.32
+    }
+  ],
+  "ai_summary": "Citizens & Frontier Bank (El Paso, TX) holds $0.89B in deposits across 5 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 11.65% and ROA of 0.49% benchmark this institution against 100M-1B peers."
+}

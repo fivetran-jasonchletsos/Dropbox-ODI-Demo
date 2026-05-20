@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Secrets / configs
+**/configuration.json
+**/profiles.yml
+**/terraform.tfvars
+**/*.tfstate*
+.env.local
+
+# Fivetran SDK
+**/files/
+**/warehouse.db
+**/state.json
+**/.fivetran_local/
+
+# dbt
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

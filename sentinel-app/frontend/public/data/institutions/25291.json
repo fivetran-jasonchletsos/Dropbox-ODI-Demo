@@ -1,0 +1,125 @@
+{
+  "cert_id": "25291",
+  "name": "Prairie Trust Bank",
+  "city": "Bellevue",
+  "state": "WA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.499,
+  "branches": 7,
+  "established_year": 1971,
+  "risk_score": 37,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.77,
+  "net_charge_off_ratio_pct": 0.76,
+  "return_on_assets_pct": 0.83,
+  "branches_by_state": [
+    {
+      "state": "WA",
+      "count": 5,
+      "deposits_b": 0.348
+    },
+    {
+      "state": "NH",
+      "count": 1,
+      "deposits_b": 0.04
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.048
+    },
+    {
+      "state": "KS",
+      "count": 1,
+      "deposits_b": 0.031
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "NM",
+      "count": -2,
+      "deposits_b": 0.025
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Independence & Citizens Trust",
+      "close_date": "2015-04-28",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "United & Cornerstone Savings",
+      "close_date": "2012-11-05",
+      "charter_class": "SA",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Cardinal Banking",
+      "close_date": "2012-06-28",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Coastal Mutual Bank",
+      "close_date": "2011-11-07",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.436,
+      "npl_ratio": 0.9,
+      "capital_ratio": 13.65
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.425,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.6
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.412,
+      "npl_ratio": 0.97,
+      "capital_ratio": 13.82
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.424,
+      "npl_ratio": 0.99,
+      "capital_ratio": 13.55
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.417,
+      "npl_ratio": 1.08,
+      "capital_ratio": 13.41
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.414,
+      "npl_ratio": 1.1,
+      "capital_ratio": 13.56
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.418,
+      "npl_ratio": 1.09,
+      "capital_ratio": 13.41
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.424,
+      "npl_ratio": 1.15,
+      "capital_ratio": 13.46
+    }
+  ],
+  "ai_summary": "Prairie Trust Bank (Bellevue, WA) holds $0.50B in deposits across 7 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.77% and ROA of 0.83% benchmark this institution against 100M-1B peers."
+}

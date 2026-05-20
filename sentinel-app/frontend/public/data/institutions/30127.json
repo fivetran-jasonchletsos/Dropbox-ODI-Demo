@@ -1,0 +1,110 @@
+{
+  "cert_id": "30127",
+  "name": "Frontier State",
+  "city": "Bridgeport",
+  "state": "NM",
+  "charter_class": "SM",
+  "asset_class": "10B-100B",
+  "deposits_b": 81.897,
+  "branches": 49,
+  "established_year": 1969,
+  "risk_score": 11,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.51,
+  "net_charge_off_ratio_pct": 0.48,
+  "return_on_assets_pct": 1.06,
+  "branches_by_state": [
+    {
+      "state": "NM",
+      "count": 39,
+      "deposits_b": 64.645
+    },
+    {
+      "state": "SD",
+      "count": 5,
+      "deposits_b": 7.782
+    },
+    {
+      "state": "PR",
+      "count": 5,
+      "deposits_b": 9.469
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Midwest Bank of New Mexico",
+      "close_date": "2015-03-26",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Midwest Trust Bank",
+      "close_date": "2012-12-04",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "United Bank of New Mexico",
+      "close_date": "2012-11-23",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "New Mexico First Bank",
+      "close_date": "2011-01-01",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 78.586,
+      "npl_ratio": 0.59,
+      "capital_ratio": 12.15
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 76.743,
+      "npl_ratio": 0.51,
+      "capital_ratio": 11.89
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 77.894,
+      "npl_ratio": 0.51,
+      "capital_ratio": 11.78
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 77.181,
+      "npl_ratio": 0.53,
+      "capital_ratio": 11.53
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 76.569,
+      "npl_ratio": 0.55,
+      "capital_ratio": 11.17
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 77.384,
+      "npl_ratio": 0.45,
+      "capital_ratio": 10.78
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 77.361,
+      "npl_ratio": 0.37,
+      "capital_ratio": 10.96
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 80.642,
+      "npl_ratio": 0.28,
+      "capital_ratio": 11.12
+    }
+  ],
+  "ai_summary": "Frontier State (Bridgeport, NM) holds $81.90B in deposits across 49 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.51% and ROA of 1.06% benchmark this institution against 10B-100B peers."
+}

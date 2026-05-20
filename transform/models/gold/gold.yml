@@ -1,0 +1,303 @@
+version: 2
+
+models:
+  - name: dim_institution
+    description: |
+      Institution dimension. One row per FDIC cert, fully denormalized
+      across institution master, branch footprint roll-up, charter
+      lookup, state lookup, and the risk-score decomposition. This is
+      the primary join key for every other gold model.
+    columns:
+      - name: cert
+        description: FDIC certificate number — primary key.
+        data_tests:
+          - not_null
+          - unique
+      - name: institution_name
+        description: Legal institution name.
+        data_tests:
+          - not_null
+      - name: holding_company
+        description: Top-tier holding company name (equals institution_name for standalones).
+      - name: headquarters_state
+        description: Two-letter HQ state code.
+        data_tests:
+          - not_null
+      - name: headquarters_state_name
+        description: Full HQ state name (joined from state_fips).
+      - name: headquarters_region
+        description: Census region of the HQ state.
+      - name: charter_class
+        description: FDIC charter class.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [N, NM, SM, SB, SA]
+      - name: charter_label
+        description: Human-readable charter label.
+      - name: regulator
+        description: Primary federal regulator (OCC, FDIC, FRB).
+      - name: established_year
+        description: Year first chartered.
+      - name: total_assets_m
+        description: Total assets in $ millions.
+      - name: total_deposits_m
+        description: Total deposits in $ millions.
+      - name: total_equity_m
+        description: Total equity capital in $ millions.
+      - name: capital_ratio_pct
+        description: Equity / assets * 100.
+      - name: roa_pct
+        description: Return on assets, percent.
+      - name: roe_pct
+        description: Return on equity, percent.
+      - name: asset_class
+        description: Asset-tier bucket.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['<100M', '100M-1B', '1B-10B', '10B-100B', '>100B']
+      - name: branch_count
+        description: Count of branches reported in the latest SOD year.
+      - name: total_branch_deposits_m
+        description: Sum of branch-level deposits in $ millions.
+      - name: distinct_state_count
+        description: Distinct states the institution has branches in.
+      - name: risk_score
+        description: Composite 0-100 risk score (see mart_institution_risk_score).
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+      - name: risk_tier
+        description: Risk tier (low | watch | elevated | high).
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [low, watch, elevated, high]
+      - name: capital_component
+        description: Capital sub-score component (0-20).
+      - name: credit_component
+        description: Credit sub-score component (0-25).
+      - name: earnings_component
+        description: Earnings sub-score component (0-20).
+      - name: peer_component
+        description: Peer-failure sub-score component (0-20).
+      - name: concentration_component
+        description: Size / charter concentration component (0-15).
+      - name: built_at
+        description: Build timestamp.
+
+  - name: fct_failures
+    description: |
+      One row per failed-bank event since 2008 with date dimensions
+      and state metadata. Joined to dim_institution by cert when the
+      failed bank still has a master record.
+    columns:
+      - name: failure_key
+        description: Surrogate key over (cert, closing_date).
+        data_tests:
+          - not_null
+          - unique
+      - name: cert
+        description: FDIC certificate number.
+        data_tests:
+          - not_null
+      - name: bank_name
+        description: Legal name of the failed institution.
+        data_tests:
+          - not_null
+      - name: state_code
+        description: Two-letter state code.
+        data_tests:
+          - not_null
+      - name: state_name
+        description: Full state name.
+      - name: region
+        description: Census region.
+      - name: closing_date
+        description: Date the institution was closed.
+        data_tests:
+          - not_null
+      - name: closing_year
+        description: Year of closing_date.
+      - name: closing_quarter
+        description: Quarter of closing_date.
+      - name: closing_month
+        description: Month of closing_date.
+      - name: acquiring_institution
+        description: Acquirer at resolution.
+      - name: had_acquirer
+        description: True when an acquirer was found.
+      - name: fund
+        description: FDIC fund.
+
+  - name: fct_branches
+    description: |
+      One row per branch-year with location dimensions and a join
+      back to the parent institution. Powers map-style demos.
+    columns:
+      - name: branch_key
+        description: Surrogate key over (survey_year, cert, branch_id).
+        data_tests:
+          - not_null
+          - unique
+      - name: cert
+        description: Parent institution cert.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_institution')
+              field: cert
+      - name: survey_year
+        description: SOD survey year.
+        data_tests:
+          - not_null
+      - name: branch_id
+        description: Unique branch identifier (uninumbr).
+        data_tests:
+          - not_null
+      - name: branch_state_code
+        description: Branch state code.
+        data_tests:
+          - not_null
+      - name: branch_state_name
+        description: Full branch state name.
+      - name: branch_region
+        description: Census region of the branch state.
+      - name: branch_deposits_m
+        description: Branch deposits in $ millions.
+      - name: is_main_office
+        description: True when the branch is flagged as main office.
+      - name: is_out_of_state_branch
+        description: True when the branch state differs from HQ state.
+
+  - name: mart_state_risk
+    description: |
+      State-level rollup with deposit totals, institution counts,
+      5-year failure activity, and a 0-100 risk_index that blends
+      average institution risk score, failure rate, and the share of
+      elevated/high-risk institutions in the state. One row per
+      state_code; covers all 50 states + DC.
+    columns:
+      - name: state_code
+        description: Two-letter USPS state code.
+        data_tests:
+          - not_null
+          - unique
+      - name: state_name
+        description: Full state name.
+      - name: region
+        description: Census region.
+      - name: total_institutions
+        description: Count of FDIC-insured institutions headquartered in the state.
+      - name: total_deposits_m
+        description: Sum of branch deposits in $ millions.
+      - name: total_deposits_b
+        description: Sum of branch deposits in $ billions.
+      - name: total_branches
+        description: Sum of branches across institutions.
+      - name: avg_risk_score
+        description: Average institution risk score.
+      - name: avg_capital_ratio_pct
+        description: Average institution capital ratio.
+      - name: avg_roa_pct
+        description: Average institution ROA.
+      - name: high_risk_count
+        description: Institutions in `high` risk tier.
+      - name: elevated_risk_count
+        description: Institutions in `elevated` risk tier.
+      - name: failed_count_5y
+        description: Failures in the state in the last 5 years.
+      - name: failure_rate_pct_5y
+        description: 5-year failure rate as a percent of current population.
+      - name: most_recent_failure_date
+        description: Latest failure date in the state.
+      - name: risk_index
+        description: Composite state risk index 0-100.
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+
+  - name: mart_institution_risk_score
+    description: |
+      Institution risk score with the full decomposition. One row per
+      cert. Score is the sum of five components capped at 100:
+      capital (20), credit (25), earnings (20), peer (20), and
+      concentration (15). Powers `dim_institution.risk_score`.
+    columns:
+      - name: cert
+        description: FDIC certificate number.
+        data_tests:
+          - not_null
+          - unique
+      - name: risk_score
+        description: Composite risk score, 0-100.
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+      - name: risk_tier
+        description: low | watch | elevated | high.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [low, watch, elevated, high]
+      - name: capital_ratio_pct
+        description: Capital ratio used in the capital component.
+      - name: npl_ratio_pct
+        description: NPL approximation used in the credit component.
+      - name: roa_pct
+        description: ROA used in the earnings component.
+      - name: peer_5y_failure_rate_pct
+        description: Peer-cluster 5-year failure rate.
+      - name: charter_class_risk_multiplier
+        description: Charter-class multiplier used inside the concentration penalty.
+      - name: size_concentration_penalty
+        description: Combined size and charter concentration weight (0-1).
+      - name: capital_component
+        description: Capital component contribution (0-20).
+      - name: credit_component
+        description: Credit component contribution (0-25).
+      - name: earnings_component
+        description: Earnings component contribution (0-20).
+      - name: peer_component
+        description: Peer component contribution (0-20).
+      - name: concentration_component
+        description: Concentration component contribution (0-15).
+
+  - name: mart_file_lineage
+    description: |
+      ODI provenance mart. Joins Fivetran's `_files` metadata to the
+      gold tables that consumed each file so the demo can answer
+      "this row traces back to file X uploaded at time T." One row
+      per file path.
+    columns:
+      - name: source_file_path
+        description: Full Dropbox path of the source file.
+        data_tests:
+          - not_null
+      - name: source_file_name
+        description: File basename.
+      - name: source_revision
+        description: Dropbox content revision id.
+      - name: bronze_table
+        description: Bronze table name Fivetran wrote into.
+      - name: gold_table
+        description: Gold table that consumed the file.
+      - name: gold_grain
+        description: Plain-English grain of the gold table.
+      - name: bronze_row_count
+        description: Row count parsed from the file by Fivetran.
+      - name: gold_row_count
+        description: Row count in the gold table after dedupe/joins.
+      - name: gold_pct_of_bronze
+        description: gold_row_count / bronze_row_count expressed as a percent.
+      - name: sync_status
+        description: ok | metadata_only | error.
+      - name: last_synced_at
+        description: Timestamp of the most recent sync.

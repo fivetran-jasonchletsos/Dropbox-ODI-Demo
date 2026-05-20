@@ -1,0 +1,110 @@
+{
+  "cert_id": "23828",
+  "name": "Coastal Bank of Maryland",
+  "city": "Plainview",
+  "state": "MD",
+  "charter_class": "N",
+  "asset_class": "10B-100B",
+  "deposits_b": 52.495,
+  "branches": 291,
+  "established_year": 1993,
+  "risk_score": 42,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.33,
+  "net_charge_off_ratio_pct": 0.98,
+  "return_on_assets_pct": 1.71,
+  "branches_by_state": [
+    {
+      "state": "MD",
+      "count": 179,
+      "deposits_b": 32.374
+    },
+    {
+      "state": "OR",
+      "count": 53,
+      "deposits_b": 9.565
+    },
+    {
+      "state": "GA",
+      "count": 59,
+      "deposits_b": 10.556
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United & Cardinal Trust",
+      "close_date": "2014-12-25",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Beacon Financial",
+      "close_date": "2012-08-09",
+      "charter_class": "SB",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Lake & First Bank",
+      "close_date": "2012-02-15",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Heritage Holdings Bank",
+      "close_date": "2011-08-20",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 45.913,
+      "npl_ratio": 0.92,
+      "capital_ratio": 13.56
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 44.689,
+      "npl_ratio": 1.01,
+      "capital_ratio": 13.78
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 46.651,
+      "npl_ratio": 1,
+      "capital_ratio": 13.93
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 46.391,
+      "npl_ratio": 1.12,
+      "capital_ratio": 13.58
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 44.68,
+      "npl_ratio": 1.17,
+      "capital_ratio": 13.71
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 44.92,
+      "npl_ratio": 1.27,
+      "capital_ratio": 13.76
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 44.236,
+      "npl_ratio": 1.35,
+      "capital_ratio": 13.41
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 45.073,
+      "npl_ratio": 1.29,
+      "capital_ratio": 13.2
+    }
+  ],
+  "ai_summary": "Coastal Bank of Maryland (Plainview, MD) holds $52.49B in deposits across 291 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.33% and ROA of 1.71% benchmark this institution against 10B-100B peers."
+}

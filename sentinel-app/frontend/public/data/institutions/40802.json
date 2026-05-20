@@ -1,0 +1,120 @@
+{
+  "cert_id": "40802",
+  "name": "Summit Partners",
+  "city": "Tampa",
+  "state": "FL",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.961,
+  "branches": 14,
+  "established_year": 2008,
+  "risk_score": 39,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.3,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.19,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 10,
+      "deposits_b": 0.674
+    },
+    {
+      "state": "MO",
+      "count": 1,
+      "deposits_b": 0.099
+    },
+    {
+      "state": "WA",
+      "count": 1,
+      "deposits_b": 0.09
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.028
+    },
+    {
+      "state": "IN",
+      "count": 1,
+      "deposits_b": 0.07
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.879,
+      "npl_ratio": 0.18,
+      "capital_ratio": 11.11
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.919,
+      "npl_ratio": 0.18,
+      "capital_ratio": 11.07
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.916,
+      "npl_ratio": 0.25,
+      "capital_ratio": 10.73
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.915,
+      "npl_ratio": 0.36,
+      "capital_ratio": 10.41
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.945,
+      "npl_ratio": 0.39,
+      "capital_ratio": 10.11
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.929,
+      "npl_ratio": 0.39,
+      "capital_ratio": 9.91
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.978,
+      "npl_ratio": 0.39,
+      "capital_ratio": 9.65
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1.003,
+      "npl_ratio": 0.45,
+      "capital_ratio": 9.31
+    }
+  ],
+  "ai_summary": "Summit Partners (Tampa, FL) holds $0.96B in deposits across 14 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.30% and ROA of 1.19% benchmark this institution against 100M-1B peers."
+}

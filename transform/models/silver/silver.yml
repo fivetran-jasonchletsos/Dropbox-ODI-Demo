@@ -1,0 +1,156 @@
+version: 2
+
+models:
+  - name: stg_failed_banks
+    description: |
+      Conformed failed-bank events. One row per (cert, closing_date) with
+      typed columns and parsed date dimensions. Filters out rows with no
+      parsed closing_date so downstream date math is safe.
+    columns:
+      - name: cert
+        description: FDIC certificate number of the failed institution.
+        data_tests:
+          - not_null
+      - name: bank_name
+        description: Legal name of the failed institution.
+        data_tests:
+          - not_null
+      - name: state
+        description: Two-letter state code.
+        data_tests:
+          - not_null
+      - name: closing_date
+        description: Date the institution was closed.
+        data_tests:
+          - not_null
+      - name: closing_year
+        description: Year of closing_date.
+      - name: closing_quarter
+        description: Quarter of closing_date.
+      - name: closing_month
+        description: Month of closing_date.
+      - name: had_acquirer
+        description: True when an acquiring institution absorbed the failed bank.
+
+  - name: stg_institutions
+    description: |
+      Conformed FDIC institution master. One row per cert. Asset / dep
+      / equity / net income converted from $K to $M. Adds `asset_class`
+      bucket and `capital_ratio_pct = equity / assets * 100`.
+    columns:
+      - name: cert
+        description: FDIC certificate number.
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: Legal institution name.
+        data_tests:
+          - not_null
+      - name: state
+        description: Two-letter HQ state code.
+        data_tests:
+          - not_null
+      - name: bkclass
+        description: FDIC charter class.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [N, NM, SM, SB, SA]
+      - name: asset_class
+        description: Asset-tier bucket derived from total_assets_m.
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['<100M', '100M-1B', '1B-10B', '10B-100B', '>100B']
+      - name: total_assets_m
+        description: Total assets in $ millions.
+      - name: total_deposits_m
+        description: Total deposits in $ millions.
+      - name: total_equity_m
+        description: Total equity capital in $ millions.
+      - name: net_income_m
+        description: Net income in $ millions.
+      - name: roa_pct
+        description: Return on assets, percent.
+      - name: roe_pct
+        description: Return on equity, percent.
+      - name: capital_ratio_pct
+        description: Equity / assets * 100. Powers the risk score capital component.
+      - name: established_year
+        description: Year the institution was first chartered.
+
+  - name: stg_summary_of_deposits
+    description: |
+      Conformed branch-level deposits. One row per (survey_year, cert,
+      branch_id), deduped deterministically by taking the largest
+      branch_deposits_m row per natural key.
+    columns:
+      - name: survey_year
+        description: SOD survey year.
+        data_tests:
+          - not_null
+      - name: cert
+        description: Parent institution cert.
+        data_tests:
+          - not_null
+      - name: branch_id
+        description: Unique branch identifier (uninumbr).
+        data_tests:
+          - not_null
+      - name: branch_state
+        description: Two-letter branch state code.
+        data_tests:
+          - not_null
+      - name: branch_deposits_m
+        description: Branch deposits in $ millions.
+      - name: is_main_office
+        description: True when the branch is flagged as the main office.
+
+  - name: int_institution_branches
+    description: |
+      Per-cert footprint and deposit aggregates rolled up from
+      `stg_summary_of_deposits` for the latest available survey_year.
+    columns:
+      - name: cert
+        description: FDIC certificate number.
+        data_tests:
+          - not_null
+          - unique
+      - name: survey_year
+        description: Survey year of the rolled-up data.
+      - name: branch_count
+        description: Count of branches for the cert.
+      - name: total_branch_deposits_m
+        description: Sum of branch_deposits_m across branches in $M.
+      - name: distinct_state_count
+        description: Distinct branch states (footprint breadth).
+      - name: distinct_zip_count
+        description: Distinct branch ZIPs.
+      - name: headquarters_state
+        description: State of the branch flagged as main office.
+      - name: headquarters_city
+        description: City of the branch flagged as main office.
+
+  - name: int_state_failures
+    description: |
+      Failure-event roll-up by (state, closing_year). Feeds the
+      state-level 5-year failure rate in `mart_state_risk` and the
+      peer-failure-rate component of `mart_institution_risk_score`.
+    columns:
+      - name: state
+        description: Two-letter state code.
+        data_tests:
+          - not_null
+      - name: closing_year
+        description: Year of failure.
+        data_tests:
+          - not_null
+      - name: failure_count
+        description: Count of failures in (state, year).
+        data_tests:
+          - not_null
+      - name: most_recent_failure_date
+        description: Latest closing_date in the (state, year) bucket.
+      - name: failed_bank_names
+        description: Semicolon-joined list of failed-bank names.

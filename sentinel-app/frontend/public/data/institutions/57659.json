@@ -1,0 +1,120 @@
+{
+  "cert_id": "57659",
+  "name": "River Community",
+  "city": "Kent",
+  "state": "WA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.851,
+  "branches": 6,
+  "established_year": 1898,
+  "risk_score": 24,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.09,
+  "net_charge_off_ratio_pct": 0.61,
+  "return_on_assets_pct": 1.23,
+  "branches_by_state": [
+    {
+      "state": "WA",
+      "count": 4,
+      "deposits_b": 0.576
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.081
+    },
+    {
+      "state": "MS",
+      "count": 1,
+      "deposits_b": 0.081
+    },
+    {
+      "state": "VT",
+      "count": 1,
+      "deposits_b": 0.032
+    },
+    {
+      "state": "FL",
+      "count": -1,
+      "deposits_b": 0.081
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Independence & Citizens Trust",
+      "close_date": "2015-04-28",
+      "charter_class": "SB",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "United & Cornerstone Savings",
+      "close_date": "2012-11-05",
+      "charter_class": "SA",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Cardinal Banking",
+      "close_date": "2012-06-28",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Coastal Mutual Bank",
+      "close_date": "2011-11-07",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.788,
+      "npl_ratio": 0.77,
+      "capital_ratio": 14.35
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.833,
+      "npl_ratio": 0.81,
+      "capital_ratio": 14.66
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.803,
+      "npl_ratio": 0.72,
+      "capital_ratio": 14.49
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.838,
+      "npl_ratio": 0.76,
+      "capital_ratio": 14.19
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.868,
+      "npl_ratio": 0.78,
+      "capital_ratio": 14.09
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.894,
+      "npl_ratio": 0.82,
+      "capital_ratio": 14
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.927,
+      "npl_ratio": 0.81,
+      "capital_ratio": 13.65
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.977,
+      "npl_ratio": 0.76,
+      "capital_ratio": 13.31
+    }
+  ],
+  "ai_summary": "River Community (Kent, WA) holds $0.85B in deposits across 6 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.09% and ROA of 1.23% benchmark this institution against 100M-1B peers."
+}

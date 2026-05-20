@@ -1,0 +1,115 @@
+{
+  "cert_id": "65139",
+  "name": "Atlantic & Midwest Bank",
+  "city": "Riverside",
+  "state": "TN",
+  "charter_class": "SB",
+  "asset_class": "<100M",
+  "deposits_b": 0.093,
+  "branches": 2,
+  "established_year": 1982,
+  "risk_score": 57,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 11.64,
+  "net_charge_off_ratio_pct": 0.51,
+  "return_on_assets_pct": 0.27,
+  "branches_by_state": [
+    {
+      "state": "TN",
+      "count": 1,
+      "deposits_b": 0.055
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.008
+    },
+    {
+      "state": "WI",
+      "count": 1,
+      "deposits_b": 0.015
+    },
+    {
+      "state": "NH",
+      "count": -1,
+      "deposits_b": 0.016
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Federal Bank",
+      "close_date": "2013-05-16",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Citizens & First Bank",
+      "close_date": "2009-11-26",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Summit Exchange",
+      "close_date": "2009-06-27",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Tennessee Heritage Bank",
+      "close_date": "2009-02-13",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.087,
+      "npl_ratio": 0.8,
+      "capital_ratio": 12.03
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.09,
+      "npl_ratio": 0.89,
+      "capital_ratio": 11.85
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.095,
+      "npl_ratio": 0.92,
+      "capital_ratio": 11.7
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 0.91,
+      "capital_ratio": 11.91
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 0.89,
+      "capital_ratio": 11.69
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.095,
+      "npl_ratio": 0.87,
+      "capital_ratio": 11.77
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.097,
+      "npl_ratio": 0.84,
+      "capital_ratio": 12.07
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.099,
+      "npl_ratio": 0.96,
+      "capital_ratio": 12.04
+    }
+  ],
+  "ai_summary": "Atlantic & Midwest Bank (Riverside, TN) holds $0.09B in deposits across 2 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 11.64% and ROA of 0.27% benchmark this institution against <100M peers. Peer failures in TN since 2021 suggest elevated regional stress."
+}

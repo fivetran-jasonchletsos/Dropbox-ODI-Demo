@@ -1,0 +1,110 @@
+{
+  "cert_id": "39658",
+  "name": "Summit Community",
+  "city": "Athens",
+  "state": "GA",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.097,
+  "branches": 3,
+  "established_year": 1885,
+  "risk_score": 65,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 13.02,
+  "net_charge_off_ratio_pct": 1.07,
+  "return_on_assets_pct": 0.58,
+  "branches_by_state": [
+    {
+      "state": "GA",
+      "count": 3,
+      "deposits_b": 0.081
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "IL",
+      "count": -1,
+      "deposits_b": 0.012
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First & First Trust",
+      "close_date": "2012-10-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2012-07-18",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Pinnacle & Sterling Bank",
+      "close_date": "2012-06-25",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Mountain National Bank",
+      "close_date": "2012-06-06",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.088,
+      "npl_ratio": 1.31,
+      "capital_ratio": 12.56
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.09,
+      "npl_ratio": 1.3,
+      "capital_ratio": 12.22
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.086,
+      "npl_ratio": 1.31,
+      "capital_ratio": 12.37
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.087,
+      "npl_ratio": 1.36,
+      "capital_ratio": 12.4
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.084,
+      "npl_ratio": 1.43,
+      "capital_ratio": 12.55
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.082,
+      "npl_ratio": 1.44,
+      "capital_ratio": 12.18
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.08,
+      "npl_ratio": 1.6,
+      "capital_ratio": 11.93
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.082,
+      "npl_ratio": 1.64,
+      "capital_ratio": 12.17
+    }
+  ],
+  "ai_summary": "Summit Community (Athens, GA) holds $0.10B in deposits across 3 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 13.02% and ROA of 0.58% benchmark this institution against <100M peers. Peer failures in GA since 2021 suggest elevated regional stress."
+}

@@ -1,0 +1,113 @@
+{
+  "cert_id": "67722",
+  "name": "Commonwealth Exchange",
+  "city": "Greenfield",
+  "state": "MS",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.961,
+  "branches": 10,
+  "established_year": 1883,
+  "risk_score": 61,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 12.99,
+  "net_charge_off_ratio_pct": 1.19,
+  "return_on_assets_pct": 1.31,
+  "branches_by_state": [
+    {
+      "state": "MS",
+      "count": 7,
+      "deposits_b": 0.648
+    },
+    {
+      "state": "MO",
+      "count": 1,
+      "deposits_b": 0.076
+    },
+    {
+      "state": "SD",
+      "count": 1,
+      "deposits_b": 0.108
+    },
+    {
+      "state": "OK",
+      "count": 1,
+      "deposits_b": 0.039
+    },
+    {
+      "state": "ME",
+      "count": 1,
+      "deposits_b": 0.021
+    },
+    {
+      "state": "DE",
+      "count": -1,
+      "deposits_b": 0.069
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage & Founders Trust",
+      "close_date": "2013-01-11",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Founders & Atlantic Bank",
+      "close_date": "2010-12-17",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.881,
+      "npl_ratio": 1.29,
+      "capital_ratio": 13.53
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.859,
+      "npl_ratio": 1.41,
+      "capital_ratio": 13.52
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.884,
+      "npl_ratio": 1.47,
+      "capital_ratio": 13.5
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.892,
+      "npl_ratio": 1.59,
+      "capital_ratio": 13.85
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.893,
+      "npl_ratio": 1.68,
+      "capital_ratio": 13.79
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.871,
+      "npl_ratio": 1.79,
+      "capital_ratio": 14
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.902,
+      "npl_ratio": 1.79,
+      "capital_ratio": 13.65
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.867,
+      "npl_ratio": 1.85,
+      "capital_ratio": 13.97
+    }
+  ],
+  "ai_summary": "Commonwealth Exchange (Greenfield, MS) holds $0.96B in deposits across 10 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 12.99% and ROA of 1.31% benchmark this institution against 100M-1B peers. Peer failures in MS since 2021 suggest elevated regional stress."
+}

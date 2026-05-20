@@ -1,0 +1,522 @@
+[
+  {
+    "state": "AL",
+    "state_name": "Alabama",
+    "total_deposits_b": 7.07,
+    "total_branches": 34,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 16
+  },
+  {
+    "state": "AK",
+    "state_name": "Alaska",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 25
+  },
+  {
+    "state": "AZ",
+    "state_name": "Arizona",
+    "total_deposits_b": 8.66,
+    "total_branches": 109,
+    "total_institutions": 3,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 25
+  },
+  {
+    "state": "AR",
+    "state_name": "Arkansas",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 19
+  },
+  {
+    "state": "CA",
+    "state_name": "California",
+    "total_deposits_b": 226.02,
+    "total_branches": 1252,
+    "total_institutions": 14,
+    "failed_count_5y": 3,
+    "failure_rate_pct_5y": 21.43,
+    "risk_index": 41
+  },
+  {
+    "state": "CO",
+    "state_name": "Colorado",
+    "total_deposits_b": 0.82,
+    "total_branches": 6,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 16
+  },
+  {
+    "state": "CT",
+    "state_name": "Connecticut",
+    "total_deposits_b": 0.7,
+    "total_branches": 8,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 29
+  },
+  {
+    "state": "DE",
+    "state_name": "Delaware",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 25
+  },
+  {
+    "state": "FL",
+    "state_name": "Florida",
+    "total_deposits_b": 11.15,
+    "total_branches": 121,
+    "total_institutions": 10,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 28
+  },
+  {
+    "state": "GA",
+    "state_name": "Georgia",
+    "total_deposits_b": 54.85,
+    "total_branches": 511,
+    "total_institutions": 6,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 26
+  },
+  {
+    "state": "HI",
+    "state_name": "Hawaii",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 22
+  },
+  {
+    "state": "ID",
+    "state_name": "Idaho",
+    "total_deposits_b": 0.67,
+    "total_branches": 3,
+    "total_institutions": 1,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 14
+  },
+  {
+    "state": "IL",
+    "state_name": "Illinois",
+    "total_deposits_b": 46.08,
+    "total_branches": 102,
+    "total_institutions": 7,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 20
+  },
+  {
+    "state": "IN",
+    "state_name": "Indiana",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 21
+  },
+  {
+    "state": "IA",
+    "state_name": "Iowa",
+    "total_deposits_b": 31.73,
+    "total_branches": 363,
+    "total_institutions": 1,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 6
+  },
+  {
+    "state": "KS",
+    "state_name": "Kansas",
+    "total_deposits_b": 13.49,
+    "total_branches": 84,
+    "total_institutions": 2,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 50,
+    "risk_index": 38
+  },
+  {
+    "state": "KY",
+    "state_name": "Kentucky",
+    "total_deposits_b": 1.51,
+    "total_branches": 18,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 29
+  },
+  {
+    "state": "LA",
+    "state_name": "Louisiana",
+    "total_deposits_b": 3.22,
+    "total_branches": 25,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 13
+  },
+  {
+    "state": "ME",
+    "state_name": "Maine",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 18
+  },
+  {
+    "state": "MD",
+    "state_name": "Maryland",
+    "total_deposits_b": 61.65,
+    "total_branches": 390,
+    "total_institutions": 4,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 19
+  },
+  {
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "total_deposits_b": 8.28,
+    "total_branches": 125,
+    "total_institutions": 5,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 20
+  },
+  {
+    "state": "MI",
+    "state_name": "Michigan",
+    "total_deposits_b": 48.24,
+    "total_branches": 184,
+    "total_institutions": 4,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 28
+  },
+  {
+    "state": "MN",
+    "state_name": "Minnesota",
+    "total_deposits_b": 0.91,
+    "total_branches": 11,
+    "total_institutions": 1,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 24
+  },
+  {
+    "state": "MS",
+    "state_name": "Mississippi",
+    "total_deposits_b": 3.3,
+    "total_branches": 44,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 37
+  },
+  {
+    "state": "MO",
+    "state_name": "Missouri",
+    "total_deposits_b": 0.68,
+    "total_branches": 9,
+    "total_institutions": 1,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 8
+  },
+  {
+    "state": "MT",
+    "state_name": "Montana",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 20
+  },
+  {
+    "state": "NE",
+    "state_name": "Nebraska",
+    "total_deposits_b": 8.2,
+    "total_branches": 84,
+    "total_institutions": 5,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 24
+  },
+  {
+    "state": "NV",
+    "state_name": "Nevada",
+    "total_deposits_b": 0.36,
+    "total_branches": 22,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 32
+  },
+  {
+    "state": "NH",
+    "state_name": "New Hampshire",
+    "total_deposits_b": 9.88,
+    "total_branches": 63,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 19
+  },
+  {
+    "state": "NJ",
+    "state_name": "New Jersey",
+    "total_deposits_b": 54.02,
+    "total_branches": 217,
+    "total_institutions": 3,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 19
+  },
+  {
+    "state": "NM",
+    "state_name": "New Mexico",
+    "total_deposits_b": 83.37,
+    "total_branches": 71,
+    "total_institutions": 4,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 9
+  },
+  {
+    "state": "NY",
+    "state_name": "New York",
+    "total_deposits_b": 3211.11,
+    "total_branches": 8102,
+    "total_institutions": 17,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 5.88,
+    "risk_index": 34
+  },
+  {
+    "state": "NC",
+    "state_name": "North Carolina",
+    "total_deposits_b": 20.16,
+    "total_branches": 114,
+    "total_institutions": 6,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 18
+  },
+  {
+    "state": "ND",
+    "state_name": "North Dakota",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 23
+  },
+  {
+    "state": "OH",
+    "state_name": "Ohio",
+    "total_deposits_b": 1.72,
+    "total_branches": 29,
+    "total_institutions": 4,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 25,
+    "risk_index": 34
+  },
+  {
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "total_deposits_b": 7.35,
+    "total_branches": 21,
+    "total_institutions": 1,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 6
+  },
+  {
+    "state": "OR",
+    "state_name": "Oregon",
+    "total_deposits_b": 8.21,
+    "total_branches": 29,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 13
+  },
+  {
+    "state": "PA",
+    "state_name": "Pennsylvania",
+    "total_deposits_b": 9.03,
+    "total_branches": 22,
+    "total_institutions": 3,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 33.33,
+    "risk_index": 24
+  },
+  {
+    "state": "RI",
+    "state_name": "Rhode Island",
+    "total_deposits_b": 7.21,
+    "total_branches": 36,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 30
+  },
+  {
+    "state": "SC",
+    "state_name": "South Carolina",
+    "total_deposits_b": 0.99,
+    "total_branches": 24,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 7
+  },
+  {
+    "state": "SD",
+    "state_name": "South Dakota",
+    "total_deposits_b": 0.11,
+    "total_branches": 3,
+    "total_institutions": 2,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 50,
+    "risk_index": 22
+  },
+  {
+    "state": "TN",
+    "state_name": "Tennessee",
+    "total_deposits_b": 0.12,
+    "total_branches": 3,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 31
+  },
+  {
+    "state": "TX",
+    "state_name": "Texas",
+    "total_deposits_b": 79.49,
+    "total_branches": 302,
+    "total_institutions": 9,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 29
+  },
+  {
+    "state": "UT",
+    "state_name": "Utah",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 18
+  },
+  {
+    "state": "VT",
+    "state_name": "Vermont",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 28
+  },
+  {
+    "state": "VA",
+    "state_name": "Virginia",
+    "total_deposits_b": 7.26,
+    "total_branches": 145,
+    "total_institutions": 5,
+    "failed_count_5y": 1,
+    "failure_rate_pct_5y": 20,
+    "risk_index": 30
+  },
+  {
+    "state": "WA",
+    "state_name": "Washington",
+    "total_deposits_b": 29.17,
+    "total_branches": 98,
+    "total_institutions": 4,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 15
+  },
+  {
+    "state": "WV",
+    "state_name": "West Virginia",
+    "total_deposits_b": 0.35,
+    "total_branches": 9,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 32
+  },
+  {
+    "state": "WI",
+    "state_name": "Wisconsin",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 19
+  },
+  {
+    "state": "WY",
+    "state_name": "Wyoming",
+    "total_deposits_b": 7.81,
+    "total_branches": 86,
+    "total_institutions": 2,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 38
+  },
+  {
+    "state": "DC",
+    "state_name": "District of Columbia",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 18
+  },
+  {
+    "state": "PR",
+    "state_name": "Puerto Rico",
+    "total_deposits_b": 0,
+    "total_branches": 0,
+    "total_institutions": 0,
+    "failed_count_5y": 0,
+    "failure_rate_pct_5y": 0,
+    "risk_index": 23
+  }
+]

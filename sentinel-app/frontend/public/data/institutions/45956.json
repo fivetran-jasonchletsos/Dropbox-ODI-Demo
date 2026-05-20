@@ -1,0 +1,103 @@
+{
+  "cert_id": "45956",
+  "name": "Commonwealth Bank of Nebraska",
+  "city": "Bridgeport",
+  "state": "NE",
+  "charter_class": "SM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.449,
+  "branches": 14,
+  "established_year": 2011,
+  "risk_score": 38,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 14.44,
+  "net_charge_off_ratio_pct": 0.43,
+  "return_on_assets_pct": 0.66,
+  "branches_by_state": [
+    {
+      "state": "NE",
+      "count": 12,
+      "deposits_b": 0.375
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.015
+    },
+    {
+      "state": "IA",
+      "count": 1,
+      "deposits_b": 0.019
+    },
+    {
+      "state": "DC",
+      "count": 0,
+      "deposits_b": 0.04
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Citizens Bank of Nebraska",
+      "close_date": "2010-01-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Pinnacle Banking",
+      "close_date": "2009-02-04",
+      "charter_class": "SA",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.389,
+      "npl_ratio": 0.61,
+      "capital_ratio": 15.05
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.378,
+      "npl_ratio": 0.64,
+      "capital_ratio": 14.83
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.371,
+      "npl_ratio": 0.71,
+      "capital_ratio": 14.99
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.382,
+      "npl_ratio": 0.74,
+      "capital_ratio": 14.84
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.405,
+      "npl_ratio": 0.67,
+      "capital_ratio": 14.77
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.426,
+      "npl_ratio": 0.72,
+      "capital_ratio": 14.5
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.449,
+      "npl_ratio": 0.73,
+      "capital_ratio": 14.74
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.474,
+      "npl_ratio": 0.75,
+      "capital_ratio": 14.78
+    }
+  ],
+  "ai_summary": "Commonwealth Bank of Nebraska (Bridgeport, NE) holds $0.45B in deposits across 14 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 14.44% and ROA of 0.66% benchmark this institution against 100M-1B peers."
+}

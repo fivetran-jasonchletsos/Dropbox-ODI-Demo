@@ -1,0 +1,120 @@
+{
+  "cert_id": "40483",
+  "name": "Sentinel Holdings",
+  "city": "Riverside",
+  "state": "OR",
+  "charter_class": "SM",
+  "asset_class": "1B-10B",
+  "deposits_b": 8.033,
+  "branches": 17,
+  "established_year": 1904,
+  "risk_score": 36,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.87,
+  "net_charge_off_ratio_pct": 0.75,
+  "return_on_assets_pct": 1.72,
+  "branches_by_state": [
+    {
+      "state": "OR",
+      "count": 13,
+      "deposits_b": 5.933
+    },
+    {
+      "state": "MA",
+      "count": 2,
+      "deposits_b": 0.948
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.286
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.362
+    },
+    {
+      "state": "PA",
+      "count": 0,
+      "deposits_b": 0.504
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Bank of Oregon",
+      "close_date": "2014-02-17",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Commonwealth Bank of Oregon",
+      "close_date": "2011-02-02",
+      "charter_class": "SA",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Oregon First Bank",
+      "close_date": "2010-12-12",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Citizens Trust Bank",
+      "close_date": "2010-08-11",
+      "charter_class": "SB",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.563,
+      "npl_ratio": 0.85,
+      "capital_ratio": 11.93
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.555,
+      "npl_ratio": 0.8,
+      "capital_ratio": 11.92
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.489,
+      "npl_ratio": 0.82,
+      "capital_ratio": 11.59
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.839,
+      "npl_ratio": 0.82,
+      "capital_ratio": 11.67
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 8.232,
+      "npl_ratio": 0.9,
+      "capital_ratio": 11.84
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 8.614,
+      "npl_ratio": 0.93,
+      "capital_ratio": 11.57
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 8.684,
+      "npl_ratio": 1.01,
+      "capital_ratio": 11.61
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 8.719,
+      "npl_ratio": 1.13,
+      "capital_ratio": 11.55
+    }
+  ],
+  "ai_summary": "Sentinel Holdings (Riverside, OR) holds $8.03B in deposits across 17 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.87% and ROA of 1.72% benchmark this institution against 1B-10B peers."
+}

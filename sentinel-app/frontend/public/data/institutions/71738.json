@@ -1,0 +1,120 @@
+{
+  "cert_id": "71738",
+  "name": "Louisiana First Bank",
+  "city": "Fairview",
+  "state": "LA",
+  "charter_class": "SB",
+  "asset_class": "1B-10B",
+  "deposits_b": 2.766,
+  "branches": 23,
+  "established_year": 1893,
+  "risk_score": 13,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.71,
+  "net_charge_off_ratio_pct": 0.52,
+  "return_on_assets_pct": 1.4,
+  "branches_by_state": [
+    {
+      "state": "LA",
+      "count": 16,
+      "deposits_b": 1.899
+    },
+    {
+      "state": "MA",
+      "count": 2,
+      "deposits_b": 0.215
+    },
+    {
+      "state": "KY",
+      "count": 2,
+      "deposits_b": 0.232
+    },
+    {
+      "state": "HI",
+      "count": 1,
+      "deposits_b": 0.125
+    },
+    {
+      "state": "GA",
+      "count": 2,
+      "deposits_b": 0.295
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Bank of Louisiana",
+      "close_date": "2017-02-13",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Louisiana National Bank",
+      "close_date": "2012-12-28",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Pacific Bank of Louisiana",
+      "close_date": "2012-02-06",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Louisiana Heritage Bank",
+      "close_date": "2009-08-02",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 2.338,
+      "npl_ratio": 0.63,
+      "capital_ratio": 11.68
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 2.385,
+      "npl_ratio": 0.6,
+      "capital_ratio": 11.83
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 2.448,
+      "npl_ratio": 0.69,
+      "capital_ratio": 11.51
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 2.495,
+      "npl_ratio": 0.58,
+      "capital_ratio": 11.36
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 2.533,
+      "npl_ratio": 0.56,
+      "capital_ratio": 11.07
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 2.435,
+      "npl_ratio": 0.61,
+      "capital_ratio": 10.85
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 2.366,
+      "npl_ratio": 0.65,
+      "capital_ratio": 10.88
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 2.29,
+      "npl_ratio": 0.7,
+      "capital_ratio": 10.71
+    }
+  ],
+  "ai_summary": "Louisiana First Bank (Fairview, LA) holds $2.77B in deposits across 23 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.71% and ROA of 1.40% benchmark this institution against 1B-10B peers."
+}

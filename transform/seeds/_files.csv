@@ -1,0 +1,7 @@
+path,name,extension,size_bytes,rev,client_modified,server_modified,row_count,column_count,sheet_count,table_name,status,error,synced_at
+/Sentinel/FDIC/FDIC Failed Bank List.csv,FDIC Failed Bank List.csv,csv,42118,a1b2c3d4e5f6,2025-04-01 14:22:11,2025-04-01 14:22:30,61,7,1,FDIC_FAILED_BANK_LIST,ok,,2025-05-19 03:00:11
+/Sentinel/FDIC/INSTITUTIONS2.CSV,INSTITUTIONS2.CSV,csv,318772,f6e5d4c3b2a1,2025-04-15 09:11:00,2025-04-15 09:12:08,201,17,1,FDIC_INSTITUTIONS,ok,,2025-05-19 03:00:14
+/Sentinel/FDIC/FDIC Summary of Deposits.csv,FDIC Summary of Deposits.csv,csv,981554,abc123def456,2025-04-30 18:44:50,2025-04-30 18:45:12,1234,12,1,FDIC_SUMMARY_OF_DEPOSITS,ok,,2025-05-19 03:00:19
+/Sentinel/FDIC/_archive/FDIC Failed Bank List - Q1 2024.csv,FDIC Failed Bank List - Q1 2024.csv,csv,38004,deadbeefcafe,2024-04-02 11:08:23,2024-04-02 11:08:55,48,7,1,FDIC_FAILED_BANK_LIST,metadata_only,,2024-04-15 03:00:21
+/Sentinel/FDIC/_archive/INSTITUTIONS2_2024Q4.CSV,INSTITUTIONS2_2024Q4.CSV,csv,312001,feedfacecafef,2025-01-12 12:00:00,2025-01-12 12:01:30,198,17,1,FDIC_INSTITUTIONS,metadata_only,,2025-01-15 03:00:18
+/Sentinel/FDIC/_dropped/legacy_export.xlsx,legacy_export.xlsx,xlsx,2104888,badc0fee0001,2023-11-10 08:30:00,2023-11-10 08:31:11,0,0,4,,error,Sheet schema not recognized,2025-05-19 03:00:22

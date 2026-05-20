@@ -1,0 +1,110 @@
+{
+  "cert_id": "23806",
+  "name": "Massachusetts Pinnacle Bank",
+  "city": "Brockton",
+  "state": "MA",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.191,
+  "branches": 7,
+  "established_year": 2018,
+  "risk_score": 22,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.36,
+  "net_charge_off_ratio_pct": 0.1,
+  "return_on_assets_pct": 1.84,
+  "branches_by_state": [
+    {
+      "state": "MA",
+      "count": 5,
+      "deposits_b": 0.134
+    },
+    {
+      "state": "SD",
+      "count": 1,
+      "deposits_b": 0.014
+    },
+    {
+      "state": "MO",
+      "count": 1,
+      "deposits_b": 0.044
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United Federal Bank",
+      "close_date": "2012-12-25",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Midwest State Bank",
+      "close_date": "2012-02-07",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Founders Group Bank",
+      "close_date": "2011-04-19",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Massachusetts First Bank",
+      "close_date": "2010-11-15",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.174,
+      "npl_ratio": 0.37,
+      "capital_ratio": 12.69
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.18,
+      "npl_ratio": 0.37,
+      "capital_ratio": 12.8
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.181,
+      "npl_ratio": 0.36,
+      "capital_ratio": 12.71
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.182,
+      "npl_ratio": 0.28,
+      "capital_ratio": 12.4
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.181,
+      "npl_ratio": 0.34,
+      "capital_ratio": 12.34
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.185,
+      "npl_ratio": 0.3,
+      "capital_ratio": 11.96
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.191,
+      "npl_ratio": 0.27,
+      "capital_ratio": 11.58
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.198,
+      "npl_ratio": 0.31,
+      "capital_ratio": 11.32
+    }
+  ],
+  "ai_summary": "Massachusetts Pinnacle Bank (Brockton, MA) holds $0.19B in deposits across 7 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.36% and ROA of 1.84% benchmark this institution against 100M-1B peers."
+}

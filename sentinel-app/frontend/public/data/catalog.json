@@ -1,0 +1,4170 @@
+[
+  {
+    "name": "FDIC Failed Bank List.csv",
+    "ext": "csv",
+    "size_kb": 1.8,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_fdic_failed_bank_list_csv"
+  },
+  {
+    "name": "FDIC Summary of Deposits 2024.csv",
+    "ext": "csv",
+    "size_kb": 38420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_fdic_summary_of_deposits_2024_csv"
+  },
+  {
+    "name": "FDIC Institutions Q2 2026.csv",
+    "ext": "csv",
+    "size_kb": 12300,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_fdic_institutions_q2_2026_csv"
+  },
+  {
+    "name": "Bank Reviews.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2840,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "Call Reports Q1 2026.csv",
+    "ext": "csv",
+    "size_kb": 46800,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Call Reports Q2 2026.csv",
+    "ext": "csv",
+    "size_kb": 47200,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_call_reports_q2_2026_csv"
+  },
+  {
+    "name": "Branch Locations Master.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_branch_locations_master_xlsx"
+  },
+  {
+    "name": "Peer Group Definitions.csv",
+    "ext": "csv",
+    "size_kb": 420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_peer_group_definitions_csv"
+  },
+  {
+    "name": "Capital Adequacy Memo.pdf",
+    "ext": "pdf",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "CRA Examination Notes 2024.docx",
+    "ext": "docx",
+    "size_kb": 880,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_cra_examination_notes_2024_docx"
+  },
+  {
+    "name": "BankReviews_v2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2920,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Stress Test Scenarios 2026.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1860,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_stress_test_scenarios_2026_xlsx"
+  },
+  {
+    "name": "AmazonData.mdf",
+    "ext": "mdf",
+    "size_kb": 2421080,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_amazondata_mdf"
+  },
+  {
+    "name": "AmazonData_log.ldf",
+    "ext": "ldf",
+    "size_kb": 184400,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "Sample_AmazonOrders.csv",
+    "ext": "csv",
+    "size_kb": 12420,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "Online Retail II.xlsx",
+    "ext": "xlsx",
+    "size_kb": 26840,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_online_retail_ii_xlsx"
+  },
+  {
+    "name": "CPG POS Tables-2.xls",
+    "ext": "xls",
+    "size_kb": 9840,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_cpg_pos_tables_2_xls"
+  },
+  {
+    "name": "POS Daily Extract 2024-12.csv",
+    "ext": "csv",
+    "size_kb": 88420,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_pos_daily_extract_2024_12_csv"
+  },
+  {
+    "name": "Storefront Inventory.parquet",
+    "ext": "parquet",
+    "size_kb": 412400,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_storefront_inventory_parquet"
+  },
+  {
+    "name": "AutomotiveClaims3.0.zip",
+    "ext": "zip",
+    "size_kb": 180400,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_automotiveclaims3_0_zip"
+  },
+  {
+    "name": "Manufacturing Defect Log.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3420,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "Plant Output Q4.pptx",
+    "ext": "pptx",
+    "size_kb": 4860,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ERP_Extract_2024.7z",
+    "ext": "7z",
+    "size_kb": 428400,
+    "domain": "Manufacturing",
+    "parsed": false,
+    "table_name": "raw_erp_extract_2024_7z"
+  },
+  {
+    "name": "Bill of Materials Master.csv",
+    "ext": "csv",
+    "size_kb": 18420,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_bill_of_materials_master_csv"
+  },
+  {
+    "name": "Sample_PharmaProfit.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6420,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_sample_pharmaprofit_xlsx"
+  },
+  {
+    "name": "Patient Encounters 2024.csv",
+    "ext": "csv",
+    "size_kb": 128400,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_patient_encounters_2024_csv"
+  },
+  {
+    "name": "HCAHPS Scores by Provider.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8420,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_hcahps_scores_by_provider_xlsx"
+  },
+  {
+    "name": "Claims Adjudication.sql",
+    "ext": "sql",
+    "size_kb": 12,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_claims_adjudication_sql"
+  },
+  {
+    "name": "EHR_Encounters_dump.mdf",
+    "ext": "mdf",
+    "size_kb": 1812400,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "EHR_Encounters_log.ldf",
+    "ext": "ldf",
+    "size_kb": 124200,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_ehr_encounters_log_ldf"
+  },
+  {
+    "name": "BIOSDT Overview.pdf",
+    "ext": "pdf",
+    "size_kb": 1840,
+    "domain": "Healthcare",
+    "parsed": false,
+    "table_name": "raw_biosdt_overview_pdf"
+  },
+  {
+    "name": "Clinical Trial Cohort A.xlsx",
+    "ext": "xlsx",
+    "size_kb": 7240,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "Provider Directory.csv",
+    "ext": "csv",
+    "size_kb": 38420,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "WS3_T3_Taleo_Recruit.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1240,
+    "domain": "HigherEd",
+    "parsed": true,
+    "table_name": "raw_ws3_t3_taleo_recruit_xlsx"
+  },
+  {
+    "name": "Student Enrollment 2024-25.csv",
+    "ext": "csv",
+    "size_kb": 24800,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "Faculty Compensation.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1840,
+    "domain": "HigherEd",
+    "parsed": false,
+    "table_name": "raw_faculty_compensation_xlsx"
+  },
+  {
+    "name": "Course Catalog Fall 2026.pdf",
+    "ext": "pdf",
+    "size_kb": 2640,
+    "domain": "HigherEd",
+    "parsed": true,
+    "table_name": "raw_course_catalog_fall_2026_pdf"
+  },
+  {
+    "name": "Alumni Giving History.csv",
+    "ext": "csv",
+    "size_kb": 184200,
+    "domain": "HigherEd",
+    "parsed": true,
+    "table_name": "raw_alumni_giving_history_csv"
+  },
+  {
+    "name": "Research Grants Awarded.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3840,
+    "domain": "HigherEd",
+    "parsed": false,
+    "table_name": "raw_research_grants_awarded_xlsx"
+  },
+  {
+    "name": "Campus Facilities Audit.docx",
+    "ext": "docx",
+    "size_kb": 1240,
+    "domain": "HigherEd",
+    "parsed": false,
+    "table_name": "raw_campus_facilities_audit_docx"
+  },
+  {
+    "name": "SIS_Export_dump.mdf",
+    "ext": "mdf",
+    "size_kb": 2184200,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SIS_Export_log.ldf",
+    "ext": "ldf",
+    "size_kb": 184200,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "CPI All Urban Consumers.csv",
+    "ext": "csv",
+    "size_kb": 1840,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_cpi_all_urban_consumers_csv"
+  },
+  {
+    "name": "Treasury Yield Curve Daily.csv",
+    "ext": "csv",
+    "size_kb": 8420,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "Fed Funds Rate History.csv",
+    "ext": "csv",
+    "size_kb": 4200,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "Unemployment by MSA.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2840,
+    "domain": "Macro",
+    "parsed": false,
+    "table_name": "raw_unemployment_by_msa_xlsx"
+  },
+  {
+    "name": "GDP Quarterly Vintage.csv",
+    "ext": "csv",
+    "size_kb": 1240,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_gdp_quarterly_vintage_csv"
+  },
+  {
+    "name": "Mortgage Origination Volume.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6840,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_mortgage_origination_volume_xlsx"
+  },
+  {
+    "name": "Recession Indicators.pdf",
+    "ext": "pdf",
+    "size_kb": 1640,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "ConsumerCreditOutlook.pptx",
+    "ext": "pptx",
+    "size_kb": 4240,
+    "domain": "Macro",
+    "parsed": false,
+    "table_name": "raw_consumercreditoutlook_pptx"
+  },
+  {
+    "name": "M2 Money Supply.csv",
+    "ext": "csv",
+    "size_kb": 840,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_m2_money_supply_csv"
+  },
+  {
+    "name": "NotesFromBoardMeeting.docx",
+    "ext": "docx",
+    "size_kb": 420,
+    "domain": "Other",
+    "parsed": false,
+    "table_name": "raw_notesfromboardmeeting_docx"
+  },
+  {
+    "name": "Old Backups.zip",
+    "ext": "zip",
+    "size_kb": 180400,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_old_backups_zip"
+  },
+  {
+    "name": "Misc_Vendor_Quotes.pdf",
+    "ext": "pdf",
+    "size_kb": 1240,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "archive_2019.7z",
+    "ext": "7z",
+    "size_kb": 840000,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_archive_2019_7z"
+  },
+  {
+    "name": "scratch.txt",
+    "ext": "txt",
+    "size_kb": 12,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_scratch_txt"
+  },
+  {
+    "name": "ad-hoc-query.sql",
+    "ext": "sql",
+    "size_kb": 4,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_ad_hoc_query_sql"
+  },
+  {
+    "name": "team_offsite_2023.pptx",
+    "ext": "pptx",
+    "size_kb": 12420,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_team_offsite_2023_pptx"
+  },
+  {
+    "name": "IT_Inventory.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1840,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "old_database.bak",
+    "ext": "bak",
+    "size_kb": 482400,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "Bank Holding Company Filings 2024.zip",
+    "ext": "zip",
+    "size_kb": 184200,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_bank_holding_company_filings_2024_zip"
+  },
+  {
+    "name": "CommercialLoanBook.xls",
+    "ext": "xls",
+    "size_kb": 8420,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_commercialloanbook_xls"
+  },
+  {
+    "name": "Underwriting Standards.docx",
+    "ext": "docx",
+    "size_kb": 840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_underwriting_standards_docx"
+  },
+  {
+    "name": "NIM Trend Analysis.pptx",
+    "ext": "pptx",
+    "size_kb": 4820,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Deposit Concentration Report.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_deposit_concentration_report_xlsx"
+  },
+  {
+    "name": "Liquidity Coverage Ratio.csv",
+    "ext": "csv",
+    "size_kb": 840,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_liquidity_coverage_ratio_csv"
+  },
+  {
+    "name": "Net Charge-Off Detail.csv",
+    "ext": "csv",
+    "size_kb": 12400,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ALCO Meeting Materials.pptx",
+    "ext": "pptx",
+    "size_kb": 6820,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_alco_meeting_materials_pptx"
+  },
+  {
+    "name": "BSA AML Watchlist.csv",
+    "ext": "csv",
+    "size_kb": 1820,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_bsa_aml_watchlist_csv"
+  },
+  {
+    "name": "Regulatory Examination Report.pdf",
+    "ext": "pdf",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_regulatory_examination_report_pdf"
+  },
+  {
+    "name": "LoanLossAllowance.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2840,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "CRE Concentration Memo.docx",
+    "ext": "docx",
+    "size_kb": 420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_cre_concentration_memo_docx"
+  },
+  {
+    "name": "SVB Postmortem.pdf",
+    "ext": "pdf",
+    "size_kb": 2840,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Signature Bank Resolution Plan.pdf",
+    "ext": "pdf",
+    "size_kb": 1840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_signature_bank_resolution_plan_pdf"
+  },
+  {
+    "name": "First Republic Loss Estimates.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "FOMC Minutes Q1 2026.pdf",
+    "ext": "pdf",
+    "size_kb": 2240,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_fomc_minutes_q1_2026_pdf"
+  },
+  {
+    "name": "Beige Book May 2026.pdf",
+    "ext": "pdf",
+    "size_kb": 1840,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SLOOS Senior Loan Officer Survey.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Credit Card Delinquency.csv",
+    "ext": "csv",
+    "size_kb": 8420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_credit_card_delinquency_csv"
+  },
+  {
+    "name": "Auto Loan ABS Performance.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_auto_loan_abs_performance_xlsx"
+  },
+  {
+    "name": "Mortgage Delinquency by State.csv",
+    "ext": "csv",
+    "size_kb": 4200,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "HMDA Loan Application Register.csv",
+    "ext": "csv",
+    "size_kb": 420400,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Y-9C Holding Company Reports.zip",
+    "ext": "zip",
+    "size_kb": 184400,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_y_9c_holding_company_reports_zip"
+  },
+  {
+    "name": "Y-9C Schedule HC-K.csv",
+    "ext": "csv",
+    "size_kb": 12420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_y_9c_schedule_hc_k_csv"
+  },
+  {
+    "name": "BHC Risk Indicators.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2820,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_bhc_risk_indicators_xlsx"
+  },
+  {
+    "name": "Branch_Closures_2024.csv",
+    "ext": "csv",
+    "size_kb": 1820,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_branch_closures_2024_csv"
+  },
+  {
+    "name": "Community Reinvestment Plan.docx",
+    "ext": "docx",
+    "size_kb": 840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_community_reinvestment_plan_docx"
+  },
+  {
+    "name": "Diversity Snapshot 2025.pdf",
+    "ext": "pdf",
+    "size_kb": 1240,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_diversity_snapshot_2025_pdf"
+  },
+  {
+    "name": "Cyber Incident Reports.csv",
+    "ext": "csv",
+    "size_kb": 420,
+    "domain": "Other",
+    "parsed": true,
+    "table_name": "raw_cyber_incident_reports_csv"
+  },
+  {
+    "name": "Vendor Risk Assessment.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1240,
+    "domain": "Other",
+    "parsed": false,
+    "table_name": "raw_vendor_risk_assessment_xlsx"
+  },
+  {
+    "name": "Operational Loss Database.csv",
+    "ext": "csv",
+    "size_kb": 12420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_operational_loss_database_csv"
+  },
+  {
+    "name": "Fraud Investigation Files.zip",
+    "ext": "zip",
+    "size_kb": 184200,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "Customer Complaints Q1.csv",
+    "ext": "csv",
+    "size_kb": 8420,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_customer_complaints_q1_csv"
+  },
+  {
+    "name": "Public Records Search.csv",
+    "ext": "csv",
+    "size_kb": 2420,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "Counterparty Exposure.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6240,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ALLL Methodology.pdf",
+    "ext": "pdf",
+    "size_kb": 1840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_alll_methodology_pdf"
+  },
+  {
+    "name": "ICE BofA HY Index.csv",
+    "ext": "csv",
+    "size_kb": 12420,
+    "domain": "Macro",
+    "parsed": true,
+    "table_name": "raw_ice_bofa_hy_index_csv"
+  },
+  {
+    "name": "Investment Securities Portfolio.xlsx",
+    "ext": "xlsx",
+    "size_kb": 4820,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_investment_securities_portfolio_xlsx"
+  },
+  {
+    "name": "HTM Unrealized Losses.csv",
+    "ext": "csv",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_htm_unrealized_losses_csv"
+  },
+  {
+    "name": "AFS Mark to Market.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2820,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Interest Rate Risk Memo.docx",
+    "ext": "docx",
+    "size_kb": 840,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_interest_rate_risk_memo_docx"
+  },
+  {
+    "name": "Liquidity Stress Workbook.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8420,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_liquidity_stress_workbook_xlsx"
+  },
+  {
+    "name": "Recovery and Resolution Plan.pdf",
+    "ext": "pdf",
+    "size_kb": 3840,
+    "domain": "FinServ",
+    "parsed": false,
+    "table_name": "raw_recovery_and_resolution_plan_pdf"
+  },
+  {
+    "name": "Living Will Summary.docx",
+    "ext": "docx",
+    "size_kb": 1240,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_living_will_summary_docx"
+  },
+  {
+    "name": "Section 165 Filing.pdf",
+    "ext": "pdf",
+    "size_kb": 2840,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "Pillar 3 Disclosures Q4.pdf",
+    "ext": "pdf",
+    "size_kb": 4820,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_pillar_3_disclosures_q4_pdf"
+  },
+  {
+    "name": "Basel III Capital Calc.xlsx",
+    "ext": "xlsx",
+    "size_kb": 12400,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "CECL Forecast Q2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8240,
+    "domain": "FinServ",
+    "parsed": true,
+    "table_name": "raw_cecl_forecast_q2_xlsx"
+  },
+  {
+    "name": "Hospital Census Daily.csv",
+    "ext": "csv",
+    "size_kb": 12420,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "Pharmacy Dispensing.csv",
+    "ext": "csv",
+    "size_kb": 38420,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_pharmacy_dispensing_csv"
+  },
+  {
+    "name": "Insurance Claims 2024.csv",
+    "ext": "csv",
+    "size_kb": 184200,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_insurance_claims_2024_csv"
+  },
+  {
+    "name": "Provider Network Adequacy.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3240,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_provider_network_adequacy_xlsx"
+  },
+  {
+    "name": "HEDIS Quality Measures.csv",
+    "ext": "csv",
+    "size_kb": 6420,
+    "domain": "Healthcare",
+    "parsed": true,
+    "table_name": "raw_hedis_quality_measures_csv"
+  },
+  {
+    "name": "Vendor Master.csv",
+    "ext": "csv",
+    "size_kb": 8420,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_vendor_master_csv"
+  },
+  {
+    "name": "Supply Chain KPIs.pptx",
+    "ext": "pptx",
+    "size_kb": 4820,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "Defect Rate Trend.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2820,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_defect_rate_trend_xlsx"
+  },
+  {
+    "name": "Plant Utilization Q3.csv",
+    "ext": "csv",
+    "size_kb": 1820,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_plant_utilization_q3_csv"
+  },
+  {
+    "name": "Production Schedule.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3840,
+    "domain": "Manufacturing",
+    "parsed": false,
+    "table_name": "raw_production_schedule_xlsx"
+  },
+  {
+    "name": "SAP_Export.7z",
+    "ext": "7z",
+    "size_kb": 184200,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_sap_export_7z"
+  },
+  {
+    "name": "Inventory_Master_dump.mdf",
+    "ext": "mdf",
+    "size_kb": 2184200,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "Inventory_Master_log.ldf",
+    "ext": "ldf",
+    "size_kb": 124200,
+    "domain": "Manufacturing",
+    "parsed": true,
+    "table_name": "raw_inventory_master_log_ldf"
+  },
+  {
+    "name": "Marketing Spend Plan.pptx",
+    "ext": "pptx",
+    "size_kb": 4820,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "SKU Performance.csv",
+    "ext": "csv",
+    "size_kb": 38420,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_sku_performance_csv"
+  },
+  {
+    "name": "Loyalty Program Members.csv",
+    "ext": "csv",
+    "size_kb": 124200,
+    "domain": "Retail",
+    "parsed": false,
+    "table_name": "raw_loyalty_program_members_csv"
+  },
+  {
+    "name": "Holiday Forecast 2026.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3840,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_holiday_forecast_2026_xlsx"
+  },
+  {
+    "name": "Returns and Refunds Q4.csv",
+    "ext": "csv",
+    "size_kb": 2420,
+    "domain": "Retail",
+    "parsed": true,
+    "table_name": "raw_returns_and_refunds_q4_csv"
+  },
+  {
+    "name": "ReleaseNotes.txt",
+    "ext": "txt",
+    "size_kb": 157,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3811,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SecurityFindings_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 8655,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy.ldf",
+    "ext": "ldf",
+    "size_kb": 990254,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "VarianceAnalysis-8.pdf",
+    "ext": "pdf",
+    "size_kb": 4557,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_v3.zip",
+    "ext": "zip",
+    "size_kb": 372673,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_2024Q2.csv",
+    "ext": "csv",
+    "size_kb": 54272,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "OrgChart_v5.txt",
+    "ext": "txt",
+    "size_kb": 4,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "VarianceAnalysis_2025Q4.pdf",
+    "ext": "pdf",
+    "size_kb": 1679,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_05_2023.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6975,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_02_2025.xml",
+    "ext": "xml",
+    "size_kb": 311,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "ProcessFlow-6.csv",
+    "ext": "csv",
+    "size_kb": 140927,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8767,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "PolicyDoc_2021Q1.mdf",
+    "ext": "mdf",
+    "size_kb": 1714146,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel_2021Q1.pdf",
+    "ext": "pdf",
+    "size_kb": 1243,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "RecruitingPipeline_2026Q4.docx",
+    "ext": "docx",
+    "size_kb": 2552,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft_v1.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1406,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "StaffingPlan_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 20773,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_v7.csv",
+    "ext": "csv",
+    "size_kb": 44247,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_2024Q2.xls",
+    "ext": "xls",
+    "size_kb": 2628,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport_v9.pdf",
+    "ext": "pdf",
+    "size_kb": 1639,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_07_2020.sql",
+    "ext": "sql",
+    "size_kb": 277,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_2019Q4.pptx",
+    "ext": "pptx",
+    "size_kb": 6966,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "RemediationTracker-11.mdf",
+    "ext": "mdf",
+    "size_kb": 1049004,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_v2.csv",
+    "ext": "csv",
+    "size_kb": 149136,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 7351,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "BudgetVariance_02_2018.docx",
+    "ext": "docx",
+    "size_kb": 3904,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes-1.csv",
+    "ext": "csv",
+    "size_kb": 85319,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_09_2021.csv",
+    "ext": "csv",
+    "size_kb": 28409,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation-10.zip",
+    "ext": "zip",
+    "size_kb": 282767,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan_DRAFT.ppt",
+    "ext": "ppt",
+    "size_kb": 2540,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_09_2019.docx",
+    "ext": "docx",
+    "size_kb": 362,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix_FINAL.7z",
+    "ext": "7z",
+    "size_kb": 462048,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey-7.mdf",
+    "ext": "mdf",
+    "size_kb": 986728,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel-12.csv",
+    "ext": "csv",
+    "size_kb": 16343,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_2018Q3.dmp",
+    "ext": "dmp",
+    "size_kb": 18,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_2019Q4.xls",
+    "ext": "xls",
+    "size_kb": 7728,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "LegacyExtract.txt",
+    "ext": "txt",
+    "size_kb": 240,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials.pptx",
+    "ext": "pptx",
+    "size_kb": 1621,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "StaffingPlan_FINAL.zip",
+    "ext": "zip",
+    "size_kb": 51109,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "SOC2Report_2018Q1.csv",
+    "ext": "csv",
+    "size_kb": 112367,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SnapshotBackup_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 73692,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "RemediationTracker-3.pptx",
+    "ext": "pptx",
+    "size_kb": 656,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 87452,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_v7.pptx",
+    "ext": "pptx",
+    "size_kb": 6185,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "LegalMemo_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 84327,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "IncidentLog_FINAL.xml",
+    "ext": "xml",
+    "size_kb": 304,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ArchiveExport.pptx",
+    "ext": "pptx",
+    "size_kb": 2601,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_10_2024.txt",
+    "ext": "txt",
+    "size_kb": 353,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ComplianceSurvey_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3550,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ComplianceSurvey_v7.xlsx",
+    "ext": "xlsx",
+    "size_kb": 9748,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_FINAL.ppt",
+    "ext": "ppt",
+    "size_kb": 7799,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation-11.docx",
+    "ext": "docx",
+    "size_kb": 1499,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ITAudit_2021Q1.csv",
+    "ext": "csv",
+    "size_kb": 34824,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_v4.csv",
+    "ext": "csv",
+    "size_kb": 87700,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_2022Q3.pdf",
+    "ext": "pdf",
+    "size_kb": 1190,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 1213,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 8358,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_FINAL.dmp",
+    "ext": "dmp",
+    "size_kb": 75,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch.csv",
+    "ext": "csv",
+    "size_kb": 15067,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_FINAL.zip",
+    "ext": "zip",
+    "size_kb": 327468,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract-2.zip",
+    "ext": "zip",
+    "size_kb": 425312,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "RecruitingPipeline_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6905,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_v7.pdf",
+    "ext": "pdf",
+    "size_kb": 7281,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix_v7.csv",
+    "ext": "csv",
+    "size_kb": 93653,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_2023Q1.pptx",
+    "ext": "pptx",
+    "size_kb": 4551,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "PenTestResults_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 2479,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SnapshotBackup_12_2019.pptx",
+    "ext": "pptx",
+    "size_kb": 2767,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix_DRAFT.xls",
+    "ext": "xls",
+    "size_kb": 5313,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "BudgetVariance_DRAFT.docx",
+    "ext": "docx",
+    "size_kb": 2196,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 13460,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_FINAL.sql",
+    "ext": "sql",
+    "size_kb": 137,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview.mdf",
+    "ext": "mdf",
+    "size_kb": 101165,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "PolicyDoc_01_2020.pdf",
+    "ext": "pdf",
+    "size_kb": 6531,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SecurityFindings.docx",
+    "ext": "docx",
+    "size_kb": 1111,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "AuditWorkpapers_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 86757,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_2024Q3.zip",
+    "ext": "zip",
+    "size_kb": 227876,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation_v7.docx",
+    "ext": "docx",
+    "size_kb": 3913,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ProcessFlow_v9.xlsx",
+    "ext": "xlsx",
+    "size_kb": 10554,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "IncidentLog_06_2021.csv",
+    "ext": "csv",
+    "size_kb": 99953,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 2106,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "OrgChart_DRAFT.dmp",
+    "ext": "dmp",
+    "size_kb": 29,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_2023Q4.ppt",
+    "ext": "ppt",
+    "size_kb": 7916,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SecurityFindings_2018Q1.pdf",
+    "ext": "pdf",
+    "size_kb": 587,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart.csv",
+    "ext": "csv",
+    "size_kb": 76476,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_2022Q2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3612,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "HRReview.zip",
+    "ext": "zip",
+    "size_kb": 245286,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_2018Q2.pdf",
+    "ext": "pdf",
+    "size_kb": 4740,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ChangeRequest_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 9635,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 3635,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "VarianceAnalysis.sql",
+    "ext": "sql",
+    "size_kb": 194,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_v2.xls",
+    "ext": "xls",
+    "size_kb": 7039,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_12_2020.csv",
+    "ext": "csv",
+    "size_kb": 119979,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report_10_2018.pptx",
+    "ext": "pptx",
+    "size_kb": 2282,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_2019Q1.pptx",
+    "ext": "pptx",
+    "size_kb": 7141,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "PenTestResults.pdf",
+    "ext": "pdf",
+    "size_kb": 1226,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_2018Q1.pptx",
+    "ext": "pptx",
+    "size_kb": 5559,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "MarketingDeck_2021Q2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8682,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "VarianceAnalysis.xlsx",
+    "ext": "xlsx",
+    "size_kb": 10376,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults-11.csv",
+    "ext": "csv",
+    "size_kb": 48641,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report_2019Q2.txt",
+    "ext": "txt",
+    "size_kb": 365,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SOXEvidence.csv",
+    "ext": "csv",
+    "size_kb": 135302,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_10_2026.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11567,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch_v3.csv",
+    "ext": "csv",
+    "size_kb": 40082,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_v8.pptx",
+    "ext": "pptx",
+    "size_kb": 5848,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "AuditWorkpapers.zip",
+    "ext": "zip",
+    "size_kb": 88900,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_06_2020.pptx",
+    "ext": "pptx",
+    "size_kb": 4657,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_v4.csv",
+    "ext": "csv",
+    "size_kb": 144830,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes-8.txt",
+    "ext": "txt",
+    "size_kb": 165,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes_2023Q4.txt",
+    "ext": "txt",
+    "size_kb": 190,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo.ldf",
+    "ext": "ldf",
+    "size_kb": 2160074,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch_DRAFT.7z",
+    "ext": "7z",
+    "size_kb": 277524,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_2019Q3.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1503,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_v9.csv",
+    "ext": "csv",
+    "size_kb": 88187,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "PolicyDoc_DRAFT.docx",
+    "ext": "docx",
+    "size_kb": 794,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_07_2024.ppt",
+    "ext": "ppt",
+    "size_kb": 6736,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline-3.pdf",
+    "ext": "pdf",
+    "size_kb": 4251,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "RemediationTracker-11.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11259,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 3247,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials-7.csv",
+    "ext": "csv",
+    "size_kb": 23732,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "SecurityFindings_10_2018.csv",
+    "ext": "csv",
+    "size_kb": 147560,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes_06_2025.sql",
+    "ext": "sql",
+    "size_kb": 182,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog.docx",
+    "ext": "docx",
+    "size_kb": 2666,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 4259,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_v9.zip",
+    "ext": "zip",
+    "size_kb": 162211,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes_12_2023.pdf",
+    "ext": "pdf",
+    "size_kb": 843,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel.csv",
+    "ext": "csv",
+    "size_kb": 49455,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "PolicyDoc_v8.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1187,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "StaffingPlan_2020Q2.xls",
+    "ext": "xls",
+    "size_kb": 2815,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_v8.txt",
+    "ext": "txt",
+    "size_kb": 114,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration.pptx",
+    "ext": "pptx",
+    "size_kb": 5338,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "HRReview_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 4305,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "HRReview_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 5268,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "LegalMemo.csv",
+    "ext": "csv",
+    "size_kb": 51355,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "OrgChart-9.csv",
+    "ext": "csv",
+    "size_kb": 71358,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_11_2019.zip",
+    "ext": "zip",
+    "size_kb": 336869,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence_05_2026.csv",
+    "ext": "csv",
+    "size_kb": 5799,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ArchiveExport_DRAFT.sql",
+    "ext": "sql",
+    "size_kb": 194,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow.zip",
+    "ext": "zip",
+    "size_kb": 451199,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "SnapshotBackup-4.pdf",
+    "ext": "pdf",
+    "size_kb": 3363,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix_DRAFT.docx",
+    "ext": "docx",
+    "size_kb": 2475,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ArchiveExport-11.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11968,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract-6.csv",
+    "ext": "csv",
+    "size_kb": 153,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SOXEvidence_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 50191,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings-9.csv",
+    "ext": "csv",
+    "size_kb": 1949,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes_FINAL.ldf",
+    "ext": "ldf",
+    "size_kb": 1781927,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "StaffingPlan_2018Q3.pptx",
+    "ext": "pptx",
+    "size_kb": 6565,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_2020Q1.ppt",
+    "ext": "ppt",
+    "size_kb": 783,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel-8.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6603,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation_03_2025.csv",
+    "ext": "csv",
+    "size_kb": 130192,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 147851,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup_v1.pdf",
+    "ext": "pdf",
+    "size_kb": 4554,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes_DRAFT.xls",
+    "ext": "xls",
+    "size_kb": 3094,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_v7.xls",
+    "ext": "xls",
+    "size_kb": 5772,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials-8.csv",
+    "ext": "csv",
+    "size_kb": 28414,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel_v2.csv",
+    "ext": "csv",
+    "size_kb": 3394,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "MarketingDeck_DRAFT.sql",
+    "ext": "sql",
+    "size_kb": 60,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "LegacyExtract_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 2682,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2495,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "OrgChart_v3.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11857,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence_08_2024.csv",
+    "ext": "csv",
+    "size_kb": 130296,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "IncidentLog_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 381,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report.xlsx",
+    "ext": "xlsx",
+    "size_kb": 10602,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ProcessFlow_v4.docx",
+    "ext": "docx",
+    "size_kb": 598,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup-1.pptx",
+    "ext": "pptx",
+    "size_kb": 658,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "IncidentLog_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 3344,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel.pdf",
+    "ext": "pdf",
+    "size_kb": 4742,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration-9.csv",
+    "ext": "csv",
+    "size_kb": 50915,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft-9.pdf",
+    "ext": "pdf",
+    "size_kb": 562,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline-10.csv",
+    "ext": "csv",
+    "size_kb": 42624,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch.pdf",
+    "ext": "pdf",
+    "size_kb": 2301,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport-10.pdf",
+    "ext": "pdf",
+    "size_kb": 7911,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "HRReview.ppt",
+    "ext": "ppt",
+    "size_kb": 891,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 883,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog.pdf",
+    "ext": "pdf",
+    "size_kb": 3312,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_01_2022.zip",
+    "ext": "zip",
+    "size_kb": 81330,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes.docx",
+    "ext": "docx",
+    "size_kb": 1634,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog.zip",
+    "ext": "zip",
+    "size_kb": 235455,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "MarketingDeck_DRAFT.ldf",
+    "ext": "ldf",
+    "size_kb": 185410,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "BudgetVariance_v2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1628,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft_FINAL.mdf",
+    "ext": "mdf",
+    "size_kb": 2219448,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 39603,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "LegacyExtract_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 92533,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_v3.csv",
+    "ext": "csv",
+    "size_kb": 50477,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_2019Q4.pptx",
+    "ext": "pptx",
+    "size_kb": 6452,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_10_2025.docx",
+    "ext": "docx",
+    "size_kb": 3749,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence-6.zip",
+    "ext": "zip",
+    "size_kb": 188255,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_v7.sql",
+    "ext": "sql",
+    "size_kb": 73,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "RemediationTracker-5.pdf",
+    "ext": "pdf",
+    "size_kb": 2736,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit.csv",
+    "ext": "csv",
+    "size_kb": 130010,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "SecurityFindings_FINAL.zip",
+    "ext": "zip",
+    "size_kb": 474048,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_DRAFT.txt",
+    "ext": "txt",
+    "size_kb": 272,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RemediationTracker_v5.xlsx",
+    "ext": "xlsx",
+    "size_kb": 4385,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy-4.xml",
+    "ext": "xml",
+    "size_kb": 117,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_v1.csv",
+    "ext": "csv",
+    "size_kb": 108670,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_v6.csv",
+    "ext": "csv",
+    "size_kb": 146889,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_2019Q1.csv",
+    "ext": "csv",
+    "size_kb": 82620,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_2020Q2.docx",
+    "ext": "docx",
+    "size_kb": 3479,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ProcessFlow_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 94822,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup.gz",
+    "ext": "gz",
+    "size_kb": 40427,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_07_2026.docx",
+    "ext": "docx",
+    "size_kb": 1112,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest.pdf",
+    "ext": "pdf",
+    "size_kb": 5447,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 2826,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_v9.zip",
+    "ext": "zip",
+    "size_kb": 339381,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "RemediationTracker-7.pdf",
+    "ext": "pdf",
+    "size_kb": 4899,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "VendorContract-7.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6049,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "HRReview_v4.pptx",
+    "ext": "pptx",
+    "size_kb": 1940,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract.zip",
+    "ext": "zip",
+    "size_kb": 486994,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft-7.pptx",
+    "ext": "pptx",
+    "size_kb": 5807,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_12_2018.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1394,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults_DRAFT.ldf",
+    "ext": "ldf",
+    "size_kb": 1660418,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 81153,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "HRReview_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 2985,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes.xls",
+    "ext": "xls",
+    "size_kb": 10904,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 1233,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "PerformanceCalibration_FINAL.xls",
+    "ext": "xls",
+    "size_kb": 446,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel_2023Q1.csv",
+    "ext": "csv",
+    "size_kb": 135416,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit.pdf",
+    "ext": "pdf",
+    "size_kb": 1308,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_DRAFT.xml",
+    "ext": "xml",
+    "size_kb": 6,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup_DRAFT.ldf",
+    "ext": "ldf",
+    "size_kb": 610881,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_07_2021.xlsx",
+    "ext": "xlsx",
+    "size_kb": 5541,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup.csv",
+    "ext": "csv",
+    "size_kb": 104499,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings.zip",
+    "ext": "zip",
+    "size_kb": 108468,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "BudgetVariance.pptx",
+    "ext": "pptx",
+    "size_kb": 7845,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "AuditWorkpapers_2026Q1.mdf",
+    "ext": "mdf",
+    "size_kb": 1353760,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes_v1.txt",
+    "ext": "txt",
+    "size_kb": 378,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "HRReview_2020Q2.pdf",
+    "ext": "pdf",
+    "size_kb": 2648,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation_FINAL.xml",
+    "ext": "xml",
+    "size_kb": 213,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_05_2021.pptx",
+    "ext": "pptx",
+    "size_kb": 6273,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 77080,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "HRReview_2020Q2.csv",
+    "ext": "csv",
+    "size_kb": 30538,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation_DRAFT.txt",
+    "ext": "txt",
+    "size_kb": 157,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_FINAL.txt",
+    "ext": "txt",
+    "size_kb": 172,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 3520,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan-1.json",
+    "ext": "json",
+    "size_kb": 193,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch_v8.ppt",
+    "ext": "ppt",
+    "size_kb": 5121,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft_v3.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3627,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_2019Q1.ppt",
+    "ext": "ppt",
+    "size_kb": 837,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "PolicyDoc_v2.pptx",
+    "ext": "pptx",
+    "size_kb": 6729,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "SnapshotBackup_07_2019.txt",
+    "ext": "txt",
+    "size_kb": 34,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 6013,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup-7.txt",
+    "ext": "txt",
+    "size_kb": 104,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 7532,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest_DRAFT.docx",
+    "ext": "docx",
+    "size_kb": 1131,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "PenTestResults_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 78904,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "BudgetVariance_v8.csv",
+    "ext": "csv",
+    "size_kb": 179,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_07_2022.csv",
+    "ext": "csv",
+    "size_kb": 57819,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_08_2024.docx",
+    "ext": "docx",
+    "size_kb": 3737,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "RecruitingPipeline_v1.xlsx",
+    "ext": "xlsx",
+    "size_kb": 912,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials_04_2025.zip",
+    "ext": "zip",
+    "size_kb": 51573,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report.csv",
+    "ext": "csv",
+    "size_kb": 97352,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes-6.sql",
+    "ext": "sql",
+    "size_kb": 255,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 9316,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "LegacyExtract.docx",
+    "ext": "docx",
+    "size_kb": 3743,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport.xlsx",
+    "ext": "xlsx",
+    "size_kb": 5580,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes_2022Q4.txt",
+    "ext": "txt",
+    "size_kb": 156,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "BudgetVariance-12.pdf",
+    "ext": "pdf",
+    "size_kb": 3320,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_05_2024.xml",
+    "ext": "xml",
+    "size_kb": 127,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "VendorContract_FINAL.7z",
+    "ext": "7z",
+    "size_kb": 58068,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "AuditWorkpapers_v3.sql",
+    "ext": "sql",
+    "size_kb": 378,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "VarianceAnalysis_2026Q2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2602,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup_DRAFT.xls",
+    "ext": "xls",
+    "size_kb": 1555,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest_2020Q1.zip",
+    "ext": "zip",
+    "size_kb": 336790,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ChangeRequest_09_2022.docx",
+    "ext": "docx",
+    "size_kb": 1922,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence-12.xls",
+    "ext": "xls",
+    "size_kb": 10978,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow-9.dmp",
+    "ext": "dmp",
+    "size_kb": 111,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch.xlsx",
+    "ext": "xlsx",
+    "size_kb": 9692,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "StaffingPlan_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8068,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2764,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "RecruitingPipeline-8.csv",
+    "ext": "csv",
+    "size_kb": 93369,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 95641,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials_2019Q2.pptx",
+    "ext": "pptx",
+    "size_kb": 1810,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_2020Q4.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11537,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes-2.csv",
+    "ext": "csv",
+    "size_kb": 38491,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 1732,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence_05_2022.csv",
+    "ext": "csv",
+    "size_kb": 148646,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel-9.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2204,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 118586,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_v8.csv",
+    "ext": "csv",
+    "size_kb": 84007,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_v4.zip",
+    "ext": "zip",
+    "size_kb": 305061,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_DRAFT.xlsx",
+    "ext": "xlsx",
+    "size_kb": 7892,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation.docx",
+    "ext": "docx",
+    "size_kb": 3623,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 118122,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup_09_2019.csv",
+    "ext": "csv",
+    "size_kb": 108832,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_11_2023.pptx",
+    "ext": "pptx",
+    "size_kb": 2587,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation.xml",
+    "ext": "xml",
+    "size_kb": 235,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ForecastModel.xls",
+    "ext": "xls",
+    "size_kb": 2251,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow.txt",
+    "ext": "txt",
+    "size_kb": 92,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix-4.txt",
+    "ext": "txt",
+    "size_kb": 331,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_12_2023.pdf",
+    "ext": "pdf",
+    "size_kb": 6332,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_2022Q1.csv",
+    "ext": "csv",
+    "size_kb": 19256,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 15030,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "AuditWorkpapers_2024Q2.csv",
+    "ext": "csv",
+    "size_kb": 30558,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest-2.csv",
+    "ext": "csv",
+    "size_kb": 63445,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "AuditWorkpapers.pdf",
+    "ext": "pdf",
+    "size_kb": 762,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "IncidentLog_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 125535,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 5367,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport-9.docx",
+    "ext": "docx",
+    "size_kb": 3222,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation_07_2022.xls",
+    "ext": "xls",
+    "size_kb": 10226,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_03_2024.pdf",
+    "ext": "pdf",
+    "size_kb": 6589,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "LegacyExtract_08_2021.csv",
+    "ext": "csv",
+    "size_kb": 129018,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 5868,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_06_2021.pdf",
+    "ext": "pdf",
+    "size_kb": 1731,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "AuditWorkpapers_FINAL.xls",
+    "ext": "xls",
+    "size_kb": 9558,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_04_2020.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11018,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_FINAL.xlsx",
+    "ext": "xlsx",
+    "size_kb": 5859,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 3499,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegacyExtract.xml",
+    "ext": "xml",
+    "size_kb": 23,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_v1.txt",
+    "ext": "txt",
+    "size_kb": 80,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_2022Q4.xml",
+    "ext": "xml",
+    "size_kb": 37,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence.zip",
+    "ext": "zip",
+    "size_kb": 317932,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "SnapshotBackup_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 41653,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "PerformanceCalibration_12_2019.csv",
+    "ext": "csv",
+    "size_kb": 1848,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_2022Q3.zip",
+    "ext": "zip",
+    "size_kb": 107189,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_2018Q2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 6451,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence-2.docx",
+    "ext": "docx",
+    "size_kb": 2343,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ChangeRequest.docx",
+    "ext": "docx",
+    "size_kb": 2576,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 109191,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report-11.pdf",
+    "ext": "pdf",
+    "size_kb": 6022,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ChangeRequest_v1.ppt",
+    "ext": "ppt",
+    "size_kb": 2578,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_11_2025.docx",
+    "ext": "docx",
+    "size_kb": 2846,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_DRAFT.pdf",
+    "ext": "pdf",
+    "size_kb": 769,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 4716,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "HRReview_v4.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11237,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes_FINAL.ppt",
+    "ext": "ppt",
+    "size_kb": 6589,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview_v5.ppt",
+    "ext": "ppt",
+    "size_kb": 985,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch_04_2018.pdf",
+    "ext": "pdf",
+    "size_kb": 1019,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ArchiveExport_FINAL.txt",
+    "ext": "txt",
+    "size_kb": 2,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ComplianceSurvey_DRAFT.ppt",
+    "ext": "ppt",
+    "size_kb": 4935,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_2021Q3.csv",
+    "ext": "csv",
+    "size_kb": 53884,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_11_2022.csv",
+    "ext": "csv",
+    "size_kb": 136602,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation-11.csv",
+    "ext": "csv",
+    "size_kb": 71414,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SOXEvidence_2018Q3.pdf",
+    "ext": "pdf",
+    "size_kb": 4704,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "PenTestResults.sql",
+    "ext": "sql",
+    "size_kb": 316,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes_08_2022.ppt",
+    "ext": "ppt",
+    "size_kb": 7761,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest_DRAFT.pdf",
+    "ext": "pdf",
+    "size_kb": 2946,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan_v3.pptx",
+    "ext": "pptx",
+    "size_kb": 6440,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_v6.csv",
+    "ext": "csv",
+    "size_kb": 27320,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "SnapshotBackup_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 6689,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport_v7.pptx",
+    "ext": "pptx",
+    "size_kb": 2764,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_05_2024.dmp",
+    "ext": "dmp",
+    "size_kb": 391,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_v1.pdf",
+    "ext": "pdf",
+    "size_kb": 4666,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo-2.csv",
+    "ext": "csv",
+    "size_kb": 120508,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft_03_2020.csv",
+    "ext": "csv",
+    "size_kb": 27583,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_2022Q3.txt",
+    "ext": "txt",
+    "size_kb": 198,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_05_2018.csv",
+    "ext": "csv",
+    "size_kb": 128767,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_FINAL.ppt",
+    "ext": "ppt",
+    "size_kb": 3321,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_08_2026.ppt",
+    "ext": "ppt",
+    "size_kb": 3546,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_09_2025.pptx",
+    "ext": "pptx",
+    "size_kb": 4790,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_v4.pptx",
+    "ext": "pptx",
+    "size_kb": 511,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "ArchiveExport_DRAFT.pptx",
+    "ext": "pptx",
+    "size_kb": 7323,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "HRReview.csv",
+    "ext": "csv",
+    "size_kb": 121106,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_v5.ldf",
+    "ext": "ldf",
+    "size_kb": 1203652,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch-3.csv",
+    "ext": "csv",
+    "size_kb": 100871,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan_08_2023.ppt",
+    "ext": "ppt",
+    "size_kb": 5476,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence_2020Q4.ldf",
+    "ext": "ldf",
+    "size_kb": 2490387,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "BudgetVariance_2024Q3.xlsx",
+    "ext": "xlsx",
+    "size_kb": 3347,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_12_2026.xml",
+    "ext": "xml",
+    "size_kb": 224,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes.pdf",
+    "ext": "pdf",
+    "size_kb": 976,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_FINAL.zip",
+    "ext": "zip",
+    "size_kb": 324956,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "TrainingMaterials_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 42625,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "PerformanceCalibration_v6.zip",
+    "ext": "zip",
+    "size_kb": 429495,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 5385,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft-4.xlsx",
+    "ext": "xlsx",
+    "size_kb": 10088,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "IncidentLog_2018Q2.7z",
+    "ext": "7z",
+    "size_kb": 244112,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_v5.ppt",
+    "ext": "ppt",
+    "size_kb": 4296,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_06_2023.xml",
+    "ext": "xml",
+    "size_kb": 25,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract_v3.xls",
+    "ext": "xls",
+    "size_kb": 10682,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_2023Q3.pptx",
+    "ext": "pptx",
+    "size_kb": 5485,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence_2025Q3.sql",
+    "ext": "sql",
+    "size_kb": 282,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_FINAL.sql",
+    "ext": "sql",
+    "size_kb": 187,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "PolicyDoc_2022Q3.xlsx",
+    "ext": "xlsx",
+    "size_kb": 8879,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation_2020Q4.xls",
+    "ext": "xls",
+    "size_kb": 9086,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "ITAudit.txt",
+    "ext": "txt",
+    "size_kb": 255,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 833,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "LegalMemo_v1.csv",
+    "ext": "csv",
+    "size_kb": 15161,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_v2.xlsx",
+    "ext": "xlsx",
+    "size_kb": 2124,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 1043,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_FINAL.sql",
+    "ext": "sql",
+    "size_kb": 225,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence_v7.txt",
+    "ext": "txt",
+    "size_kb": 104,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "ProductLaunch_2018Q3.xls",
+    "ext": "xls",
+    "size_kb": 6090,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "SOC2Report_05_2022.ldf",
+    "ext": "ldf",
+    "size_kb": 427781,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck_FINAL.pptx",
+    "ext": "pptx",
+    "size_kb": 6842,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ComplianceSurvey_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 115948,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch-6.zip",
+    "ext": "zip",
+    "size_kb": 133223,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 2809,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "CustomerSegmentation-7.docx",
+    "ext": "docx",
+    "size_kb": 44,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest_v1.7z",
+    "ext": "7z",
+    "size_kb": 172629,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey.pptx",
+    "ext": "pptx",
+    "size_kb": 6537,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "BudgetVariance-10.csv",
+    "ext": "csv",
+    "size_kb": 30652,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ChangeRequest-1.xlsx",
+    "ext": "xlsx",
+    "size_kb": 11248,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "SOC2Report_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 124937,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "AuditWorkpapers_09_2020.pdf",
+    "ext": "pdf",
+    "size_kb": 3640,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch_04_2023.ppt",
+    "ext": "ppt",
+    "size_kb": 2734,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_06_2024.pptx",
+    "ext": "pptx",
+    "size_kb": 5779,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "DataRetentionPolicy_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 108909,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SOXEvidence_11_2019.xlsx",
+    "ext": "xlsx",
+    "size_kb": 10483,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_v2.sql",
+    "ext": "sql",
+    "size_kb": 126,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_2025Q2.csv",
+    "ext": "csv",
+    "size_kb": 119656,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_2023Q4.zip",
+    "ext": "zip",
+    "size_kb": 67001,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan.dmp",
+    "ext": "dmp",
+    "size_kb": 35,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence-11.ppt",
+    "ext": "ppt",
+    "size_kb": 1077,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "BoardMinutes_v9.pptx",
+    "ext": "pptx",
+    "size_kb": 4521,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration-1.docx",
+    "ext": "docx",
+    "size_kb": 1658,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ITAudit_2026Q1.pptx",
+    "ext": "pptx",
+    "size_kb": 4913,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_v3.pdf",
+    "ext": "pdf",
+    "size_kb": 5942,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "BoardMinutes_v6.docx",
+    "ext": "docx",
+    "size_kb": 731,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "HRReview-1.ppt",
+    "ext": "ppt",
+    "size_kb": 4716,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "BudgetVariance_DRAFT.csv",
+    "ext": "csv",
+    "size_kb": 63434,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "VarianceAnalysis_FINAL.csv",
+    "ext": "csv",
+    "size_kb": 114916,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_07_2024.zip",
+    "ext": "zip",
+    "size_kb": 377217,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes.sql",
+    "ext": "sql",
+    "size_kb": 348,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "ITAudit_v3.sql",
+    "ext": "sql",
+    "size_kb": 372,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "LegalMemo_07_2024.xlsx",
+    "ext": "xlsx",
+    "size_kb": 476,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ProductLaunch_08_2026.csv",
+    "ext": "csv",
+    "size_kb": 10126,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck-5.csv",
+    "ext": "csv",
+    "size_kb": 68677,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "RoadmapDraft_v8.csv",
+    "ext": "csv",
+    "size_kb": 123399,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 226,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "ReleaseNotes-2.xml",
+    "ext": "xml",
+    "size_kb": 162,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline_FINAL.zip",
+    "ext": "zip",
+    "size_kb": 276695,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ReleaseNotes_v7.xls",
+    "ext": "xls",
+    "size_kb": 5739,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "MarketingDeck.csv",
+    "ext": "csv",
+    "size_kb": 64794,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "RemediationTracker_2025Q4.docx",
+    "ext": "docx",
+    "size_kb": 3291,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "RecruitingPipeline.ldf",
+    "ext": "ldf",
+    "size_kb": 1373560,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "AuditWorkpapers-12.xml",
+    "ext": "xml",
+    "size_kb": 384,
+    "domain": "Manufacturing",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_2021Q2.csv",
+    "ext": "csv",
+    "size_kb": 49061,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "StaffingPlan_12_2019.docx",
+    "ext": "docx",
+    "size_kb": 2603,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "VendorDueDiligence_DRAFT.txt",
+    "ext": "txt",
+    "size_kb": 298,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "ComplianceSurvey_v8.csv",
+    "ext": "csv",
+    "size_kb": 10023,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "OrgChart_11_2022.xlsx",
+    "ext": "xlsx",
+    "size_kb": 4258,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "VendorContract-2.xls",
+    "ext": "xls",
+    "size_kb": 4764,
+    "domain": "Macro",
+    "parsed": true
+  },
+  {
+    "name": "ProcessFlow_04_2020.pptx",
+    "ext": "pptx",
+    "size_kb": 7292,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit-12.zip",
+    "ext": "zip",
+    "size_kb": 81721,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "RACIMatrix_2024Q2.csv",
+    "ext": "csv",
+    "size_kb": 72284,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ChangeRequest.sql",
+    "ext": "sql",
+    "size_kb": 329,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "ITAudit_01_2019.csv",
+    "ext": "csv",
+    "size_kb": 81701,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings_11_2021.csv",
+    "ext": "csv",
+    "size_kb": 119593,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "TrainingMaterials-7.pptx",
+    "ext": "pptx",
+    "size_kb": 7496,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_v8.docx",
+    "ext": "docx",
+    "size_kb": 2799,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "RemediationTracker.xlsx",
+    "ext": "xlsx",
+    "size_kb": 1182,
+    "domain": "Other",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_v9.xls",
+    "ext": "xls",
+    "size_kb": 11533,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "VendorDueDiligence-7.pdf",
+    "ext": "pdf",
+    "size_kb": 4102,
+    "domain": "Healthcare",
+    "parsed": false
+  },
+  {
+    "name": "SOC2Report_10_2023.zip",
+    "ext": "zip",
+    "size_kb": 198041,
+    "domain": "FinServ",
+    "parsed": false
+  },
+  {
+    "name": "OperationsReview-3.csv",
+    "ext": "csv",
+    "size_kb": 141480,
+    "domain": "Retail",
+    "parsed": true
+  },
+  {
+    "name": "DataRetentionPolicy_FINAL.xls",
+    "ext": "xls",
+    "size_kb": 2922,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "OperationsReview_05_2020.pdf",
+    "ext": "pdf",
+    "size_kb": 1571,
+    "domain": "Retail",
+    "parsed": false
+  },
+  {
+    "name": "RoadmapDraft_v8.pptx",
+    "ext": "pptx",
+    "size_kb": 1612,
+    "domain": "Other",
+    "parsed": false
+  },
+  {
+    "name": "ComplianceSurvey_2025Q1.zip",
+    "ext": "zip",
+    "size_kb": 391522,
+    "domain": "Healthcare",
+    "parsed": true
+  },
+  {
+    "name": "SecurityFindings-8.pdf",
+    "ext": "pdf",
+    "size_kb": 3370,
+    "domain": "FinServ",
+    "parsed": true
+  },
+  {
+    "name": "PerformanceCalibration_FINAL.xml",
+    "ext": "xml",
+    "size_kb": 73,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "ForecastModel_10_2023.pptx",
+    "ext": "pptx",
+    "size_kb": 7500,
+    "domain": "Macro",
+    "parsed": false
+  },
+  {
+    "name": "PerformanceCalibration_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 117,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "CustomerSegmentation_2025Q1.zip",
+    "ext": "zip",
+    "size_kb": 20963,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "OrgChart_FINAL.pdf",
+    "ext": "pdf",
+    "size_kb": 7492,
+    "domain": "HigherEd",
+    "parsed": true
+  },
+  {
+    "name": "RACIMatrix_FINAL.docx",
+    "ext": "docx",
+    "size_kb": 688,
+    "domain": "HigherEd",
+    "parsed": false
+  },
+  {
+    "name": "SOC2Report_v3.csv",
+    "ext": "csv",
+    "size_kb": 38309,
+    "domain": "Manufacturing",
+    "parsed": true
+  },
+  {
+    "name": "HRReview.xls",
+    "ext": "xls",
+    "size_kb": 449,
+    "domain": "Retail",
+    "parsed": true
+  }
+]

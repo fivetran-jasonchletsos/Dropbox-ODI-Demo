@@ -1,0 +1,125 @@
+{
+  "cert_id": "67248",
+  "name": "Mercantile Bank of Tennessee",
+  "city": "Springfield",
+  "state": "TN",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.026,
+  "branches": 1,
+  "established_year": 1889,
+  "risk_score": 32,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 16.04,
+  "net_charge_off_ratio_pct": 0.4,
+  "return_on_assets_pct": 0.77,
+  "branches_by_state": [
+    {
+      "state": "TN",
+      "count": 1,
+      "deposits_b": 0.02
+    },
+    {
+      "state": "MD",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "FL",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "OK",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "TX",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "MN",
+      "count": -4,
+      "deposits_b": 0.001
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Federal Bank",
+      "close_date": "2013-05-16",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Citizens & First Bank",
+      "close_date": "2009-11-26",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Summit Exchange",
+      "close_date": "2009-06-27",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Tennessee Heritage Bank",
+      "close_date": "2009-02-13",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.024,
+      "npl_ratio": 0.67,
+      "capital_ratio": 16.11
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.023,
+      "npl_ratio": 0.77,
+      "capital_ratio": 16.16
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.024,
+      "npl_ratio": 0.86,
+      "capital_ratio": 16.38
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.024,
+      "npl_ratio": 0.86,
+      "capital_ratio": 16.03
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.024,
+      "npl_ratio": 0.83,
+      "capital_ratio": 15.99
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.025,
+      "npl_ratio": 0.79,
+      "capital_ratio": 16.1
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.025,
+      "npl_ratio": 0.73,
+      "capital_ratio": 16.39
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.026,
+      "npl_ratio": 0.69,
+      "capital_ratio": 16.02
+    }
+  ],
+  "ai_summary": "Mercantile Bank of Tennessee (Springfield, TN) holds $0.03B in deposits across 1 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 16.04% and ROA of 0.77% benchmark this institution against <100M peers."
+}

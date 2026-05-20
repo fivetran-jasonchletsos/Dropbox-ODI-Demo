@@ -1,0 +1,115 @@
+{
+  "cert_id": "15849",
+  "name": "Sterling Mutual",
+  "city": "Plainview",
+  "state": "AL",
+  "charter_class": "SB",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.608,
+  "branches": 10,
+  "established_year": 1981,
+  "risk_score": 31,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 11.4,
+  "net_charge_off_ratio_pct": 0.06,
+  "return_on_assets_pct": 1.24,
+  "branches_by_state": [
+    {
+      "state": "AL",
+      "count": 7,
+      "deposits_b": 0.412
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.048
+    },
+    {
+      "state": "AK",
+      "count": 1,
+      "deposits_b": 0.07
+    },
+    {
+      "state": "IL",
+      "count": 1,
+      "deposits_b": 0.078
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Cornerstone & Midwest Savings",
+      "close_date": "2011-12-08",
+      "charter_class": "SA",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Alabama Sterling Bank",
+      "close_date": "2011-07-10",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Plains Bank of Alabama",
+      "close_date": "2010-09-03",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Alabama Heritage Bank",
+      "close_date": "2010-06-23",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.562,
+      "npl_ratio": 0.26,
+      "capital_ratio": 10.8
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.546,
+      "npl_ratio": 0.24,
+      "capital_ratio": 11.03
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.533,
+      "npl_ratio": 0.2,
+      "capital_ratio": 11.18
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.562,
+      "npl_ratio": 0.28,
+      "capital_ratio": 10.91
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.54,
+      "npl_ratio": 0.22,
+      "capital_ratio": 10.66
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.527,
+      "npl_ratio": 0.18,
+      "capital_ratio": 10.98
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.533,
+      "npl_ratio": 0.26,
+      "capital_ratio": 10.61
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.548,
+      "npl_ratio": 0.33,
+      "capital_ratio": 10.84
+    }
+  ],
+  "ai_summary": "Sterling Mutual (Plainview, AL) holds $0.61B in deposits across 10 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 11.40% and ROA of 1.24% benchmark this institution against 100M-1B peers."
+}

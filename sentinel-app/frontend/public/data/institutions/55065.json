@@ -1,0 +1,120 @@
+{
+  "cert_id": "55065",
+  "name": "Ohio National Bank",
+  "city": "Dayton",
+  "state": "OH",
+  "charter_class": "SA",
+  "asset_class": "<100M",
+  "deposits_b": 0.032,
+  "branches": 1,
+  "established_year": 1895,
+  "risk_score": 54,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 8.62,
+  "net_charge_off_ratio_pct": 0.44,
+  "return_on_assets_pct": 0.95,
+  "branches_by_state": [
+    {
+      "state": "OH",
+      "count": 1,
+      "deposits_b": 0.023
+    },
+    {
+      "state": "ID",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "MS",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "OR",
+      "count": -3,
+      "deposits_b": 0.002
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Partners Bank",
+      "close_date": "2023-01-15",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Independence State Bank",
+      "close_date": "2019-09-08",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Ohio First Bank",
+      "close_date": "2017-07-06",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Commonwealth Bank of Ohio",
+      "close_date": "2014-02-10",
+      "charter_class": "SA",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.03,
+      "npl_ratio": 0.73,
+      "capital_ratio": 7.88
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.03,
+      "npl_ratio": 0.85,
+      "capital_ratio": 7.64
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.029,
+      "npl_ratio": 0.89,
+      "capital_ratio": 7.4
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.029,
+      "npl_ratio": 0.95,
+      "capital_ratio": 7.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.03,
+      "npl_ratio": 0.98,
+      "capital_ratio": 7.65
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.031,
+      "npl_ratio": 1.01,
+      "capital_ratio": 7.92
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.031,
+      "npl_ratio": 0.97,
+      "capital_ratio": 7.77
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.031,
+      "npl_ratio": 0.97,
+      "capital_ratio": 8.06
+    }
+  ],
+  "ai_summary": "Ohio National Bank (Dayton, OH) holds $0.03B in deposits across 1 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 8.62% and ROA of 0.95% benchmark this institution against <100M peers."
+}

@@ -1,0 +1,113 @@
+{
+  "cert_id": "10711",
+  "name": "Heritage Bank of Nebraska",
+  "city": "Bridgeport",
+  "state": "NE",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.478,
+  "branches": 4,
+  "established_year": 2011,
+  "risk_score": 22,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.51,
+  "net_charge_off_ratio_pct": 0.86,
+  "return_on_assets_pct": 0.49,
+  "branches_by_state": [
+    {
+      "state": "NE",
+      "count": 3,
+      "deposits_b": 0.401
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.034
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.015
+    },
+    {
+      "state": "MS",
+      "count": 1,
+      "deposits_b": 0.012
+    },
+    {
+      "state": "MI",
+      "count": 1,
+      "deposits_b": 0.005
+    },
+    {
+      "state": "MO",
+      "count": -3,
+      "deposits_b": 0.011
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Citizens Bank of Nebraska",
+      "close_date": "2010-01-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Pinnacle Banking",
+      "close_date": "2009-02-04",
+      "charter_class": "SA",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.457,
+      "npl_ratio": 0.87,
+      "capital_ratio": 10.67
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.465,
+      "npl_ratio": 0.79,
+      "capital_ratio": 10.31
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.479,
+      "npl_ratio": 0.8,
+      "capital_ratio": 10.2
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.475,
+      "npl_ratio": 0.81,
+      "capital_ratio": 9.91
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.483,
+      "npl_ratio": 0.73,
+      "capital_ratio": 9.65
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.492,
+      "npl_ratio": 0.81,
+      "capital_ratio": 9.68
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.484,
+      "npl_ratio": 0.82,
+      "capital_ratio": 9.71
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.475,
+      "npl_ratio": 0.83,
+      "capital_ratio": 9.99
+    }
+  ],
+  "ai_summary": "Heritage Bank of Nebraska (Bridgeport, NE) holds $0.48B in deposits across 4 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.51% and ROA of 0.49% benchmark this institution against 100M-1B peers."
+}

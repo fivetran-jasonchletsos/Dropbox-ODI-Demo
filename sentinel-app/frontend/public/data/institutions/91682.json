@@ -1,0 +1,125 @@
+{
+  "cert_id": "91682",
+  "name": "First Group",
+  "city": "Boston",
+  "state": "MA",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.043,
+  "branches": 4,
+  "established_year": 1887,
+  "risk_score": 10,
+  "risk_tier": "low",
+  "capital_ratio_pct": 17.21,
+  "net_charge_off_ratio_pct": 0.32,
+  "return_on_assets_pct": 1.36,
+  "branches_by_state": [
+    {
+      "state": "MA",
+      "count": 3,
+      "deposits_b": 0.03
+    },
+    {
+      "state": "NH",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.002
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "MN",
+      "count": -3,
+      "deposits_b": 0.001
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United Federal Bank",
+      "close_date": "2012-12-25",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Midwest State Bank",
+      "close_date": "2012-02-07",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Founders Group Bank",
+      "close_date": "2011-04-19",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Massachusetts First Bank",
+      "close_date": "2010-11-15",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.039,
+      "npl_ratio": 0.54,
+      "capital_ratio": 16.44
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.038,
+      "npl_ratio": 0.6,
+      "capital_ratio": 16.59
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.037,
+      "npl_ratio": 0.59,
+      "capital_ratio": 16.32
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.038,
+      "npl_ratio": 0.49,
+      "capital_ratio": 16.56
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.039,
+      "npl_ratio": 0.38,
+      "capital_ratio": 16.33
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.041,
+      "npl_ratio": 0.45,
+      "capital_ratio": 16.11
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.043,
+      "npl_ratio": 0.34,
+      "capital_ratio": 15.89
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.045,
+      "npl_ratio": 0.23,
+      "capital_ratio": 15.85
+    }
+  ],
+  "ai_summary": "First Group (Boston, MA) holds $0.04B in deposits across 4 branches and remains well-capitalized with healthy earnings. Capital ratio of 17.21% and ROA of 1.36% benchmark this institution against <100M peers."
+}

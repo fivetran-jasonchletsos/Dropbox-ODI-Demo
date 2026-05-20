@@ -1,0 +1,110 @@
+{
+  "cert_id": "67509",
+  "name": "Arizona Pinnacle Bank",
+  "city": "Bridgeport",
+  "state": "AZ",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.709,
+  "branches": 88,
+  "established_year": 1905,
+  "risk_score": 15,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.25,
+  "net_charge_off_ratio_pct": 0.13,
+  "return_on_assets_pct": 1.25,
+  "branches_by_state": [
+    {
+      "state": "AZ",
+      "count": 65,
+      "deposits_b": 5.659
+    },
+    {
+      "state": "AK",
+      "count": 9,
+      "deposits_b": 0.794
+    },
+    {
+      "state": "WY",
+      "count": 14,
+      "deposits_b": 1.256
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Arizona Heritage Bank",
+      "close_date": "2011-07-25",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Lake & Sterling Bank",
+      "close_date": "2011-05-02",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "River & Valley Bank",
+      "close_date": "2010-01-03",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Frontier Financial",
+      "close_date": "2009-01-10",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.39,
+      "npl_ratio": 0.23,
+      "capital_ratio": 9.92
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.704,
+      "npl_ratio": 0.21,
+      "capital_ratio": 9.64
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.611,
+      "npl_ratio": 0.16,
+      "capital_ratio": 9.34
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.434,
+      "npl_ratio": 0.2,
+      "capital_ratio": 8.99
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 7.398,
+      "npl_ratio": 0.22,
+      "capital_ratio": 8.61
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 7.642,
+      "npl_ratio": 0.29,
+      "capital_ratio": 8.44
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 7.774,
+      "npl_ratio": 0.37,
+      "capital_ratio": 8.29
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 7.651,
+      "npl_ratio": 0.28,
+      "capital_ratio": 8.03
+    }
+  ],
+  "ai_summary": "Arizona Pinnacle Bank (Bridgeport, AZ) holds $7.71B in deposits across 88 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.25% and ROA of 1.25% benchmark this institution against 1B-10B peers."
+}

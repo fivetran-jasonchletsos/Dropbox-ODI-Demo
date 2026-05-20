@@ -1,0 +1,183 @@
+version: 2
+
+# ============================================================
+# Bronze sources for the Sentinel ODI demo.
+#
+# Fivetran's Dropbox connector lands the FDIC CSVs into
+# {{ var('bronze_database') }}.{{ var('bronze_schema') }} along with the
+# `_files` metadata table. The bronze pass-throughs in this folder
+# reference these sources in `target: prod` and pivot to seeds in
+# `target: dev` (see br_*.sql for the switch).
+#
+# Two physical layouts share the same logical source:
+#
+#   target: prod_native (Fivetran-native Snowflake)
+#       schema -> var('bronze_schema')          == BRONZE
+#       Tables are Fivetran-managed Snowflake tables.
+#
+#   target: prod        (Fivetran MDLS / Iceberg)
+#       schema -> var('bronze_iceberg_schema')  == BRONZE
+#       Tables are Snowflake ICEBERG TABLE objects registered via
+#       infra/snowflake_iceberg_setup.sql. Data and metadata live in
+#       S3 + Glue; only the table handles live in Snowflake.
+#
+# In MDLS, the *Glue* identifier is `<connector_id>.<table_name>`
+# (e.g. jason_chletsos_sentinel_fdic_files.fdic_institutions). We hide
+# that naming under the Snowflake Iceberg table names below so dbt
+# only sees the same uppercase identifiers in either path.
+# ============================================================
+
+sources:
+  - name: bronze
+    database: "{{ var('bronze_database') }}"
+    schema: "{{ var('bronze_iceberg_schema', var('bronze_schema')) }}"
+    description: |
+      Fivetran Dropbox connector landing zone. Holds the FDIC public
+      datasets parsed out of CSVs found in the Dropbox folder, plus the
+      `_files` metadata table that records every sync.
+    loader: fivetran
+    tables:
+      - name: _files
+        identifier: _FILES
+        description: One row per file synced from Dropbox; the ODI provenance anchor.
+        columns:
+          - name: path
+            description: Full Dropbox path.
+            data_tests:
+              - unique
+              - not_null
+          - name: name
+            description: File name (basename of path).
+          - name: extension
+            description: File extension (csv, xlsx, etc).
+          - name: size_bytes
+            description: File size in bytes at last sync.
+          - name: rev
+            description: Dropbox content revision id.
+          - name: client_modified
+            description: Timestamp the client last modified the file.
+          - name: server_modified
+            description: Timestamp the Dropbox server recorded for the file.
+          - name: row_count
+            description: Row count Fivetran parsed from the file.
+          - name: column_count
+            description: Column count Fivetran parsed from the file.
+          - name: sheet_count
+            description: Sheet count (for xlsx files).
+          - name: table_name
+            description: Destination table name Fivetran wrote into bronze.
+          - name: status
+            description: ok | metadata_only | error
+          - name: error
+            description: Error string when status = error.
+          - name: synced_at
+            description: Timestamp the file was last synced.
+
+      - name: fdic_failed_bank_list
+        identifier: FDIC_FAILED_BANK_LIST
+        description: |
+          FDIC Failed Bank List — one row per FDIC-insured institution
+          that has failed since 2008. Sourced from the public CSV
+          published at fdic.gov/bank/individual/failed/banklist.html.
+        columns:
+          - name: bank_name
+            description: Legal name of the failed institution.
+            data_tests: [not_null]
+          - name: city
+            description: Headquarters city.
+          - name: state
+            description: Two-letter state code.
+            data_tests: [not_null]
+          - name: cert
+            description: FDIC certificate number — joins to fdic_institutions.cert.
+            data_tests: [not_null]
+          - name: acquiring_institution
+            description: Acquirer at resolution.
+          - name: closing_date
+            description: Date the institution was closed (YYYY-MM-DD).
+            data_tests: [not_null]
+          - name: fund
+            description: FDIC fund that absorbed the loss (DIF since 2006).
+
+      - name: fdic_institutions
+        identifier: FDIC_INSTITUTIONS
+        description: |
+          FDIC-insured institutions master file (one row per cert).
+          Sourced from the public INSTITUTIONS2.CSV download.
+        columns:
+          - name: cert
+            description: FDIC certificate number — primary key.
+            data_tests: [not_null, unique]
+          - name: name
+            description: Legal institution name.
+            data_tests: [not_null]
+          - name: namehcr
+            description: Top-tier holding company name.
+          - name: city
+            description: Headquarters city.
+          - name: stalp
+            description: Two-letter state code for the headquarters.
+            data_tests: [not_null]
+          - name: zip
+            description: Headquarters ZIP code.
+          - name: bkclass
+            description: FDIC charter class (N, NM, SM, SB, SA).
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: [N, NM, SM, SB, SA]
+          - name: charter_type
+            description: Coarse charter type (Commercial or Savings).
+          - name: estymd
+            description: Date the institution was established.
+          - name: dateupdt
+            description: As-of date for the financial fields.
+          - name: asset
+            description: Total assets in $ thousands.
+          - name: dep
+            description: Total deposits in $ thousands.
+          - name: eq
+            description: Total equity capital in $ thousands.
+          - name: netinc
+            description: Net income for the most recent fiscal year in $ thousands.
+          - name: roa
+            description: Return on assets, percent.
+          - name: roe
+            description: Return on equity, percent.
+          - name: regagnt
+            description: Primary federal regulator (OCC, FDIC, FRB).
+
+      - name: fdic_summary_of_deposits
+        identifier: FDIC_SUMMARY_OF_DEPOSITS
+        description: |
+          FDIC Summary of Deposits — branch-level deposit balances.
+          Annual June 30 snapshot from the public SOD download.
+        columns:
+          - name: year
+            description: Survey year (June 30 snapshot).
+            data_tests: [not_null]
+          - name: cert
+            description: FDIC certificate number of the parent institution.
+            data_tests: [not_null]
+          - name: namefull
+            description: Parent institution name.
+          - name: branname
+            description: Branch name.
+          - name: address
+            description: Branch street address.
+          - name: city
+            description: Branch city.
+          - name: stalp
+            description: Branch state.
+            data_tests: [not_null]
+          - name: zipbr
+            description: Branch ZIP code.
+          - name: depsumbr
+            description: Branch deposits in $ thousands.
+          - name: bkclass
+            description: FDIC charter class of the parent.
+          - name: bkmo
+            description: Main-office flag (Y / N).
+          - name: uninumbr
+            description: Unique branch identifier — primary key for SOD.
+            data_tests: [not_null]

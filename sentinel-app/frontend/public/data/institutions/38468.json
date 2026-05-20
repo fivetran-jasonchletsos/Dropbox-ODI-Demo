@@ -1,0 +1,120 @@
+{
+  "cert_id": "38468",
+  "name": "Liberty Republic",
+  "city": "Paterson",
+  "state": "NJ",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.09,
+  "branches": 4,
+  "established_year": 1933,
+  "risk_score": 51,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.71,
+  "net_charge_off_ratio_pct": 1.31,
+  "return_on_assets_pct": 0.47,
+  "branches_by_state": [
+    {
+      "state": "NJ",
+      "count": 3,
+      "deposits_b": 0.062
+    },
+    {
+      "state": "MI",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "WY",
+      "count": 1,
+      "deposits_b": 0.01
+    },
+    {
+      "state": "NY",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "KY",
+      "count": -2,
+      "deposits_b": 0.007
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Pacific & Founders Trust",
+      "close_date": "2014-12-14",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "First & United Trust",
+      "close_date": "2012-11-14",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "New Jersey National Bank",
+      "close_date": "2012-06-19",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Beacon & Heritage Trust",
+      "close_date": "2011-08-04",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.086,
+      "npl_ratio": 1.34,
+      "capital_ratio": 13.76
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.09,
+      "npl_ratio": 1.38,
+      "capital_ratio": 13.36
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.09,
+      "npl_ratio": 1.37,
+      "capital_ratio": 13.56
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 1.35,
+      "capital_ratio": 13.9
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 1.35,
+      "capital_ratio": 13.95
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.094,
+      "npl_ratio": 1.47,
+      "capital_ratio": 13.71
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 1.49,
+      "capital_ratio": 13.42
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.095,
+      "npl_ratio": 1.45,
+      "capital_ratio": 13.58
+    }
+  ],
+  "ai_summary": "Liberty Republic (Paterson, NJ) holds $0.09B in deposits across 4 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.71% and ROA of 0.47% benchmark this institution against <100M peers."
+}

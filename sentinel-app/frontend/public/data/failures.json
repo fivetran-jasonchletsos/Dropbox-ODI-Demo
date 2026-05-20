@@ -1,0 +1,5522 @@
+[
+  {
+    "cert_id": "59168",
+    "name": "Liberty Trust Bank",
+    "city": "Bridgeport",
+    "state": "SD",
+    "close_date": "2025-12-06",
+    "fund": "DIF",
+    "acquirer": "Atlantic Savings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "30313",
+    "name": "River Republic Bank",
+    "city": "Lakeside",
+    "state": "DE",
+    "close_date": "2024-11-12",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "64080",
+    "name": "Republic First Bank",
+    "city": "Philadelphia",
+    "state": "PA",
+    "close_date": "2024-04-26",
+    "fund": "DIF",
+    "acquirer": "Fulton Bank, N.A.",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "75670",
+    "name": "Virginia Heritage Bank",
+    "city": "Alexandria",
+    "state": "VA",
+    "close_date": "2024-02-11",
+    "fund": "DIF",
+    "acquirer": "Mercantile Mutual Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "53027",
+    "name": "Alaska Sterling Bank",
+    "city": "Clinton",
+    "state": "AK",
+    "close_date": "2023-12-03",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "88772",
+    "name": "Heartland Tri-State Bank",
+    "city": "Elkhart",
+    "state": "KS",
+    "close_date": "2023-07-28",
+    "fund": "DIF",
+    "acquirer": "Dream First Bank, N.A.",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "72002",
+    "name": "Harbor Bank of Vermont",
+    "city": "Clinton",
+    "state": "VT",
+    "close_date": "2023-05-22",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "36217",
+    "name": "First Republic Bank",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2023-05-01",
+    "fund": "DIF",
+    "acquirer": "JPMorgan Chase Bank, N.A.",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "46161",
+    "name": "Signature Bank",
+    "city": "New York",
+    "state": "NY",
+    "close_date": "2023-03-12",
+    "fund": "DIF",
+    "acquirer": "Flagstar Bank, N.A.",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "40639",
+    "name": "Silicon Valley Bank",
+    "city": "Santa Clara",
+    "state": "CA",
+    "close_date": "2023-03-10",
+    "fund": "DIF",
+    "acquirer": "First-Citizens Bank & Trust Company",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "61304",
+    "name": "Silvergate Bank",
+    "city": "La Jolla",
+    "state": "CA",
+    "close_date": "2023-03-08",
+    "fund": "DIF",
+    "acquirer": "Voluntary liquidation",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "52995",
+    "name": "Heritage Partners Bank",
+    "city": "Cincinnati",
+    "state": "OH",
+    "close_date": "2023-01-15",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of Ohio",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "68252",
+    "name": "Midwest Bank of California",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2020-08-07",
+    "fund": "DIF",
+    "acquirer": "River Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "67306",
+    "name": "Independence & Prairie Bank",
+    "city": "Clinton",
+    "state": "AK",
+    "close_date": "2020-07-25",
+    "fund": "DIF",
+    "acquirer": "Alaska First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "55079",
+    "name": "Beacon Banking Bank",
+    "city": "Franklin",
+    "state": "AR",
+    "close_date": "2020-07-18",
+    "fund": "DIF",
+    "acquirer": "Arkansas First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "93650",
+    "name": "Beacon Bank of Minnesota",
+    "city": "Greenfield",
+    "state": "MN",
+    "close_date": "2020-01-25",
+    "fund": "DIF",
+    "acquirer": "Founders Federal Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "62346",
+    "name": "Valley Exchange Bank",
+    "city": "Rockford",
+    "state": "IL",
+    "close_date": "2019-11-10",
+    "fund": "DIF",
+    "acquirer": "First Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "48238",
+    "name": "Citizens State Bank",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2019-09-18",
+    "fund": "DIF",
+    "acquirer": "Independence & Sterling Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47434",
+    "name": "Independence State Bank",
+    "city": "Toledo",
+    "state": "OH",
+    "close_date": "2019-09-08",
+    "fund": "DIF",
+    "acquirer": "Sentinel Bank of Ohio",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "67076",
+    "name": "Lake State",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2019-03-13",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of Texas",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "57536",
+    "name": "Patriot State Bank",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2017-12-27",
+    "fund": "DIF",
+    "acquirer": "Midwest Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "80883",
+    "name": "Capital Banking",
+    "city": "Greenfield",
+    "state": "KS",
+    "close_date": "2017-12-26",
+    "fund": "DIF",
+    "acquirer": "Capital Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "74200",
+    "name": "Montana First Bank",
+    "city": "Lakeside",
+    "state": "MT",
+    "close_date": "2017-10-15",
+    "fund": "DIF",
+    "acquirer": "Montana Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "33277",
+    "name": "Valley Bank of Texas",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2017-07-15",
+    "fund": "DIF",
+    "acquirer": "River Commerce Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47846",
+    "name": "Capital Federal",
+    "city": "Warren",
+    "state": "MI",
+    "close_date": "2017-07-12",
+    "fund": "DIF",
+    "acquirer": "Mercantile State",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "84304",
+    "name": "Ohio First Bank",
+    "city": "Cincinnati",
+    "state": "OH",
+    "close_date": "2017-07-06",
+    "fund": "DIF",
+    "acquirer": "Patriot & River Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "38325",
+    "name": "Sentinel Bank of Colorado",
+    "city": "Fairview",
+    "state": "CO",
+    "close_date": "2017-03-26",
+    "fund": "DIF",
+    "acquirer": "Midwest National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "76344",
+    "name": "Patriot Bank of Louisiana",
+    "city": "Lakeside",
+    "state": "LA",
+    "close_date": "2017-02-13",
+    "fund": "DIF",
+    "acquirer": "Mountain Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "15169",
+    "name": "Independence Holdings Bank",
+    "city": "Franklin",
+    "state": "AK",
+    "close_date": "2016-12-09",
+    "fund": "DIF",
+    "acquirer": "Lake National",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "71729",
+    "name": "Texas National Bank",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2016-08-12",
+    "fund": "DIF",
+    "acquirer": "Beacon Group",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "77702",
+    "name": "Midwest Bank of Minnesota",
+    "city": "Lakeside",
+    "state": "MN",
+    "close_date": "2016-06-11",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "37278",
+    "name": "Prairie Community Bank",
+    "city": "Fairview",
+    "state": "WY",
+    "close_date": "2016-05-24",
+    "fund": "DIF",
+    "acquirer": "River & Capital Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "44781",
+    "name": "Valley & Pinnacle Trust",
+    "city": "Franklin",
+    "state": "ID",
+    "close_date": "2016-01-18",
+    "fund": "DIF",
+    "acquirer": "Citizens National Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "38307",
+    "name": "Commonwealth Federal",
+    "city": "Raleigh",
+    "state": "NC",
+    "close_date": "2015-12-06",
+    "fund": "DIF",
+    "acquirer": "North Carolina Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "49878",
+    "name": "California Sterling Bank",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2015-11-26",
+    "fund": "DIF",
+    "acquirer": "California First Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "36951",
+    "name": "Midwest Holdings Bank",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2015-11-12",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "54731",
+    "name": "Sterling Community",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2015-06-17",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "68310",
+    "name": "Summit Republic",
+    "city": "Plainview",
+    "state": "RI",
+    "close_date": "2015-06-04",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of Rhode Island",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "72167",
+    "name": "Independence & Citizens Trust",
+    "city": "Bellevue",
+    "state": "WA",
+    "close_date": "2015-04-28",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of Washington",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "50232",
+    "name": "Midwest Bank of New Mexico",
+    "city": "Franklin",
+    "state": "NM",
+    "close_date": "2015-03-26",
+    "fund": "DIF",
+    "acquirer": "New Mexico Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "43177",
+    "name": "Patriot & Mountain Savings",
+    "city": "Durham",
+    "state": "NC",
+    "close_date": "2015-02-22",
+    "fund": "DIF",
+    "acquirer": "Plains Holdings Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "69433",
+    "name": "United & Cardinal Trust",
+    "city": "Plainview",
+    "state": "MD",
+    "close_date": "2014-12-25",
+    "fund": "DIF",
+    "acquirer": "Pinnacle State Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "80742",
+    "name": "Pacific & Founders Trust",
+    "city": "Newark",
+    "state": "NJ",
+    "close_date": "2014-12-14",
+    "fund": "DIF",
+    "acquirer": "New Jersey First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "39551",
+    "name": "Kentucky National Bank",
+    "city": "Franklin",
+    "state": "KY",
+    "close_date": "2014-12-08",
+    "fund": "DIF",
+    "acquirer": "Midwest Group",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "25020",
+    "name": "Heritage Bank of North Carolina",
+    "city": "Raleigh",
+    "state": "NC",
+    "close_date": "2014-12-04",
+    "fund": "DIF",
+    "acquirer": "Mercantile Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "92581",
+    "name": "Texas Sterling Bank",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2014-11-14",
+    "fund": "DIF",
+    "acquirer": "Liberty Bank of Texas",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "85170",
+    "name": "Heritage Bank",
+    "city": "Tinley Park",
+    "state": "IL",
+    "close_date": "2014-11-07",
+    "fund": "DIF",
+    "acquirer": "MB Financial Bank, N.A.",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "17884",
+    "name": "Pinnacle Holdings Bank",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2014-10-16",
+    "fund": "DIF",
+    "acquirer": "Cardinal & Mountain Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "53825",
+    "name": "Capital Bank of Missouri",
+    "city": "Greenfield",
+    "state": "MO",
+    "close_date": "2014-10-11",
+    "fund": "DIF",
+    "acquirer": "River Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "62812",
+    "name": "First Bank of Illinois",
+    "city": "Naperville",
+    "state": "IL",
+    "close_date": "2014-10-08",
+    "fund": "DIF",
+    "acquirer": "Valley Republic Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "71253",
+    "name": "Lake Bank of New York",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2014-09-26",
+    "fund": "DIF",
+    "acquirer": "Heritage National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "88691",
+    "name": "Capital Bank of New York",
+    "city": "Buffalo",
+    "state": "NY",
+    "close_date": "2014-08-12",
+    "fund": "DIF",
+    "acquirer": "First & Independence Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "10372",
+    "name": "Heritage Bank of Florida",
+    "city": "Lutz",
+    "state": "FL",
+    "close_date": "2014-06-06",
+    "fund": "DIF",
+    "acquirer": "Centennial Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "85945",
+    "name": "Founders Banking",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2014-05-11",
+    "fund": "DIF",
+    "acquirer": "River Bank of Texas",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "51532",
+    "name": "Liberty Commerce",
+    "city": "Plainview",
+    "state": "UT",
+    "close_date": "2014-04-24",
+    "fund": "DIF",
+    "acquirer": "Utah Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "99906",
+    "name": "Liberty Bank of New York",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2014-04-10",
+    "fund": "DIF",
+    "acquirer": "Mountain Bank of New York",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "40385",
+    "name": "California Heritage Bank",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2014-03-15",
+    "fund": "DIF",
+    "acquirer": "California Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "11637",
+    "name": "Patriot Bank of Oregon",
+    "city": "Clinton",
+    "state": "OR",
+    "close_date": "2014-02-17",
+    "fund": "DIF",
+    "acquirer": "Liberty & Pinnacle Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "47165",
+    "name": "Commonwealth Bank of Ohio",
+    "city": "Dayton",
+    "state": "OH",
+    "close_date": "2014-02-10",
+    "fund": "DIF",
+    "acquirer": "Ohio National Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "44843",
+    "name": "Liberty Community",
+    "city": "Bridgeport",
+    "state": "IN",
+    "close_date": "2014-01-16",
+    "fund": "DIF",
+    "acquirer": "Founders Bank of Indiana",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "69137",
+    "name": "Frontier Savings",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2014-01-06",
+    "fund": "DIF",
+    "acquirer": "New York Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "47217",
+    "name": "Beacon Financial",
+    "city": "Madison",
+    "state": "WY",
+    "close_date": "2013-11-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "76775",
+    "name": "Plains Trust",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2013-11-05",
+    "fund": "DIF",
+    "acquirer": "Heritage Community",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "73942",
+    "name": "Citizens & United Savings",
+    "city": "Bridgeport",
+    "state": "DC",
+    "close_date": "2013-09-02",
+    "fund": "DIF",
+    "acquirer": "Beacon & Plains Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "83917",
+    "name": "Illinois Pinnacle Bank",
+    "city": "Springfield",
+    "state": "IL",
+    "close_date": "2013-08-26",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "93995",
+    "name": "Frontier Group",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2013-07-22",
+    "fund": "DIF",
+    "acquirer": "Heritage & Sterling Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "33524",
+    "name": "Pinnacle Community Bank",
+    "city": "Allentown",
+    "state": "PA",
+    "close_date": "2013-07-17",
+    "fund": "DIF",
+    "acquirer": "Pennsylvania Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "85456",
+    "name": "Texas Sterling Bank",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2013-06-28",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "70710",
+    "name": "Capital Bank of Texas",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2013-06-09",
+    "fund": "DIF",
+    "acquirer": "Mountain Commerce",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "46838",
+    "name": "Patriot Federal Bank",
+    "city": "Clinton",
+    "state": "TN",
+    "close_date": "2013-05-16",
+    "fund": "DIF",
+    "acquirer": "Midwest & Founders Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "60061",
+    "name": "Midwest Commerce",
+    "city": "Bridgeport",
+    "state": "DC",
+    "close_date": "2013-05-04",
+    "fund": "DIF",
+    "acquirer": "Liberty Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "36313",
+    "name": "Heritage Bank of Vermont",
+    "city": "Lakeside",
+    "state": "VT",
+    "close_date": "2013-04-25",
+    "fund": "DIF",
+    "acquirer": "Capital Bank of Vermont",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "67278",
+    "name": "California First Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2013-04-24",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "34593",
+    "name": "Illinois National Bank",
+    "city": "Chicago",
+    "state": "IL",
+    "close_date": "2013-04-15",
+    "fund": "DIF",
+    "acquirer": "Illinois First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "62736",
+    "name": "Harbor & Heritage Trust",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2013-04-12",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of California",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "95593",
+    "name": "Prairie & Cardinal Savings",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2013-04-07",
+    "fund": "DIF",
+    "acquirer": "New York First Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "28444",
+    "name": "Virginia Heritage Bank",
+    "city": "Norfolk",
+    "state": "VA",
+    "close_date": "2013-03-27",
+    "fund": "DIF",
+    "acquirer": "United Bank of Virginia",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "15001",
+    "name": "Harbor Bank of Florida",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2013-03-26",
+    "fund": "DIF",
+    "acquirer": "Plains Bank of Florida",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "58727",
+    "name": "Illinois Pinnacle Bank",
+    "city": "Peoria",
+    "state": "IL",
+    "close_date": "2013-03-25",
+    "fund": "DIF",
+    "acquirer": "United & Lake Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "93161",
+    "name": "First Trust",
+    "city": "Springfield",
+    "state": "IL",
+    "close_date": "2013-03-15",
+    "fund": "DIF",
+    "acquirer": "Illinois Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "37628",
+    "name": "Patriot & Summit Savings",
+    "city": "Naperville",
+    "state": "IL",
+    "close_date": "2013-02-23",
+    "fund": "DIF",
+    "acquirer": "Pacific Mutual Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "36096",
+    "name": "Capital & Atlantic Bank",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2013-02-12",
+    "fund": "DIF",
+    "acquirer": "Texas First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "71346",
+    "name": "Pinnacle Holdings Bank",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2013-02-04",
+    "fund": "DIF",
+    "acquirer": "Summit Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "47490",
+    "name": "Heritage & Founders Trust",
+    "city": "Fairview",
+    "state": "MS",
+    "close_date": "2013-01-11",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "55405",
+    "name": "Founders Banking",
+    "city": "Fort Worth",
+    "state": "TX",
+    "close_date": "2013-01-07",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "90178",
+    "name": "Louisiana National Bank",
+    "city": "Franklin",
+    "state": "LA",
+    "close_date": "2012-12-28",
+    "fund": "DIF",
+    "acquirer": "Mountain & Prairie Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "17124",
+    "name": "United Federal Bank",
+    "city": "Boston",
+    "state": "MA",
+    "close_date": "2012-12-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "45226",
+    "name": "Citizens Republic Bank",
+    "city": "Franklin",
+    "state": "ME",
+    "close_date": "2012-12-18",
+    "fund": "DIF",
+    "acquirer": "First Republic Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "10481",
+    "name": "Cardinal & Independence Trust",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2012-12-17",
+    "fund": "DIF",
+    "acquirer": "North Carolina National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "75324",
+    "name": "Harbor Bank of North Carolina",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2012-12-11",
+    "fund": "DIF",
+    "acquirer": "North Carolina Heritage Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "86800",
+    "name": "Midwest Trust Bank",
+    "city": "Lakeside",
+    "state": "NM",
+    "close_date": "2012-12-04",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "63153",
+    "name": "Lake Partners",
+    "city": "Riverside",
+    "state": "AK",
+    "close_date": "2012-12-04",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "60930",
+    "name": "Commonwealth Trust Bank",
+    "city": "Riverside",
+    "state": "CO",
+    "close_date": "2012-12-02",
+    "fund": "DIF",
+    "acquirer": "Colorado Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "18749",
+    "name": "United Bank of New Mexico",
+    "city": "Lakeside",
+    "state": "NM",
+    "close_date": "2012-11-23",
+    "fund": "DIF",
+    "acquirer": "United State Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "58655",
+    "name": "First & United Trust",
+    "city": "Paterson",
+    "state": "NJ",
+    "close_date": "2012-11-14",
+    "fund": "DIF",
+    "acquirer": "New Jersey Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "26959",
+    "name": "Mountain & Founders Bank",
+    "city": "Madison",
+    "state": "PR",
+    "close_date": "2012-11-06",
+    "fund": "DIF",
+    "acquirer": "United Holdings Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "60655",
+    "name": "United & Cornerstone Savings",
+    "city": "Seattle",
+    "state": "WA",
+    "close_date": "2012-11-05",
+    "fund": "DIF",
+    "acquirer": "Washington First Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "78248",
+    "name": "First & First Trust",
+    "city": "Macon",
+    "state": "GA",
+    "close_date": "2012-10-27",
+    "fund": "DIF",
+    "acquirer": "Founders State Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "41601",
+    "name": "Mountain & Founders Savings",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2012-10-26",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "36447",
+    "name": "South Carolina Pinnacle Bank",
+    "city": "Riverside",
+    "state": "SC",
+    "close_date": "2012-10-16",
+    "fund": "DIF",
+    "acquirer": "Lake Exchange",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "24061",
+    "name": "Wisconsin Sterling Bank",
+    "city": "Plainview",
+    "state": "WI",
+    "close_date": "2012-10-05",
+    "fund": "DIF",
+    "acquirer": "Coastal Group Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "28216",
+    "name": "Summit Group",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2012-09-19",
+    "fund": "DIF",
+    "acquirer": "New York National Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "15678",
+    "name": "United Community",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2012-09-08",
+    "fund": "DIF",
+    "acquirer": "River Bank of New York",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "44764",
+    "name": "Frontier & Summit Trust",
+    "city": "Lakeside",
+    "state": "AK",
+    "close_date": "2012-08-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "75730",
+    "name": "Heritage & Patriot Trust",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2012-08-25",
+    "fund": "DIF",
+    "acquirer": "Beacon Bank of California",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "19766",
+    "name": "Capital Holdings",
+    "city": "Durham",
+    "state": "NC",
+    "close_date": "2012-08-20",
+    "fund": "DIF",
+    "acquirer": "Heritage National",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "20438",
+    "name": "Harbor Community",
+    "city": "Bridgeport",
+    "state": "AR",
+    "close_date": "2012-08-14",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "24190",
+    "name": "River Savings Bank",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2012-08-09",
+    "fund": "DIF",
+    "acquirer": "Citizens Mutual",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "34514",
+    "name": "Beacon Financial",
+    "city": "Fairview",
+    "state": "MD",
+    "close_date": "2012-08-09",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Bank of Maryland",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "14863",
+    "name": "Summit Trust Bank",
+    "city": "Macon",
+    "state": "GA",
+    "close_date": "2012-07-18",
+    "fund": "DIF",
+    "acquirer": "Liberty Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "64331",
+    "name": "California National Bank",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2012-07-12",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of California",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "72919",
+    "name": "First Bank of North Carolina",
+    "city": "Raleigh",
+    "state": "NC",
+    "close_date": "2012-07-07",
+    "fund": "DIF",
+    "acquirer": "Mercantile Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "12958",
+    "name": "Frontier & Midwest Trust",
+    "city": "Bridgeport",
+    "state": "MT",
+    "close_date": "2012-06-28",
+    "fund": "DIF",
+    "acquirer": "Summit & Cornerstone Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "28439",
+    "name": "Cardinal Banking",
+    "city": "Kent",
+    "state": "WA",
+    "close_date": "2012-06-28",
+    "fund": "DIF",
+    "acquirer": "Valley & United Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "24317",
+    "name": "Pinnacle & Sterling Bank",
+    "city": "Columbus",
+    "state": "GA",
+    "close_date": "2012-06-25",
+    "fund": "DIF",
+    "acquirer": "Harbor & Patriot Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "69219",
+    "name": "Mountain Group",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2012-06-21",
+    "fund": "DIF",
+    "acquirer": "Liberty Bank of Texas",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "37234",
+    "name": "New Jersey National Bank",
+    "city": "Jersey City",
+    "state": "NJ",
+    "close_date": "2012-06-19",
+    "fund": "DIF",
+    "acquirer": "Independence Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "36471",
+    "name": "Beacon & Mercantile Savings",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2012-06-17",
+    "fund": "DIF",
+    "acquirer": "Independence Republic Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "72623",
+    "name": "California Sterling Bank",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2012-06-06",
+    "fund": "DIF",
+    "acquirer": "First Holdings Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "33611",
+    "name": "Mountain National Bank",
+    "city": "Savannah",
+    "state": "GA",
+    "close_date": "2012-06-06",
+    "fund": "DIF",
+    "acquirer": "Georgia Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "60010",
+    "name": "Capital Republic Bank",
+    "city": "Fairview",
+    "state": "VT",
+    "close_date": "2012-05-25",
+    "fund": "DIF",
+    "acquirer": "Harbor Exchange Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "19205",
+    "name": "Coastal Partners",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2012-05-10",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "97963",
+    "name": "California National Bank",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2012-04-27",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47971",
+    "name": "Pacific & Lake Savings",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2012-04-22",
+    "fund": "DIF",
+    "acquirer": "Beacon Savings Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "34537",
+    "name": "Beacon & United Trust",
+    "city": "Cleveland",
+    "state": "OH",
+    "close_date": "2012-04-04",
+    "fund": "DIF",
+    "acquirer": "Independence Bank of Ohio",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "62994",
+    "name": "Illinois National Bank",
+    "city": "Peoria",
+    "state": "IL",
+    "close_date": "2012-03-27",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Financial",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "46366",
+    "name": "Mercantile & Beacon Savings",
+    "city": "Madison",
+    "state": "WY",
+    "close_date": "2012-03-18",
+    "fund": "DIF",
+    "acquirer": "Atlantic Bank of Wyoming",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "31739",
+    "name": "Capital Bank of California",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2012-03-14",
+    "fund": "DIF",
+    "acquirer": "Heritage Bank of California",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "64377",
+    "name": "Coastal Bank of New York",
+    "city": "New York",
+    "state": "NY",
+    "close_date": "2012-02-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "68995",
+    "name": "Independence National Bank",
+    "city": "New York",
+    "state": "NY",
+    "close_date": "2012-02-20",
+    "fund": "DIF",
+    "acquirer": "Heritage Bank of New York",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "55085",
+    "name": "Lake & First Bank",
+    "city": "Springfield",
+    "state": "MD",
+    "close_date": "2012-02-15",
+    "fund": "DIF",
+    "acquirer": "Independence Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "88820",
+    "name": "Valley Bank of Kentucky",
+    "city": "Bridgeport",
+    "state": "KY",
+    "close_date": "2012-02-09",
+    "fund": "DIF",
+    "acquirer": "United Bank of Kentucky",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "13662",
+    "name": "Midwest State Bank",
+    "city": "Worcester",
+    "state": "MA",
+    "close_date": "2012-02-07",
+    "fund": "DIF",
+    "acquirer": "River Exchange Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "65713",
+    "name": "Pacific Bank of Louisiana",
+    "city": "Lakeside",
+    "state": "LA",
+    "close_date": "2012-02-06",
+    "fund": "DIF",
+    "acquirer": "Cornerstone & Pacific Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "45746",
+    "name": "Heritage Bank of California",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2012-01-27",
+    "fund": "DIF",
+    "acquirer": "Plains Federal Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47032",
+    "name": "Patriot Partners",
+    "city": "Greenfield",
+    "state": "SC",
+    "close_date": "2012-01-04",
+    "fund": "DIF",
+    "acquirer": "South Carolina National Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "47935",
+    "name": "Pinnacle & Harbor Savings",
+    "city": "Riverside",
+    "state": "IA",
+    "close_date": "2011-12-26",
+    "fund": "DIF",
+    "acquirer": "Cardinal & Prairie Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "17187",
+    "name": "Prairie Federal",
+    "city": "Albany",
+    "state": "NY",
+    "close_date": "2011-12-24",
+    "fund": "DIF",
+    "acquirer": "New York Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "54736",
+    "name": "Pacific & Atlantic Savings",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2011-12-13",
+    "fund": "DIF",
+    "acquirer": "Citizens Bank of California",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "70858",
+    "name": "Cornerstone Bank of North Carolina",
+    "city": "Durham",
+    "state": "NC",
+    "close_date": "2011-12-13",
+    "fund": "DIF",
+    "acquirer": "Founders & Capital Trust",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "70968",
+    "name": "North Carolina Pinnacle Bank",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2011-12-11",
+    "fund": "DIF",
+    "acquirer": "Sterling Mutual",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "50504",
+    "name": "Pinnacle Bank of Florida",
+    "city": "Jacksonville",
+    "state": "FL",
+    "close_date": "2011-12-09",
+    "fund": "DIF",
+    "acquirer": "Summit Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "76562",
+    "name": "Summit Bank of Texas",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2011-12-09",
+    "fund": "DIF",
+    "acquirer": "Citizens Bank of Texas",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "57472",
+    "name": "Cornerstone & Midwest Savings",
+    "city": "Plainview",
+    "state": "AL",
+    "close_date": "2011-12-08",
+    "fund": "DIF",
+    "acquirer": "Pinnacle & Pinnacle Savings",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "44172",
+    "name": "Virginia Heritage Bank",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "close_date": "2011-12-08",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "44728",
+    "name": "Patriot National Bank",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2011-11-26",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Trust Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "18776",
+    "name": "Commonwealth National Bank",
+    "city": "Buffalo",
+    "state": "NY",
+    "close_date": "2011-11-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "11760",
+    "name": "Coastal & Founders Savings",
+    "city": "Rockford",
+    "state": "IL",
+    "close_date": "2011-11-20",
+    "fund": "DIF",
+    "acquirer": "Beacon Bank of Illinois",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "42184",
+    "name": "Cornerstone State",
+    "city": "Warren",
+    "state": "MI",
+    "close_date": "2011-11-20",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Holdings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "25352",
+    "name": "Cardinal Commerce Bank",
+    "city": "Springfield",
+    "state": "KY",
+    "close_date": "2011-11-14",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Group Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "47688",
+    "name": "Coastal Mutual Bank",
+    "city": "Spokane",
+    "state": "WA",
+    "close_date": "2011-11-07",
+    "fund": "DIF",
+    "acquirer": "Plains & Pinnacle Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "63054",
+    "name": "Independence Commerce",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "close_date": "2011-11-03",
+    "fund": "DIF",
+    "acquirer": "Harbor Federal",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "71940",
+    "name": "New York Sterling Bank",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2011-10-25",
+    "fund": "DIF",
+    "acquirer": "New York Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "94426",
+    "name": "Heritage Mutual",
+    "city": "Greenfield",
+    "state": "NV",
+    "close_date": "2011-10-14",
+    "fund": "DIF",
+    "acquirer": "Coastal Bank of Nevada",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "54006",
+    "name": "Lake Bank of California",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2011-10-14",
+    "fund": "DIF",
+    "acquirer": "Cardinal Republic",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "27481",
+    "name": "Heritage Bank of Connecticut",
+    "city": "Clinton",
+    "state": "CT",
+    "close_date": "2011-10-11",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of Connecticut",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "26691",
+    "name": "Texas First Bank",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2011-10-07",
+    "fund": "DIF",
+    "acquirer": "First & Prairie Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "28302",
+    "name": "California National Bank",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2011-10-07",
+    "fund": "DIF",
+    "acquirer": "Atlantic & Valley Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "89329",
+    "name": "Valley Bank of Wyoming",
+    "city": "Bridgeport",
+    "state": "WY",
+    "close_date": "2011-10-06",
+    "fund": "DIF",
+    "acquirer": "Wyoming Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "39312",
+    "name": "New York Pinnacle Bank",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2011-10-06",
+    "fund": "DIF",
+    "acquirer": "Independence Holdings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "97609",
+    "name": "New York Heritage Bank",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2011-10-02",
+    "fund": "DIF",
+    "acquirer": "Independence Bank of New York",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "45736",
+    "name": "California Pinnacle Bank",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2011-10-01",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "51353",
+    "name": "Frontier & Sterling Trust",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2011-09-28",
+    "fund": "DIF",
+    "acquirer": "Florida Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "50708",
+    "name": "River & Atlantic Trust",
+    "city": "Madison",
+    "state": "CO",
+    "close_date": "2011-09-24",
+    "fund": "DIF",
+    "acquirer": "Midwest Republic",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "89552",
+    "name": "Sterling Holdings Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2011-09-22",
+    "fund": "DIF",
+    "acquirer": "California Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "18166",
+    "name": "Summit Holdings Bank",
+    "city": "Plainview",
+    "state": "KS",
+    "close_date": "2011-09-18",
+    "fund": "DIF",
+    "acquirer": "Heritage & Pinnacle Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "73632",
+    "name": "First & Commonwealth Trust",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2011-09-17",
+    "fund": "DIF",
+    "acquirer": "Cardinal Bank of California",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47721",
+    "name": "Illinois Heritage Bank",
+    "city": "Aurora",
+    "state": "IL",
+    "close_date": "2011-09-15",
+    "fund": "DIF",
+    "acquirer": "First & Harbor Trust",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "57658",
+    "name": "Cardinal Federal",
+    "city": "Lakeside",
+    "state": "IA",
+    "close_date": "2011-09-03",
+    "fund": "DIF",
+    "acquirer": "Harbor & Frontier Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "38142",
+    "name": "Ohio Pinnacle Bank",
+    "city": "Dayton",
+    "state": "OH",
+    "close_date": "2011-08-23",
+    "fund": "DIF",
+    "acquirer": "Frontier Federal",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "11244",
+    "name": "Beacon & Founders Trust",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2011-08-21",
+    "fund": "DIF",
+    "acquirer": "Florida Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "47933",
+    "name": "Heritage Holdings Bank",
+    "city": "Springfield",
+    "state": "MD",
+    "close_date": "2011-08-20",
+    "fund": "DIF",
+    "acquirer": "River & Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "55342",
+    "name": "Liberty Savings Bank",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2011-08-13",
+    "fund": "DIF",
+    "acquirer": "California First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "53005",
+    "name": "Valley & Heritage Trust",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2011-08-05",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of California",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "33917",
+    "name": "Beacon Federal",
+    "city": "Fairview",
+    "state": "WI",
+    "close_date": "2011-08-04",
+    "fund": "DIF",
+    "acquirer": "Mercantile Exchange Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "92738",
+    "name": "Beacon & Heritage Trust",
+    "city": "Paterson",
+    "state": "NJ",
+    "close_date": "2011-08-04",
+    "fund": "DIF",
+    "acquirer": "New Jersey National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "56351",
+    "name": "River Holdings Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2011-07-25",
+    "fund": "DIF",
+    "acquirer": "Cardinal Holdings Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "93218",
+    "name": "Founders Group Bank",
+    "city": "Athens",
+    "state": "GA",
+    "close_date": "2011-07-25",
+    "fund": "DIF",
+    "acquirer": "Plains Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "86821",
+    "name": "Arizona Heritage Bank",
+    "city": "Greenfield",
+    "state": "AZ",
+    "close_date": "2011-07-25",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of Arizona",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "59931",
+    "name": "Plains Bank of California",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2011-07-23",
+    "fund": "DIF",
+    "acquirer": "United Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "79926",
+    "name": "New York Heritage Bank",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2011-07-22",
+    "fund": "DIF",
+    "acquirer": "New York Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "37490",
+    "name": "Commonwealth & Capital Bank",
+    "city": "Paterson",
+    "state": "NJ",
+    "close_date": "2011-07-14",
+    "fund": "DIF",
+    "acquirer": "Plains Bank of New Jersey",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "99515",
+    "name": "Alabama Sterling Bank",
+    "city": "Fairview",
+    "state": "AL",
+    "close_date": "2011-07-10",
+    "fund": "DIF",
+    "acquirer": "Capital Banking Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "86308",
+    "name": "Summit Bank of Georgia",
+    "city": "Savannah",
+    "state": "GA",
+    "close_date": "2011-07-09",
+    "fund": "DIF",
+    "acquirer": "Citizens Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "11557",
+    "name": "Iowa Pinnacle Bank",
+    "city": "Riverside",
+    "state": "IA",
+    "close_date": "2011-07-07",
+    "fund": "DIF",
+    "acquirer": "Beacon Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "40967",
+    "name": "Plains Community",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2011-07-04",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "51769",
+    "name": "Founders Exchange Bank",
+    "city": "Athens",
+    "state": "GA",
+    "close_date": "2011-07-02",
+    "fund": "DIF",
+    "acquirer": "Independence Community Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "14812",
+    "name": "Sentinel & First Trust",
+    "city": "Springfield",
+    "state": "ND",
+    "close_date": "2011-07-01",
+    "fund": "DIF",
+    "acquirer": "Frontier Financial",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "22803",
+    "name": "Pacific & Pinnacle Trust",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2011-06-27",
+    "fund": "DIF",
+    "acquirer": "Virginia First Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "56770",
+    "name": "Commonwealth Republic Bank",
+    "city": "Jersey City",
+    "state": "NJ",
+    "close_date": "2011-06-21",
+    "fund": "DIF",
+    "acquirer": "Pacific & Capital Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "25164",
+    "name": "Plains Savings",
+    "city": "Orlando",
+    "state": "FL",
+    "close_date": "2011-06-21",
+    "fund": "DIF",
+    "acquirer": "Summit & Mercantile Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "78512",
+    "name": "Texas Heritage Bank",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2011-06-19",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "87810",
+    "name": "River National",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2011-06-13",
+    "fund": "DIF",
+    "acquirer": "Mercantile & Founders Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "99645",
+    "name": "Sentinel Holdings Bank",
+    "city": "Arlington",
+    "state": "VA",
+    "close_date": "2011-06-12",
+    "fund": "DIF",
+    "acquirer": "Sterling Financial Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "48844",
+    "name": "Beacon & Heritage Savings",
+    "city": "Columbus",
+    "state": "OH",
+    "close_date": "2011-06-11",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Bank of Ohio",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "21627",
+    "name": "Founders Financial",
+    "city": "Alexandria",
+    "state": "VA",
+    "close_date": "2011-06-04",
+    "fund": "DIF",
+    "acquirer": "Patriot Bank of Virginia",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "41869",
+    "name": "Mercantile State Bank",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2011-06-02",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "49469",
+    "name": "Pacific Banking Bank",
+    "city": "Tampa",
+    "state": "FL",
+    "close_date": "2011-05-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "13174",
+    "name": "Commonwealth Bank of Texas",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2011-05-16",
+    "fund": "DIF",
+    "acquirer": "First & Lake Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "32852",
+    "name": "Beacon National",
+    "city": "Spokane",
+    "state": "WA",
+    "close_date": "2011-05-15",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "70956",
+    "name": "Capital State Bank",
+    "city": "Philadelphia",
+    "state": "PA",
+    "close_date": "2011-05-11",
+    "fund": "DIF",
+    "acquirer": "Pennsylvania Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "55335",
+    "name": "Lake & Sterling Bank",
+    "city": "Madison",
+    "state": "AZ",
+    "close_date": "2011-05-02",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "73953",
+    "name": "Plains Bank of Washington",
+    "city": "Vancouver",
+    "state": "WA",
+    "close_date": "2011-05-02",
+    "fund": "DIF",
+    "acquirer": "Frontier Holdings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "68901",
+    "name": "Founders Commerce",
+    "city": "Clinton",
+    "state": "UT",
+    "close_date": "2011-04-23",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "94053",
+    "name": "Coastal & Lake Savings",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2011-04-21",
+    "fund": "DIF",
+    "acquirer": "Texas National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "39581",
+    "name": "New Jersey First Bank",
+    "city": "Jersey City",
+    "state": "NJ",
+    "close_date": "2011-04-21",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of New Jersey",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "22099",
+    "name": "Founders Group Bank",
+    "city": "Worcester",
+    "state": "MA",
+    "close_date": "2011-04-19",
+    "fund": "DIF",
+    "acquirer": "Citizens Commerce",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "57371",
+    "name": "Commonwealth & Coastal Trust",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2011-04-15",
+    "fund": "DIF",
+    "acquirer": "Valley Mutual",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "17459",
+    "name": "California Heritage Bank",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2011-04-14",
+    "fund": "DIF",
+    "acquirer": "Harbor Bank of California",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "56989",
+    "name": "Pinnacle Holdings",
+    "city": "Madison",
+    "state": "CO",
+    "close_date": "2011-04-03",
+    "fund": "DIF",
+    "acquirer": "Frontier National",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "68459",
+    "name": "Plains Banking",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2011-04-02",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "31717",
+    "name": "Lake & Sentinel Trust",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2011-03-26",
+    "fund": "DIF",
+    "acquirer": "Harbor Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "69359",
+    "name": "Founders Federal",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2011-03-26",
+    "fund": "DIF",
+    "acquirer": "Florida Sterling Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "96049",
+    "name": "Sterling State",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2011-03-09",
+    "fund": "DIF",
+    "acquirer": "Pacific Financial Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "20068",
+    "name": "Plains Bank of New York",
+    "city": "Buffalo",
+    "state": "NY",
+    "close_date": "2011-03-05",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Holdings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "70870",
+    "name": "Plains Financial",
+    "city": "Philadelphia",
+    "state": "PA",
+    "close_date": "2011-03-02",
+    "fund": "DIF",
+    "acquirer": "Pacific Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "25732",
+    "name": "Lake Exchange Bank",
+    "city": "Bridgeport",
+    "state": "IN",
+    "close_date": "2011-02-25",
+    "fund": "DIF",
+    "acquirer": "Atlantic & Mercantile Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "95606",
+    "name": "Pacific Mutual",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2011-02-25",
+    "fund": "DIF",
+    "acquirer": "Patriot Bank of New York",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "97979",
+    "name": "Harbor Bank of North Carolina",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2011-02-24",
+    "fund": "DIF",
+    "acquirer": "Atlantic Trust Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "88361",
+    "name": "Founders & Pinnacle Savings",
+    "city": "Lakeside",
+    "state": "ID",
+    "close_date": "2011-02-18",
+    "fund": "DIF",
+    "acquirer": "Independence Bank of Idaho",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "81773",
+    "name": "Texas First Bank",
+    "city": "Arlington",
+    "state": "TX",
+    "close_date": "2011-02-18",
+    "fund": "DIF",
+    "acquirer": "Liberty & Independence Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "15742",
+    "name": "Michigan First Bank",
+    "city": "Lansing",
+    "state": "MI",
+    "close_date": "2011-02-11",
+    "fund": "DIF",
+    "acquirer": "Valley Banking",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "86899",
+    "name": "Commonwealth Bank of Oregon",
+    "city": "Springfield",
+    "state": "OR",
+    "close_date": "2011-02-02",
+    "fund": "DIF",
+    "acquirer": "River & United Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "35915",
+    "name": "Founders Bank of Florida",
+    "city": "Miami",
+    "state": "FL",
+    "close_date": "2011-01-22",
+    "fund": "DIF",
+    "acquirer": "Summit Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "73549",
+    "name": "Sentinel Bank of California",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2011-01-20",
+    "fund": "DIF",
+    "acquirer": "Sterling & Capital Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "69883",
+    "name": "Midwest Holdings Bank",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2011-01-20",
+    "fund": "DIF",
+    "acquirer": "Citizens Bank of Texas",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "44454",
+    "name": "Washington Heritage Bank",
+    "city": "Tacoma",
+    "state": "WA",
+    "close_date": "2011-01-09",
+    "fund": "DIF",
+    "acquirer": "Atlantic Partners Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "83580",
+    "name": "New Mexico First Bank",
+    "city": "Riverside",
+    "state": "NM",
+    "close_date": "2011-01-01",
+    "fund": "DIF",
+    "acquirer": "New Mexico Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "81087",
+    "name": "United Group Bank",
+    "city": "New York",
+    "state": "NY",
+    "close_date": "2010-12-23",
+    "fund": "DIF",
+    "acquirer": "Pacific Federal Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "38782",
+    "name": "Founders & Atlantic Bank",
+    "city": "Plainview",
+    "state": "MS",
+    "close_date": "2010-12-17",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "43146",
+    "name": "Independence & Citizens Trust",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2010-12-13",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "69801",
+    "name": "Oregon First Bank",
+    "city": "Bridgeport",
+    "state": "OR",
+    "close_date": "2010-12-12",
+    "fund": "DIF",
+    "acquirer": "Oregon Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "93016",
+    "name": "Cardinal & Capital Savings",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2010-12-11",
+    "fund": "DIF",
+    "acquirer": "River & Valley Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "18053",
+    "name": "Mountain & Cardinal Trust",
+    "city": "Riverside",
+    "state": "DC",
+    "close_date": "2010-12-10",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "45683",
+    "name": "Mercantile Bank of New Jersey",
+    "city": "Newark",
+    "state": "NJ",
+    "close_date": "2010-12-07",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of New Jersey",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "72165",
+    "name": "River Bank of Georgia",
+    "city": "Athens",
+    "state": "GA",
+    "close_date": "2010-12-04",
+    "fund": "DIF",
+    "acquirer": "Capital Bank of Georgia",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "39900",
+    "name": "First Bank of Illinois",
+    "city": "Rockford",
+    "state": "IL",
+    "close_date": "2010-12-02",
+    "fund": "DIF",
+    "acquirer": "Liberty Bank of Illinois",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "42230",
+    "name": "Lake Banking",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2010-11-23",
+    "fund": "DIF",
+    "acquirer": "Florida First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "14847",
+    "name": "Plains Bank of California",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2010-11-22",
+    "fund": "DIF",
+    "acquirer": "Harbor & Frontier Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "92327",
+    "name": "Pinnacle Federal",
+    "city": "Clinton",
+    "state": "KS",
+    "close_date": "2010-11-22",
+    "fund": "DIF",
+    "acquirer": "Pacific Bank of Kansas",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "94356",
+    "name": "Lake & Plains Bank",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2010-11-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "26618",
+    "name": "Liberty & Coastal Bank",
+    "city": "Springfield",
+    "state": "IL",
+    "close_date": "2010-11-20",
+    "fund": "DIF",
+    "acquirer": "First State",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "53720",
+    "name": "Atlantic Bank of California",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2010-11-20",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "85870",
+    "name": "District of Columbia Sterling Bank",
+    "city": "Fairview",
+    "state": "DC",
+    "close_date": "2010-11-17",
+    "fund": "DIF",
+    "acquirer": "District of Columbia Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "50760",
+    "name": "Pacific Banking",
+    "city": "Fort Worth",
+    "state": "TX",
+    "close_date": "2010-11-16",
+    "fund": "DIF",
+    "acquirer": "Summit Commerce",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "60211",
+    "name": "Cornerstone Bank of California",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2010-11-16",
+    "fund": "DIF",
+    "acquirer": "Prairie National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "11417",
+    "name": "Massachusetts First Bank",
+    "city": "Brockton",
+    "state": "MA",
+    "close_date": "2010-11-15",
+    "fund": "DIF",
+    "acquirer": "Pinnacle & Citizens Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "34496",
+    "name": "Massachusetts Sterling Bank",
+    "city": "Springfield",
+    "state": "MA",
+    "close_date": "2010-11-12",
+    "fund": "DIF",
+    "acquirer": "Liberty Financial Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "92776",
+    "name": "Frontier Federal Bank",
+    "city": "Lansing",
+    "state": "MI",
+    "close_date": "2010-11-10",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "58143",
+    "name": "Harbor National Bank",
+    "city": "Naperville",
+    "state": "IL",
+    "close_date": "2010-11-07",
+    "fund": "DIF",
+    "acquirer": "River & Capital Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "80730",
+    "name": "Cardinal Group",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2010-11-07",
+    "fund": "DIF",
+    "acquirer": "Capital & Summit Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "70083",
+    "name": "New York National Bank",
+    "city": "Albany",
+    "state": "NY",
+    "close_date": "2010-11-07",
+    "fund": "DIF",
+    "acquirer": "New York Heritage Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "78613",
+    "name": "River Holdings",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2010-11-03",
+    "fund": "DIF",
+    "acquirer": "Sentinel Mutual Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "88220",
+    "name": "Beacon Financial Bank",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "close_date": "2010-11-03",
+    "fund": "DIF",
+    "acquirer": "Atlantic Mutual Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "65189",
+    "name": "Liberty & Lake Bank",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2010-11-01",
+    "fund": "DIF",
+    "acquirer": "Virginia First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "52109",
+    "name": "Beacon & Capital Bank",
+    "city": "Augusta",
+    "state": "GA",
+    "close_date": "2010-10-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "27495",
+    "name": "Patriot & Valley Savings",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2010-10-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "16015",
+    "name": "New York National Bank",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2010-10-19",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "97195",
+    "name": "Capital & Beacon Trust",
+    "city": "Albany",
+    "state": "NY",
+    "close_date": "2010-10-19",
+    "fund": "DIF",
+    "acquirer": "New York Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "35073",
+    "name": "Frontier & Commonwealth Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2010-10-17",
+    "fund": "DIF",
+    "acquirer": "Harbor Exchange",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "58346",
+    "name": "Mercantile Bank of California",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2010-10-12",
+    "fund": "DIF",
+    "acquirer": "First Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "38483",
+    "name": "Pacific Bank of Michigan",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "close_date": "2010-10-01",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "82970",
+    "name": "Sentinel National Bank",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2010-10-01",
+    "fund": "DIF",
+    "acquirer": "United Federal",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "84502",
+    "name": "Minnesota Sterling Bank",
+    "city": "Greenfield",
+    "state": "MN",
+    "close_date": "2010-09-28",
+    "fund": "DIF",
+    "acquirer": "Mountain Bank of Minnesota",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "11786",
+    "name": "Independence Bank of Kentucky",
+    "city": "Plainview",
+    "state": "KY",
+    "close_date": "2010-09-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "60957",
+    "name": "California Heritage Bank",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2010-09-25",
+    "fund": "DIF",
+    "acquirer": "Capital Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "19641",
+    "name": "Founders & Pinnacle Bank",
+    "city": "Atlanta",
+    "state": "GA",
+    "close_date": "2010-09-23",
+    "fund": "DIF",
+    "acquirer": "Georgia Heritage Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "17901",
+    "name": "Pinnacle Exchange Bank",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2010-09-22",
+    "fund": "DIF",
+    "acquirer": "United Bank of New York",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "49896",
+    "name": "Midwest & Prairie Bank",
+    "city": "Arlington",
+    "state": "VA",
+    "close_date": "2010-09-16",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of Virginia",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "46096",
+    "name": "Midwest Commerce Bank",
+    "city": "Franklin",
+    "state": "DE",
+    "close_date": "2010-09-15",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "76863",
+    "name": "Heritage Bank of Pennsylvania",
+    "city": "Harrisburg",
+    "state": "PA",
+    "close_date": "2010-09-13",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "56246",
+    "name": "Vermont Sterling Bank",
+    "city": "Riverside",
+    "state": "VT",
+    "close_date": "2010-09-12",
+    "fund": "DIF",
+    "acquirer": "Frontier Partners",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "66363",
+    "name": "Pinnacle Community Bank",
+    "city": "Bellevue",
+    "state": "WA",
+    "close_date": "2010-09-06",
+    "fund": "DIF",
+    "acquirer": "Sterling Community Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "45555",
+    "name": "Liberty Bank of Indiana",
+    "city": "Fairview",
+    "state": "IN",
+    "close_date": "2010-09-04",
+    "fund": "DIF",
+    "acquirer": "Plains Bank of Indiana",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "16164",
+    "name": "Mercantile & Founders Bank",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2010-09-03",
+    "fund": "DIF",
+    "acquirer": "Harbor Bank of Virginia",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "70535",
+    "name": "Cardinal Holdings",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2010-09-03",
+    "fund": "DIF",
+    "acquirer": "First Republic Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "47161",
+    "name": "Plains Bank of Alabama",
+    "city": "Bridgeport",
+    "state": "AL",
+    "close_date": "2010-09-03",
+    "fund": "DIF",
+    "acquirer": "Independence Banking",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "61135",
+    "name": "Independence Partners",
+    "city": "Cleveland",
+    "state": "OH",
+    "close_date": "2010-08-28",
+    "fund": "DIF",
+    "acquirer": "United Exchange Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "74899",
+    "name": "Independence Community Bank",
+    "city": "Cincinnati",
+    "state": "OH",
+    "close_date": "2010-08-27",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "40271",
+    "name": "Atlantic & Prairie Savings",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2010-08-26",
+    "fund": "DIF",
+    "acquirer": "Summit Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "88096",
+    "name": "Capital Bank of New York",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2010-08-24",
+    "fund": "DIF",
+    "acquirer": "Frontier Group",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "85338",
+    "name": "Midwest Commerce Bank",
+    "city": "Albany",
+    "state": "NY",
+    "close_date": "2010-08-24",
+    "fund": "DIF",
+    "acquirer": "United & River Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "75607",
+    "name": "Summit Commerce Bank",
+    "city": "Allentown",
+    "state": "PA",
+    "close_date": "2010-08-21",
+    "fund": "DIF",
+    "acquirer": "Cornerstone & Patriot Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "18002",
+    "name": "Founders Bank of Wisconsin",
+    "city": "Springfield",
+    "state": "WI",
+    "close_date": "2010-08-19",
+    "fund": "DIF",
+    "acquirer": "Commonwealth & Harbor Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "54307",
+    "name": "Pinnacle State Bank",
+    "city": "Franklin",
+    "state": "RI",
+    "close_date": "2010-08-14",
+    "fund": "DIF",
+    "acquirer": "Rhode Island Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "64288",
+    "name": "Mountain Savings Bank",
+    "city": "Philadelphia",
+    "state": "PA",
+    "close_date": "2010-08-13",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of Pennsylvania",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "19718",
+    "name": "California Pinnacle Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2010-08-12",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "35107",
+    "name": "Citizens Trust Bank",
+    "city": "Riverside",
+    "state": "OR",
+    "close_date": "2010-08-11",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "80079",
+    "name": "Citizens Bank of Texas",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2010-08-08",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "42235",
+    "name": "Independence Bank of Pennsylvania",
+    "city": "Scranton",
+    "state": "PA",
+    "close_date": "2010-08-06",
+    "fund": "DIF",
+    "acquirer": "Pennsylvania National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "37517",
+    "name": "Pacific Republic Bank",
+    "city": "Bellevue",
+    "state": "WA",
+    "close_date": "2010-08-05",
+    "fund": "DIF",
+    "acquirer": "Founders Bank of Washington",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "46479",
+    "name": "Midwest & Frontier Trust",
+    "city": "Clinton",
+    "state": "IA",
+    "close_date": "2010-07-28",
+    "fund": "DIF",
+    "acquirer": "Sterling & Heritage Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "11754",
+    "name": "Illinois National Bank",
+    "city": "Aurora",
+    "state": "IL",
+    "close_date": "2010-07-22",
+    "fund": "DIF",
+    "acquirer": "United Federal Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "74229",
+    "name": "California Pinnacle Bank",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2010-07-21",
+    "fund": "DIF",
+    "acquirer": "California Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "22322",
+    "name": "Summit Republic Bank",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "close_date": "2010-07-21",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of Pennsylvania",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "99255",
+    "name": "Commonwealth Bank of Ohio",
+    "city": "Dayton",
+    "state": "OH",
+    "close_date": "2010-07-20",
+    "fund": "DIF",
+    "acquirer": "Ohio Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "77539",
+    "name": "First National Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2010-07-20",
+    "fund": "DIF",
+    "acquirer": "Texas Pinnacle Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "58416",
+    "name": "Atlantic Group",
+    "city": "Raleigh",
+    "state": "NC",
+    "close_date": "2010-07-19",
+    "fund": "DIF",
+    "acquirer": "Atlantic National",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "49691",
+    "name": "Sentinel National Bank",
+    "city": "Tampa",
+    "state": "FL",
+    "close_date": "2010-07-19",
+    "fund": "DIF",
+    "acquirer": "Citizens Bank of Florida",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "83415",
+    "name": "Frontier State",
+    "city": "Newark",
+    "state": "NJ",
+    "close_date": "2010-07-18",
+    "fund": "DIF",
+    "acquirer": "Lake Bank of New Jersey",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "37172",
+    "name": "Mountain Financial Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2010-07-16",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "32367",
+    "name": "California Pinnacle Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2010-07-09",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of California",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "91624",
+    "name": "Frontier & Pacific Savings",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2010-07-06",
+    "fund": "DIF",
+    "acquirer": "Summit & Beacon Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "61713",
+    "name": "Patriot & United Trust",
+    "city": "Lowell",
+    "state": "MA",
+    "close_date": "2010-07-06",
+    "fund": "DIF",
+    "acquirer": "Pacific Republic",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "21196",
+    "name": "Maryland National Bank",
+    "city": "Fairview",
+    "state": "MD",
+    "close_date": "2010-07-05",
+    "fund": "DIF",
+    "acquirer": "Prairie Republic",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "25498",
+    "name": "Pacific Bank of South Carolina",
+    "city": "Franklin",
+    "state": "SC",
+    "close_date": "2010-07-02",
+    "fund": "DIF",
+    "acquirer": "Cardinal Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "56496",
+    "name": "California Heritage Bank",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2010-07-02",
+    "fund": "DIF",
+    "acquirer": "First Financial",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "79358",
+    "name": "Sterling Republic",
+    "city": "Franklin",
+    "state": "WI",
+    "close_date": "2010-07-01",
+    "fund": "DIF",
+    "acquirer": "Wisconsin Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "72870",
+    "name": "West Virginia Sterling Bank",
+    "city": "Lakeside",
+    "state": "WV",
+    "close_date": "2010-06-27",
+    "fund": "DIF",
+    "acquirer": "West Virginia National Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "85931",
+    "name": "Cornerstone & Founders Bank",
+    "city": "Greenfield",
+    "state": "MD",
+    "close_date": "2010-06-25",
+    "fund": "DIF",
+    "acquirer": "Independence State",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "97085",
+    "name": "First Mutual",
+    "city": "Lakeside",
+    "state": "WI",
+    "close_date": "2010-06-25",
+    "fund": "DIF",
+    "acquirer": "Sterling Bank of Wisconsin",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "23317",
+    "name": "Atlantic Bank of Illinois",
+    "city": "Peoria",
+    "state": "IL",
+    "close_date": "2010-06-25",
+    "fund": "DIF",
+    "acquirer": "Illinois Heritage Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "73787",
+    "name": "Alabama Heritage Bank",
+    "city": "Springfield",
+    "state": "AL",
+    "close_date": "2010-06-23",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of Alabama",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "69149",
+    "name": "Colorado Pinnacle Bank",
+    "city": "Clinton",
+    "state": "CO",
+    "close_date": "2010-06-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "17860",
+    "name": "Pacific & Mercantile Savings",
+    "city": "Charlotte",
+    "state": "NC",
+    "close_date": "2010-06-21",
+    "fund": "DIF",
+    "acquirer": "Mountain Bank of North Carolina",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "98755",
+    "name": "Heritage & Liberty Bank",
+    "city": "Scranton",
+    "state": "PA",
+    "close_date": "2010-06-20",
+    "fund": "DIF",
+    "acquirer": "Pacific & Heritage Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "62619",
+    "name": "Sterling Exchange",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2010-06-19",
+    "fund": "DIF",
+    "acquirer": "Summit & First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "85345",
+    "name": "Atlantic & Pinnacle Bank",
+    "city": "Akron",
+    "state": "OH",
+    "close_date": "2010-06-09",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of Ohio",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "99558",
+    "name": "Plains Savings",
+    "city": "Durham",
+    "state": "NC",
+    "close_date": "2010-06-02",
+    "fund": "DIF",
+    "acquirer": "North Carolina Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "83163",
+    "name": "Midwest National Bank",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2010-06-01",
+    "fund": "DIF",
+    "acquirer": "Plains & Coastal Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "48142",
+    "name": "Lake Commerce",
+    "city": "Plainview",
+    "state": "ID",
+    "close_date": "2010-05-28",
+    "fund": "DIF",
+    "acquirer": "Sentinel Trust Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "82996",
+    "name": "New York Heritage Bank",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2010-05-26",
+    "fund": "DIF",
+    "acquirer": "Capital Mutual",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "45478",
+    "name": "Wisconsin Heritage Bank",
+    "city": "Madison",
+    "state": "WI",
+    "close_date": "2010-05-25",
+    "fund": "DIF",
+    "acquirer": "First Banking",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "42710",
+    "name": "Mercantile Bank of Texas",
+    "city": "Arlington",
+    "state": "TX",
+    "close_date": "2010-05-24",
+    "fund": "DIF",
+    "acquirer": "Cardinal Bank of Texas",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "56178",
+    "name": "Harbor Bank of Pennsylvania",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "close_date": "2010-05-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "21416",
+    "name": "Sterling Group",
+    "city": "Springfield",
+    "state": "AL",
+    "close_date": "2010-05-21",
+    "fund": "DIF",
+    "acquirer": "Alabama Sterling Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "55850",
+    "name": "North Carolina Sterling Bank",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "close_date": "2010-05-20",
+    "fund": "DIF",
+    "acquirer": "River Bank of North Carolina",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "76559",
+    "name": "Liberty Exchange",
+    "city": "Riverside",
+    "state": "ME",
+    "close_date": "2010-05-20",
+    "fund": "DIF",
+    "acquirer": "Maine Pinnacle Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "75243",
+    "name": "United Holdings",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "close_date": "2010-05-18",
+    "fund": "DIF",
+    "acquirer": "Lake Group",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "32915",
+    "name": "Prairie Bank of Colorado",
+    "city": "Riverside",
+    "state": "CO",
+    "close_date": "2010-05-16",
+    "fund": "DIF",
+    "acquirer": "Liberty Banking",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "88606",
+    "name": "Sterling Bank of New York",
+    "city": "New York",
+    "state": "NY",
+    "close_date": "2010-05-14",
+    "fund": "DIF",
+    "acquirer": "Pinnacle & Atlantic Trust",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "82012",
+    "name": "Sentinel & Cornerstone Trust",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2010-05-08",
+    "fund": "DIF",
+    "acquirer": "Capital Bank of North Carolina",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "95628",
+    "name": "River & Atlantic Savings",
+    "city": "Franklin",
+    "state": "CT",
+    "close_date": "2010-05-06",
+    "fund": "DIF",
+    "acquirer": "River Holdings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "73321",
+    "name": "New Hampshire First Bank",
+    "city": "Springfield",
+    "state": "NH",
+    "close_date": "2010-05-05",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "19481",
+    "name": "Prairie Bank of Kansas",
+    "city": "Lakeside",
+    "state": "KS",
+    "close_date": "2010-05-04",
+    "fund": "DIF",
+    "acquirer": "Mercantile National Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "92285",
+    "name": "Beacon Bank of Oregon",
+    "city": "Fairview",
+    "state": "OR",
+    "close_date": "2010-05-02",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "91285",
+    "name": "Virginia National Bank",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2010-04-28",
+    "fund": "DIF",
+    "acquirer": "Mountain National",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "65352",
+    "name": "Atlantic & Founders Bank",
+    "city": "Scranton",
+    "state": "PA",
+    "close_date": "2010-04-26",
+    "fund": "DIF",
+    "acquirer": "Sentinel Group",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "94909",
+    "name": "Atlantic Banking Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2010-04-25",
+    "fund": "DIF",
+    "acquirer": "Texas National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "50792",
+    "name": "Pinnacle Savings Bank",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2010-04-20",
+    "fund": "DIF",
+    "acquirer": "Liberty Holdings Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "30562",
+    "name": "Beacon Holdings Bank",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2010-04-19",
+    "fund": "DIF",
+    "acquirer": "Citizens Bank of Florida",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "83375",
+    "name": "River & First Trust",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2010-04-18",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "63651",
+    "name": "Atlantic Bank of Iowa",
+    "city": "Riverside",
+    "state": "IA",
+    "close_date": "2010-04-17",
+    "fund": "DIF",
+    "acquirer": "Capital & Mountain Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "29929",
+    "name": "Cardinal Partners",
+    "city": "Bridgeport",
+    "state": "UT",
+    "close_date": "2010-04-09",
+    "fund": "DIF",
+    "acquirer": "Mountain Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "25476",
+    "name": "Citizens Republic",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2010-04-05",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of New York",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "88350",
+    "name": "Summit Trust Bank",
+    "city": "Riverside",
+    "state": "SC",
+    "close_date": "2010-03-28",
+    "fund": "DIF",
+    "acquirer": "Cardinal Federal",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "36048",
+    "name": "Florida First Bank",
+    "city": "Miami",
+    "state": "FL",
+    "close_date": "2010-03-28",
+    "fund": "DIF",
+    "acquirer": "Coastal Trust",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "51946",
+    "name": "Cornerstone Commerce Bank",
+    "city": "Edison",
+    "state": "NJ",
+    "close_date": "2010-03-22",
+    "fund": "DIF",
+    "acquirer": "Midwest & Patriot Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "51777",
+    "name": "Lake Trust",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2010-03-21",
+    "fund": "DIF",
+    "acquirer": "Independence & Pinnacle Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "61909",
+    "name": "Liberty & First Savings",
+    "city": "Spokane",
+    "state": "WA",
+    "close_date": "2010-03-19",
+    "fund": "DIF",
+    "acquirer": "Plains Bank of Washington",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "52843",
+    "name": "Founders Community",
+    "city": "Lakeside",
+    "state": "AL",
+    "close_date": "2010-03-16",
+    "fund": "DIF",
+    "acquirer": "Coastal & First Trust",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "68284",
+    "name": "Commonwealth Bank of California",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2010-03-15",
+    "fund": "DIF",
+    "acquirer": "Prairie Bank of California",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "52369",
+    "name": "Plains Federal Bank",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2010-03-11",
+    "fund": "DIF",
+    "acquirer": "California First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "18828",
+    "name": "Sentinel & Citizens Savings",
+    "city": "Riverside",
+    "state": "ND",
+    "close_date": "2010-03-09",
+    "fund": "DIF",
+    "acquirer": "United & Pacific Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "10449",
+    "name": "Prairie Partners Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2010-03-09",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "87054",
+    "name": "Harbor & Heritage Savings",
+    "city": "Madison",
+    "state": "SD",
+    "close_date": "2010-03-05",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Banking Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "97424",
+    "name": "Cardinal Financial",
+    "city": "Madison",
+    "state": "AK",
+    "close_date": "2010-03-01",
+    "fund": "DIF",
+    "acquirer": "Alaska Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "61928",
+    "name": "Plains Bank of Texas",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2010-02-23",
+    "fund": "DIF",
+    "acquirer": "Patriot & Mountain Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "78739",
+    "name": "Patriot State Bank",
+    "city": "Madison",
+    "state": "WV",
+    "close_date": "2010-02-18",
+    "fund": "DIF",
+    "acquirer": "Valley Bank of West Virginia",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "10489",
+    "name": "Sterling Holdings Bank",
+    "city": "San Antonio",
+    "state": "TX",
+    "close_date": "2010-02-10",
+    "fund": "DIF",
+    "acquirer": "Heritage Financial Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "48668",
+    "name": "Capital Bank of Ohio",
+    "city": "Dayton",
+    "state": "OH",
+    "close_date": "2010-02-09",
+    "fund": "DIF",
+    "acquirer": "Citizens & Liberty Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "84529",
+    "name": "Capital Bank of Illinois",
+    "city": "Naperville",
+    "state": "IL",
+    "close_date": "2010-02-08",
+    "fund": "DIF",
+    "acquirer": "Plains Bank of Illinois",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "86854",
+    "name": "Maryland Sterling Bank",
+    "city": "Franklin",
+    "state": "MD",
+    "close_date": "2010-02-07",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of Maryland",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "77699",
+    "name": "Iowa Sterling Bank",
+    "city": "Franklin",
+    "state": "IA",
+    "close_date": "2010-02-07",
+    "fund": "DIF",
+    "acquirer": "Liberty & Sentinel Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "98984",
+    "name": "Commonwealth Bank of California",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2010-02-06",
+    "fund": "DIF",
+    "acquirer": "Harbor Bank of California",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "90008",
+    "name": "Prairie & Commonwealth Trust",
+    "city": "Buffalo",
+    "state": "NY",
+    "close_date": "2010-02-06",
+    "fund": "DIF",
+    "acquirer": "New York National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "53933",
+    "name": "Founders Holdings",
+    "city": "Clinton",
+    "state": "UT",
+    "close_date": "2010-02-02",
+    "fund": "DIF",
+    "acquirer": "Independence State",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "95321",
+    "name": "Cardinal Savings",
+    "city": "Madison",
+    "state": "MT",
+    "close_date": "2010-02-01",
+    "fund": "DIF",
+    "acquirer": "Plains Republic",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "99189",
+    "name": "Plains Federal Bank",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2010-02-01",
+    "fund": "DIF",
+    "acquirer": "Capital Financial",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "79871",
+    "name": "Citizens Bank of Nebraska",
+    "city": "Madison",
+    "state": "NE",
+    "close_date": "2010-01-27",
+    "fund": "DIF",
+    "acquirer": "Coastal Bank of Nebraska",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "24284",
+    "name": "Midwest State",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2010-01-25",
+    "fund": "DIF",
+    "acquirer": "Prairie Federal",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "37159",
+    "name": "Heritage Partners Bank",
+    "city": "Clinton",
+    "state": "OR",
+    "close_date": "2010-01-25",
+    "fund": "DIF",
+    "acquirer": "Oregon Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "94569",
+    "name": "Prairie Community",
+    "city": "Plainview",
+    "state": "MT",
+    "close_date": "2010-01-22",
+    "fund": "DIF",
+    "acquirer": "Montana First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "91709",
+    "name": "Lake Bank of Ohio",
+    "city": "Dayton",
+    "state": "OH",
+    "close_date": "2010-01-21",
+    "fund": "DIF",
+    "acquirer": "Ohio First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "23095",
+    "name": "Pacific Bank of Idaho",
+    "city": "Madison",
+    "state": "ID",
+    "close_date": "2010-01-19",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "76421",
+    "name": "Atlantic & River Trust",
+    "city": "Aurora",
+    "state": "IL",
+    "close_date": "2010-01-15",
+    "fund": "DIF",
+    "acquirer": "Summit Bank of Illinois",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "77548",
+    "name": "Florida Sterling Bank",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2010-01-15",
+    "fund": "DIF",
+    "acquirer": "Pinnacle & First Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "79938",
+    "name": "Cornerstone Bank of Connecticut",
+    "city": "Riverside",
+    "state": "CT",
+    "close_date": "2010-01-14",
+    "fund": "DIF",
+    "acquirer": "Heritage Bank of Connecticut",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "81577",
+    "name": "River Trust Bank",
+    "city": "Boston",
+    "state": "MA",
+    "close_date": "2010-01-11",
+    "fund": "DIF",
+    "acquirer": "First Bank of Massachusetts",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "13928",
+    "name": "New Jersey Pinnacle Bank",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "close_date": "2010-01-08",
+    "fund": "DIF",
+    "acquirer": "Patriot National Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "22381",
+    "name": "River Trust",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2010-01-06",
+    "fund": "DIF",
+    "acquirer": "Capital Bank of New York",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "96678",
+    "name": "Plains National",
+    "city": "Franklin",
+    "state": "KY",
+    "close_date": "2010-01-05",
+    "fund": "DIF",
+    "acquirer": "River Partners",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "89422",
+    "name": "Mountain & Summit Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2010-01-04",
+    "fund": "DIF",
+    "acquirer": "United Bank of Texas",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "30732",
+    "name": "River & Valley Bank",
+    "city": "Riverside",
+    "state": "AZ",
+    "close_date": "2010-01-03",
+    "fund": "DIF",
+    "acquirer": "Founders Trust Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "73384",
+    "name": "Liberty & Independence Trust",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2010-01-02",
+    "fund": "DIF",
+    "acquirer": "Beacon & Patriot Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "38174",
+    "name": "United National",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2009-12-27",
+    "fund": "DIF",
+    "acquirer": "Florida Heritage Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "33426",
+    "name": "Beacon Community",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2009-12-26",
+    "fund": "DIF",
+    "acquirer": "Frontier Community Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "79353",
+    "name": "Michigan Sterling Bank",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "close_date": "2009-12-19",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Exchange Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "41392",
+    "name": "Valley Financial",
+    "city": "Lakeside",
+    "state": "IA",
+    "close_date": "2009-12-18",
+    "fund": "DIF",
+    "acquirer": "Prairie Commerce Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "98332",
+    "name": "Summit & Atlantic Savings",
+    "city": "Greenfield",
+    "state": "OK",
+    "close_date": "2009-12-10",
+    "fund": "DIF",
+    "acquirer": "River Federal",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "71394",
+    "name": "Heritage Bank of North Carolina",
+    "city": "Charlotte",
+    "state": "NC",
+    "close_date": "2009-12-09",
+    "fund": "DIF",
+    "acquirer": "Beacon & River Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "85393",
+    "name": "Capital State",
+    "city": "Greenfield",
+    "state": "MT",
+    "close_date": "2009-12-06",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "81352",
+    "name": "North Dakota Sterling Bank",
+    "city": "Franklin",
+    "state": "ND",
+    "close_date": "2009-12-05",
+    "fund": "DIF",
+    "acquirer": "Beacon Financial Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "18837",
+    "name": "Sterling & Pacific Bank",
+    "city": "Albany",
+    "state": "NY",
+    "close_date": "2009-12-05",
+    "fund": "DIF",
+    "acquirer": "New York First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "93655",
+    "name": "Citizens Federal Bank",
+    "city": "Scranton",
+    "state": "PA",
+    "close_date": "2009-12-03",
+    "fund": "DIF",
+    "acquirer": "Liberty Bank of Pennsylvania",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "94872",
+    "name": "Beacon Bank of Texas",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2009-12-01",
+    "fund": "DIF",
+    "acquirer": "United Bank of Texas",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "94116",
+    "name": "Sentinel Federal Bank",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "close_date": "2009-11-28",
+    "fund": "DIF",
+    "acquirer": "Pennsylvania First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "81813",
+    "name": "Citizens & First Bank",
+    "city": "Riverside",
+    "state": "TN",
+    "close_date": "2009-11-26",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "99319",
+    "name": "Georgia First Bank",
+    "city": "Atlanta",
+    "state": "GA",
+    "close_date": "2009-11-25",
+    "fund": "DIF",
+    "acquirer": "Coastal & Founders Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "18520",
+    "name": "Citizens & Mountain Trust",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2009-11-24",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "49461",
+    "name": "Sterling Savings",
+    "city": "Franklin",
+    "state": "IA",
+    "close_date": "2009-11-20",
+    "fund": "DIF",
+    "acquirer": "Sentinel Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "49153",
+    "name": "Alaska Heritage Bank",
+    "city": "Bridgeport",
+    "state": "AK",
+    "close_date": "2009-11-19",
+    "fund": "DIF",
+    "acquirer": "Lake Partners",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "68402",
+    "name": "Florida Heritage Bank",
+    "city": "Orlando",
+    "state": "FL",
+    "close_date": "2009-11-08",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "62533",
+    "name": "Prairie & First Bank",
+    "city": "Brockton",
+    "state": "MA",
+    "close_date": "2009-11-03",
+    "fund": "DIF",
+    "acquirer": "Massachusetts Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "10107",
+    "name": "Plains Bank of New Jersey",
+    "city": "Jersey City",
+    "state": "NJ",
+    "close_date": "2009-10-28",
+    "fund": "DIF",
+    "acquirer": "Plains National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "96224",
+    "name": "Valley Trust",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "close_date": "2009-10-23",
+    "fund": "DIF",
+    "acquirer": "New Jersey Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "16888",
+    "name": "United & Beacon Savings",
+    "city": "Naperville",
+    "state": "IL",
+    "close_date": "2009-10-21",
+    "fund": "DIF",
+    "acquirer": "Valley National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "68639",
+    "name": "Wyoming First Bank",
+    "city": "Riverside",
+    "state": "WY",
+    "close_date": "2009-10-19",
+    "fund": "DIF",
+    "acquirer": "Wyoming Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "53978",
+    "name": "Minnesota Pinnacle Bank",
+    "city": "Franklin",
+    "state": "MN",
+    "close_date": "2009-10-19",
+    "fund": "DIF",
+    "acquirer": "Minnesota Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "37678",
+    "name": "Mercantile Holdings Bank",
+    "city": "Arlington",
+    "state": "TX",
+    "close_date": "2009-10-18",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Republic",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "68982",
+    "name": "Prairie Exchange Bank",
+    "city": "Lowell",
+    "state": "MA",
+    "close_date": "2009-10-17",
+    "fund": "DIF",
+    "acquirer": "Heritage Commerce Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "69124",
+    "name": "Heritage & Mountain Savings",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2009-10-15",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "82207",
+    "name": "Atlantic & Founders Savings",
+    "city": "Springfield",
+    "state": "NM",
+    "close_date": "2009-10-14",
+    "fund": "DIF",
+    "acquirer": "Prairie Bank of New Mexico",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "58364",
+    "name": "Florida First Bank",
+    "city": "Tampa",
+    "state": "FL",
+    "close_date": "2009-10-14",
+    "fund": "DIF",
+    "acquirer": "Florida Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "52919",
+    "name": "Commonwealth & Liberty Bank",
+    "city": "Peoria",
+    "state": "IL",
+    "close_date": "2009-10-11",
+    "fund": "DIF",
+    "acquirer": "First Banking",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "39211",
+    "name": "Harbor Commerce Bank",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2009-10-08",
+    "fund": "DIF",
+    "acquirer": "Patriot & Pacific Savings",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "27404",
+    "name": "Florida First Bank",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2009-10-08",
+    "fund": "DIF",
+    "acquirer": "Capital & Valley Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "93219",
+    "name": "Cornerstone Savings Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2009-10-05",
+    "fund": "DIF",
+    "acquirer": "Patriot Bank of California",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "82329",
+    "name": "Texas National Bank",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2009-10-02",
+    "fund": "DIF",
+    "acquirer": "Founders Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "90362",
+    "name": "Midwest Group Bank",
+    "city": "Greenfield",
+    "state": "SD",
+    "close_date": "2009-09-27",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of South Dakota",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "81644",
+    "name": "Cornerstone Bank of Texas",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2009-09-27",
+    "fund": "DIF",
+    "acquirer": "Summit & River Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "53889",
+    "name": "River Trust Bank",
+    "city": "Tacoma",
+    "state": "WA",
+    "close_date": "2009-09-20",
+    "fund": "DIF",
+    "acquirer": "Sterling & Capital Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "83320",
+    "name": "Commonwealth Republic Bank",
+    "city": "El Paso",
+    "state": "TX",
+    "close_date": "2009-09-17",
+    "fund": "DIF",
+    "acquirer": "Frontier Partners Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "80044",
+    "name": "Patriot Federal Bank",
+    "city": "Augusta",
+    "state": "GA",
+    "close_date": "2009-09-16",
+    "fund": "DIF",
+    "acquirer": "Founders Bank of Georgia",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "11563",
+    "name": "Puerto Rico Pinnacle Bank",
+    "city": "Fairview",
+    "state": "PR",
+    "close_date": "2009-09-14",
+    "fund": "DIF",
+    "acquirer": "Summit & Cornerstone Trust",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "61842",
+    "name": "Cornerstone Savings Bank",
+    "city": "Brockton",
+    "state": "MA",
+    "close_date": "2009-09-12",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Commerce Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "95486",
+    "name": "Plains Community",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2009-09-08",
+    "fund": "DIF",
+    "acquirer": "Texas National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "24928",
+    "name": "Plains Financial",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2009-09-06",
+    "fund": "DIF",
+    "acquirer": "Atlantic Mutual",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "83326",
+    "name": "River Bank of Ohio",
+    "city": "Toledo",
+    "state": "OH",
+    "close_date": "2009-09-04",
+    "fund": "DIF",
+    "acquirer": "Plains & Pacific Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "57384",
+    "name": "Beacon & Heritage Trust",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "close_date": "2009-09-02",
+    "fund": "DIF",
+    "acquirer": "Valley Commerce Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "30344",
+    "name": "South Carolina Pinnacle Bank",
+    "city": "Madison",
+    "state": "SC",
+    "close_date": "2009-09-02",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "32335",
+    "name": "Lake & Prairie Bank",
+    "city": "Erie",
+    "state": "PA",
+    "close_date": "2009-08-26",
+    "fund": "DIF",
+    "acquirer": "Cardinal Republic",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "82325",
+    "name": "Nevada National Bank",
+    "city": "Springfield",
+    "state": "NV",
+    "close_date": "2009-08-26",
+    "fund": "DIF",
+    "acquirer": "Beacon & Valley Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "93552",
+    "name": "Frontier Community",
+    "city": "Austin",
+    "state": "TX",
+    "close_date": "2009-08-25",
+    "fund": "DIF",
+    "acquirer": "Summit Bank of Texas",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "94316",
+    "name": "Coastal Financial Bank",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "close_date": "2009-08-22",
+    "fund": "DIF",
+    "acquirer": "Atlantic Financial",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "85992",
+    "name": "Sentinel Bank of Georgia",
+    "city": "Athens",
+    "state": "GA",
+    "close_date": "2009-08-19",
+    "fund": "DIF",
+    "acquirer": "Pacific & Capital Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "90336",
+    "name": "New Hampshire National Bank",
+    "city": "Bridgeport",
+    "state": "NH",
+    "close_date": "2009-08-11",
+    "fund": "DIF",
+    "acquirer": "Harbor Bank of New Hampshire",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "13063",
+    "name": "California Pinnacle Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2009-08-10",
+    "fund": "DIF",
+    "acquirer": "Mercantile Trust Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "23208",
+    "name": "Founders & Lake Bank",
+    "city": "Chesapeake",
+    "state": "VA",
+    "close_date": "2009-08-09",
+    "fund": "DIF",
+    "acquirer": "Virginia National Bank",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "52399",
+    "name": "Harbor Partners Bank",
+    "city": "Cambridge",
+    "state": "MA",
+    "close_date": "2009-08-08",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Community Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "82042",
+    "name": "United & Patriot Bank",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2009-08-06",
+    "fund": "DIF",
+    "acquirer": "Sentinel & First Savings",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "15644",
+    "name": "Founders & Sterling Bank",
+    "city": "Fairview",
+    "state": "HI",
+    "close_date": "2009-08-06",
+    "fund": "DIF",
+    "acquirer": "Harbor Mutual Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "25350",
+    "name": "Louisiana Heritage Bank",
+    "city": "Lakeside",
+    "state": "LA",
+    "close_date": "2009-08-02",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of Louisiana",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "84785",
+    "name": "Valley Bank of Florida",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2009-08-01",
+    "fund": "DIF",
+    "acquirer": "Mountain & Capital Trust",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "50359",
+    "name": "Georgia Heritage Bank",
+    "city": "Augusta",
+    "state": "GA",
+    "close_date": "2009-07-28",
+    "fund": "DIF",
+    "acquirer": "First & Lake Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "53481",
+    "name": "Citizens Bank of Ohio",
+    "city": "Akron",
+    "state": "OH",
+    "close_date": "2009-07-27",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of Ohio",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "15177",
+    "name": "Pacific National Bank",
+    "city": "Bridgeport",
+    "state": "CO",
+    "close_date": "2009-07-26",
+    "fund": "DIF",
+    "acquirer": "Colorado Heritage Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "36233",
+    "name": "Summit Trust",
+    "city": "Franklin",
+    "state": "NM",
+    "close_date": "2009-07-24",
+    "fund": "DIF",
+    "acquirer": "New Mexico National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "12838",
+    "name": "Atlantic Bank of Virginia",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "close_date": "2009-07-16",
+    "fund": "DIF",
+    "acquirer": "Atlantic Bank of Virginia",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "71310",
+    "name": "Midwest Community",
+    "city": "Fairview",
+    "state": "ID",
+    "close_date": "2009-07-16",
+    "fund": "DIF",
+    "acquirer": "Coastal & United Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "84642",
+    "name": "Heritage Banking Bank",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2009-07-11",
+    "fund": "DIF",
+    "acquirer": "Founders Trust Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "30851",
+    "name": "Beacon Republic Bank",
+    "city": "Franklin",
+    "state": "PR",
+    "close_date": "2009-07-07",
+    "fund": "DIF",
+    "acquirer": "Harbor Bank of Puerto Rico",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "10203",
+    "name": "Founders & Citizens Trust",
+    "city": "Trenton",
+    "state": "NJ",
+    "close_date": "2009-07-05",
+    "fund": "DIF",
+    "acquirer": "New Jersey National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "80658",
+    "name": "Founders Savings",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2009-07-01",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "76245",
+    "name": "Cardinal Bank of New Jersey",
+    "city": "Trenton",
+    "state": "NJ",
+    "close_date": "2009-06-28",
+    "fund": "DIF",
+    "acquirer": "Liberty & Liberty Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "82248",
+    "name": "Summit Exchange",
+    "city": "Franklin",
+    "state": "TN",
+    "close_date": "2009-06-27",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "15060",
+    "name": "Michigan First Bank",
+    "city": "Flint",
+    "state": "MI",
+    "close_date": "2009-06-27",
+    "fund": "DIF",
+    "acquirer": "Pinnacle & Pinnacle Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "74944",
+    "name": "Colorado Heritage Bank",
+    "city": "Bridgeport",
+    "state": "CO",
+    "close_date": "2009-06-27",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Federal",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "91551",
+    "name": "Pinnacle Group",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2009-06-25",
+    "fund": "DIF",
+    "acquirer": "Florida First Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "46168",
+    "name": "Pacific Bank of Nevada",
+    "city": "Springfield",
+    "state": "NV",
+    "close_date": "2009-06-17",
+    "fund": "DIF",
+    "acquirer": "Liberty Bank of Nevada",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "67808",
+    "name": "Illinois First Bank",
+    "city": "Chicago",
+    "state": "IL",
+    "close_date": "2009-06-16",
+    "fund": "DIF",
+    "acquirer": "Illinois National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "30730",
+    "name": "Coastal Bank of Pennsylvania",
+    "city": "Erie",
+    "state": "PA",
+    "close_date": "2009-06-15",
+    "fund": "DIF",
+    "acquirer": "Citizens & Valley Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "98848",
+    "name": "Florida National Bank",
+    "city": "Orlando",
+    "state": "FL",
+    "close_date": "2009-06-13",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "87305",
+    "name": "First Bank of California",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2009-06-11",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "71528",
+    "name": "Atlantic & Commonwealth Trust",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2009-06-08",
+    "fund": "DIF",
+    "acquirer": "California Heritage Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "96510",
+    "name": "Plains Bank of Louisiana",
+    "city": "Greenfield",
+    "state": "LA",
+    "close_date": "2009-06-07",
+    "fund": "DIF",
+    "acquirer": "Louisiana National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "76792",
+    "name": "Pacific & Valley Trust",
+    "city": "Plainview",
+    "state": "IA",
+    "close_date": "2009-06-06",
+    "fund": "DIF",
+    "acquirer": "Mountain Mutual",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "64076",
+    "name": "Independence State Bank",
+    "city": "Aurora",
+    "state": "IL",
+    "close_date": "2009-06-06",
+    "fund": "DIF",
+    "acquirer": "Midwest Banking Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "27155",
+    "name": "Pinnacle & Citizens Savings",
+    "city": "Yonkers",
+    "state": "NY",
+    "close_date": "2009-06-04",
+    "fund": "DIF",
+    "acquirer": "Heritage Federal",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "64713",
+    "name": "Valley Group",
+    "city": "Riverside",
+    "state": "MT",
+    "close_date": "2009-06-02",
+    "fund": "DIF",
+    "acquirer": "Montana Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "34318",
+    "name": "Prairie Partners Bank",
+    "city": "Syracuse",
+    "state": "NY",
+    "close_date": "2009-05-27",
+    "fund": "DIF",
+    "acquirer": "Cardinal & Patriot Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "20637",
+    "name": "United Mutual",
+    "city": "Richmond",
+    "state": "VA",
+    "close_date": "2009-05-27",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "97951",
+    "name": "Mercantile Bank of Arkansas",
+    "city": "Bridgeport",
+    "state": "AR",
+    "close_date": "2009-05-24",
+    "fund": "DIF",
+    "acquirer": "United Financial Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "76310",
+    "name": "California National Bank",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2009-05-24",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of California",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "57900",
+    "name": "Lake Bank of Pennsylvania",
+    "city": "Harrisburg",
+    "state": "PA",
+    "close_date": "2009-05-21",
+    "fund": "DIF",
+    "acquirer": "Patriot Bank of Pennsylvania",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "90133",
+    "name": "Plains Community",
+    "city": "Flint",
+    "state": "MI",
+    "close_date": "2009-05-16",
+    "fund": "DIF",
+    "acquirer": "Sentinel Bank of Michigan",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "44898",
+    "name": "North Carolina First Bank",
+    "city": "Asheville",
+    "state": "NC",
+    "close_date": "2009-05-14",
+    "fund": "DIF",
+    "acquirer": "River Mutual",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "60969",
+    "name": "Citizens National Bank",
+    "city": "Lakeside",
+    "state": "AK",
+    "close_date": "2009-05-08",
+    "fund": "DIF",
+    "acquirer": "Alaska National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "95419",
+    "name": "Oklahoma National Bank",
+    "city": "Madison",
+    "state": "OK",
+    "close_date": "2009-05-08",
+    "fund": "DIF",
+    "acquirer": "Liberty & Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "48964",
+    "name": "Valley & River Bank",
+    "city": "Bridgeport",
+    "state": "OK",
+    "close_date": "2009-05-04",
+    "fund": "DIF",
+    "acquirer": "Commonwealth & Pinnacle Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "17335",
+    "name": "Rhode Island First Bank",
+    "city": "Franklin",
+    "state": "RI",
+    "close_date": "2009-05-02",
+    "fund": "DIF",
+    "acquirer": "Citizens & Cardinal Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "88242",
+    "name": "Capital & Heritage Savings",
+    "city": "Akron",
+    "state": "OH",
+    "close_date": "2009-04-27",
+    "fund": "DIF",
+    "acquirer": "Ohio Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "20218",
+    "name": "Summit & United Trust",
+    "city": "Sacramento",
+    "state": "CA",
+    "close_date": "2009-04-24",
+    "fund": "DIF",
+    "acquirer": "Mercantile Bank of California",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "74087",
+    "name": "Capital Bank of South Dakota",
+    "city": "Riverside",
+    "state": "SD",
+    "close_date": "2009-04-18",
+    "fund": "DIF",
+    "acquirer": "South Dakota Pinnacle Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "49775",
+    "name": "Arkansas Pinnacle Bank",
+    "city": "Springfield",
+    "state": "AR",
+    "close_date": "2009-04-13",
+    "fund": "DIF",
+    "acquirer": "Heritage Banking",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "41458",
+    "name": "California Heritage Bank",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2009-04-13",
+    "fund": "DIF",
+    "acquirer": "Summit & Capital Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "95045",
+    "name": "Patriot Bank of New York",
+    "city": "White Plains",
+    "state": "NY",
+    "close_date": "2009-04-12",
+    "fund": "DIF",
+    "acquirer": "Mercantile Republic Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "48521",
+    "name": "Sterling State",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2009-04-12",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of California",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "78341",
+    "name": "Utah Sterling Bank",
+    "city": "Fairview",
+    "state": "UT",
+    "close_date": "2009-04-08",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Community",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "53179",
+    "name": "Florida First Bank",
+    "city": "Miami",
+    "state": "FL",
+    "close_date": "2009-04-07",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "95524",
+    "name": "Plains Bank of District of Columbia",
+    "city": "Greenfield",
+    "state": "DC",
+    "close_date": "2009-04-02",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "60855",
+    "name": "Capital Bank of Texas",
+    "city": "Arlington",
+    "state": "TX",
+    "close_date": "2009-03-26",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "30495",
+    "name": "New Jersey Sterling Bank",
+    "city": "Edison",
+    "state": "NJ",
+    "close_date": "2009-03-20",
+    "fund": "DIF",
+    "acquirer": "New Jersey First Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "34282",
+    "name": "Heritage Bank of Virginia",
+    "city": "Alexandria",
+    "state": "VA",
+    "close_date": "2009-03-19",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of Virginia",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "12388",
+    "name": "Midwest & Sterling Savings",
+    "city": "Franklin",
+    "state": "MT",
+    "close_date": "2009-03-12",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "75295",
+    "name": "Harbor Group Bank",
+    "city": "Lowell",
+    "state": "MA",
+    "close_date": "2009-03-12",
+    "fund": "DIF",
+    "acquirer": "Massachusetts Heritage Bank",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "90928",
+    "name": "Cardinal Bank of Texas",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2009-03-11",
+    "fund": "DIF",
+    "acquirer": "Texas National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "22480",
+    "name": "Liberty & Valley Bank",
+    "city": "Bridgeport",
+    "state": "CT",
+    "close_date": "2009-03-10",
+    "fund": "DIF",
+    "acquirer": "First National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "23902",
+    "name": "Lake Exchange Bank",
+    "city": "Bridgeport",
+    "state": "MT",
+    "close_date": "2009-03-09",
+    "fund": "DIF",
+    "acquirer": "Montana National Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "37268",
+    "name": "Valley & Harbor Savings",
+    "city": "Miami",
+    "state": "FL",
+    "close_date": "2009-03-09",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of Florida",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "98995",
+    "name": "Midwest Bank of Texas",
+    "city": "Houston",
+    "state": "TX",
+    "close_date": "2009-03-03",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "65467",
+    "name": "Massachusetts First Bank",
+    "city": "Springfield",
+    "state": "MA",
+    "close_date": "2009-02-23",
+    "fund": "DIF",
+    "acquirer": "Massachusetts Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "91994",
+    "name": "First Holdings",
+    "city": "Springfield",
+    "state": "IL",
+    "close_date": "2009-02-20",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "90510",
+    "name": "Capital & Plains Savings",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "close_date": "2009-02-19",
+    "fund": "DIF",
+    "acquirer": "Coastal Partners",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "57745",
+    "name": "River Commerce Bank",
+    "city": "Fort Worth",
+    "state": "TX",
+    "close_date": "2009-02-18",
+    "fund": "DIF",
+    "acquirer": "Commonwealth Savings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "82541",
+    "name": "Coastal Banking",
+    "city": "Long Beach",
+    "state": "CA",
+    "close_date": "2009-02-17",
+    "fund": "DIF",
+    "acquirer": "Capital Financial",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "29663",
+    "name": "Massachusetts Sterling Bank",
+    "city": "Cambridge",
+    "state": "MA",
+    "close_date": "2009-02-15",
+    "fund": "DIF",
+    "acquirer": "River & Atlantic Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "16825",
+    "name": "Tennessee Heritage Bank",
+    "city": "Greenfield",
+    "state": "TN",
+    "close_date": "2009-02-13",
+    "fund": "DIF",
+    "acquirer": "Tennessee National Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "77207",
+    "name": "Harbor Trust Bank",
+    "city": "Lakeside",
+    "state": "SC",
+    "close_date": "2009-02-13",
+    "fund": "DIF",
+    "acquirer": "Sterling Holdings",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "76800",
+    "name": "Georgia First Bank",
+    "city": "Athens",
+    "state": "GA",
+    "close_date": "2009-02-12",
+    "fund": "DIF",
+    "acquirer": "United & Citizens Savings",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "79212",
+    "name": "New Mexico First Bank",
+    "city": "Fairview",
+    "state": "NM",
+    "close_date": "2009-02-11",
+    "fund": "DIF",
+    "acquirer": "United Bank of New Mexico",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "20902",
+    "name": "United Mutual Bank",
+    "city": "Franklin",
+    "state": "LA",
+    "close_date": "2009-02-11",
+    "fund": "DIF",
+    "acquirer": "Citizens & River Savings",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "87224",
+    "name": "Midwest Bank of Florida",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "close_date": "2009-02-10",
+    "fund": "DIF",
+    "acquirer": "Florida Heritage Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "15308",
+    "name": "Pinnacle Banking",
+    "city": "Plainview",
+    "state": "NE",
+    "close_date": "2009-02-04",
+    "fund": "DIF",
+    "acquirer": "Harbor Trust",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "71617",
+    "name": "Plains Bank of California",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2009-02-02",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Community",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "45228",
+    "name": "Patriot Financial",
+    "city": "Orlando",
+    "state": "FL",
+    "close_date": "2009-01-25",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of Florida",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "55546",
+    "name": "Heritage Bank of California",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2009-01-22",
+    "fund": "DIF",
+    "acquirer": "Founders & Citizens Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "88531",
+    "name": "Texas First Bank",
+    "city": "Arlington",
+    "state": "TX",
+    "close_date": "2009-01-18",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Community Bank",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "32956",
+    "name": "Heritage Commerce Bank",
+    "city": "Dallas",
+    "state": "TX",
+    "close_date": "2009-01-17",
+    "fund": "DIF",
+    "acquirer": "Sterling & Lake Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "83950",
+    "name": "Frontier Financial",
+    "city": "Franklin",
+    "state": "AZ",
+    "close_date": "2009-01-10",
+    "fund": "DIF",
+    "acquirer": "Plains Banking Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "69582",
+    "name": "Sterling & River Savings",
+    "city": "Greenfield",
+    "state": "CO",
+    "close_date": "2009-01-09",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of Colorado",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "46194",
+    "name": "River & Cardinal Bank",
+    "city": "Plainview",
+    "state": "NV",
+    "close_date": "2009-01-03",
+    "fund": "DIF",
+    "acquirer": "First Community",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "19525",
+    "name": "Connecticut First Bank",
+    "city": "Springfield",
+    "state": "CT",
+    "close_date": "2009-01-01",
+    "fund": "DIF",
+    "acquirer": "Coastal Holdings Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "69293",
+    "name": "California First Bank",
+    "city": "Fresno",
+    "state": "CA",
+    "close_date": "2009-01-01",
+    "fund": "DIF",
+    "acquirer": "Heritage Mutual",
+    "charter_class": "SB"
+  },
+  {
+    "cert_id": "72744",
+    "name": "California First Bank",
+    "city": "Oakland",
+    "state": "CA",
+    "close_date": "2009-01-01",
+    "fund": "DIF",
+    "acquirer": "Cardinal & Mountain Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "63969",
+    "name": "Prairie & Cardinal Bank",
+    "city": "San Jose",
+    "state": "CA",
+    "close_date": "2008-12-22",
+    "fund": "DIF",
+    "acquirer": "Lake & Cardinal Trust",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "26885",
+    "name": "Cornerstone Holdings Bank",
+    "city": "Los Angeles",
+    "state": "CA",
+    "close_date": "2008-12-14",
+    "fund": "DIF",
+    "acquirer": "Capital Group",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "36850",
+    "name": "Atlantic Bank of California",
+    "city": "San Francisco",
+    "state": "CA",
+    "close_date": "2008-11-21",
+    "fund": "DIF",
+    "acquirer": "Cardinal Republic",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "28907",
+    "name": "Citizens Republic",
+    "city": "Plainview",
+    "state": "AK",
+    "close_date": "2008-11-01",
+    "fund": "DIF",
+    "acquirer": "Alaska National Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "73099",
+    "name": "Sterling Bank of California",
+    "city": "San Diego",
+    "state": "CA",
+    "close_date": "2008-10-01",
+    "fund": "DIF",
+    "acquirer": "Capital & Founders Trust",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "53436",
+    "name": "Washington Mutual Bank",
+    "city": "Henderson",
+    "state": "NV",
+    "close_date": "2008-09-25",
+    "fund": "DIF",
+    "acquirer": "JPMorgan Chase Bank, N.A.",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "42969",
+    "name": "Patriot Bank of Florida",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2008-09-11",
+    "fund": "DIF",
+    "acquirer": "Valley & Sentinel Trust",
+    "charter_class": "SM"
+  },
+  {
+    "cert_id": "51989",
+    "name": "Coastal & Mountain Trust",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "close_date": "2008-08-24",
+    "fund": "DIF",
+    "acquirer": "Prairie & Lake Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "89721",
+    "name": "Pacific Trust Bank",
+    "city": "Tallahassee",
+    "state": "FL",
+    "close_date": "2008-08-23",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "60154",
+    "name": "Mercantile Bank of Massachusetts",
+    "city": "Brockton",
+    "state": "MA",
+    "close_date": "2008-08-22",
+    "fund": "DIF",
+    "acquirer": "Cornerstone Bank of Massachusetts",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "34097",
+    "name": "New York First Bank",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2008-08-05",
+    "fund": "DIF",
+    "acquirer": "Heritage Bank of New York",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "18118",
+    "name": "Illinois National Bank",
+    "city": "Chicago",
+    "state": "IL",
+    "close_date": "2008-07-22",
+    "fund": "DIF",
+    "acquirer": "First Community Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "87689",
+    "name": "IndyMac Bank, F.S.B.",
+    "city": "Pasadena",
+    "state": "CA",
+    "close_date": "2008-07-11",
+    "fund": "DIF",
+    "acquirer": "OneWest Bank, FSB",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "79254",
+    "name": "Midwest Community Bank",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2008-07-08",
+    "fund": "DIF",
+    "acquirer": "Florida Sterling Bank",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "32968",
+    "name": "New York National Bank",
+    "city": "Rochester",
+    "state": "NY",
+    "close_date": "2008-06-10",
+    "fund": "DIF",
+    "acquirer": "Prairie Bank of New York",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "14628",
+    "name": "Texas Pinnacle Bank",
+    "city": "Plano",
+    "state": "TX",
+    "close_date": "2008-05-14",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "88879",
+    "name": "Plains & Mercantile Trust",
+    "city": "Cincinnati",
+    "state": "OH",
+    "close_date": "2008-04-26",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Financial",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "28852",
+    "name": "Pacific Federal Bank",
+    "city": "Bellevue",
+    "state": "WA",
+    "close_date": "2008-04-26",
+    "fund": "DIF",
+    "acquirer": "Beacon Bank of Washington",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "88499",
+    "name": "Texas Sterling Bank",
+    "city": "Fort Worth",
+    "state": "TX",
+    "close_date": "2008-04-25",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "SA"
+  },
+  {
+    "cert_id": "35136",
+    "name": "Sterling Holdings Bank",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2008-04-23",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "46770",
+    "name": "Frontier Republic Bank",
+    "city": "Plainview",
+    "state": "AK",
+    "close_date": "2008-04-21",
+    "fund": "DIF",
+    "acquirer": "No Acquirer (DIF Payout)",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "95236",
+    "name": "South Carolina Heritage Bank",
+    "city": "Springfield",
+    "state": "SC",
+    "close_date": "2008-04-14",
+    "fund": "DIF",
+    "acquirer": "Frontier Bank of South Carolina",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "59336",
+    "name": "Florida First Bank",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "close_date": "2008-04-14",
+    "fund": "DIF",
+    "acquirer": "Capital Bank of Florida",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "40930",
+    "name": "Atlantic & Cardinal Bank",
+    "city": "Raleigh",
+    "state": "NC",
+    "close_date": "2008-04-11",
+    "fund": "DIF",
+    "acquirer": "Liberty Financial",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "66411",
+    "name": "River Commerce Bank",
+    "city": "Philadelphia",
+    "state": "PA",
+    "close_date": "2008-03-20",
+    "fund": "DIF",
+    "acquirer": "Pennsylvania Sterling Bank",
+    "charter_class": "NM"
+  },
+  {
+    "cert_id": "53668",
+    "name": "Frontier Trust",
+    "city": "Augusta",
+    "state": "GA",
+    "close_date": "2008-02-15",
+    "fund": "DIF",
+    "acquirer": "Pinnacle Bank of Georgia",
+    "charter_class": "N"
+  },
+  {
+    "cert_id": "94344",
+    "name": "North Carolina Pinnacle Bank",
+    "city": "Greensboro",
+    "state": "NC",
+    "close_date": "2008-01-05",
+    "fund": "DIF",
+    "acquirer": "Patriot & Plains Trust",
+    "charter_class": "SA"
+  }
+]

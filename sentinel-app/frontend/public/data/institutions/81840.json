@@ -1,0 +1,120 @@
+{
+  "cert_id": "81840",
+  "name": "Citizens & Summit Bank",
+  "city": "Chicago",
+  "state": "IL",
+  "charter_class": "N",
+  "asset_class": "10B-100B",
+  "deposits_b": 33.045,
+  "branches": 48,
+  "established_year": 1910,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.87,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.84,
+  "branches_by_state": [
+    {
+      "state": "IL",
+      "count": 35,
+      "deposits_b": 23.941
+    },
+    {
+      "state": "SD",
+      "count": 6,
+      "deposits_b": 4.044
+    },
+    {
+      "state": "MS",
+      "count": 2,
+      "deposits_b": 1.139
+    },
+    {
+      "state": "AR",
+      "count": 2,
+      "deposits_b": 1.667
+    },
+    {
+      "state": "RI",
+      "count": 3,
+      "deposits_b": 2.254
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley Exchange Bank",
+      "close_date": "2019-11-10",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Heritage Bank",
+      "close_date": "2014-11-07",
+      "charter_class": "SM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "First Bank of Illinois",
+      "close_date": "2014-10-08",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Illinois Pinnacle Bank",
+      "close_date": "2013-08-26",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 30.645,
+      "npl_ratio": 0.11,
+      "capital_ratio": 12.22
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 30.024,
+      "npl_ratio": 0.14,
+      "capital_ratio": 12.2
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 29.49,
+      "npl_ratio": 0.14,
+      "capital_ratio": 12.07
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 30.532,
+      "npl_ratio": 0.2,
+      "capital_ratio": 11.97
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 30.181,
+      "npl_ratio": 0.25,
+      "capital_ratio": 11.78
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 30.003,
+      "npl_ratio": 0.21,
+      "capital_ratio": 11.7
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 28.836,
+      "npl_ratio": 0.24,
+      "capital_ratio": 11.7
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 27.78,
+      "npl_ratio": 0.26,
+      "capital_ratio": 11.52
+    }
+  ],
+  "ai_summary": "Citizens & Summit Bank (Chicago, IL) holds $33.05B in deposits across 48 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.87% and ROA of 1.84% benchmark this institution against 10B-100B peers."
+}

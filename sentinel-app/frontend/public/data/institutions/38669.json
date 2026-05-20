@@ -1,0 +1,108 @@
+{
+  "cert_id": "38669",
+  "name": "Citizens Community Bank",
+  "city": "Madison",
+  "state": "NH",
+  "charter_class": "SM",
+  "asset_class": "<100M",
+  "deposits_b": 0.065,
+  "branches": 3,
+  "established_year": 1964,
+  "risk_score": 14,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.24,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.07,
+  "branches_by_state": [
+    {
+      "state": "NH",
+      "count": 2,
+      "deposits_b": 0.051
+    },
+    {
+      "state": "CT",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "SC",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "TN",
+      "count": 1,
+      "deposits_b": 0.002
+    },
+    {
+      "state": "DC",
+      "count": -2,
+      "deposits_b": 0.004
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "New Hampshire First Bank",
+      "close_date": "2010-05-05",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "New Hampshire National Bank",
+      "close_date": "2009-08-11",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.06,
+      "npl_ratio": 0.18,
+      "capital_ratio": 14.19
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.058,
+      "npl_ratio": 0.18,
+      "capital_ratio": 14.13
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.06,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.16
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.058,
+      "npl_ratio": 0.16,
+      "capital_ratio": 13.87
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.057,
+      "npl_ratio": 0.19,
+      "capital_ratio": 14.18
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.057,
+      "npl_ratio": 0.17,
+      "capital_ratio": 14.16
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.057,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.29
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.058,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.51
+    }
+  ],
+  "ai_summary": "Citizens Community Bank (Madison, NH) holds $0.07B in deposits across 3 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.24% and ROA of 1.07% benchmark this institution against <100M peers."
+}

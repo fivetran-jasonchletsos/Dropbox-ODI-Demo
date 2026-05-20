@@ -1,0 +1,120 @@
+{
+  "cert_id": "60307",
+  "name": "Founders & River Savings",
+  "city": "Richmond",
+  "state": "VA",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 2.216,
+  "branches": 60,
+  "established_year": 1979,
+  "risk_score": 31,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 9.97,
+  "net_charge_off_ratio_pct": 0.22,
+  "return_on_assets_pct": 0.77,
+  "branches_by_state": [
+    {
+      "state": "VA",
+      "count": 44,
+      "deposits_b": 1.617
+    },
+    {
+      "state": "KS",
+      "count": 4,
+      "deposits_b": 0.153
+    },
+    {
+      "state": "CA",
+      "count": 3,
+      "deposits_b": 0.124
+    },
+    {
+      "state": "MS",
+      "count": 2,
+      "deposits_b": 0.084
+    },
+    {
+      "state": "NE",
+      "count": 7,
+      "deposits_b": 0.237
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2024-02-11",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Citizens State Bank",
+      "close_date": "2019-09-18",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2013-03-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2011-12-08",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1.97,
+      "npl_ratio": 0.41,
+      "capital_ratio": 10.74
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1.995,
+      "npl_ratio": 0.45,
+      "capital_ratio": 11.03
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1.965,
+      "npl_ratio": 0.37,
+      "capital_ratio": 10.92
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1.997,
+      "npl_ratio": 0.46,
+      "capital_ratio": 11.22
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 2.067,
+      "npl_ratio": 0.45,
+      "capital_ratio": 11.35
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 2.061,
+      "npl_ratio": 0.49,
+      "capital_ratio": 11.62
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 2.149,
+      "npl_ratio": 0.44,
+      "capital_ratio": 11.63
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 2.198,
+      "npl_ratio": 0.39,
+      "capital_ratio": 11.95
+    }
+  ],
+  "ai_summary": "Founders & River Savings (Richmond, VA) holds $2.22B in deposits across 60 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 9.97% and ROA of 0.77% benchmark this institution against 1B-10B peers."
+}

@@ -1,0 +1,119 @@
+{
+  "cert_id": "46423",
+  "name": "Founders Holdings",
+  "city": "Clinton",
+  "state": "RI",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 6.718,
+  "branches": 28,
+  "established_year": 1898,
+  "risk_score": 60,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 9.3,
+  "net_charge_off_ratio_pct": 0.35,
+  "return_on_assets_pct": 0.47,
+  "branches_by_state": [
+    {
+      "state": "RI",
+      "count": 17,
+      "deposits_b": 4.068
+    },
+    {
+      "state": "NH",
+      "count": 3,
+      "deposits_b": 0.827
+    },
+    {
+      "state": "NM",
+      "count": 2,
+      "deposits_b": 0.517
+    },
+    {
+      "state": "VA",
+      "count": 3,
+      "deposits_b": 0.574
+    },
+    {
+      "state": "OH",
+      "count": 1,
+      "deposits_b": 0.153
+    },
+    {
+      "state": "KY",
+      "count": 2,
+      "deposits_b": 0.579
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Summit Republic",
+      "close_date": "2015-06-04",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Pinnacle State Bank",
+      "close_date": "2010-08-14",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Rhode Island First Bank",
+      "close_date": "2009-05-02",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 6.298,
+      "npl_ratio": 0.67,
+      "capital_ratio": 8.82
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.399,
+      "npl_ratio": 0.64,
+      "capital_ratio": 8.45
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 6.354,
+      "npl_ratio": 0.67,
+      "capital_ratio": 8.51
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 6.706,
+      "npl_ratio": 0.78,
+      "capital_ratio": 8.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.883,
+      "npl_ratio": 0.88,
+      "capital_ratio": 8.92
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.762,
+      "npl_ratio": 1.04,
+      "capital_ratio": 8.54
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.541,
+      "npl_ratio": 1.08,
+      "capital_ratio": 8.17
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.516,
+      "npl_ratio": 1.15,
+      "capital_ratio": 7.82
+    }
+  ],
+  "ai_summary": "Founders Holdings (Clinton, RI) holds $6.72B in deposits across 28 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 9.30% and ROA of 0.47% benchmark this institution against 1B-10B peers. Peer failures in RI since 2021 suggest elevated regional stress."
+}

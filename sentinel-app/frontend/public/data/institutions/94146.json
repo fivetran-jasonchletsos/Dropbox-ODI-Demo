@@ -1,0 +1,115 @@
+{
+  "cert_id": "94146",
+  "name": "Atlantic Exchange",
+  "city": "Plainview",
+  "state": "KY",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.564,
+  "branches": 5,
+  "established_year": 1960,
+  "risk_score": 32,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.18,
+  "net_charge_off_ratio_pct": 0.71,
+  "return_on_assets_pct": 0.9,
+  "branches_by_state": [
+    {
+      "state": "KY",
+      "count": 4,
+      "deposits_b": 0.411
+    },
+    {
+      "state": "PR",
+      "count": 1,
+      "deposits_b": 0.065
+    },
+    {
+      "state": "NE",
+      "count": 1,
+      "deposits_b": 0.027
+    },
+    {
+      "state": "AK",
+      "count": -1,
+      "deposits_b": 0.061
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Kentucky National Bank",
+      "close_date": "2014-12-08",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Valley Bank of Kentucky",
+      "close_date": "2012-02-09",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Cardinal Commerce Bank",
+      "close_date": "2011-11-14",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Independence Bank of Kentucky",
+      "close_date": "2010-09-25",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.493,
+      "npl_ratio": 0.81,
+      "capital_ratio": 12.09
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.497,
+      "npl_ratio": 0.78,
+      "capital_ratio": 12.3
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.52,
+      "npl_ratio": 0.75,
+      "capital_ratio": 11.98
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.543,
+      "npl_ratio": 0.75,
+      "capital_ratio": 11.7
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.552,
+      "npl_ratio": 0.72,
+      "capital_ratio": 11.4
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.542,
+      "npl_ratio": 0.73,
+      "capital_ratio": 11.19
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.552,
+      "npl_ratio": 0.66,
+      "capital_ratio": 11.38
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.561,
+      "npl_ratio": 0.7,
+      "capital_ratio": 11.03
+    }
+  ],
+  "ai_summary": "Atlantic Exchange (Plainview, KY) holds $0.56B in deposits across 5 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.18% and ROA of 0.90% benchmark this institution against 100M-1B peers."
+}

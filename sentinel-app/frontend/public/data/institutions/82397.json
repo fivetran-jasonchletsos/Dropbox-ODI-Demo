@@ -1,0 +1,110 @@
+{
+  "cert_id": "82397",
+  "name": "Citizens & Cardinal Savings",
+  "city": "Plano",
+  "state": "TX",
+  "charter_class": "SM",
+  "asset_class": "<100M",
+  "deposits_b": 0.046,
+  "branches": 2,
+  "established_year": 1923,
+  "risk_score": 20,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.18,
+  "net_charge_off_ratio_pct": 0.15,
+  "return_on_assets_pct": 0.88,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 2,
+      "deposits_b": 0.038
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "GA",
+      "count": -1,
+      "deposits_b": 0.005
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.042,
+      "npl_ratio": 0.29,
+      "capital_ratio": 12.67
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.042,
+      "npl_ratio": 0.36,
+      "capital_ratio": 13.02
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.044,
+      "npl_ratio": 0.38,
+      "capital_ratio": 12.9
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.044,
+      "npl_ratio": 0.37,
+      "capital_ratio": 12.67
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.046,
+      "npl_ratio": 0.31,
+      "capital_ratio": 12.33
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.048,
+      "npl_ratio": 0.26,
+      "capital_ratio": 12.64
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.048,
+      "npl_ratio": 0.16,
+      "capital_ratio": 12.6
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.05,
+      "npl_ratio": 0.16,
+      "capital_ratio": 12.27
+    }
+  ],
+  "ai_summary": "Citizens & Cardinal Savings (Plano, TX) holds $0.05B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.18% and ROA of 0.88% benchmark this institution against <100M peers."
+}

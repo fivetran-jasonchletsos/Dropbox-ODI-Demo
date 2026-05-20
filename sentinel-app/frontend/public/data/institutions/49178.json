@@ -1,0 +1,115 @@
+{
+  "cert_id": "49178",
+  "name": "Sterling Savings",
+  "city": "Edison",
+  "state": "NJ",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.196,
+  "branches": 9,
+  "established_year": 1977,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.9,
+  "net_charge_off_ratio_pct": 0.22,
+  "return_on_assets_pct": 1.43,
+  "branches_by_state": [
+    {
+      "state": "NJ",
+      "count": 8,
+      "deposits_b": 0.165
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.012
+    },
+    {
+      "state": "WV",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "NC",
+      "count": -1,
+      "deposits_b": 0.012
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Pacific & Founders Trust",
+      "close_date": "2014-12-14",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "First & United Trust",
+      "close_date": "2012-11-14",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "New Jersey National Bank",
+      "close_date": "2012-06-19",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Beacon & Heritage Trust",
+      "close_date": "2011-08-04",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.176,
+      "npl_ratio": 0.3,
+      "capital_ratio": 14.44
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.17,
+      "npl_ratio": 0.28,
+      "capital_ratio": 14.79
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.172,
+      "npl_ratio": 0.29,
+      "capital_ratio": 14.79
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.172,
+      "npl_ratio": 0.31,
+      "capital_ratio": 14.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.167,
+      "npl_ratio": 0.22,
+      "capital_ratio": 14.53
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.162,
+      "npl_ratio": 0.19,
+      "capital_ratio": 14.83
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.163,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.43
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.163,
+      "npl_ratio": 0.13,
+      "capital_ratio": 14.69
+    }
+  ],
+  "ai_summary": "Sterling Savings (Edison, NJ) holds $0.20B in deposits across 9 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.90% and ROA of 1.43% benchmark this institution against 100M-1B peers."
+}

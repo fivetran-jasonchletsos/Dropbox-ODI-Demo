@@ -1,0 +1,125 @@
+{
+  "cert_id": "98072",
+  "name": "Frontier Bank of Maryland",
+  "city": "Bridgeport",
+  "state": "MD",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.699,
+  "branches": 5,
+  "established_year": 1958,
+  "risk_score": 25,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.9,
+  "net_charge_off_ratio_pct": 0.14,
+  "return_on_assets_pct": 0.38,
+  "branches_by_state": [
+    {
+      "state": "MD",
+      "count": 4,
+      "deposits_b": 0.584
+    },
+    {
+      "state": "MA",
+      "count": 1,
+      "deposits_b": 0.05
+    },
+    {
+      "state": "ID",
+      "count": 1,
+      "deposits_b": 0.018
+    },
+    {
+      "state": "MS",
+      "count": 1,
+      "deposits_b": 0.02
+    },
+    {
+      "state": "WI",
+      "count": 1,
+      "deposits_b": 0.012
+    },
+    {
+      "state": "CA",
+      "count": -3,
+      "deposits_b": 0.013
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United & Cardinal Trust",
+      "close_date": "2014-12-25",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Beacon Financial",
+      "close_date": "2012-08-09",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Lake & First Bank",
+      "close_date": "2012-02-15",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Heritage Holdings Bank",
+      "close_date": "2011-08-20",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.66,
+      "npl_ratio": 0.25,
+      "capital_ratio": 13.47
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.65,
+      "npl_ratio": 0.27,
+      "capital_ratio": 13.81
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.638,
+      "npl_ratio": 0.33,
+      "capital_ratio": 13.98
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.646,
+      "npl_ratio": 0.39,
+      "capital_ratio": 13.79
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.661,
+      "npl_ratio": 0.36,
+      "capital_ratio": 13.96
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.635,
+      "npl_ratio": 0.34,
+      "capital_ratio": 14
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.662,
+      "npl_ratio": 0.35,
+      "capital_ratio": 14.01
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.685,
+      "npl_ratio": 0.39,
+      "capital_ratio": 13.66
+    }
+  ],
+  "ai_summary": "Frontier Bank of Maryland (Bridgeport, MD) holds $0.70B in deposits across 5 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.90% and ROA of 0.38% benchmark this institution against 100M-1B peers."
+}

@@ -1,0 +1,110 @@
+{
+  "cert_id": "95644",
+  "name": "Independence Holdings",
+  "city": "Greenfield",
+  "state": "NM",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.475,
+  "branches": 10,
+  "established_year": 1894,
+  "risk_score": 22,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.1,
+  "net_charge_off_ratio_pct": 0.76,
+  "return_on_assets_pct": 2.12,
+  "branches_by_state": [
+    {
+      "state": "NM",
+      "count": 7,
+      "deposits_b": 0.353
+    },
+    {
+      "state": "MD",
+      "count": 1,
+      "deposits_b": 0.048
+    },
+    {
+      "state": "KS",
+      "count": 2,
+      "deposits_b": 0.074
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Midwest Bank of New Mexico",
+      "close_date": "2015-03-26",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Midwest Trust Bank",
+      "close_date": "2012-12-04",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "United Bank of New Mexico",
+      "close_date": "2012-11-23",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "New Mexico First Bank",
+      "close_date": "2011-01-01",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.407,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.28
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.401,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.32
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.421,
+      "npl_ratio": 0.86,
+      "capital_ratio": 13.64
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.418,
+      "npl_ratio": 0.79,
+      "capital_ratio": 13.46
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.425,
+      "npl_ratio": 0.76,
+      "capital_ratio": 13.75
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.418,
+      "npl_ratio": 0.81,
+      "capital_ratio": 14.1
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.42,
+      "npl_ratio": 0.84,
+      "capital_ratio": 14.43
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.436,
+      "npl_ratio": 0.87,
+      "capital_ratio": 14.63
+    }
+  ],
+  "ai_summary": "Independence Holdings (Greenfield, NM) holds $0.47B in deposits across 10 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.10% and ROA of 2.12% benchmark this institution against 100M-1B peers."
+}

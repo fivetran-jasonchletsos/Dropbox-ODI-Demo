@@ -1,0 +1,125 @@
+{
+  "cert_id": "99732",
+  "name": "Lake Bank of Wyoming",
+  "city": "Riverside",
+  "state": "WY",
+  "charter_class": "SA",
+  "asset_class": "<100M",
+  "deposits_b": 0.02,
+  "branches": 2,
+  "established_year": 1922,
+  "risk_score": 58,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 10.48,
+  "net_charge_off_ratio_pct": 0.98,
+  "return_on_assets_pct": -0.14,
+  "branches_by_state": [
+    {
+      "state": "WY",
+      "count": 1,
+      "deposits_b": 0.015
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "IA",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "OH",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "ND",
+      "count": -3,
+      "deposits_b": 0.001
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Prairie Community Bank",
+      "close_date": "2016-05-24",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Beacon Financial",
+      "close_date": "2013-11-25",
+      "charter_class": "SB",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Mercantile & Beacon Savings",
+      "close_date": "2012-03-18",
+      "charter_class": "SB",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Valley Bank of Wyoming",
+      "close_date": "2011-10-06",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.018,
+      "npl_ratio": 0.98,
+      "capital_ratio": 9.55
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.019,
+      "npl_ratio": 1.03,
+      "capital_ratio": 9.44
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.018,
+      "npl_ratio": 1.15,
+      "capital_ratio": 9.5
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 1.1,
+      "capital_ratio": 9.49
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 1.15,
+      "capital_ratio": 9.31
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 1.15,
+      "capital_ratio": 9.5
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.017,
+      "npl_ratio": 1.12,
+      "capital_ratio": 9.27
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.017,
+      "npl_ratio": 1.08,
+      "capital_ratio": 9.59
+    }
+  ],
+  "ai_summary": "Lake Bank of Wyoming (Riverside, WY) holds $0.02B in deposits across 2 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 10.48% and ROA of -0.14% benchmark this institution against <100M peers. Peer failures in WY since 2021 suggest elevated regional stress."
+}

@@ -1,0 +1,324 @@
+{
+  "total_institutions": 4503,
+  "total_deposits_b": 18412.6,
+  "total_branches": 74938,
+  "total_failed_banks_since_2008": 552,
+  "failure_rate_pct_5y": 0.42,
+  "top_states_by_deposits": [
+    {
+      "state": "NY",
+      "deposits_b": 3211.11
+    },
+    {
+      "state": "CA",
+      "deposits_b": 226.02
+    },
+    {
+      "state": "NM",
+      "deposits_b": 83.37
+    },
+    {
+      "state": "TX",
+      "deposits_b": 79.49
+    },
+    {
+      "state": "MD",
+      "deposits_b": 61.65
+    },
+    {
+      "state": "GA",
+      "deposits_b": 54.85
+    },
+    {
+      "state": "NJ",
+      "deposits_b": 54.02
+    },
+    {
+      "state": "MI",
+      "deposits_b": 48.24
+    },
+    {
+      "state": "IL",
+      "deposits_b": 46.08
+    },
+    {
+      "state": "IA",
+      "deposits_b": 31.73
+    }
+  ],
+  "file_inventory": {
+    "total_files": 583,
+    "total_bytes": 76509727685,
+    "by_ext": [
+      {
+        "ext": "csv",
+        "count": 137
+      },
+      {
+        "ext": "xlsx",
+        "count": 68
+      },
+      {
+        "ext": "pptx",
+        "count": 63
+      },
+      {
+        "ext": "pdf",
+        "count": 44
+      },
+      {
+        "ext": "ldf",
+        "count": 39
+      },
+      {
+        "ext": "mdf",
+        "count": 39
+      },
+      {
+        "ext": "zip",
+        "count": 35
+      },
+      {
+        "ext": "docx",
+        "count": 35
+      },
+      {
+        "ext": "txt",
+        "count": 29
+      },
+      {
+        "ext": "7z",
+        "count": 13
+      },
+      {
+        "ext": "dmp",
+        "count": 10
+      },
+      {
+        "ext": "doc",
+        "count": 10
+      },
+      {
+        "ext": "xls",
+        "count": 8
+      },
+      {
+        "ext": "sql",
+        "count": 6
+      },
+      {
+        "ext": "ppt",
+        "count": 6
+      },
+      {
+        "ext": "xml",
+        "count": 5
+      },
+      {
+        "ext": "gz",
+        "count": 4
+      },
+      {
+        "ext": "json",
+        "count": 4
+      },
+      {
+        "ext": "parquet",
+        "count": 3
+      },
+      {
+        "ext": "png",
+        "count": 3
+      },
+      {
+        "ext": "rtf",
+        "count": 2
+      },
+      {
+        "ext": "md",
+        "count": 2
+      },
+      {
+        "ext": "tsv",
+        "count": 2
+      },
+      {
+        "ext": "log",
+        "count": 2
+      },
+      {
+        "ext": "bak",
+        "count": 2
+      },
+      {
+        "ext": "key",
+        "count": 2
+      },
+      {
+        "ext": "pages",
+        "count": 1
+      },
+      {
+        "ext": "numbers",
+        "count": 1
+      },
+      {
+        "ext": "avro",
+        "count": 1
+      },
+      {
+        "ext": "orc",
+        "count": 1
+      },
+      {
+        "ext": "yaml",
+        "count": 1
+      },
+      {
+        "ext": "db",
+        "count": 1
+      },
+      {
+        "ext": "accdb",
+        "count": 1
+      },
+      {
+        "ext": "ipynb",
+        "count": 1
+      },
+      {
+        "ext": "xz",
+        "count": 1
+      },
+      {
+        "ext": "tar",
+        "count": 1
+      }
+    ],
+    "by_domain": [
+      {
+        "domain": "FinServ",
+        "count": 132
+      },
+      {
+        "domain": "Healthcare",
+        "count": 98
+      },
+      {
+        "domain": "Retail",
+        "count": 87
+      },
+      {
+        "domain": "HigherEd",
+        "count": 74
+      },
+      {
+        "domain": "Manufacturing",
+        "count": 81
+      },
+      {
+        "domain": "Macro",
+        "count": 65
+      },
+      {
+        "domain": "Other",
+        "count": 46
+      }
+    ]
+  },
+  "pipeline_status": [
+    {
+      "layer": "bronze",
+      "table_count": 47,
+      "row_count": 184226104,
+      "last_built_at": "2026-05-15T16:00:00.000Z"
+    },
+    {
+      "layer": "silver",
+      "table_count": 28,
+      "row_count": 142009558,
+      "last_built_at": "2026-05-15T17:00:00.000Z"
+    },
+    {
+      "layer": "gold",
+      "table_count": 12,
+      "row_count": 18645201,
+      "last_built_at": "2026-05-15T18:00:00.000Z"
+    }
+  ],
+  "last_synced_at": "2026-05-15T18:30:00.000Z",
+  "national_failure_trend": [
+    {
+      "year": 2008,
+      "count": 25
+    },
+    {
+      "year": 2009,
+      "count": 140
+    },
+    {
+      "year": 2010,
+      "count": 157
+    },
+    {
+      "year": 2011,
+      "count": 92
+    },
+    {
+      "year": 2012,
+      "count": 51
+    },
+    {
+      "year": 2013,
+      "count": 24
+    },
+    {
+      "year": 2014,
+      "count": 18
+    },
+    {
+      "year": 2015,
+      "count": 8
+    },
+    {
+      "year": 2016,
+      "count": 5
+    },
+    {
+      "year": 2017,
+      "count": 8
+    },
+    {
+      "year": 2018,
+      "count": 0
+    },
+    {
+      "year": 2019,
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "count": 0
+    },
+    {
+      "year": 2022,
+      "count": 0
+    },
+    {
+      "year": 2023,
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ]
+}

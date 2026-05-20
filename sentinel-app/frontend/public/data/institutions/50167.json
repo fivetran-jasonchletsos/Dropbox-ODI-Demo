@@ -1,0 +1,110 @@
+{
+  "cert_id": "50167",
+  "name": "California Pinnacle Bank",
+  "city": "Sacramento",
+  "state": "CA",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.51,
+  "branches": 8,
+  "established_year": 1932,
+  "risk_score": 49,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 9.35,
+  "net_charge_off_ratio_pct": 0.85,
+  "return_on_assets_pct": 0.59,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 7,
+      "deposits_b": 0.43
+    },
+    {
+      "state": "KS",
+      "count": 1,
+      "deposits_b": 0.017
+    },
+    {
+      "state": "MN",
+      "count": 0,
+      "deposits_b": 0.064
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.503,
+      "npl_ratio": 1.06,
+      "capital_ratio": 9.83
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.5,
+      "npl_ratio": 1.2,
+      "capital_ratio": 9.47
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.526,
+      "npl_ratio": 1.22,
+      "capital_ratio": 9.68
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.547,
+      "npl_ratio": 1.22,
+      "capital_ratio": 9.68
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.533,
+      "npl_ratio": 1.27,
+      "capital_ratio": 9.91
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.526,
+      "npl_ratio": 1.25,
+      "capital_ratio": 9.77
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.551,
+      "npl_ratio": 1.24,
+      "capital_ratio": 10.03
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.554,
+      "npl_ratio": 1.28,
+      "capital_ratio": 9.98
+    }
+  ],
+  "ai_summary": "California Pinnacle Bank (Sacramento, CA) holds $0.51B in deposits across 8 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 9.35% and ROA of 0.59% benchmark this institution against 100M-1B peers."
+}

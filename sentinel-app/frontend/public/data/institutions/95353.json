@@ -1,0 +1,115 @@
+{
+  "cert_id": "95353",
+  "name": "Prairie Bank of Texas",
+  "city": "Austin",
+  "state": "TX",
+  "charter_class": "SM",
+  "asset_class": "10B-100B",
+  "deposits_b": 65.953,
+  "branches": 207,
+  "established_year": 1936,
+  "risk_score": 33,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 10.34,
+  "net_charge_off_ratio_pct": 0.11,
+  "return_on_assets_pct": 0.74,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 121,
+      "deposits_b": 38.482
+    },
+    {
+      "state": "AZ",
+      "count": 33,
+      "deposits_b": 10.573
+    },
+    {
+      "state": "IN",
+      "count": 12,
+      "deposits_b": 3.938
+    },
+    {
+      "state": "OK",
+      "count": 41,
+      "deposits_b": 12.96
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 61.673,
+      "npl_ratio": 0.41,
+      "capital_ratio": 10.01
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 64.308,
+      "npl_ratio": 0.44,
+      "capital_ratio": 9.81
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 66.41,
+      "npl_ratio": 0.42,
+      "capital_ratio": 9.65
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 68.472,
+      "npl_ratio": 0.42,
+      "capital_ratio": 9.26
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 67.757,
+      "npl_ratio": 0.41,
+      "capital_ratio": 8.93
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 71.336,
+      "npl_ratio": 0.51,
+      "capital_ratio": 8.86
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 73.953,
+      "npl_ratio": 0.46,
+      "capital_ratio": 8.94
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 74.595,
+      "npl_ratio": 0.56,
+      "capital_ratio": 9.05
+    }
+  ],
+  "ai_summary": "Prairie Bank of Texas (Austin, TX) holds $65.95B in deposits across 207 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 10.34% and ROA of 0.74% benchmark this institution against 10B-100B peers."
+}

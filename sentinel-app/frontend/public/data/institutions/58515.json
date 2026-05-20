@@ -1,0 +1,125 @@
+{
+  "cert_id": "58515",
+  "name": "Founders Bank of California",
+  "city": "Long Beach",
+  "state": "CA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.453,
+  "branches": 7,
+  "established_year": 1980,
+  "risk_score": 58,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 10.51,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 0.37,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 5,
+      "deposits_b": 0.315
+    },
+    {
+      "state": "OK",
+      "count": 1,
+      "deposits_b": 0.048
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.036
+    },
+    {
+      "state": "SD",
+      "count": 1,
+      "deposits_b": 0.018
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.013
+    },
+    {
+      "state": "AR",
+      "count": -2,
+      "deposits_b": 0.023
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.424,
+      "npl_ratio": 0.36,
+      "capital_ratio": 10.71
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.43,
+      "npl_ratio": 0.49,
+      "capital_ratio": 10.77
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.419,
+      "npl_ratio": 0.64,
+      "capital_ratio": 11.01
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.419,
+      "npl_ratio": 0.69,
+      "capital_ratio": 11.15
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.438,
+      "npl_ratio": 0.68,
+      "capital_ratio": 11.28
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.459,
+      "npl_ratio": 0.65,
+      "capital_ratio": 11.29
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.485,
+      "npl_ratio": 0.73,
+      "capital_ratio": 11.56
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.501,
+      "npl_ratio": 0.69,
+      "capital_ratio": 11.85
+    }
+  ],
+  "ai_summary": "Founders Bank of California (Long Beach, CA) holds $0.45B in deposits across 7 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 10.51% and ROA of 0.37% benchmark this institution against 100M-1B peers. Peer failures in CA since 2021 suggest elevated regional stress."
+}

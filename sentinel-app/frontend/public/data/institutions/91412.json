@@ -1,0 +1,120 @@
+{
+  "cert_id": "91412",
+  "name": "Coastal Bank of Illinois",
+  "city": "Springfield",
+  "state": "IL",
+  "charter_class": "SM",
+  "asset_class": "<100M",
+  "deposits_b": 0.059,
+  "branches": 1,
+  "established_year": 1942,
+  "risk_score": 23,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.91,
+  "net_charge_off_ratio_pct": 0.67,
+  "return_on_assets_pct": 0.94,
+  "branches_by_state": [
+    {
+      "state": "IL",
+      "count": 1,
+      "deposits_b": 0.037
+    },
+    {
+      "state": "UT",
+      "count": 1,
+      "deposits_b": 0.009
+    },
+    {
+      "state": "HI",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "VT",
+      "count": -3,
+      "deposits_b": 0.005
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley Exchange Bank",
+      "close_date": "2019-11-10",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Heritage Bank",
+      "close_date": "2014-11-07",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "First Bank of Illinois",
+      "close_date": "2014-10-08",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Illinois Pinnacle Bank",
+      "close_date": "2013-08-26",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.053,
+      "npl_ratio": 0.8,
+      "capital_ratio": 10.63
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.8,
+      "capital_ratio": 10.25
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.051,
+      "npl_ratio": 0.82,
+      "capital_ratio": 10.46
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.051,
+      "npl_ratio": 0.83,
+      "capital_ratio": 10.3
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.87,
+      "capital_ratio": 10.18
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.051,
+      "npl_ratio": 0.78,
+      "capital_ratio": 9.94
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.051,
+      "npl_ratio": 0.74,
+      "capital_ratio": 9.87
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.049,
+      "npl_ratio": 0.79,
+      "capital_ratio": 9.58
+    }
+  ],
+  "ai_summary": "Coastal Bank of Illinois (Springfield, IL) holds $0.06B in deposits across 1 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.91% and ROA of 0.94% benchmark this institution against <100M peers."
+}

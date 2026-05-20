@@ -1,0 +1,125 @@
+{
+  "cert_id": "32820",
+  "name": "Commonwealth & Pinnacle Savings",
+  "city": "Jersey City",
+  "state": "NJ",
+  "charter_class": "N",
+  "asset_class": "10B-100B",
+  "deposits_b": 53.735,
+  "branches": 204,
+  "established_year": 1959,
+  "risk_score": 15,
+  "risk_tier": "low",
+  "capital_ratio_pct": 9.45,
+  "net_charge_off_ratio_pct": 0.05,
+  "return_on_assets_pct": 2.04,
+  "branches_by_state": [
+    {
+      "state": "NJ",
+      "count": 118,
+      "deposits_b": 30.977
+    },
+    {
+      "state": "VT",
+      "count": 27,
+      "deposits_b": 7.2
+    },
+    {
+      "state": "NC",
+      "count": 23,
+      "deposits_b": 6.116
+    },
+    {
+      "state": "SC",
+      "count": 8,
+      "deposits_b": 2.194
+    },
+    {
+      "state": "PA",
+      "count": 12,
+      "deposits_b": 3.089
+    },
+    {
+      "state": "AZ",
+      "count": 16,
+      "deposits_b": 4.16
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Pacific & Founders Trust",
+      "close_date": "2014-12-14",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "First & United Trust",
+      "close_date": "2012-11-14",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "New Jersey National Bank",
+      "close_date": "2012-06-19",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Beacon & Heritage Trust",
+      "close_date": "2011-08-04",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 50.441,
+      "npl_ratio": 0.17,
+      "capital_ratio": 9.83
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 52.924,
+      "npl_ratio": 0.24,
+      "capital_ratio": 9.97
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 53.685,
+      "npl_ratio": 0.19,
+      "capital_ratio": 9.61
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 56.662,
+      "npl_ratio": 0.25,
+      "capital_ratio": 9.96
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 57.091,
+      "npl_ratio": 0.22,
+      "capital_ratio": 10.16
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 59.177,
+      "npl_ratio": 0.17,
+      "capital_ratio": 9.81
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 57.18,
+      "npl_ratio": 0.19,
+      "capital_ratio": 9.49
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 57.427,
+      "npl_ratio": 0.27,
+      "capital_ratio": 9.19
+    }
+  ],
+  "ai_summary": "Commonwealth & Pinnacle Savings (Jersey City, NJ) holds $53.73B in deposits across 204 branches and remains well-capitalized with healthy earnings. Capital ratio of 9.45% and ROA of 2.04% benchmark this institution against 10B-100B peers."
+}

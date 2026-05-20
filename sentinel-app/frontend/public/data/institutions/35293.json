@@ -1,0 +1,120 @@
+{
+  "cert_id": "35293",
+  "name": "New York Sterling Bank",
+  "city": "Syracuse",
+  "state": "NY",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.866,
+  "branches": 5,
+  "established_year": 1901,
+  "risk_score": 47,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.9,
+  "net_charge_off_ratio_pct": 0.67,
+  "return_on_assets_pct": 1.84,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 4,
+      "deposits_b": 0.68
+    },
+    {
+      "state": "DC",
+      "count": 1,
+      "deposits_b": 0.068
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.047
+    },
+    {
+      "state": "NH",
+      "count": 1,
+      "deposits_b": 0.022
+    },
+    {
+      "state": "KY",
+      "count": -2,
+      "deposits_b": 0.05
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.788,
+      "npl_ratio": 0.73,
+      "capital_ratio": 12.62
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.758,
+      "npl_ratio": 0.7,
+      "capital_ratio": 12.72
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.742,
+      "npl_ratio": 0.73,
+      "capital_ratio": 12.75
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.724,
+      "npl_ratio": 0.75,
+      "capital_ratio": 12.63
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.7,
+      "npl_ratio": 0.74,
+      "capital_ratio": 12.61
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.722,
+      "npl_ratio": 0.74,
+      "capital_ratio": 12.59
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.697,
+      "npl_ratio": 0.76,
+      "capital_ratio": 12.78
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.684,
+      "npl_ratio": 0.86,
+      "capital_ratio": 12.74
+    }
+  ],
+  "ai_summary": "New York Sterling Bank (Syracuse, NY) holds $0.87B in deposits across 5 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.90% and ROA of 1.84% benchmark this institution against 100M-1B peers."
+}

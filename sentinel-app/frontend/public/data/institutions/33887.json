@@ -1,0 +1,92 @@
+{
+  "cert_id": "33887",
+  "name": "Missouri Pinnacle Bank",
+  "city": "Clinton",
+  "state": "MO",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.683,
+  "branches": 9,
+  "established_year": 1972,
+  "risk_score": 11,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.61,
+  "net_charge_off_ratio_pct": 0.25,
+  "return_on_assets_pct": 1.41,
+  "branches_by_state": [
+    {
+      "state": "MO",
+      "count": 5,
+      "deposits_b": 0.393
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.082
+    },
+    {
+      "state": "AZ",
+      "count": 3,
+      "deposits_b": 0.208
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Capital Bank of Missouri",
+      "close_date": "2014-10-11",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.59,
+      "npl_ratio": 0.51,
+      "capital_ratio": 12.38
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.597,
+      "npl_ratio": 0.5,
+      "capital_ratio": 12.61
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.594,
+      "npl_ratio": 0.43,
+      "capital_ratio": 12.81
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.58,
+      "npl_ratio": 0.33,
+      "capital_ratio": 12.89
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.604,
+      "npl_ratio": 0.23,
+      "capital_ratio": 13.07
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.594,
+      "npl_ratio": 0.19,
+      "capital_ratio": 12.83
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.614,
+      "npl_ratio": 0.12,
+      "capital_ratio": 12.62
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.64,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.48
+    }
+  ],
+  "ai_summary": "Missouri Pinnacle Bank (Clinton, MO) holds $0.68B in deposits across 9 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.61% and ROA of 1.41% benchmark this institution against 100M-1B peers."
+}

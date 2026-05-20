@@ -1,0 +1,110 @@
+{
+  "cert_id": "81922",
+  "name": "Mercantile Bank of Ohio",
+  "city": "Dayton",
+  "state": "OH",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.055,
+  "branches": 4,
+  "established_year": 1945,
+  "risk_score": 24,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.92,
+  "net_charge_off_ratio_pct": 0.39,
+  "return_on_assets_pct": 1.29,
+  "branches_by_state": [
+    {
+      "state": "OH",
+      "count": 3,
+      "deposits_b": 0.039
+    },
+    {
+      "state": "MT",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "WV",
+      "count": 0,
+      "deposits_b": 0.013
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Partners Bank",
+      "close_date": "2023-01-15",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Independence State Bank",
+      "close_date": "2019-09-08",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Ohio First Bank",
+      "close_date": "2017-07-06",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Commonwealth Bank of Ohio",
+      "close_date": "2014-02-10",
+      "charter_class": "SA",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.05,
+      "npl_ratio": 0.47,
+      "capital_ratio": 15.51
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.55,
+      "capital_ratio": 15.13
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.48,
+      "capital_ratio": 15.37
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.53,
+      "capital_ratio": 15.65
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.054,
+      "npl_ratio": 0.53,
+      "capital_ratio": 15.86
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.63,
+      "capital_ratio": 15.77
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.54,
+      "capital_ratio": 15.93
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.64,
+      "capital_ratio": 15.82
+    }
+  ],
+  "ai_summary": "Mercantile Bank of Ohio (Dayton, OH) holds $0.06B in deposits across 4 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.92% and ROA of 1.29% benchmark this institution against <100M peers."
+}

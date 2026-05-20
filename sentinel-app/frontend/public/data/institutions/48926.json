@@ -1,0 +1,115 @@
+{
+  "cert_id": "48926",
+  "name": "Cardinal Trust Bank",
+  "city": "Chesapeake",
+  "state": "VA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.164,
+  "branches": 12,
+  "established_year": 2013,
+  "risk_score": 28,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.48,
+  "net_charge_off_ratio_pct": 0.53,
+  "return_on_assets_pct": 0.76,
+  "branches_by_state": [
+    {
+      "state": "VA",
+      "count": 8,
+      "deposits_b": 0.113
+    },
+    {
+      "state": "RI",
+      "count": 1,
+      "deposits_b": 0.013
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.018
+    },
+    {
+      "state": "DC",
+      "count": 2,
+      "deposits_b": 0.02
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2024-02-11",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Citizens State Bank",
+      "close_date": "2019-09-18",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2013-03-27",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2011-12-08",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.147,
+      "npl_ratio": 0.69,
+      "capital_ratio": 12.92
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.141,
+      "npl_ratio": 0.77,
+      "capital_ratio": 12.98
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.142,
+      "npl_ratio": 0.7,
+      "capital_ratio": 12.89
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.144,
+      "npl_ratio": 0.65,
+      "capital_ratio": 13.21
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.141,
+      "npl_ratio": 0.71,
+      "capital_ratio": 13.41
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.138,
+      "npl_ratio": 0.79,
+      "capital_ratio": 13.71
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.141,
+      "npl_ratio": 0.79,
+      "capital_ratio": 13.32
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.141,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.17
+    }
+  ],
+  "ai_summary": "Cardinal Trust Bank (Chesapeake, VA) holds $0.16B in deposits across 12 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.48% and ROA of 0.76% benchmark this institution against 100M-1B peers."
+}

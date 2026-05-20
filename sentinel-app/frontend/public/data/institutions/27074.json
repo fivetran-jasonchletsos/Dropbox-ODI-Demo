@@ -1,0 +1,125 @@
+{
+  "cert_id": "27074",
+  "name": "Founders Bank of Massachusetts",
+  "city": "Springfield",
+  "state": "MA",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 4.529,
+  "branches": 56,
+  "established_year": 1931,
+  "risk_score": 45,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.37,
+  "net_charge_off_ratio_pct": 1,
+  "return_on_assets_pct": 0.74,
+  "branches_by_state": [
+    {
+      "state": "MA",
+      "count": 43,
+      "deposits_b": 3.461
+    },
+    {
+      "state": "CT",
+      "count": 3,
+      "deposits_b": 0.248
+    },
+    {
+      "state": "WA",
+      "count": 2,
+      "deposits_b": 0.195
+    },
+    {
+      "state": "MS",
+      "count": 4,
+      "deposits_b": 0.274
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.126
+    },
+    {
+      "state": "LA",
+      "count": 3,
+      "deposits_b": 0.225
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United Federal Bank",
+      "close_date": "2012-12-25",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Midwest State Bank",
+      "close_date": "2012-02-07",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Founders Group Bank",
+      "close_date": "2011-04-19",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Massachusetts First Bank",
+      "close_date": "2010-11-15",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 4.138,
+      "npl_ratio": 1.01,
+      "capital_ratio": 14.01
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 4.093,
+      "npl_ratio": 0.99,
+      "capital_ratio": 13.68
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 4.258,
+      "npl_ratio": 1.03,
+      "capital_ratio": 13.51
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 4.421,
+      "npl_ratio": 1.11,
+      "capital_ratio": 13.31
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 4.35,
+      "npl_ratio": 1.21,
+      "capital_ratio": 13.54
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 4.592,
+      "npl_ratio": 1.24,
+      "capital_ratio": 13.77
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 4.431,
+      "npl_ratio": 1.33,
+      "capital_ratio": 13.7
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 4.56,
+      "npl_ratio": 1.34,
+      "capital_ratio": 13.87
+    }
+  ],
+  "ai_summary": "Founders Bank of Massachusetts (Springfield, MA) holds $4.53B in deposits across 56 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.37% and ROA of 0.74% benchmark this institution against 1B-10B peers."
+}

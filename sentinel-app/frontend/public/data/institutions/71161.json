@@ -1,0 +1,115 @@
+{
+  "cert_id": "71161",
+  "name": "Sterling Holdings",
+  "city": "Austin",
+  "state": "TX",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.131,
+  "branches": 9,
+  "established_year": 1887,
+  "risk_score": 56,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 13.6,
+  "net_charge_off_ratio_pct": 0.52,
+  "return_on_assets_pct": 0.69,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 8,
+      "deposits_b": 0.11
+    },
+    {
+      "state": "VA",
+      "count": 1,
+      "deposits_b": 0.01
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.002
+    },
+    {
+      "state": "UT",
+      "count": -1,
+      "deposits_b": 0.009
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.129,
+      "npl_ratio": 0.67,
+      "capital_ratio": 13.74
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.126,
+      "npl_ratio": 0.76,
+      "capital_ratio": 13.71
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.125,
+      "npl_ratio": 0.72,
+      "capital_ratio": 13.44
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.123,
+      "npl_ratio": 0.77,
+      "capital_ratio": 13.12
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.123,
+      "npl_ratio": 0.82,
+      "capital_ratio": 13.13
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.128,
+      "npl_ratio": 0.78,
+      "capital_ratio": 13.2
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.128,
+      "npl_ratio": 0.78,
+      "capital_ratio": 13.03
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.135,
+      "npl_ratio": 0.9,
+      "capital_ratio": 12.74
+    }
+  ],
+  "ai_summary": "Sterling Holdings (Austin, TX) holds $0.13B in deposits across 9 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 13.60% and ROA of 0.69% benchmark this institution against 100M-1B peers. Peer failures in TX since 2021 suggest elevated regional stress."
+}

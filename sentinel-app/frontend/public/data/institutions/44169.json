@@ -1,0 +1,120 @@
+{
+  "cert_id": "44169",
+  "name": "Commonwealth Commerce",
+  "city": "Yonkers",
+  "state": "NY",
+  "charter_class": "N",
+  "asset_class": ">100B",
+  "deposits_b": 1108.553,
+  "branches": 4382,
+  "established_year": 1951,
+  "risk_score": 31,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.31,
+  "net_charge_off_ratio_pct": 1.02,
+  "return_on_assets_pct": 1.15,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 2780,
+      "deposits_b": 703.179
+    },
+    {
+      "state": "CT",
+      "count": 355,
+      "deposits_b": 89.733
+    },
+    {
+      "state": "TN",
+      "count": 599,
+      "deposits_b": 151.559
+    },
+    {
+      "state": "NE",
+      "count": 169,
+      "deposits_b": 42.744
+    },
+    {
+      "state": "IA",
+      "count": 479,
+      "deposits_b": 121.338
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1058.766,
+      "npl_ratio": 0.95,
+      "capital_ratio": 11.66
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1047.923,
+      "npl_ratio": 0.96,
+      "capital_ratio": 11.64
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1045.943,
+      "npl_ratio": 0.88,
+      "capital_ratio": 11.73
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1089.171,
+      "npl_ratio": 0.86,
+      "capital_ratio": 11.54
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 1069.173,
+      "npl_ratio": 0.88,
+      "capital_ratio": 11.75
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 1105.072,
+      "npl_ratio": 0.92,
+      "capital_ratio": 11.67
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 1075.58,
+      "npl_ratio": 0.9,
+      "capital_ratio": 11.69
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1119.139,
+      "npl_ratio": 0.99,
+      "capital_ratio": 11.93
+    }
+  ],
+  "ai_summary": "Commonwealth Commerce (Yonkers, NY) holds $1108.55B in deposits across 4382 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.31% and ROA of 1.15% benchmark this institution against >100B peers."
+}

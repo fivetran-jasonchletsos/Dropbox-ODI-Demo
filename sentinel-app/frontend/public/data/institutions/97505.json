@@ -1,0 +1,103 @@
+{
+  "cert_id": "97505",
+  "name": "Patriot Federal Bank",
+  "city": "Madison",
+  "state": "NE",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 6.485,
+  "branches": 48,
+  "established_year": 2016,
+  "risk_score": 21,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.11,
+  "net_charge_off_ratio_pct": 0.42,
+  "return_on_assets_pct": 1.12,
+  "branches_by_state": [
+    {
+      "state": "NE",
+      "count": 35,
+      "deposits_b": 4.752
+    },
+    {
+      "state": "AK",
+      "count": 5,
+      "deposits_b": 0.697
+    },
+    {
+      "state": "ME",
+      "count": 3,
+      "deposits_b": 0.336
+    },
+    {
+      "state": "CA",
+      "count": 5,
+      "deposits_b": 0.7
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Citizens Bank of Nebraska",
+      "close_date": "2010-01-27",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Pinnacle Banking",
+      "close_date": "2009-02-04",
+      "charter_class": "SA",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 5.992,
+      "npl_ratio": 0.49,
+      "capital_ratio": 13.16
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.129,
+      "npl_ratio": 0.45,
+      "capital_ratio": 13.05
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 5.963,
+      "npl_ratio": 0.46,
+      "capital_ratio": 13.07
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 5.979,
+      "npl_ratio": 0.38,
+      "capital_ratio": 13.32
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.136,
+      "npl_ratio": 0.46,
+      "capital_ratio": 13.05
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.047,
+      "npl_ratio": 0.51,
+      "capital_ratio": 13.06
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.393,
+      "npl_ratio": 0.41,
+      "capital_ratio": 13.06
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.429,
+      "npl_ratio": 0.49,
+      "capital_ratio": 13.2
+    }
+  ],
+  "ai_summary": "Patriot Federal Bank (Madison, NE) holds $6.49B in deposits across 48 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.11% and ROA of 1.12% benchmark this institution against 1B-10B peers."
+}

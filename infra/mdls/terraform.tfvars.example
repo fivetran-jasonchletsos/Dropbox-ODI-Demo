@@ -1,0 +1,21 @@
+aws_region         = "us-east-1"
+bucket_name_prefix = "sentinel-mdls"
+glue_database_name = "jason_chletsos_sentinel"
+
+# Fivetran's AWS account ID; only override if Fivetran docs change it.
+# https://fivetran.com/docs/destinations/managed-data-lake-service/aws-setup-guide
+fivetran_aws_account_id = "834469178297"
+
+# Shown in the Fivetran MDLS destination setup UI under "External ID".
+fivetran_external_id = "REPLACE_WITH_FIVETRAN_UI_EXTERNAL_ID"
+
+# From Snowflake: DESCRIBE EXTERNAL VOLUME sentinel_mdls_vol;
+# Look at STORAGE_AWS_IAM_USER_ARN and STORAGE_AWS_EXTERNAL_ID.
+snowflake_aws_account_id = "arn:aws:iam::000000000000:user/REPLACE_AFTER_FIRST_APPLY"
+snowflake_external_id    = "REPLACE_AFTER_FIRST_APPLY"
+
+# Fivetran API key + secret from https://fivetran.com/account/settings/api-config
+fivetran_api_key    = "REPLACE_WITH_FIVETRAN_API_KEY"
+fivetran_api_secret = "REPLACE_WITH_FIVETRAN_API_SECRET"
+
+fivetran_destination_name = "sentinel_mdls"

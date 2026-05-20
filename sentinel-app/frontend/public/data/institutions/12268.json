@@ -1,0 +1,120 @@
+{
+  "cert_id": "12268",
+  "name": "Frontier & Plains Savings",
+  "city": "Tampa",
+  "state": "FL",
+  "charter_class": "SA",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.851,
+  "branches": 12,
+  "established_year": 1989,
+  "risk_score": 53,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.9,
+  "net_charge_off_ratio_pct": 1.13,
+  "return_on_assets_pct": 1.03,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 10,
+      "deposits_b": 0.688
+    },
+    {
+      "state": "HI",
+      "count": 1,
+      "deposits_b": 0.043
+    },
+    {
+      "state": "IA",
+      "count": 1,
+      "deposits_b": 0.042
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.037
+    },
+    {
+      "state": "MO",
+      "count": -1,
+      "deposits_b": 0.041
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.788,
+      "npl_ratio": 1.1,
+      "capital_ratio": 11.77
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.823,
+      "npl_ratio": 1.22,
+      "capital_ratio": 12
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.843,
+      "npl_ratio": 1.22,
+      "capital_ratio": 12.03
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.838,
+      "npl_ratio": 1.31,
+      "capital_ratio": 12.28
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.817,
+      "npl_ratio": 1.27,
+      "capital_ratio": 11.97
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.854,
+      "npl_ratio": 1.3,
+      "capital_ratio": 12.05
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.891,
+      "npl_ratio": 1.43,
+      "capital_ratio": 11.67
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.917,
+      "npl_ratio": 1.47,
+      "capital_ratio": 11.97
+    }
+  ],
+  "ai_summary": "Frontier & Plains Savings (Tampa, FL) holds $0.85B in deposits across 12 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.90% and ROA of 1.03% benchmark this institution against 100M-1B peers."
+}

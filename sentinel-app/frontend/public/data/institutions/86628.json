@@ -1,0 +1,110 @@
+{
+  "cert_id": "86628",
+  "name": "River & Liberty Savings",
+  "city": "Clinton",
+  "state": "SC",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.153,
+  "branches": 13,
+  "established_year": 1966,
+  "risk_score": 21,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.21,
+  "net_charge_off_ratio_pct": 0.16,
+  "return_on_assets_pct": 0.09,
+  "branches_by_state": [
+    {
+      "state": "SC",
+      "count": 9,
+      "deposits_b": 0.107
+    },
+    {
+      "state": "PR",
+      "count": 1,
+      "deposits_b": 0.013
+    },
+    {
+      "state": "AL",
+      "count": 3,
+      "deposits_b": 0.033
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "South Carolina Pinnacle Bank",
+      "close_date": "2012-10-16",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Patriot Partners",
+      "close_date": "2012-01-04",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pacific Bank of South Carolina",
+      "close_date": "2010-07-02",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2010-03-28",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.132,
+      "npl_ratio": 0.32,
+      "capital_ratio": 11.92
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.13,
+      "npl_ratio": 0.23,
+      "capital_ratio": 12.02
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.128,
+      "npl_ratio": 0.32,
+      "capital_ratio": 11.84
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.132,
+      "npl_ratio": 0.25,
+      "capital_ratio": 11.72
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.135,
+      "npl_ratio": 0.35,
+      "capital_ratio": 11.85
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.133,
+      "npl_ratio": 0.34,
+      "capital_ratio": 12.06
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.133,
+      "npl_ratio": 0.26,
+      "capital_ratio": 12.06
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.129,
+      "npl_ratio": 0.16,
+      "capital_ratio": 11.7
+    }
+  ],
+  "ai_summary": "River & Liberty Savings (Clinton, SC) holds $0.15B in deposits across 13 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.21% and ROA of 0.09% benchmark this institution against 100M-1B peers."
+}

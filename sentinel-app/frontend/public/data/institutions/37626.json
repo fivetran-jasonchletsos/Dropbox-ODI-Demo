@@ -1,0 +1,113 @@
+{
+  "cert_id": "37626",
+  "name": "Founders Holdings Bank",
+  "city": "Greenfield",
+  "state": "WV",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.323,
+  "branches": 5,
+  "established_year": 1927,
+  "risk_score": 47,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.27,
+  "net_charge_off_ratio_pct": 0.66,
+  "return_on_assets_pct": 0.89,
+  "branches_by_state": [
+    {
+      "state": "WV",
+      "count": 3,
+      "deposits_b": 0.201
+    },
+    {
+      "state": "NJ",
+      "count": 1,
+      "deposits_b": 0.06
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.014
+    },
+    {
+      "state": "MN",
+      "count": 1,
+      "deposits_b": 0.014
+    },
+    {
+      "state": "WI",
+      "count": 1,
+      "deposits_b": 0.011
+    },
+    {
+      "state": "MA",
+      "count": -2,
+      "deposits_b": 0.023
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "West Virginia Sterling Bank",
+      "close_date": "2010-06-27",
+      "charter_class": "SA",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2010-02-18",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.313,
+      "npl_ratio": 0.87,
+      "capital_ratio": 10.75
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.309,
+      "npl_ratio": 0.94,
+      "capital_ratio": 10.91
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.323,
+      "npl_ratio": 0.98,
+      "capital_ratio": 10.87
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.327,
+      "npl_ratio": 1.1,
+      "capital_ratio": 10.65
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.329,
+      "npl_ratio": 1.17,
+      "capital_ratio": 10.4
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.333,
+      "npl_ratio": 1.26,
+      "capital_ratio": 10.65
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.33,
+      "npl_ratio": 1.36,
+      "capital_ratio": 10.88
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.326,
+      "npl_ratio": 1.35,
+      "capital_ratio": 10.6
+    }
+  ],
+  "ai_summary": "Founders Holdings Bank (Greenfield, WV) holds $0.32B in deposits across 5 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.27% and ROA of 0.89% benchmark this institution against 100M-1B peers."
+}

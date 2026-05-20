@@ -1,0 +1,178 @@
+version: 2
+
+# ============================================================
+# Sentinel semantic layer.
+#
+# Seven first-class metrics surfaced to the Sentinel app and any
+# downstream BI tool. Each metric is sourced from a gold model so it
+# stays consistent with the lineage shown in mart_file_lineage.
+# ============================================================
+
+semantic_models:
+  - name: institutions
+    description: FDIC-insured institutions with risk scores.
+    model: ref('dim_institution')
+    defaults:
+      agg_time_dimension: built_at
+    entities:
+      - name: institution
+        type: primary
+        expr: cert
+    dimensions:
+      - name: built_at
+        type: time
+        type_params:
+          time_granularity: day
+      - name: charter_class
+        type: categorical
+      - name: asset_class
+        type: categorical
+      - name: headquarters_state
+        type: categorical
+      - name: headquarters_region
+        type: categorical
+      - name: risk_tier
+        type: categorical
+    measures:
+      - name: institution_count
+        description: Count of distinct institutions.
+        agg: count_distinct
+        expr: cert
+      - name: deposits_total_m
+        description: Sum of branch deposits in $ millions.
+        agg: sum
+        expr: total_branch_deposits_m
+      - name: assets_total_m
+        description: Sum of total assets in $ millions.
+        agg: sum
+        expr: total_assets_m
+      - name: capital_ratio_avg
+        description: Average capital ratio.
+        agg: average
+        expr: capital_ratio_pct
+      - name: roa_avg
+        description: Average ROA.
+        agg: average
+        expr: roa_pct
+      - name: risk_score_total
+        description: Sum of risk scores (paired with institution_count for an average).
+        agg: sum
+        expr: risk_score
+      - name: high_risk_count
+        description: Count of institutions in the `high` risk tier.
+        agg: sum
+        expr: case when risk_tier = 'high' then 1 else 0 end
+
+  - name: failures
+    description: Failed-bank events.
+    model: ref('fct_failures')
+    defaults:
+      agg_time_dimension: closing_date
+    entities:
+      - name: failure
+        type: primary
+        expr: failure_key
+      - name: institution
+        type: foreign
+        expr: cert
+    dimensions:
+      - name: closing_date
+        type: time
+        type_params:
+          time_granularity: day
+      - name: state_code
+        type: categorical
+      - name: region
+        type: categorical
+      - name: fund
+        type: categorical
+    measures:
+      - name: failure_count
+        description: Count of failure events.
+        agg: count
+        expr: failure_key
+      - name: failure_count_5y
+        description: Failures in the trailing 5 years.
+        agg: sum
+        expr: case when closing_year >= year(current_date) - 5 then 1 else 0 end
+
+metrics:
+  - name: institutions_tracked
+    label: Institutions Tracked
+    description: |
+      Distinct FDIC-insured institutions currently in the Sentinel
+      universe. The denominator behind every risk-share metric.
+    type: simple
+    type_params:
+      measure: institution_count
+
+  - name: total_deposits_b
+    label: Total Deposits ($B)
+    description: |
+      Aggregate branch deposits in $ billions across every tracked
+      institution. Derived as deposits_total_m / 1000.
+    type: derived
+    type_params:
+      expr: deposits_total_m / 1000.0
+      metrics:
+        - name: deposits_total_m_metric
+          alias: deposits_total_m
+
+  - name: deposits_total_m_metric
+    label: Total Deposits ($M)
+    description: Helper metric exposing total deposits in $ millions.
+    type: simple
+    type_params:
+      measure: deposits_total_m
+
+  - name: failed_bank_count
+    label: Failed Bank Count
+    description: |
+      Count of failed-bank events since 2008. Visible on the demo
+      landing page as the headline historical risk benchmark.
+    type: simple
+    type_params:
+      measure: failure_count
+
+  - name: failure_count_5y_metric
+    label: Failures (Trailing 5Y)
+    description: Helper metric exposing the trailing-5-year failure count.
+    type: simple
+    type_params:
+      measure: failure_count_5y
+
+  - name: failure_rate_5y
+    label: 5-Year Failure Rate
+    description: |
+      Failures in the trailing 5 years divided by current institutions
+      tracked. The headline forward-looking risk signal.
+    type: ratio
+    type_params:
+      numerator: failure_count_5y_metric
+      denominator: institutions_tracked
+
+  - name: avg_capital_ratio
+    label: Average Capital Ratio
+    description: |
+      Average capital ratio (equity / assets) across tracked
+      institutions, expressed as a percent.
+    type: simple
+    type_params:
+      measure: capital_ratio_avg
+
+  - name: avg_roa
+    label: Average ROA
+    description: |
+      Average return on assets across tracked institutions, percent.
+    type: simple
+    type_params:
+      measure: roa_avg
+
+  - name: high_risk_institution_count
+    label: High-Risk Institution Count
+    description: |
+      Count of institutions whose composite risk score places them in
+      the `high` tier (>= 75). The action queue for the Sentinel app.
+    type: simple
+    type_params:
+      measure: high_risk_count

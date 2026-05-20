@@ -1,0 +1,110 @@
+{
+  "cert_id": "77565",
+  "name": "Pinnacle Banking Bank",
+  "city": "Fairview",
+  "state": "SD",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.093,
+  "branches": 2,
+  "established_year": 1990,
+  "risk_score": 9,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.6,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.39,
+  "branches_by_state": [
+    {
+      "state": "SD",
+      "count": 2,
+      "deposits_b": 0.072
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.01
+    },
+    {
+      "state": "AR",
+      "count": -1,
+      "deposits_b": 0.012
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Liberty Trust Bank",
+      "close_date": "2025-12-06",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Harbor & Heritage Savings",
+      "close_date": "2010-03-05",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Midwest Group Bank",
+      "close_date": "2009-09-27",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Capital Bank of South Dakota",
+      "close_date": "2009-04-18",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.087,
+      "npl_ratio": 0.28,
+      "capital_ratio": 12.64
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.086,
+      "npl_ratio": 0.21,
+      "capital_ratio": 12.29
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.089,
+      "npl_ratio": 0.11,
+      "capital_ratio": 12.32
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.27
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.094,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.28
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.097,
+      "npl_ratio": 0.12,
+      "capital_ratio": 11.89
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.101,
+      "npl_ratio": 0.1,
+      "capital_ratio": 11.95
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.1,
+      "npl_ratio": 0.13,
+      "capital_ratio": 12.08
+    }
+  ],
+  "ai_summary": "Pinnacle Banking Bank (Fairview, SD) holds $0.09B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.60% and ROA of 1.39% benchmark this institution against <100M peers."
+}

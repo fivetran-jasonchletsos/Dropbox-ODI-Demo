@@ -1,0 +1,110 @@
+{
+  "cert_id": "26613",
+  "name": "Atlantic & Summit Bank",
+  "city": "Brockton",
+  "state": "MA",
+  "charter_class": "SM",
+  "asset_class": "1B-10B",
+  "deposits_b": 3.41,
+  "branches": 44,
+  "established_year": 1904,
+  "risk_score": 58,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 9.86,
+  "net_charge_off_ratio_pct": 0.43,
+  "return_on_assets_pct": -0.21,
+  "branches_by_state": [
+    {
+      "state": "MA",
+      "count": 37,
+      "deposits_b": 2.848
+    },
+    {
+      "state": "GA",
+      "count": 3,
+      "deposits_b": 0.241
+    },
+    {
+      "state": "AL",
+      "count": 4,
+      "deposits_b": 0.321
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United Federal Bank",
+      "close_date": "2012-12-25",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Midwest State Bank",
+      "close_date": "2012-02-07",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Founders Group Bank",
+      "close_date": "2011-04-19",
+      "charter_class": "SM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Massachusetts First Bank",
+      "close_date": "2010-11-15",
+      "charter_class": "NM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 3.243,
+      "npl_ratio": 0.66,
+      "capital_ratio": 9.37
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 3.256,
+      "npl_ratio": 0.71,
+      "capital_ratio": 9.53
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 3.246,
+      "npl_ratio": 0.72,
+      "capital_ratio": 9.41
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 3.2,
+      "npl_ratio": 0.81,
+      "capital_ratio": 9.24
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 3.196,
+      "npl_ratio": 0.78,
+      "capital_ratio": 9.27
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 3.365,
+      "npl_ratio": 0.8,
+      "capital_ratio": 9.6
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 3.366,
+      "npl_ratio": 0.92,
+      "capital_ratio": 9.24
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 3.253,
+      "npl_ratio": 0.97,
+      "capital_ratio": 9.39
+    }
+  ],
+  "ai_summary": "Atlantic & Summit Bank (Brockton, MA) holds $3.41B in deposits across 44 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 9.86% and ROA of -0.21% benchmark this institution against 1B-10B peers. Peer failures in MA since 2021 suggest elevated regional stress."
+}

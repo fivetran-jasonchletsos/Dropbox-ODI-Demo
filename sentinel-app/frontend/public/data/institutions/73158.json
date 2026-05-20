@@ -1,0 +1,108 @@
+{
+  "cert_id": "73158",
+  "name": "Patriot Commerce Bank",
+  "city": "Greenfield",
+  "state": "NE",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.733,
+  "branches": 14,
+  "established_year": 1970,
+  "risk_score": 10,
+  "risk_tier": "low",
+  "capital_ratio_pct": 10.26,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.96,
+  "branches_by_state": [
+    {
+      "state": "NE",
+      "count": 8,
+      "deposits_b": 0.42
+    },
+    {
+      "state": "CO",
+      "count": 2,
+      "deposits_b": 0.112
+    },
+    {
+      "state": "CA",
+      "count": 2,
+      "deposits_b": 0.099
+    },
+    {
+      "state": "HI",
+      "count": 1,
+      "deposits_b": 0.047
+    },
+    {
+      "state": "RI",
+      "count": 1,
+      "deposits_b": 0.056
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Citizens Bank of Nebraska",
+      "close_date": "2010-01-27",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Pinnacle Banking",
+      "close_date": "2009-02-04",
+      "charter_class": "SA",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.694,
+      "npl_ratio": 0.15,
+      "capital_ratio": 10.02
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.706,
+      "npl_ratio": 0.19,
+      "capital_ratio": 10.23
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.725,
+      "npl_ratio": 0.2,
+      "capital_ratio": 10.38
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.713,
+      "npl_ratio": 0.25,
+      "capital_ratio": 10.27
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.689,
+      "npl_ratio": 0.28,
+      "capital_ratio": 10.15
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.724,
+      "npl_ratio": 0.18,
+      "capital_ratio": 10.19
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.731,
+      "npl_ratio": 0.19,
+      "capital_ratio": 10.14
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.711,
+      "npl_ratio": 0.14,
+      "capital_ratio": 10.17
+    }
+  ],
+  "ai_summary": "Patriot Commerce Bank (Greenfield, NE) holds $0.73B in deposits across 14 branches and remains well-capitalized with healthy earnings. Capital ratio of 10.26% and ROA of 1.96% benchmark this institution against 100M-1B peers."
+}

@@ -1,0 +1,120 @@
+{
+  "cert_id": "87471",
+  "name": "California Heritage Bank",
+  "city": "Sacramento",
+  "state": "CA",
+  "charter_class": "N",
+  "asset_class": "10B-100B",
+  "deposits_b": 52.281,
+  "branches": 350,
+  "established_year": 1902,
+  "risk_score": 45,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 14.33,
+  "net_charge_off_ratio_pct": 0.59,
+  "return_on_assets_pct": 0.51,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 204,
+      "deposits_b": 30.435
+    },
+    {
+      "state": "MN",
+      "count": 30,
+      "deposits_b": 4.418
+    },
+    {
+      "state": "PR",
+      "count": 42,
+      "deposits_b": 6.369
+    },
+    {
+      "state": "FL",
+      "count": 23,
+      "deposits_b": 3.5
+    },
+    {
+      "state": "AK",
+      "count": 51,
+      "deposits_b": 7.559
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 46.875,
+      "npl_ratio": 0.88,
+      "capital_ratio": 13
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 46.508,
+      "npl_ratio": 0.93,
+      "capital_ratio": 13.2
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 44.914,
+      "npl_ratio": 1,
+      "capital_ratio": 12.85
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 44.86,
+      "npl_ratio": 0.98,
+      "capital_ratio": 12.46
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 44.095,
+      "npl_ratio": 0.94,
+      "capital_ratio": 12.48
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 45.831,
+      "npl_ratio": 0.95,
+      "capital_ratio": 12.3
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 46.998,
+      "npl_ratio": 0.93,
+      "capital_ratio": 12.07
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 47.218,
+      "npl_ratio": 1.01,
+      "capital_ratio": 12.08
+    }
+  ],
+  "ai_summary": "California Heritage Bank (Sacramento, CA) holds $52.28B in deposits across 350 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 14.33% and ROA of 0.51% benchmark this institution against 10B-100B peers."
+}

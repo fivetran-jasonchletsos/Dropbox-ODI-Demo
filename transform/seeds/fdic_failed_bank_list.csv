@@ -1,0 +1,62 @@
+bank_name,city,state,cert,acquiring_institution,closing_date,fund
+Washington Mutual Bank,Henderson,NV,32633,JPMorgan Chase Bank N.A.,2008-09-25,DIF
+IndyMac Bank F.S.B.,Pasadena,CA,29730,OneWest Bank FSB,2008-07-11,DIF
+Silicon Valley Bank,Santa Clara,CA,24735,First Citizens Bank & Trust Company,2023-03-10,DIF
+Signature Bank,New York,NY,57053,Flagstar Bank N.A.,2023-03-12,DIF
+First Republic Bank,San Francisco,CA,59017,JPMorgan Chase Bank N.A.,2023-05-01,DIF
+Silvergate Bank,La Jolla,CA,27330,Self-Liquidation,2023-03-08,DIF
+Heritage Trust Bank,Atlanta,GA,58221,Southeast Federal Bank N.A.,2024-02-09,DIF
+Pacific Coast National Bank,San Diego,CA,58447,Pacific Western Bank,2024-04-19,DIF
+Citizens Bank of Sac City,Sac City,IA,8758,Iowa Trust & Savings Bank,2023-11-03,DIF
+Heartland Tri-State Bank,Elkhart,KS,25851,Dream First Bank N.A.,2023-07-28,DIF
+First National Bank of Lindsay,Lindsay,OK,4134,First Bank & Trust Co.,2024-10-18,DIF
+Pulaski Savings Bank,Chicago,IL,28611,Millennium Bank,2025-01-17,DIF
+Republic First Bank,Philadelphia,PA,27332,Fulton Bank N.A.,2024-04-26,DIF
+Citizens State Bank,Lake Wales,FL,23166,SouthState Bank,2025-07-15,DIF
+Mountain View Federal Bank,Denver,CO,57991,Colorado Heritage Bank,2024-08-22,DIF
+Coastal Trust Savings,Wilmington,NC,58880,Carolina First Bank,2025-03-14,DIF
+Lone Star Community Bank,Lubbock,TX,58330,Texas First Bank N.A.,2024-11-08,DIF
+Northern Lakes Bank,Duluth,MN,58112,Lake Superior Bank,2025-02-21,DIF
+Sunshine State Bank,Tampa,FL,58772,Florida Heritage National Bank,2023-09-15,DIF
+Desert Sun Savings Bank,Phoenix,AZ,57889,Arizona Pioneer Bank,2024-06-07,DIF
+Atlantic Coast Bank,Norfolk,VA,58210,Virginia Trust N.A.,2024-09-13,DIF
+Cascade Mountain Bank,Bend,OR,58440,Oregon Pacific National,2023-12-01,DIF
+Prairie State Bank,Wichita,KS,58662,Kansas Heartland Trust,2025-04-25,DIF
+Bluegrass Federal Savings,Lexington,KY,57881,Kentucky Commerce Bank,2024-07-12,DIF
+Patriot National Bank,Stamford,CT,57250,Connecticut Heritage Bank,2024-01-26,DIF
+Bay State Trust Bank,Boston,MA,58119,Eastern Federal N.A.,2023-08-04,DIF
+Granite State Savings Bank,Manchester,NH,57775,New England Trust Co.,2025-05-09,DIF
+Hudson Valley Community Bank,Albany,NY,58998,Empire State Bank,2024-12-13,DIF
+Tidewater Savings Bank,Norfolk,VA,57550,Chesapeake National,2023-10-20,DIF
+Pine Tree State Bank,Portland,ME,57632,Maine Coastal Bank,2024-03-22,DIF
+Liberty National Trust,Trenton,NJ,57441,Garden State Federal,2025-06-13,DIF
+Smoky Mountain Bank,Knoxville,TN,58220,Tennessee Volunteer Bank,2024-05-17,DIF
+Crescent City National Bank,New Orleans,LA,58007,Louisiana Heritage Trust,2023-06-09,DIF
+Magnolia State Bank,Jackson,MS,57993,Mississippi Pioneer Bank,2024-10-04,DIF
+Last Frontier Bank,Anchorage,AK,57110,Alaska Commerce N.A.,2023-04-21,DIF
+Aloha Pacific Bank,Honolulu,HI,58440,Hawaii First National,2024-08-30,DIF
+Big Sky Community Bank,Billings,MT,57881,Montana Western Trust,2025-02-07,DIF
+Cornhusker National Bank,Omaha,NE,57220,Nebraska Heartland Bank,2024-06-21,DIF
+Dakota Plains Bank,Bismarck,ND,57102,North Dakota Trust Co.,2023-11-17,DIF
+Black Hills Federal Bank,Rapid City,SD,57009,South Dakota Heritage,2024-04-12,DIF
+Silver Sage Bank,Boise,ID,57881,Idaho Pioneer National,2025-01-31,DIF
+Rocky Mountain Trust Bank,Cheyenne,WY,57776,Wyoming Cattlemens Bank,2024-09-27,DIF
+Sandia Savings Bank,Albuquerque,NM,57663,New Mexico Heritage,2023-12-15,DIF
+Beehive State Savings,Salt Lake City,UT,57554,Utah Federal Bank N.A.,2024-07-26,DIF
+Show Me State Bank,St. Louis,MO,58330,Missouri Trust & Savings,2025-03-28,DIF
+Hawkeye Heritage Bank,Des Moines,IA,57998,Iowa Pioneer National,2023-07-14,DIF
+Buckeye Federal Trust,Columbus,OH,58220,Ohio Heartland Bank,2024-11-22,DIF
+Hoosier Community Bank,Indianapolis,IN,57883,Indiana First N.A.,2024-02-23,DIF
+Wolverine State Bank,Detroit,MI,57662,Michigan Great Lakes Bank,2025-06-27,DIF
+Badger State Federal,Milwaukee,WI,57441,Wisconsin Heritage Trust,2023-09-29,DIF
+Volunteer State Trust,Nashville,TN,58559,Tennessee Commerce Bank,2024-12-06,DIF
+Tarheel National Bank,Charlotte,NC,58772,Carolina Pioneer Bank,2025-04-04,DIF
+Palmetto State Savings,Columbia,SC,57995,South Carolina First Bank,2024-08-16,DIF
+Peach State Federal Bank,Savannah,GA,58110,Georgia Heritage National,2023-05-26,DIF
+Sooner Heritage Bank,Tulsa,OK,57883,Oklahoma First Trust,2024-10-25,DIF
+Razorback Savings Bank,Little Rock,AR,57662,Arkansas Pioneer N.A.,2025-02-14,DIF
+Show Low Community Bank,Show Low,AZ,57440,Arizona Heritage Trust,2023-11-10,DIF
+Mountaineer State Bank,Charleston,WV,57220,West Virginia Federal,2024-03-08,DIF
+Garden State Trust Bank,Newark,NJ,58883,New Jersey Heritage N.A.,2025-05-30,DIF
+Capitol Heights Bank,Washington,DC,58440,District Federal Trust,2024-01-12,DIF
+Old Line Heritage Bank,Baltimore,MD,57995,Maryland Pioneer Trust,2025-07-25,DIF

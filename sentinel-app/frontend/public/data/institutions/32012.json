@@ -1,0 +1,125 @@
+{
+  "cert_id": "32012",
+  "name": "Founders & Coastal Bank",
+  "city": "Naperville",
+  "state": "IL",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 3.391,
+  "branches": 15,
+  "established_year": 1960,
+  "risk_score": 29,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.7,
+  "net_charge_off_ratio_pct": 0.29,
+  "return_on_assets_pct": 0.17,
+  "branches_by_state": [
+    {
+      "state": "IL",
+      "count": 13,
+      "deposits_b": 2.873
+    },
+    {
+      "state": "NY",
+      "count": 1,
+      "deposits_b": 0.231
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.12
+    },
+    {
+      "state": "VT",
+      "count": 1,
+      "deposits_b": 0.041
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.061
+    },
+    {
+      "state": "NJ",
+      "count": -2,
+      "deposits_b": 0.065
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley Exchange Bank",
+      "close_date": "2019-11-10",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Heritage Bank",
+      "close_date": "2014-11-07",
+      "charter_class": "SM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "First Bank of Illinois",
+      "close_date": "2014-10-08",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Illinois Pinnacle Bank",
+      "close_date": "2013-08-26",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 3.268,
+      "npl_ratio": 0.56,
+      "capital_ratio": 10.23
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 3.16,
+      "npl_ratio": 0.53,
+      "capital_ratio": 10.29
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 3.099,
+      "npl_ratio": 0.57,
+      "capital_ratio": 10.28
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 3.259,
+      "npl_ratio": 0.6,
+      "capital_ratio": 10.43
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 3.257,
+      "npl_ratio": 0.54,
+      "capital_ratio": 10.59
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 3.193,
+      "npl_ratio": 0.64,
+      "capital_ratio": 10.32
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 3.264,
+      "npl_ratio": 0.65,
+      "capital_ratio": 10.06
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 3.14,
+      "npl_ratio": 0.75,
+      "capital_ratio": 10.25
+    }
+  ],
+  "ai_summary": "Founders & Coastal Bank (Naperville, IL) holds $3.39B in deposits across 15 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.70% and ROA of 0.17% benchmark this institution against 1B-10B peers."
+}

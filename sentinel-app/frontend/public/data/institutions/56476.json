@@ -1,0 +1,110 @@
+{
+  "cert_id": "56476",
+  "name": "Ohio Pinnacle Bank",
+  "city": "Cleveland",
+  "state": "OH",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.703,
+  "branches": 10,
+  "established_year": 1987,
+  "risk_score": 48,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 14.22,
+  "net_charge_off_ratio_pct": 0.58,
+  "return_on_assets_pct": 1.36,
+  "branches_by_state": [
+    {
+      "state": "OH",
+      "count": 7,
+      "deposits_b": 0.522
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.088
+    },
+    {
+      "state": "WY",
+      "count": 2,
+      "deposits_b": 0.093
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Partners Bank",
+      "close_date": "2023-01-15",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Independence State Bank",
+      "close_date": "2019-09-08",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Ohio First Bank",
+      "close_date": "2017-07-06",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Commonwealth Bank of Ohio",
+      "close_date": "2014-02-10",
+      "charter_class": "SA",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.655,
+      "npl_ratio": 0.74,
+      "capital_ratio": 14.16
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.668,
+      "npl_ratio": 0.79,
+      "capital_ratio": 14.12
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.692,
+      "npl_ratio": 0.77,
+      "capital_ratio": 14.06
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.68,
+      "npl_ratio": 0.73,
+      "capital_ratio": 13.67
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.69,
+      "npl_ratio": 0.73,
+      "capital_ratio": 13.72
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.713,
+      "npl_ratio": 0.83,
+      "capital_ratio": 13.94
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.743,
+      "npl_ratio": 0.77,
+      "capital_ratio": 13.95
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.724,
+      "npl_ratio": 0.75,
+      "capital_ratio": 14.16
+    }
+  ],
+  "ai_summary": "Ohio Pinnacle Bank (Cleveland, OH) holds $0.70B in deposits across 10 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 14.22% and ROA of 1.36% benchmark this institution against 100M-1B peers."
+}

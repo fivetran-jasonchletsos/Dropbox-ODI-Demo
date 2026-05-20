@@ -1,0 +1,120 @@
+{
+  "cert_id": "52223",
+  "name": "Citizens & Citizens Trust",
+  "city": "San Antonio",
+  "state": "TX",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 6.825,
+  "branches": 43,
+  "established_year": 1918,
+  "risk_score": 23,
+  "risk_tier": "low",
+  "capital_ratio_pct": 10.36,
+  "net_charge_off_ratio_pct": 0.31,
+  "return_on_assets_pct": 2.2,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 27,
+      "deposits_b": 4.264
+    },
+    {
+      "state": "GA",
+      "count": 6,
+      "deposits_b": 1.015
+    },
+    {
+      "state": "KS",
+      "count": 2,
+      "deposits_b": 0.378
+    },
+    {
+      "state": "SD",
+      "count": 2,
+      "deposits_b": 0.301
+    },
+    {
+      "state": "NH",
+      "count": 6,
+      "deposits_b": 0.867
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 6.184,
+      "npl_ratio": 0.37,
+      "capital_ratio": 10.17
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.463,
+      "npl_ratio": 0.38,
+      "capital_ratio": 10.23
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 6.49,
+      "npl_ratio": 0.31,
+      "capital_ratio": 10.4
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 6.441,
+      "npl_ratio": 0.37,
+      "capital_ratio": 10.09
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.671,
+      "npl_ratio": 0.29,
+      "capital_ratio": 9.71
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.735,
+      "npl_ratio": 0.34,
+      "capital_ratio": 9.51
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.584,
+      "npl_ratio": 0.32,
+      "capital_ratio": 9.74
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.484,
+      "npl_ratio": 0.25,
+      "capital_ratio": 9.86
+    }
+  ],
+  "ai_summary": "Citizens & Citizens Trust (San Antonio, TX) holds $6.83B in deposits across 43 branches and remains well-capitalized with healthy earnings. Capital ratio of 10.36% and ROA of 2.20% benchmark this institution against 1B-10B peers."
+}

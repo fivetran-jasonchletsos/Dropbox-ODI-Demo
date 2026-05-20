@@ -1,0 +1,202 @@
+cert,name,namehcr,city,stalp,zip,bkclass,charter_type,estymd,dateupdt,asset,dep,eq,netinc,roa,roe,regagnt
+10001,JPMorgan Chase Bank N.A.,JPMorgan Chase & Co.,Columbus,OH,23434,N,Commercial,1907-03-24,2025-03-31,3400000000,2579588689,275401462,33745697,0.993,12.253,OCC
+10002,Bank of America N.A.,Bank of America Corp.,Charlotte,NC,22280,N,Commercial,1958-01-01,2025-03-31,2600000000,1989101173,300786675,22382286,0.861,7.441,OCC
+10003,Wells Fargo Bank N.A.,Wells Fargo & Company,Sioux Falls,SD,81426,N,Commercial,1900-12-21,2025-03-31,1700000000,1168186374,170364159,13915778,0.819,8.168,OCC
+10004,Citibank N.A.,Citigroup Inc.,Sioux Falls,SD,65392,N,Commercial,1851-03-23,2025-03-31,1700000000,1226241228,166546215,16910469,0.995,10.154,OCC
+10005,U.S. Bank N.A.,U.S. Bancorp,Cincinnati,OH,59797,N,Commercial,1936-02-03,2025-03-31,660000000,467176107,56904658,9702324,1.47,17.05,OCC
+10006,PNC Bank N.A.,PNC Financial Services,Wilmington,DE,80284,N,Commercial,1861-12-15,2025-03-31,555000000,369875190,63214374,6785475,1.223,10.734,OCC
+10007,Truist Bank,Truist Financial Corp.,Charlotte,NC,57400,SM,Commercial,1925-11-20,2025-03-31,530000000,355746837,61952661,4532348,0.855,7.316,FRB
+10008,Goldman Sachs Bank USA,The Goldman Sachs Group,New York,NY,40512,SM,Commercial,1908-05-03,2025-03-31,499000000,373326782,53983253,4152064,0.832,7.691,FRB
+10009,Capital One N.A.,Capital One Financial Corp.,McLean,VA,56566,N,Commercial,1943-03-12,2025-03-31,475000000,378718556,45222398,5307589,1.117,11.737,OCC
+10010,TD Bank N.A.,TD Group US Holdings,Wilmington,DE,32431,N,Commercial,1868-10-21,2025-03-31,370000000,253677992,33551271,5385935,1.456,16.053,OCC
+10011,Western Oregon Federal Savings,First Horizon Corp.,Portland,OR,61856,N,Commercial,2005-12-11,2025-03-31,93000,71131,7752,-512,-0.551,-6.605,OCC
+10012,Atlantic Utah Trust Company,Atlantic Utah Trust Company,Salt Lake City,UT,99192,NM,Commercial,1872-02-05,2025-03-31,93579,79486,10762,394,0.421,3.661,FDIC
+10013,Coastal New Jersey National Bank,Coastal New Jersey National Bank,Newark,NJ,69470,NM,Commercial,1947-02-10,2025-03-31,590785,528289,47669,6257,1.059,13.126,FDIC
+10014,Western Bank & Trust of Birmingham,Western Bank & Trust of Birmingham,Birmingham,AL,12552,SA,Savings,1995-01-20,2025-03-31,632342,552732,74829,8979,1.42,11.999,OCC
+10015,Sovereign Savings Bank of Stamford,Sovereign Savings Bank of Stamford,Stamford,CT,82063,N,Commercial,1892-03-22,2025-03-31,6159230,4608177,521843,108696,1.765,20.829,OCC
+10016,Federal Financial of Atlanta,Fifth Third Bancorp,Atlanta,GA,12757,SA,Savings,1975-02-08,2025-03-31,47760,40646,5863,380,0.797,6.481,OCC
+10017,River Federal Savings of Nashville,First Horizon Corp.,Nashville,TN,63354,N,Commercial,2006-10-16,2025-03-31,27716,24420,2335,150,0.543,6.424,OCC
+10018,Pioneer National Bank of Boise,Pioneer National Bank of Boise,Boise,ID,28373,NM,Commercial,1923-04-07,2025-03-31,73883,62491,10273,548,0.743,5.334,FDIC
+10019,Patriot Bank & Trust of Newark,Patriot Bank & Trust of Newark,Newark,NJ,38016,NM,Commercial,1920-03-14,2025-03-31,2264748,1975471,188054,39642,1.75,21.08,FDIC
+10020,Allied Nevada Bank,Bank of America Corp.,Las Vegas,NV,85914,N,Commercial,1899-04-10,2025-03-31,71173,60982,7500,775,1.089,10.333,OCC
+10021,National Pennsylvania Savings Bank,BOK Financial Corp.,Philadelphia,PA,15209,SA,Savings,1963-02-19,2025-03-31,627276,505725,69294,1936,0.309,2.794,OCC
+10022,Heritage Community Bank of Austin,Heritage Community Bank of Austin,Austin,TX,83792,SA,Savings,1878-01-15,2025-03-31,431737,319853,40721,2935,0.68,7.208,OCC
+10023,Heritage Colorado Financial,Heritage Colorado Financial,Colorado Springs,CO,49240,SB,Savings,1995-01-22,2025-03-31,65745,57583,5881,774,1.179,13.161,FDIC
+10024,Pioneer Virginia Trust Company,Pioneer Virginia Trust Company,Richmond,VA,46265,N,Commercial,1873-02-21,2025-03-31,3607983,2962031,332713,35417,0.982,10.645,OCC
+10025,First Savings Bank of Little Rock,First Savings Bank of Little Rock,Little Rock,AR,66333,N,Commercial,1869-06-19,2025-03-31,374680,295385,42584,4891,1.306,11.486,OCC
+10026,National DC Bank & Trust,PNC Financial Services,Washington,DC,64040,SB,Savings,1899-04-28,2025-03-31,1669324,1238663,143841,14192,0.85,9.866,FDIC
+10027,Patriot Savings Bank of Phoenix,Truist Financial Corp.,Phoenix,AZ,62227,N,Commercial,1938-04-08,2025-03-31,52527,45040,6950,791,1.507,11.381,OCC
+10028,Federal National Bank of Grand Rapids,Federal National Bank of Grand Rapids,Grand Rapids,MI,55309,NM,Commercial,1927-01-04,2025-03-31,86768,77764,11831,421,0.486,3.558,FDIC
+10029,Pacific Federal Bank of Worcester,Fifth Third Bancorp,Worcester,MA,91678,N,Commercial,1910-06-14,2025-03-31,95574,67750,10627,1628,1.704,15.319,OCC
+10030,Capital National Bank of Worcester,Capital National Bank of Worcester,Worcester,MA,81819,SM,Commercial,1904-10-19,2025-03-31,60538,46325,6856,488,0.807,7.118,FRB
+10031,Citizens Alabama Bank & Trust,Citizens Alabama Bank & Trust,Birmingham,AL,91167,SM,Commercial,1881-05-17,2025-03-31,736130,583749,68329,10847,1.474,15.875,FRB
+10032,Heritage Federal Savings of Grand Rapids,JPMorgan Chase & Co.,Grand Rapids,MI,23970,N,Commercial,1958-08-13,2025-03-31,46100,32696,5378,745,1.618,13.853,OCC
+10033,Trust Trust Company of Newark,Trust Trust Company of Newark,Newark,NJ,76162,N,Commercial,1973-10-27,2025-03-31,587115,440242,63048,10454,1.781,16.581,OCC
+10034,Northern Financial of Newark,Northern Financial of Newark,Newark,NJ,80798,NM,Commercial,1933-04-09,2025-03-31,82216,69912,7945,479,0.583,6.029,FDIC
+10035,Liberty California Trust Company,Liberty California Trust Company,San Jose,CA,56105,N,Commercial,1865-10-13,2025-03-31,840734,658272,41974,6920,0.823,16.486,OCC
+10036,Eastern Community Bank of Baltimore,Eastern Community Bank of Baltimore,Baltimore,MD,26728,NM,Commercial,1963-12-06,2025-03-31,66240084,56100503,8867472,647183,0.977,7.298,FDIC
+10037,River Bank of Austin,River Bank of Austin,Austin,TX,65255,N,Commercial,1957-05-25,2025-03-31,795205,658867,35045,4283,0.539,12.221,OCC
+10038,Northern National Bank of Topeka,First Horizon Corp.,Topeka,KS,97747,SA,Savings,1865-10-05,2025-03-31,154615,119052,19616,2658,1.719,13.55,OCC
+10039,Lake Federal Savings of Stamford,Lake Federal Savings of Stamford,Stamford,CT,59192,N,Commercial,1939-10-22,2025-03-31,68351,56146,5937,-180,-0.264,-3.032,OCC
+10040,Central Nebraska Federal Savings,Central Nebraska Federal Savings,Lincoln,NE,76317,N,Commercial,1996-07-22,2025-03-31,757711,636051,91725,-4294,-0.567,-4.681,OCC
+10041,Farmers Bank of Salt Lake City,Farmers Bank of Salt Lake City,Salt Lake City,UT,67091,NM,Commercial,2017-09-25,2025-03-31,2770648,2140152,298078,28670,1.035,9.618,FDIC
+10042,Federal Savings Bank of Nashville,Federal Savings Bank of Nashville,Nashville,TN,54608,N,Commercial,1984-04-12,2025-03-31,2453962,1939023,280220,24316,0.991,8.677,OCC
+10043,Allied Federal Bank of New Orleans,Allied Federal Bank of New Orleans,New Orleans,LA,63005,NM,Commercial,1974-01-03,2025-03-31,21330,15746,2226,205,0.962,9.209,FDIC
+10044,Trust Bank & Trust of Charleston,Trust Bank & Trust of Charleston,Charleston,WV,34267,NM,Commercial,1909-06-04,2025-03-31,92544,72656,9240,557,0.602,6.028,FDIC
+10045,Commerce Idaho Banking Group,Commerce Idaho Banking Group,Boise,ID,26551,NM,Commercial,1930-01-02,2025-03-31,897135,678772,82219,1997,0.223,2.429,FDIC
+10046,United Texas Banking Group,United Texas Banking Group,Fort Worth,TX,29887,NM,Commercial,1878-10-21,2025-03-31,57268,45132,4757,867,1.515,18.226,FDIC
+10047,Southern Federal Bank of Jacksonville,Southern Federal Bank of Jacksonville,Jacksonville,FL,17894,N,Commercial,2010-07-10,2025-03-31,52530,44802,6694,483,0.921,7.215,OCC
+10048,Western National Bank of Dallas,Western National Bank of Dallas,Dallas,TX,69510,N,Commercial,1868-04-10,2025-03-31,47659,34135,5391,620,1.303,11.501,OCC
+10049,Capital Federal Savings of Sacramento,Capital Federal Savings of Sacramento,Sacramento,CA,84607,NM,Commercial,1875-03-26,2025-03-31,755420,650251,65635,4721,0.625,7.193,FDIC
+10050,Atlantic National Bank of Baton Rouge,Atlantic National Bank of Baton Rouge,Baton Rouge,LA,85392,SA,Savings,1883-04-22,2025-03-31,72757,58212,3988,520,0.716,13.039,OCC
+10051,First Bank & Trust of Nashville,First Bank & Trust of Nashville,Nashville,TN,23710,NM,Commercial,1949-07-11,2025-03-31,283700,235556,25785,-2432,-0.857,-9.432,FDIC
+10052,Farmers Community Bank of Orlando,Farmers Community Bank of Orlando,Orlando,FL,64165,SB,Savings,1860-11-28,2025-03-31,72488,58716,7166,613,0.847,8.554,FDIC
+10053,Commerce California Financial,Zions Bancorporation,San Francisco,CA,11792,NM,Commercial,2015-04-23,2025-03-31,755788,536853,66404,-3132,-0.414,-4.717,FDIC
+10054,Pacific Pennsylvania National Bank,Pacific Pennsylvania National Bank,Pittsburgh,PA,60277,NM,Commercial,1980-04-15,2025-03-31,2903561,2100706,319108,18509,0.637,5.8,FDIC
+10055,Sovereign Federal Bank of Boise,Sovereign Federal Bank of Boise,Boise,ID,29476,N,Commercial,2010-10-22,2025-03-31,2171218,1862907,295404,14168,0.653,4.796,OCC
+10056,River New York Banking Group,River New York Banking Group,New York,NY,59968,NM,Commercial,1941-12-16,2025-03-31,669827,593848,93003,10513,1.57,11.304,FDIC
+10057,Capital Trust Company of Omaha,Capital Trust Company of Omaha,Omaha,NE,44737,SA,Savings,1899-02-16,2025-03-31,85836,65784,11218,192,0.225,1.712,OCC
+10058,Coastal Community Bank of Minneapolis,Citigroup Inc.,Minneapolis,MN,93066,NM,Commercial,1933-04-24,2025-03-31,9952696,7597213,1249701,30800,0.309,2.465,FDIC
+10059,United National Bank of Madison,United National Bank of Madison,Madison,WI,60140,N,Commercial,1903-03-03,2025-03-31,130353,112003,13359,1441,1.105,10.787,OCC
+10060,Capital Federal Savings of Austin,Capital Federal Savings of Austin,Austin,TX,65615,NM,Commercial,1973-06-19,2025-03-31,343467,257873,27671,4410,1.284,15.937,FDIC
+10061,Federal Banking Group of Charleston,Federal Banking Group of Charleston,Charleston,WV,99889,SB,Savings,1961-05-01,2025-03-31,70422,50797,7150,165,0.235,2.308,FDIC
+10062,Sovereign Federal Bank of San Francisco,Sovereign Federal Bank of San Francisco,San Francisco,CA,94717,SB,Savings,1895-11-04,2025-03-31,5801541,4328086,540357,81739,1.409,15.127,FDIC
+10063,Citizens Arkansas Banking Group,Citizens Arkansas Banking Group,Little Rock,AR,73156,N,Commercial,1929-03-09,2025-03-31,37224,28253,3370,653,1.754,19.377,OCC
+10064,Western Savings Bank of Portland,Western Savings Bank of Portland,Portland,ME,69609,N,Commercial,1961-01-09,2025-03-31,178957,159862,22092,2661,1.487,12.045,OCC
+10065,Capital Bank & Trust of Kansas City,Capital Bank & Trust of Kansas City,Kansas City,MO,25292,N,Commercial,1978-12-10,2025-03-31,7232293,5400818,962286,-25496,-0.353,-2.65,OCC
+10066,National Florida Bank,First Horizon Corp.,Miami,FL,90694,N,Commercial,1899-07-21,2025-03-31,201913,163046,20647,2148,1.064,10.403,OCC
+10067,Federal Bank of Reno,Federal Bank of Reno,Reno,NV,22015,SA,Savings,1908-02-28,2025-03-31,78287,68195,9483,605,0.774,6.38,OCC
+10068,Commerce Federal Bank of Richmond,Commerce Federal Bank of Richmond,Richmond,VA,10371,N,Commercial,1944-03-26,2025-03-31,63713,46203,5359,347,0.546,6.475,OCC
+10069,United Trust Company of New Orleans,United Trust Company of New Orleans,New Orleans,LA,24896,N,Commercial,1873-03-24,2025-03-31,937302,780033,75819,6730,0.718,8.876,OCC
+10070,Mountain Banking Group of San Diego,Mountain Banking Group of San Diego,San Diego,CA,65872,NM,Commercial,1867-01-16,2025-03-31,214351,159543,26501,1463,0.683,5.521,FDIC
+10071,Pioneer Banking Group of Spokane,Pioneer Banking Group of Spokane,Spokane,WA,22999,NM,Commercial,1935-08-17,2025-03-31,30589,22319,3592,247,0.809,6.876,FDIC
+10072,Pioneer Financial of Milwaukee,Wells Fargo & Company,Milwaukee,WI,22219,SB,Savings,1899-11-16,2025-03-31,79186,61983,8229,554,0.7,6.732,FDIC
+10073,Pioneer Savings Bank of Jersey City,Pioneer Savings Bank of Jersey City,Jersey City,NJ,23579,SA,Savings,1873-05-20,2025-03-31,714953,580782,74818,6267,0.877,8.376,OCC
+10074,Valley South Carolina Federal Savings,Valley South Carolina Federal Savings,Charleston,SC,89822,N,Commercial,2017-11-21,2025-03-31,988432,859021,124301,15342,1.552,12.343,OCC
+10075,Northern Virginia Bank & Trust,KeyCorp,Richmond,VA,69460,SA,Savings,1883-12-17,2025-03-31,60499,46596,5359,838,1.386,15.637,OCC
+10076,Patriot Minnesota Savings Bank,Patriot Minnesota Savings Bank,Minneapolis,MN,77154,NM,Commercial,2015-08-14,2025-03-31,94395,82753,4216,858,0.909,20.351,FDIC
+10077,Merchants Connecticut Community Bank,Merchants Connecticut Community Bank,Stamford,CT,11013,NM,Commercial,1895-05-10,2025-03-31,721946,601688,74877,4925,0.682,6.577,FDIC
+10078,Western Ohio Community Bank,Western Ohio Community Bank,Cleveland,OH,93904,NM,Commercial,1940-10-14,2025-03-31,50161,43473,4229,115,0.23,2.719,FDIC
+10079,Citizens National Bank of Manchester,Citizens National Bank of Manchester,Manchester,NH,54500,SB,Savings,1994-02-13,2025-03-31,33068427,27235984,4470394,194874,0.589,4.359,FDIC
+10080,Farmers Indiana Trust Company,Wells Fargo & Company,Fort Wayne,IN,33218,NM,Commercial,1910-03-20,2025-03-31,656379,578391,81156,3794,0.578,4.675,FDIC
+10081,Mountain Banking Group of San Antonio,Mountain Banking Group of San Antonio,San Antonio,TX,46002,SM,Commercial,1980-08-21,2025-03-31,570711,500176,79438,4028,0.706,5.071,FRB
+10082,National Savings Bank of Nashville,National Savings Bank of Nashville,Nashville,TN,15376,N,Commercial,2008-09-26,2025-03-31,79233,61306,9403,911,1.151,9.688,OCC
+10083,Sovereign Federal Bank of New York,Sovereign Federal Bank of New York,New York,NY,67595,NM,Commercial,1870-04-23,2025-03-31,82341,73410,10593,275,0.335,2.596,FDIC
+10084,Valley Oklahoma Federal Bank,Valley Oklahoma Federal Bank,Tulsa,OK,96057,NM,Commercial,1958-05-09,2025-03-31,57079,48796,4745,415,0.728,8.746,FDIC
+10085,United Texas Trust Company,United Texas Trust Company,Houston,TX,99838,SA,Savings,1944-03-22,2025-03-31,248298,189214,29728,833,0.336,2.802,OCC
+10086,Heritage Community Bank of Tulsa,Heritage Community Bank of Tulsa,Tulsa,OK,79013,N,Commercial,1885-09-25,2025-03-31,60483,44929,6603,195,0.323,2.953,OCC
+10087,Capital Savings Bank of Tucson,Capital Savings Bank of Tucson,Tucson,AZ,68841,NM,Commercial,1920-08-20,2025-03-31,726258,531947,91701,6538,0.9,7.13,FDIC
+10088,River Iowa Federal Savings,BOK Financial Corp.,Des Moines,IA,28140,SA,Savings,1967-03-27,2025-03-31,8868776,6552280,1013037,128153,1.445,12.65,OCC
+10089,National Banking Group of Topeka,National Banking Group of Topeka,Topeka,KS,55820,SM,Commercial,1883-04-27,2025-03-31,207573,166718,17650,2120,1.021,12.011,FRB
+10090,Pacific Arizona Bank,Pacific Arizona Bank,Phoenix,AZ,71487,SA,Savings,1933-08-23,2025-03-31,70615,54725,9593,1035,1.466,10.789,OCC
+10091,Coastal Bank of New York,Coastal Bank of New York,New York,NY,18232,SB,Savings,1967-11-26,2025-03-31,48266,39083,5389,-715,-1.481,-13.268,FDIC
+10092,Northern Banking Group of Stamford,Northern Banking Group of Stamford,Stamford,CT,81313,NM,Commercial,1994-06-03,2025-03-31,87551,73867,7012,437,0.5,6.232,FDIC
+10093,Southern Financial of Columbus,Southern Financial of Columbus,Columbus,OH,27486,N,Commercial,1886-10-24,2025-03-31,81621,63450,10189,478,0.586,4.691,OCC
+10094,Merchants Arkansas Financial,Merchants Arkansas Financial,Little Rock,AR,15492,SB,Savings,1935-04-02,2025-03-31,970720,769707,114451,13996,1.442,12.229,FDIC
+10095,Sovereign Bank & Trust of Worcester,Sovereign Bank & Trust of Worcester,Worcester,MA,60678,NM,Commercial,1954-07-13,2025-03-31,82884346,58626099,8053594,1035366,1.249,12.856,FDIC
+10096,Patriot Banking Group of Minneapolis,Patriot Banking Group of Minneapolis,Minneapolis,MN,88986,N,Commercial,1943-11-10,2025-03-31,88062,63098,9320,590,0.67,6.33,OCC
+10097,Pacific Trust Company of Cheyenne,Pacific Trust Company of Cheyenne,Cheyenne,WY,99051,SM,Commercial,1963-06-17,2025-03-31,25551,22544,2710,74,0.292,2.731,FRB
+10098,First Trust Company of Orlando,First Trust Company of Orlando,Orlando,FL,85225,N,Commercial,1954-06-15,2025-03-31,559457,399142,57053,6535,1.168,11.454,OCC
+10099,Valley Florida Savings Bank,Valley Florida Savings Bank,Miami,FL,74382,SA,Savings,1914-10-10,2025-03-31,361736,255089,40176,5208,1.44,12.963,OCC
+10100,Pioneer Trust Company of Chicago,Pioneer Trust Company of Chicago,Chicago,IL,93584,NM,Commercial,1936-03-23,2025-03-31,848022,608505,110862,2577,0.304,2.325,FDIC
+10101,Southern Savings Bank of Savannah,Southern Savings Bank of Savannah,Savannah,GA,72739,SB,Savings,1882-02-10,2025-03-31,46342,34633,4710,821,1.773,17.431,FDIC
+10102,Pacific Community Bank of Tulsa,Pacific Community Bank of Tulsa,Tulsa,OK,17263,SM,Commercial,1893-07-17,2025-03-31,61553,48626,6196,753,1.224,12.153,FRB
+10103,Valley Delaware Trust Company,PNC Financial Services,Wilmington,DE,87569,NM,Commercial,1937-10-18,2025-03-31,49552,44011,6479,535,1.081,8.257,FDIC
+10104,Liberty Trust Company of Sioux Falls,Liberty Trust Company of Sioux Falls,Sioux Falls,SD,13969,NM,Commercial,1913-10-14,2025-03-31,734534,649905,96831,10530,1.434,10.875,FDIC
+10105,Allied Ohio Financial,Allied Ohio Financial,Cleveland,OH,51853,N,Commercial,1947-10-05,2025-03-31,74819756,64454964,8021624,647186,0.865,8.068,OCC
+10106,Community Trust Company of St. Paul,Community Trust Company of St. Paul,St. Paul,MN,85718,NM,Commercial,1923-03-27,2025-03-31,211341,167655,20051,1721,0.815,8.583,FDIC
+10107,Commerce Trust Company of Worcester,Commerce Trust Company of Worcester,Worcester,MA,95755,SB,Savings,1932-08-20,2025-03-31,622987,498061,64538,-9760,-1.567,-15.123,FDIC
+10108,Mountain Bank & Trust of Seattle,Mountain Bank & Trust of Seattle,Seattle,WA,82070,N,Commercial,1933-02-13,2025-03-31,8229768,6196147,419498,90437,1.099,21.558,OCC
+10109,Northern Federal Bank of New Orleans,Northern Federal Bank of New Orleans,New Orleans,LA,72094,NM,Commercial,1871-01-05,2025-03-31,32672,28064,4454,331,1.015,7.432,FDIC
+10110,Atlantic Trust Company of Oklahoma City,Atlantic Trust Company of Oklahoma City,Oklahoma City,OK,12180,SA,Savings,1985-12-19,2025-03-31,443897,339006,51931,4490,1.012,8.646,OCC
+10111,Farmers National Bank of Kansas City,Farmers National Bank of Kansas City,Kansas City,MO,32349,SB,Savings,1918-12-02,2025-03-31,935457,817982,108339,16419,1.755,15.155,FDIC
+10112,Plains Federal Bank of Tulsa,Plains Federal Bank of Tulsa,Tulsa,OK,18163,N,Commercial,2016-08-28,2025-03-31,51745,46034,4198,675,1.305,16.079,OCC
+10113,Liberty Wisconsin Financial,Capital One Financial Corp.,Madison,WI,46569,NM,Commercial,1927-10-16,2025-03-31,82701,63080,11142,1186,1.435,10.644,FDIC
+10114,Citizens Federal Savings of Providence,Citizens Federal Savings of Providence,Providence,RI,61712,SM,Commercial,2006-11-18,2025-03-31,48789478,40887923,5307719,660933,1.355,12.452,FRB
+10115,Eastern Minnesota Trust Company,Eastern Minnesota Trust Company,St. Paul,MN,41363,NM,Commercial,1895-02-20,2025-03-31,30358,23936,3301,513,1.693,15.541,FDIC
+10116,National Kansas Financial,M&T Bank Corporation,Wichita,KS,52096,NM,Commercial,1981-08-21,2025-03-31,33133,27946,1425,558,1.687,39.158,FDIC
+10117,Plains Bank of Baton Rouge,Plains Bank of Baton Rouge,Baton Rouge,LA,47941,N,Commercial,1869-07-26,2025-03-31,95252,80748,7833,1467,1.54,18.728,OCC
+10118,First Bank & Trust of Tucson,First Bank & Trust of Tucson,Tucson,AZ,94972,N,Commercial,1888-06-06,2025-03-31,63914,57383,7007,606,0.949,8.648,OCC
+10119,Central Kansas Trust Company,Central Kansas Trust Company,Topeka,KS,42512,NM,Commercial,1884-03-05,2025-03-31,58669,49954,7707,-300,-0.511,-3.893,FDIC
+10120,Federal Alabama Community Bank,Federal Alabama Community Bank,Birmingham,AL,50760,NM,Commercial,1963-11-17,2025-03-31,445637,376374,53129,1734,0.389,3.264,FDIC
+10121,Pioneer West Virginia Bank & Trust,Pioneer West Virginia Bank & Trust,Charleston,WV,20730,NM,Commercial,1915-04-22,2025-03-31,37507,29667,3841,529,1.412,13.772,FDIC
+10122,Atlantic Financial of Tulsa,Atlantic Financial of Tulsa,Tulsa,OK,76895,N,Commercial,1912-12-19,2025-03-31,93946,81334,8655,1472,1.567,17.008,OCC
+10123,Southern Bank of New York,Southern Bank of New York,New York,NY,18357,NM,Commercial,1878-01-14,2025-03-31,578987,469998,34845,1185,0.205,3.401,FDIC
+10124,National National Bank of Philadelphia,National National Bank of Philadelphia,Philadelphia,PA,96742,NM,Commercial,1956-07-03,2025-03-31,401036,342402,55623,7172,1.789,12.894,FDIC
+10125,Liberty Pennsylvania Savings Bank,Huntington Bancshares,Philadelphia,PA,55371,NM,Commercial,1996-07-27,2025-03-31,1788173960,1512029166,83473223,22845706,1.278,27.369,FDIC
+10126,Federal Federal Savings of Jacksonville,Federal Federal Savings of Jacksonville,Jacksonville,FL,16380,N,Commercial,1974-10-22,2025-03-31,218326,181655,29730,671,0.308,2.257,OCC
+10127,Western Bank of Wichita,Western Bank of Wichita,Wichita,KS,96535,SB,Savings,1942-04-10,2025-03-31,48477,41458,6767,543,1.122,8.024,FDIC
+10128,Trust Oklahoma Community Bank,Trust Oklahoma Community Bank,Oklahoma City,OK,29558,SB,Savings,1994-06-23,2025-03-31,97550,86069,10304,1664,1.707,16.149,FDIC
+10129,Community Trust Company of Baltimore,Wells Fargo & Company,Baltimore,MD,68954,N,Commercial,1959-04-09,2025-03-31,990598,863314,43913,8582,0.866,19.543,OCC
+10130,Heritage Financial of Kansas City,Heritage Financial of Kansas City,Kansas City,MO,12009,NM,Commercial,1913-06-10,2025-03-31,55187,45308,4655,703,1.274,15.102,FDIC
+10131,Sovereign Federal Savings of Indianapolis,Sovereign Federal Savings of Indianapolis,Indianapolis,IN,75179,SA,Savings,1951-05-09,2025-03-31,82773,69456,8591,540,0.653,6.286,OCC
+10132,Pioneer Banking Group of Albany,Capital One Financial Corp.,Albany,NY,59786,NM,Commercial,1966-05-05,2025-03-31,46624,36496,4348,790,1.696,18.169,FDIC
+10133,Northern Federal Savings of Columbia,Northern Federal Savings of Columbia,Columbia,SC,81058,NM,Commercial,1895-12-18,2025-03-31,818113,697582,100966,11228,1.372,11.121,FDIC
+10134,National Utah Financial,National Utah Financial,Salt Lake City,UT,73334,SB,Savings,2018-11-22,2025-03-31,1813936,1419365,170303,18305,1.009,10.748,FDIC
+10135,Mountain Virginia Bank,Mountain Virginia Bank,Richmond,VA,41584,N,Commercial,1905-02-04,2025-03-31,112426,94936,10927,999,0.889,9.142,OCC
+10136,Coastal Idaho Financial,Coastal Idaho Financial,Boise,ID,82443,N,Commercial,1868-02-13,2025-03-31,72022,64233,6812,-1051,-1.46,-15.429,OCC
+10137,National Bank of Charlotte,Wells Fargo & Company,Charlotte,NC,99709,SM,Commercial,2005-08-09,2025-03-31,76873,58904,10641,436,0.568,4.097,FRB
+10138,Allied Financial of New Orleans,Allied Financial of New Orleans,New Orleans,LA,53480,N,Commercial,2005-07-22,2025-03-31,61220,45390,7912,415,0.679,5.245,OCC
+10139,Eastern Trust Company of Omaha,Eastern Trust Company of Omaha,Omaha,NE,69054,NM,Commercial,1961-06-01,2025-03-31,182237,163077,19358,2606,1.43,13.462,FDIC
+10140,Trust Savings Bank of Fargo,Trust Savings Bank of Fargo,Fargo,ND,23965,SM,Commercial,1899-12-13,2025-03-31,44345,36900,5193,146,0.331,2.811,FRB
+10141,First Bank & Trust of Denver,First Bank & Trust of Denver,Denver,CO,48253,N,Commercial,2013-06-28,2025-03-31,207197,152803,23472,-4045,-1.953,-17.233,OCC
+10142,Community National Bank of Reno,Community National Bank of Reno,Reno,NV,57333,NM,Commercial,1967-05-16,2025-03-31,354533,260197,31316,1067,0.301,3.407,FDIC
+10143,Trust Banking Group of Topeka,Trust Banking Group of Topeka,Topeka,KS,36326,N,Commercial,2012-03-10,2025-03-31,34021,23860,4439,307,0.904,6.916,OCC
+10144,Farmers Trust Company of Raleigh,Farmers Trust Company of Raleigh,Raleigh,NC,33583,SM,Commercial,2004-04-19,2025-03-31,49117508,40599573,6233918,715831,1.457,11.483,FRB
+10145,Eastern Washington Financial,Eastern Washington Financial,Spokane,WA,65460,N,Commercial,1937-04-09,2025-03-31,842776,724397,70919,10760,1.277,15.172,OCC
+10146,Heritage Banking Group of Billings,Capital One Financial Corp.,Billings,MT,96193,NM,Commercial,2012-11-03,2025-03-31,520274,460285,34384,6881,1.323,20.012,FDIC
+10147,Merchants Trust Company of Norfolk,Merchants Trust Company of Norfolk,Norfolk,VA,70694,SA,Savings,2007-04-15,2025-03-31,72378,55464,6250,1009,1.395,16.144,OCC
+10148,Lake Washington Financial,Lake Washington Financial,Seattle,WA,22795,N,Commercial,1912-09-16,2025-03-31,2173486033,1702263579,189015387,15193200,0.699,8.038,OCC
+10149,Western New Mexico Banking Group,Western New Mexico Banking Group,Albuquerque,NM,40389,N,Commercial,1944-09-14,2025-03-31,35084,26966,4490,359,1.026,7.996,OCC
+10150,Plains Nevada Trust Company,Plains Nevada Trust Company,Las Vegas,NV,80371,N,Commercial,1876-10-04,2025-03-31,514798,423586,59475,2724,0.529,4.58,OCC
+10151,Merchants Hawaii Savings Bank,U.S. Bancorp,Honolulu,HI,51049,NM,Commercial,1936-10-19,2025-03-31,84157,69666,9819,1306,1.553,13.301,FDIC
+10152,Trust Delaware Bank & Trust,Trust Delaware Bank & Trust,Wilmington,DE,28388,NM,Commercial,1904-09-06,2025-03-31,38528,30192,3969,504,1.309,12.698,FDIC
+10153,Farmers Banking Group of Honolulu,JPMorgan Chase & Co.,Honolulu,HI,38905,NM,Commercial,1973-08-06,2025-03-31,1160783,857848,131975,11454,0.987,8.679,FDIC
+10154,National Maine Bank & Trust,National Maine Bank & Trust,Portland,ME,81611,NM,Commercial,1998-01-25,2025-03-31,79942,68311,8845,854,1.069,9.655,FDIC
+10155,Pacific National Bank of Indianapolis,Pacific National Bank of Indianapolis,Indianapolis,IN,55957,N,Commercial,1920-04-26,2025-03-31,359555,323550,36284,6437,1.79,17.741,OCC
+10156,Coastal Wisconsin Community Bank,Coastal Wisconsin Community Bank,Madison,WI,99037,SB,Savings,2006-05-28,2025-03-31,47082,40541,5270,831,1.766,15.769,FDIC
+10157,Liberty Community Bank of Colorado Springs,Liberty Community Bank of Colorado Springs,Colorado Springs,CO,59174,N,Commercial,2007-11-09,2025-03-31,2917053070,2547216710,357874837,37395899,1.282,10.449,OCC
+10158,Heritage National Bank of New York,Heritage National Bank of New York,New York,NY,18300,SA,Savings,1977-11-22,2025-03-31,828449,641065,56755,11369,1.372,20.032,OCC
+10159,Community Federal Savings of Portland,Community Federal Savings of Portland,Portland,OR,70238,N,Commercial,1872-01-04,2025-03-31,9299939,8050666,1066479,69747,0.75,6.54,OCC
+10160,Pioneer Trust Company of Anchorage,Pioneer Trust Company of Anchorage,Anchorage,AK,95054,N,Commercial,1924-02-12,2025-03-31,76072,63726,9052,485,0.638,5.358,OCC
+10161,National Community Bank of Atlanta,National Community Bank of Atlanta,Atlanta,GA,25806,N,Commercial,1862-01-23,2025-03-31,891918,741270,71411,5011,0.562,7.017,OCC
+10162,Central Trust Company of Newark,Central Trust Company of Newark,Newark,NJ,89995,SM,Commercial,1896-02-17,2025-03-31,31708,22845,4212,445,1.405,10.565,FRB
+10163,Patriot Vermont Banking Group,Patriot Vermont Banking Group,Burlington,VT,42477,SA,Savings,1949-07-11,2025-03-31,39840,32796,3706,158,0.397,4.263,OCC
+10164,Plains Louisiana National Bank,Capital One Financial Corp.,New Orleans,LA,74865,SM,Commercial,1960-05-21,2025-03-31,856211,732740,112055,8805,1.028,7.858,FRB
+10165,Pioneer Federal Savings of Omaha,Synovus Financial Corp.,Omaha,NE,18851,SB,Savings,1904-08-25,2025-03-31,653948,459341,64733,5711,0.873,8.822,FDIC
+10166,Federal Alabama Federal Savings,Truist Financial Corp.,Mobile,AL,30365,NM,Commercial,1931-02-10,2025-03-31,72163,59586,7571,763,1.059,10.078,FDIC
+10167,Farmers Community Bank of Portland,PNC Financial Services,Portland,OR,25655,SM,Commercial,1976-10-20,2025-03-31,781406,557316,96736,2640,0.338,2.729,FRB
+10168,Central Trust Company of Mobile,Central Trust Company of Mobile,Mobile,AL,78662,NM,Commercial,1867-06-26,2025-03-31,65443,56058,5891,412,0.63,6.994,FDIC
+10169,Federal Federal Bank of San Diego,JPMorgan Chase & Co.,San Diego,CA,42053,NM,Commercial,1918-12-17,2025-03-31,635593,508424,64869,7107,1.118,10.956,FDIC
+10170,Mountain Arkansas Savings Bank,Bank of America Corp.,Little Rock,AR,33507,NM,Commercial,1879-10-12,2025-03-31,24635,21747,2590,333,1.352,12.857,FDIC
+10171,Southern Financial of Fort Wayne,Citizens Financial Group,Fort Wayne,IN,87554,SB,Savings,1937-12-20,2025-03-31,19251149,16810227,1898969,152136,0.79,8.012,FDIC
+10172,Eastern Federal Savings of Cleveland,Eastern Federal Savings of Cleveland,Cleveland,OH,50306,N,Commercial,1860-11-13,2025-03-31,934638,655438,87837,14987,1.604,17.062,OCC
+10173,Commerce Financial of Hartford,Commerce Financial of Hartford,Hartford,CT,76247,SA,Savings,1977-12-03,2025-03-31,27850,20288,2301,239,0.861,10.387,OCC
+10174,Plains Florida Community Bank,Truist Financial Corp.,Miami,FL,27840,SM,Commercial,1975-05-08,2025-03-31,556112,403816,72881,8514,1.531,11.682,FRB
+10175,Pioneer South Dakota Trust Company,Pioneer South Dakota Trust Company,Sioux Falls,SD,38183,NM,Commercial,1937-12-23,2025-03-31,61160,49367,5654,239,0.392,4.227,FDIC
+10176,Liberty National Bank of Detroit,U.S. Bancorp,Detroit,MI,25919,NM,Commercial,1923-02-15,2025-03-31,63183031,52785421,3020465,583509,0.924,19.319,FDIC
+10177,National Alabama Federal Savings,National Alabama Federal Savings,Mobile,AL,53456,SM,Commercial,1973-03-03,2025-03-31,7245146,6430175,834402,130083,1.795,15.59,FRB
+10178,National Delaware Banking Group,National Delaware Banking Group,Wilmington,DE,42215,SB,Savings,1898-01-20,2025-03-31,8267158,6440113,1000266,41289,0.499,4.128,FDIC
+10179,Citizens Banking Group of Salt Lake City,Citizens Banking Group of Salt Lake City,Salt Lake City,UT,72873,N,Commercial,1864-07-26,2025-03-31,163941,127317,19436,2935,1.791,15.101,OCC
+10180,Southern Pennsylvania Banking Group,Southern Pennsylvania Banking Group,Philadelphia,PA,40508,NM,Commercial,1995-06-25,2025-03-31,437226,321782,40723,1284,0.294,3.153,FDIC
+10181,Pioneer Federal Savings of Orlando,Pioneer Federal Savings of Orlando,Orlando,FL,57026,SB,Savings,1920-10-11,2025-03-31,27328,24309,3797,488,1.786,12.852,FDIC
+10182,First Savings Bank of Nashville,First Savings Bank of Nashville,Nashville,TN,10089,SA,Savings,2014-04-01,2025-03-31,690462,598864,95437,-11627,-1.684,-12.183,OCC
+10183,Sovereign Michigan Federal Bank,Sovereign Michigan Federal Bank,Grand Rapids,MI,96787,SA,Savings,1953-02-12,2025-03-31,43260,37586,3517,622,1.439,17.686,OCC
+10184,Lake Nebraska National Bank,Lake Nebraska National Bank,Lincoln,NE,32983,SM,Commercial,2017-06-08,2025-03-31,40644,32002,4439,446,1.099,10.047,FRB
+10185,Citizens Montana Bank & Trust,First Horizon Corp.,Billings,MT,28434,SA,Savings,1916-11-19,2025-03-31,836109,650760,58384,13993,1.674,23.967,OCC
+10186,Western Michigan National Bank,Western Michigan National Bank,Grand Rapids,MI,10167,SM,Commercial,1877-06-09,2025-03-31,32533467,29039890,3910570,70998,0.218,1.816,FRB
+10187,Community Banking Group of San Francisco,Community Banking Group of San Francisco,San Francisco,CA,14379,NM,Commercial,1901-08-03,2025-03-31,65568711,50864436,5644529,814069,1.242,14.422,FDIC
+10188,First Maine Savings Bank,First Maine Savings Bank,Portland,ME,95673,N,Commercial,1983-12-01,2025-03-31,64801,50226,7311,745,1.15,10.19,OCC
+10189,Coastal Georgia Community Bank,Coastal Georgia Community Bank,Atlanta,GA,30131,SA,Savings,1960-10-18,2025-03-31,46941,36701,6362,-380,-0.811,-5.973,OCC
+10190,Merchants Bank of San Francisco,Merchants Bank of San Francisco,San Francisco,CA,94130,NM,Commercial,1980-08-22,2025-03-31,98671,70983,11671,379,0.385,3.247,FDIC
+10191,Community Pennsylvania Trust Company,Community Pennsylvania Trust Company,Philadelphia,PA,64262,NM,Commercial,1881-11-12,2025-03-31,44455,33459,4159,623,1.404,14.98,FDIC
+10192,Trust Tennessee Financial,Trust Tennessee Financial,Nashville,TN,84905,NM,Commercial,1868-09-19,2025-03-31,88495,71424,9600,288,0.326,3.0,FDIC
+10193,Coastal Washington Trust Company,Coastal Washington Trust Company,Seattle,WA,18783,SA,Savings,1897-10-09,2025-03-31,281276,206297,13039,3636,1.293,27.886,OCC
+10194,Community Colorado Financial,Community Colorado Financial,Denver,CO,23133,NM,Commercial,2005-10-19,2025-03-31,56202,49650,6858,213,0.38,3.106,FDIC
+10195,Lake National Bank of Hartford,Lake National Bank of Hartford,Hartford,CT,53449,SB,Savings,1962-01-13,2025-03-31,6769167,5096013,773860,57183,0.845,7.389,FDIC
+10196,Trust Bank of Charleston,Trust Bank of Charleston,Charleston,WV,52056,N,Commercial,1894-05-24,2025-03-31,7248518,6258929,701807,25887,0.357,3.689,OCC
+10197,Western Community Bank of Lexington,Western Community Bank of Lexington,Lexington,KY,78719,N,Commercial,1939-12-17,2025-03-31,77896,67363,9781,797,1.024,8.148,OCC
+10198,First South Carolina Trust Company,First Horizon Corp.,Columbia,SC,87862,N,Commercial,1891-11-01,2025-03-31,1966829,1556331,240499,19829,1.008,8.245,OCC
+10199,Patriot Banking Group of New York,Truist Financial Corp.,New York,NY,45269,SB,Savings,1914-04-21,2025-03-31,41432,31145,2690,648,1.566,24.089,FDIC
+10200,Pacific Vermont Financial,Pacific Vermont Financial,Burlington,VT,70161,SM,Commercial,1930-07-13,2025-03-31,904858,719198,81791,10617,1.173,12.981,FRB
+10201,First MS Community Bank,First MS Community Bank,Jackson,MS,38601,NM,Commercial,1959-06-15,2025-03-31,364239,309603,36423,4370,1.2,12.0,FDIC

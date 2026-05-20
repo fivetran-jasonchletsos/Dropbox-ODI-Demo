@@ -1,0 +1,125 @@
+{
+  "cert_id": "70629",
+  "name": "Midwest & Midwest Trust",
+  "city": "Rockford",
+  "state": "IL",
+  "charter_class": "SM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.239,
+  "branches": 2,
+  "established_year": 2006,
+  "risk_score": 25,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.74,
+  "net_charge_off_ratio_pct": 0.33,
+  "return_on_assets_pct": -0.24,
+  "branches_by_state": [
+    {
+      "state": "IL",
+      "count": 1,
+      "deposits_b": 0.133
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.049
+    },
+    {
+      "state": "NJ",
+      "count": 1,
+      "deposits_b": 0.021
+    },
+    {
+      "state": "MI",
+      "count": 1,
+      "deposits_b": 0.017
+    },
+    {
+      "state": "TN",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "GA",
+      "count": -3,
+      "deposits_b": 0.012
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley Exchange Bank",
+      "close_date": "2019-11-10",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Heritage Bank",
+      "close_date": "2014-11-07",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "First Bank of Illinois",
+      "close_date": "2014-10-08",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Illinois Pinnacle Bank",
+      "close_date": "2013-08-26",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.211,
+      "npl_ratio": 0.57,
+      "capital_ratio": 14.2
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.209,
+      "npl_ratio": 0.51,
+      "capital_ratio": 14.18
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.205,
+      "npl_ratio": 0.6,
+      "capital_ratio": 13.92
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.198,
+      "npl_ratio": 0.52,
+      "capital_ratio": 13.53
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.192,
+      "npl_ratio": 0.58,
+      "capital_ratio": 13.44
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.192,
+      "npl_ratio": 0.6,
+      "capital_ratio": 13.36
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.19,
+      "npl_ratio": 0.68,
+      "capital_ratio": 12.98
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.199,
+      "npl_ratio": 0.63,
+      "capital_ratio": 12.66
+    }
+  ],
+  "ai_summary": "Midwest & Midwest Trust (Rockford, IL) holds $0.24B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.74% and ROA of -0.24% benchmark this institution against 100M-1B peers."
+}

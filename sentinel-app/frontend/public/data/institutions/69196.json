@@ -1,0 +1,110 @@
+{
+  "cert_id": "69196",
+  "name": "Citizens & Commonwealth Savings",
+  "city": "Greenfield",
+  "state": "MD",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.464,
+  "branches": 4,
+  "established_year": 1945,
+  "risk_score": 31,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.55,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.28,
+  "branches_by_state": [
+    {
+      "state": "MD",
+      "count": 3,
+      "deposits_b": 0.314
+    },
+    {
+      "state": "NE",
+      "count": 1,
+      "deposits_b": 0.052
+    },
+    {
+      "state": "CT",
+      "count": 0,
+      "deposits_b": 0.098
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United & Cardinal Trust",
+      "close_date": "2014-12-25",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Beacon Financial",
+      "close_date": "2012-08-09",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Lake & First Bank",
+      "close_date": "2012-02-15",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Heritage Holdings Bank",
+      "close_date": "2011-08-20",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.394,
+      "npl_ratio": 0.19,
+      "capital_ratio": 13.6
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.411,
+      "npl_ratio": 0.12,
+      "capital_ratio": 13.3
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.406,
+      "npl_ratio": 0.17,
+      "capital_ratio": 13.33
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.415,
+      "npl_ratio": 0.22,
+      "capital_ratio": 13.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.424,
+      "npl_ratio": 0.14,
+      "capital_ratio": 13.39
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.441,
+      "npl_ratio": 0.14,
+      "capital_ratio": 13.54
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.431,
+      "npl_ratio": 0.1,
+      "capital_ratio": 13.4
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.43,
+      "npl_ratio": 0.1,
+      "capital_ratio": 13.12
+    }
+  ],
+  "ai_summary": "Citizens & Commonwealth Savings (Greenfield, MD) holds $0.46B in deposits across 4 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.55% and ROA of 1.28% benchmark this institution against 100M-1B peers."
+}

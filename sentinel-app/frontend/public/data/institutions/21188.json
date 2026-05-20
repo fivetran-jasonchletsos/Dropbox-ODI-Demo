@@ -1,0 +1,120 @@
+{
+  "cert_id": "21188",
+  "name": "Lake State",
+  "city": "Buffalo",
+  "state": "NY",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.31,
+  "branches": 50,
+  "established_year": 1905,
+  "risk_score": 34,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 11.31,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 0.21,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 35,
+      "deposits_b": 5.052
+    },
+    {
+      "state": "AL",
+      "count": 7,
+      "deposits_b": 1.061
+    },
+    {
+      "state": "WA",
+      "count": 2,
+      "deposits_b": 0.33
+    },
+    {
+      "state": "PR",
+      "count": 3,
+      "deposits_b": 0.426
+    },
+    {
+      "state": "HI",
+      "count": 3,
+      "deposits_b": 0.44
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 6.701,
+      "npl_ratio": 0.29,
+      "capital_ratio": 10.61
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.697,
+      "npl_ratio": 0.22,
+      "capital_ratio": 10.82
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.062,
+      "npl_ratio": 0.25,
+      "capital_ratio": 10.67
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.298,
+      "npl_ratio": 0.36,
+      "capital_ratio": 10.59
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 7.323,
+      "npl_ratio": 0.46,
+      "capital_ratio": 10.84
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 7.034,
+      "npl_ratio": 0.46,
+      "capital_ratio": 10.6
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 7.109,
+      "npl_ratio": 0.54,
+      "capital_ratio": 10.6
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.852,
+      "npl_ratio": 0.61,
+      "capital_ratio": 10.27
+    }
+  ],
+  "ai_summary": "Lake State (Buffalo, NY) holds $7.31B in deposits across 50 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 11.31% and ROA of 0.21% benchmark this institution against 1B-10B peers."
+}

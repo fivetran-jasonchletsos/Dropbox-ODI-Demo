@@ -1,0 +1,119 @@
+{
+  "cert_id": "42168",
+  "name": "Patriot & Frontier Savings",
+  "city": "Fairview",
+  "state": "RI",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.493,
+  "branches": 8,
+  "established_year": 1971,
+  "risk_score": 29,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.33,
+  "net_charge_off_ratio_pct": 0.7,
+  "return_on_assets_pct": 1.04,
+  "branches_by_state": [
+    {
+      "state": "RI",
+      "count": 5,
+      "deposits_b": 0.338
+    },
+    {
+      "state": "WY",
+      "count": 1,
+      "deposits_b": 0.046
+    },
+    {
+      "state": "WI",
+      "count": 1,
+      "deposits_b": 0.023
+    },
+    {
+      "state": "NV",
+      "count": 1,
+      "deposits_b": 0.026
+    },
+    {
+      "state": "NH",
+      "count": 1,
+      "deposits_b": 0.02
+    },
+    {
+      "state": "TX",
+      "count": -1,
+      "deposits_b": 0.039
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Summit Republic",
+      "close_date": "2015-06-04",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pinnacle State Bank",
+      "close_date": "2010-08-14",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Rhode Island First Bank",
+      "close_date": "2009-05-02",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.44,
+      "npl_ratio": 0.73,
+      "capital_ratio": 11.96
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.453,
+      "npl_ratio": 0.65,
+      "capital_ratio": 11.64
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.468,
+      "npl_ratio": 0.62,
+      "capital_ratio": 11.54
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.465,
+      "npl_ratio": 0.6,
+      "capital_ratio": 11.68
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.452,
+      "npl_ratio": 0.64,
+      "capital_ratio": 11.66
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.449,
+      "npl_ratio": 0.65,
+      "capital_ratio": 11.97
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.474,
+      "npl_ratio": 0.65,
+      "capital_ratio": 11.62
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.484,
+      "npl_ratio": 0.56,
+      "capital_ratio": 11.49
+    }
+  ],
+  "ai_summary": "Patriot & Frontier Savings (Fairview, RI) holds $0.49B in deposits across 8 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.33% and ROA of 1.04% benchmark this institution against 100M-1B peers."
+}

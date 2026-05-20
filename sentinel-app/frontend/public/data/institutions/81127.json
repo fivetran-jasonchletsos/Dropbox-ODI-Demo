@@ -1,0 +1,120 @@
+{
+  "cert_id": "81127",
+  "name": "Lake Commerce Bank",
+  "city": "Yonkers",
+  "state": "NY",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.93,
+  "branches": 10,
+  "established_year": 1900,
+  "risk_score": 42,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 10.26,
+  "net_charge_off_ratio_pct": 0.62,
+  "return_on_assets_pct": 0.94,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 6,
+      "deposits_b": 0.526
+    },
+    {
+      "state": "IA",
+      "count": 2,
+      "deposits_b": 0.161
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.073
+    },
+    {
+      "state": "OK",
+      "count": 1,
+      "deposits_b": 0.048
+    },
+    {
+      "state": "MS",
+      "count": 0,
+      "deposits_b": 0.122
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.832,
+      "npl_ratio": 0.68,
+      "capital_ratio": 9.91
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.81,
+      "npl_ratio": 0.77,
+      "capital_ratio": 9.64
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.855,
+      "npl_ratio": 0.8,
+      "capital_ratio": 9.72
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.84,
+      "npl_ratio": 0.75,
+      "capital_ratio": 10.04
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.862,
+      "npl_ratio": 0.87,
+      "capital_ratio": 9.72
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.9,
+      "npl_ratio": 0.99,
+      "capital_ratio": 9.78
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.921,
+      "npl_ratio": 0.98,
+      "capital_ratio": 9.54
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.93,
+      "npl_ratio": 0.93,
+      "capital_ratio": 9.4
+    }
+  ],
+  "ai_summary": "Lake Commerce Bank (Yonkers, NY) holds $0.93B in deposits across 10 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 10.26% and ROA of 0.94% benchmark this institution against 100M-1B peers."
+}

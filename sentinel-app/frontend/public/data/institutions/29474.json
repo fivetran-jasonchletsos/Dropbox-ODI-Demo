@@ -1,0 +1,115 @@
+{
+  "cert_id": "29474",
+  "name": "Plains Bank of California",
+  "city": "San Jose",
+  "state": "CA",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 1.578,
+  "branches": 25,
+  "established_year": 1954,
+  "risk_score": 27,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.05,
+  "net_charge_off_ratio_pct": 0.55,
+  "return_on_assets_pct": -0.18,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 16,
+      "deposits_b": 1.026
+    },
+    {
+      "state": "MD",
+      "count": 2,
+      "deposits_b": 0.138
+    },
+    {
+      "state": "OR",
+      "count": 2,
+      "deposits_b": 0.095
+    },
+    {
+      "state": "DE",
+      "count": 5,
+      "deposits_b": 0.319
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1.494,
+      "npl_ratio": 0.56,
+      "capital_ratio": 11.67
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1.557,
+      "npl_ratio": 0.57,
+      "capital_ratio": 11.69
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1.527,
+      "npl_ratio": 0.59,
+      "capital_ratio": 11.54
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1.47,
+      "npl_ratio": 0.62,
+      "capital_ratio": 11.82
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 1.412,
+      "npl_ratio": 0.6,
+      "capital_ratio": 11.64
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 1.45,
+      "npl_ratio": 0.51,
+      "capital_ratio": 11.33
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 1.477,
+      "npl_ratio": 0.5,
+      "capital_ratio": 11.44
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1.509,
+      "npl_ratio": 0.48,
+      "capital_ratio": 11.16
+    }
+  ],
+  "ai_summary": "Plains Bank of California (San Jose, CA) holds $1.58B in deposits across 25 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.05% and ROA of -0.18% benchmark this institution against 1B-10B peers."
+}

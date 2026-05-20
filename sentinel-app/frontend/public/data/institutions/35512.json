@@ -1,0 +1,125 @@
+{
+  "cert_id": "35512",
+  "name": "Liberty Federal",
+  "city": "Orlando",
+  "state": "FL",
+  "charter_class": "SA",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.332,
+  "branches": 4,
+  "established_year": 1925,
+  "risk_score": 60,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 9.88,
+  "net_charge_off_ratio_pct": 0.2,
+  "return_on_assets_pct": 1.08,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 2,
+      "deposits_b": 0.201
+    },
+    {
+      "state": "SC",
+      "count": 1,
+      "deposits_b": 0.056
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.016
+    },
+    {
+      "state": "WV",
+      "count": 1,
+      "deposits_b": 0.029
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.01
+    },
+    {
+      "state": "NY",
+      "count": -2,
+      "deposits_b": 0.02
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.276,
+      "npl_ratio": 0.32,
+      "capital_ratio": 10.47
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.282,
+      "npl_ratio": 0.41,
+      "capital_ratio": 10.5
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.28,
+      "npl_ratio": 0.51,
+      "capital_ratio": 10.62
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.278,
+      "npl_ratio": 0.55,
+      "capital_ratio": 10.24
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.278,
+      "npl_ratio": 0.63,
+      "capital_ratio": 10.25
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.284,
+      "npl_ratio": 0.67,
+      "capital_ratio": 10.47
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.301,
+      "npl_ratio": 0.65,
+      "capital_ratio": 10.74
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.295,
+      "npl_ratio": 0.66,
+      "capital_ratio": 10.49
+    }
+  ],
+  "ai_summary": "Liberty Federal (Orlando, FL) holds $0.33B in deposits across 4 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 9.88% and ROA of 1.08% benchmark this institution against 100M-1B peers. Peer failures in FL since 2021 suggest elevated regional stress."
+}

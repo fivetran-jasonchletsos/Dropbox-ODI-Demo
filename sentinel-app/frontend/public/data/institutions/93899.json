@@ -1,0 +1,125 @@
+{
+  "cert_id": "93899",
+  "name": "Summit Holdings Bank",
+  "city": "Orlando",
+  "state": "FL",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.169,
+  "branches": 12,
+  "established_year": 1935,
+  "risk_score": 52,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 15.03,
+  "net_charge_off_ratio_pct": 0.56,
+  "return_on_assets_pct": 1.09,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 9,
+      "deposits_b": 0.132
+    },
+    {
+      "state": "LA",
+      "count": 1,
+      "deposits_b": 0.016
+    },
+    {
+      "state": "DE",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "MI",
+      "count": 1,
+      "deposits_b": 0.005
+    },
+    {
+      "state": "UT",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "MD",
+      "count": -1,
+      "deposits_b": 0.006
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.152,
+      "npl_ratio": 0.73,
+      "capital_ratio": 15.11
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.146,
+      "npl_ratio": 0.81,
+      "capital_ratio": 15.19
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.15,
+      "npl_ratio": 0.78,
+      "capital_ratio": 14.81
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.154,
+      "npl_ratio": 0.79,
+      "capital_ratio": 15.09
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.153,
+      "npl_ratio": 0.82,
+      "capital_ratio": 15.07
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.147,
+      "npl_ratio": 0.95,
+      "capital_ratio": 15.3
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.152,
+      "npl_ratio": 0.99,
+      "capital_ratio": 15.41
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.152,
+      "npl_ratio": 0.98,
+      "capital_ratio": 15.38
+    }
+  ],
+  "ai_summary": "Summit Holdings Bank (Orlando, FL) holds $0.17B in deposits across 12 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 15.03% and ROA of 1.09% benchmark this institution against 100M-1B peers."
+}

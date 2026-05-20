@@ -1,0 +1,120 @@
+{
+  "cert_id": "17834",
+  "name": "Liberty & Frontier Bank",
+  "city": "Macon",
+  "state": "GA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.814,
+  "branches": 13,
+  "established_year": 1906,
+  "risk_score": 38,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.4,
+  "net_charge_off_ratio_pct": 0.94,
+  "return_on_assets_pct": 0.95,
+  "branches_by_state": [
+    {
+      "state": "GA",
+      "count": 8,
+      "deposits_b": 0.51
+    },
+    {
+      "state": "KS",
+      "count": 2,
+      "deposits_b": 0.131
+    },
+    {
+      "state": "NV",
+      "count": 1,
+      "deposits_b": 0.051
+    },
+    {
+      "state": "SD",
+      "count": 1,
+      "deposits_b": 0.052
+    },
+    {
+      "state": "UT",
+      "count": 1,
+      "deposits_b": 0.07
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First & First Trust",
+      "close_date": "2012-10-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2012-07-18",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Pinnacle & Sterling Bank",
+      "close_date": "2012-06-25",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Mountain National Bank",
+      "close_date": "2012-06-06",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.784,
+      "npl_ratio": 1.02,
+      "capital_ratio": 13.72
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.782,
+      "npl_ratio": 1.01,
+      "capital_ratio": 13.59
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.78,
+      "npl_ratio": 1.04,
+      "capital_ratio": 13.49
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.822,
+      "npl_ratio": 1.15,
+      "capital_ratio": 13.3
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.847,
+      "npl_ratio": 1.2,
+      "capital_ratio": 12.96
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.819,
+      "npl_ratio": 1.28,
+      "capital_ratio": 12.73
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.84,
+      "npl_ratio": 1.36,
+      "capital_ratio": 12.48
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.816,
+      "npl_ratio": 1.46,
+      "capital_ratio": 12.1
+    }
+  ],
+  "ai_summary": "Liberty & Frontier Bank (Macon, GA) holds $0.81B in deposits across 13 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.40% and ROA of 0.95% benchmark this institution against 100M-1B peers."
+}

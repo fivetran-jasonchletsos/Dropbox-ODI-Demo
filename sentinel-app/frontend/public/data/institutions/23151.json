@@ -1,0 +1,110 @@
+{
+  "cert_id": "23151",
+  "name": "River Bank of Connecticut",
+  "city": "Riverside",
+  "state": "CT",
+  "charter_class": "SB",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.653,
+  "branches": 4,
+  "established_year": 1937,
+  "risk_score": 42,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.61,
+  "net_charge_off_ratio_pct": 0.49,
+  "return_on_assets_pct": -0.78,
+  "branches_by_state": [
+    {
+      "state": "CT",
+      "count": 3,
+      "deposits_b": 0.425
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.05
+    },
+    {
+      "state": "AR",
+      "count": 0,
+      "deposits_b": 0.178
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Connecticut",
+      "close_date": "2011-10-11",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "River & Atlantic Savings",
+      "close_date": "2010-05-06",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Cornerstone Bank of Connecticut",
+      "close_date": "2010-01-14",
+      "charter_class": "SM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Liberty & Valley Bank",
+      "close_date": "2009-03-10",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.56,
+      "npl_ratio": 0.6,
+      "capital_ratio": 13.16
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.54,
+      "npl_ratio": 0.7,
+      "capital_ratio": 13.38
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.535,
+      "npl_ratio": 0.8,
+      "capital_ratio": 13.23
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.54,
+      "npl_ratio": 0.74,
+      "capital_ratio": 13.22
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.536,
+      "npl_ratio": 0.75,
+      "capital_ratio": 13.43
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.545,
+      "npl_ratio": 0.72,
+      "capital_ratio": 13.26
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.566,
+      "npl_ratio": 0.76,
+      "capital_ratio": 12.89
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.6,
+      "npl_ratio": 0.84,
+      "capital_ratio": 12.61
+    }
+  ],
+  "ai_summary": "River Bank of Connecticut (Riverside, CT) holds $0.65B in deposits across 4 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.61% and ROA of -0.78% benchmark this institution against 100M-1B peers."
+}

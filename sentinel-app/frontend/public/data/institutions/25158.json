@@ -1,0 +1,120 @@
+{
+  "cert_id": "25158",
+  "name": "Virginia Sterling Bank",
+  "city": "Alexandria",
+  "state": "VA",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.28,
+  "branches": 4,
+  "established_year": 1899,
+  "risk_score": 20,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.52,
+  "net_charge_off_ratio_pct": 0.39,
+  "return_on_assets_pct": 0.48,
+  "branches_by_state": [
+    {
+      "state": "VA",
+      "count": 3,
+      "deposits_b": 0.199
+    },
+    {
+      "state": "ND",
+      "count": 1,
+      "deposits_b": 0.04
+    },
+    {
+      "state": "WA",
+      "count": 1,
+      "deposits_b": 0.018
+    },
+    {
+      "state": "CO",
+      "count": 1,
+      "deposits_b": 0.009
+    },
+    {
+      "state": "CA",
+      "count": -2,
+      "deposits_b": 0.014
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2024-02-11",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Citizens State Bank",
+      "close_date": "2019-09-18",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2013-03-27",
+      "charter_class": "N",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Virginia Heritage Bank",
+      "close_date": "2011-12-08",
+      "charter_class": "SM",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.256,
+      "npl_ratio": 0.61,
+      "capital_ratio": 13.45
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.266,
+      "npl_ratio": 0.6,
+      "capital_ratio": 13.34
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.262,
+      "npl_ratio": 0.69,
+      "capital_ratio": 13.56
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.258,
+      "npl_ratio": 0.66,
+      "capital_ratio": 13.17
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.265,
+      "npl_ratio": 0.76,
+      "capital_ratio": 12.81
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.266,
+      "npl_ratio": 0.79,
+      "capital_ratio": 12.59
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.265,
+      "npl_ratio": 0.75,
+      "capital_ratio": 12.61
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.257,
+      "npl_ratio": 0.81,
+      "capital_ratio": 12.54
+    }
+  ],
+  "ai_summary": "Virginia Sterling Bank (Alexandria, VA) holds $0.28B in deposits across 4 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.52% and ROA of 0.48% benchmark this institution against 100M-1B peers."
+}

@@ -1,0 +1,110 @@
+{
+  "cert_id": "78506",
+  "name": "River & Heritage Savings",
+  "city": "Springfield",
+  "state": "CO",
+  "charter_class": "SB",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.475,
+  "branches": 2,
+  "established_year": 2012,
+  "risk_score": 29,
+  "risk_tier": "low",
+  "capital_ratio_pct": 8.42,
+  "net_charge_off_ratio_pct": 0.45,
+  "return_on_assets_pct": 1.23,
+  "branches_by_state": [
+    {
+      "state": "CO",
+      "count": 1,
+      "deposits_b": 0.355
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.043
+    },
+    {
+      "state": "ND",
+      "count": 0,
+      "deposits_b": 0.077
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Sentinel Bank of Colorado",
+      "close_date": "2017-03-26",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Commonwealth Trust Bank",
+      "close_date": "2012-12-02",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "River & Atlantic Trust",
+      "close_date": "2011-09-24",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pinnacle Holdings",
+      "close_date": "2011-04-03",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.39,
+      "npl_ratio": 0.7,
+      "capital_ratio": 7.34
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.383,
+      "npl_ratio": 0.72,
+      "capital_ratio": 7.33
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.382,
+      "npl_ratio": 0.77,
+      "capital_ratio": 7.3
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.368,
+      "npl_ratio": 0.71,
+      "capital_ratio": 7.15
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.385,
+      "npl_ratio": 0.69,
+      "capital_ratio": 6.9
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.406,
+      "npl_ratio": 0.72,
+      "capital_ratio": 7.2
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.395,
+      "npl_ratio": 0.65,
+      "capital_ratio": 7.43
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.418,
+      "npl_ratio": 0.7,
+      "capital_ratio": 7.69
+    }
+  ],
+  "ai_summary": "River & Heritage Savings (Springfield, CO) holds $0.47B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 8.42% and ROA of 1.23% benchmark this institution against 100M-1B peers."
+}

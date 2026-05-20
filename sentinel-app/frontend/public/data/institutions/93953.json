@@ -1,0 +1,120 @@
+{
+  "cert_id": "93953",
+  "name": "Harbor Bank of Kansas",
+  "city": "Clinton",
+  "state": "KS",
+  "charter_class": "SM",
+  "asset_class": "1B-10B",
+  "deposits_b": 4.33,
+  "branches": 64,
+  "established_year": 1936,
+  "risk_score": 51,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 14.38,
+  "net_charge_off_ratio_pct": 0.39,
+  "return_on_assets_pct": 0.25,
+  "branches_by_state": [
+    {
+      "state": "KS",
+      "count": 37,
+      "deposits_b": 2.497
+    },
+    {
+      "state": "WI",
+      "count": 8,
+      "deposits_b": 0.555
+    },
+    {
+      "state": "MS",
+      "count": 6,
+      "deposits_b": 0.409
+    },
+    {
+      "state": "CO",
+      "count": 4,
+      "deposits_b": 0.288
+    },
+    {
+      "state": "CA",
+      "count": 9,
+      "deposits_b": 0.581
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heartland Tri-State Bank",
+      "close_date": "2023-07-28",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Capital Banking",
+      "close_date": "2017-12-26",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Summit Holdings Bank",
+      "close_date": "2011-09-18",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Pinnacle Federal",
+      "close_date": "2010-11-22",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 3.756,
+      "npl_ratio": 0.6,
+      "capital_ratio": 14.82
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 3.75,
+      "npl_ratio": 0.59,
+      "capital_ratio": 14.57
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 3.618,
+      "npl_ratio": 0.74,
+      "capital_ratio": 14.81
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 3.679,
+      "npl_ratio": 0.71,
+      "capital_ratio": 14.73
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 3.736,
+      "npl_ratio": 0.73,
+      "capital_ratio": 14.49
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 3.785,
+      "npl_ratio": 0.73,
+      "capital_ratio": 14.73
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 3.893,
+      "npl_ratio": 0.77,
+      "capital_ratio": 14.74
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 3.988,
+      "npl_ratio": 0.75,
+      "capital_ratio": 14.6
+    }
+  ],
+  "ai_summary": "Harbor Bank of Kansas (Clinton, KS) holds $4.33B in deposits across 64 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 14.38% and ROA of 0.25% benchmark this institution against 1B-10B peers."
+}

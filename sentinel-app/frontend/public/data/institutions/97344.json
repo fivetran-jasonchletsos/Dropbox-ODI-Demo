@@ -1,0 +1,115 @@
+{
+  "cert_id": "97344",
+  "name": "Atlantic Bank of California",
+  "city": "Sacramento",
+  "state": "CA",
+  "charter_class": "SA",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.795,
+  "branches": 58,
+  "established_year": 1991,
+  "risk_score": 7,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.99,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 0.44,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 35,
+      "deposits_b": 4.688
+    },
+    {
+      "state": "TX",
+      "count": 9,
+      "deposits_b": 1.181
+    },
+    {
+      "state": "NJ",
+      "count": 5,
+      "deposits_b": 0.702
+    },
+    {
+      "state": "IA",
+      "count": 9,
+      "deposits_b": 1.224
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.712,
+      "npl_ratio": 0.19,
+      "capital_ratio": 14.55
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.667,
+      "npl_ratio": 0.15,
+      "capital_ratio": 14.4
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.616,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.42
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.752,
+      "npl_ratio": 0.16,
+      "capital_ratio": 14.68
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 7.805,
+      "npl_ratio": 0.14,
+      "capital_ratio": 14.51
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 8.093,
+      "npl_ratio": 0.11,
+      "capital_ratio": 14.56
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 8.141,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.85
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 8.381,
+      "npl_ratio": 0.17,
+      "capital_ratio": 14.87
+    }
+  ],
+  "ai_summary": "Atlantic Bank of California (Sacramento, CA) holds $7.79B in deposits across 58 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.99% and ROA of 0.44% benchmark this institution against 1B-10B peers."
+}

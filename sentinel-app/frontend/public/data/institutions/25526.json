@@ -1,0 +1,98 @@
+{
+  "cert_id": "25526",
+  "name": "Coastal & Sterling Trust",
+  "city": "Lakeside",
+  "state": "NE",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.058,
+  "branches": 4,
+  "established_year": 1892,
+  "risk_score": 67,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 9.72,
+  "net_charge_off_ratio_pct": 0.51,
+  "return_on_assets_pct": 1.28,
+  "branches_by_state": [
+    {
+      "state": "NE",
+      "count": 3,
+      "deposits_b": 0.041
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.008
+    },
+    {
+      "state": "KS",
+      "count": 0,
+      "deposits_b": 0.009
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Citizens Bank of Nebraska",
+      "close_date": "2010-01-27",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Pinnacle Banking",
+      "close_date": "2009-02-04",
+      "charter_class": "SA",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.049,
+      "npl_ratio": 0.73,
+      "capital_ratio": 9.62
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.049,
+      "npl_ratio": 0.7,
+      "capital_ratio": 9.83
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.052,
+      "npl_ratio": 0.7,
+      "capital_ratio": 9.9
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.055,
+      "npl_ratio": 0.75,
+      "capital_ratio": 9.61
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.056,
+      "npl_ratio": 0.78,
+      "capital_ratio": 9.7
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.059,
+      "npl_ratio": 0.93,
+      "capital_ratio": 9.61
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.061,
+      "npl_ratio": 1.01,
+      "capital_ratio": 9.56
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.063,
+      "npl_ratio": 1.07,
+      "capital_ratio": 9.18
+    }
+  ],
+  "ai_summary": "Coastal & Sterling Trust (Lakeside, NE) holds $0.06B in deposits across 4 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 9.72% and ROA of 1.28% benchmark this institution against <100M peers. Peer failures in NE since 2021 suggest elevated regional stress."
+}

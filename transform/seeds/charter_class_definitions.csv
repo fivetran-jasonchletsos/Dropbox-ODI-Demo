@@ -1,0 +1,6 @@
+charter_class,charter_label,charter_description,regulator
+N,National Commercial Bank,Commercial bank chartered by the OCC (national charter),OCC
+NM,State Commercial Bank - Non-Member,State-chartered commercial bank not a member of the Federal Reserve,FDIC
+SM,State Commercial Bank - Member,State-chartered commercial bank that is a member of the Federal Reserve,FRB
+SB,State Savings Bank,State-chartered savings institution,FDIC
+SA,Savings Association,Federal or state-chartered savings association,OCC

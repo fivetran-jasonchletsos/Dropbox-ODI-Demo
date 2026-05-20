@@ -1,0 +1,115 @@
+{
+  "cert_id": "39543",
+  "name": "California National Bank",
+  "city": "San Diego",
+  "state": "CA",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.998,
+  "branches": 10,
+  "established_year": 1930,
+  "risk_score": 30,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 14.24,
+  "net_charge_off_ratio_pct": 0.44,
+  "return_on_assets_pct": 1.98,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 8,
+      "deposits_b": 0.764
+    },
+    {
+      "state": "CO",
+      "count": 1,
+      "deposits_b": 0.097
+    },
+    {
+      "state": "NM",
+      "count": 1,
+      "deposits_b": 0.046
+    },
+    {
+      "state": "AR",
+      "count": 0,
+      "deposits_b": 0.091
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.89,
+      "npl_ratio": 0.61,
+      "capital_ratio": 13.98
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.864,
+      "npl_ratio": 0.66,
+      "capital_ratio": 14.22
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.901,
+      "npl_ratio": 0.69,
+      "capital_ratio": 14.45
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.917,
+      "npl_ratio": 0.7,
+      "capital_ratio": 14.52
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.906,
+      "npl_ratio": 0.67,
+      "capital_ratio": 14.69
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.884,
+      "npl_ratio": 0.75,
+      "capital_ratio": 14.46
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.887,
+      "npl_ratio": 0.82,
+      "capital_ratio": 14.39
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.86,
+      "npl_ratio": 0.92,
+      "capital_ratio": 14.59
+    }
+  ],
+  "ai_summary": "California National Bank (San Diego, CA) holds $1.00B in deposits across 10 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 14.24% and ROA of 1.98% benchmark this institution against 100M-1B peers."
+}

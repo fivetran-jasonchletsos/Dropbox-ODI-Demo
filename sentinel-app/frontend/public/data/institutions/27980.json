@@ -1,0 +1,125 @@
+{
+  "cert_id": "27980",
+  "name": "United Mutual",
+  "city": "Clinton",
+  "state": "OR",
+  "charter_class": "SM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.181,
+  "branches": 12,
+  "established_year": 1907,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.91,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 1.41,
+  "branches_by_state": [
+    {
+      "state": "OR",
+      "count": 10,
+      "deposits_b": 0.146
+    },
+    {
+      "state": "KY",
+      "count": 1,
+      "deposits_b": 0.014
+    },
+    {
+      "state": "NJ",
+      "count": 1,
+      "deposits_b": 0.006
+    },
+    {
+      "state": "CA",
+      "count": 1,
+      "deposits_b": 0.007
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "AL",
+      "count": -2,
+      "deposits_b": 0.004
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Bank of Oregon",
+      "close_date": "2014-02-17",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Commonwealth Bank of Oregon",
+      "close_date": "2011-02-02",
+      "charter_class": "SA",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Oregon First Bank",
+      "close_date": "2010-12-12",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Citizens Trust Bank",
+      "close_date": "2010-08-11",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.149,
+      "npl_ratio": 0.27,
+      "capital_ratio": 12.83
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.154,
+      "npl_ratio": 0.16,
+      "capital_ratio": 12.86
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.148,
+      "npl_ratio": 0.19,
+      "capital_ratio": 12.86
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.145,
+      "npl_ratio": 0.12,
+      "capital_ratio": 12.52
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.144,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.65
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.15,
+      "npl_ratio": 0.17,
+      "capital_ratio": 12.65
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.149,
+      "npl_ratio": 0.21,
+      "capital_ratio": 12.93
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.144,
+      "npl_ratio": 0.12,
+      "capital_ratio": 13.19
+    }
+  ],
+  "ai_summary": "United Mutual (Clinton, OR) holds $0.18B in deposits across 12 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.91% and ROA of 1.41% benchmark this institution against 100M-1B peers."
+}

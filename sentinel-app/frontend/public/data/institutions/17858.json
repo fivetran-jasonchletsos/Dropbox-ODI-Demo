@@ -1,0 +1,125 @@
+{
+  "cert_id": "17858",
+  "name": "Pacific & Coastal Savings",
+  "city": "Miami",
+  "state": "FL",
+  "charter_class": "NM",
+  "asset_class": "<100M",
+  "deposits_b": 0.072,
+  "branches": 4,
+  "established_year": 1888,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.62,
+  "net_charge_off_ratio_pct": 0.48,
+  "return_on_assets_pct": 0.58,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 3,
+      "deposits_b": 0.055
+    },
+    {
+      "state": "WV",
+      "count": 1,
+      "deposits_b": 0.004
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "AK",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "IA",
+      "count": 1,
+      "deposits_b": 0.002
+    },
+    {
+      "state": "OH",
+      "count": -3,
+      "deposits_b": 0.004
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.065,
+      "npl_ratio": 0.73,
+      "capital_ratio": 12.57
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.066,
+      "npl_ratio": 0.76,
+      "capital_ratio": 12.45
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.068,
+      "npl_ratio": 0.81,
+      "capital_ratio": 12.42
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.072,
+      "npl_ratio": 0.85,
+      "capital_ratio": 12.57
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.07,
+      "npl_ratio": 0.91,
+      "capital_ratio": 12.79
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.067,
+      "npl_ratio": 0.95,
+      "capital_ratio": 12.87
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.069,
+      "npl_ratio": 0.99,
+      "capital_ratio": 12.86
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.073,
+      "npl_ratio": 0.99,
+      "capital_ratio": 13.17
+    }
+  ],
+  "ai_summary": "Pacific & Coastal Savings (Miami, FL) holds $0.07B in deposits across 4 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.62% and ROA of 0.58% benchmark this institution against <100M peers."
+}

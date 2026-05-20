@@ -1,0 +1,115 @@
+{
+  "cert_id": "65456",
+  "name": "Midwest Holdings Bank",
+  "city": "Boston",
+  "state": "MA",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.103,
+  "branches": 14,
+  "established_year": 1967,
+  "risk_score": 15,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.04,
+  "net_charge_off_ratio_pct": 0.3,
+  "return_on_assets_pct": -0.14,
+  "branches_by_state": [
+    {
+      "state": "MA",
+      "count": 9,
+      "deposits_b": 0.066
+    },
+    {
+      "state": "WY",
+      "count": 2,
+      "deposits_b": 0.018
+    },
+    {
+      "state": "CO",
+      "count": 1,
+      "deposits_b": 0.008
+    },
+    {
+      "state": "CA",
+      "count": 2,
+      "deposits_b": 0.012
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "United Federal Bank",
+      "close_date": "2012-12-25",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Midwest State Bank",
+      "close_date": "2012-02-07",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Founders Group Bank",
+      "close_date": "2011-04-19",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Massachusetts First Bank",
+      "close_date": "2010-11-15",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.092,
+      "npl_ratio": 0.38,
+      "capital_ratio": 12.52
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.089,
+      "npl_ratio": 0.36,
+      "capital_ratio": 12.2
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.093,
+      "npl_ratio": 0.44,
+      "capital_ratio": 12.22
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.098,
+      "npl_ratio": 0.4,
+      "capital_ratio": 12.25
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.095,
+      "npl_ratio": 0.31,
+      "capital_ratio": 12.07
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.092,
+      "npl_ratio": 0.3,
+      "capital_ratio": 12.02
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.095,
+      "npl_ratio": 0.31,
+      "capital_ratio": 11.9
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.096,
+      "npl_ratio": 0.22,
+      "capital_ratio": 12.2
+    }
+  ],
+  "ai_summary": "Midwest Holdings Bank (Boston, MA) holds $0.10B in deposits across 14 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.04% and ROA of -0.14% benchmark this institution against 100M-1B peers."
+}

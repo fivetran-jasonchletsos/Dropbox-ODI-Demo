@@ -1,0 +1,50 @@
+name: odi_dropbox
+version: "0.1.0"
+config-version: 2
+
+profile: odi_dropbox
+
+model-paths: ["models", "metrics"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analyses"]
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  odi_dropbox:
+    +materialized: view
+    bronze:
+      +schema: bronze
+      +materialized: view     # passthroughs over Fivetran's landed tables
+    silver:
+      +schema: silver
+      +materialized: view
+    gold:
+      +schema: gold
+      +materialized: table
+
+seeds:
+  odi_dropbox:
+    +schema: seeds
+    +quote_columns: false
+
+tests:
+  +store_failures: false
+  +severity: warn
+
+vars:
+  bronze_database: ODI_DROPBOX
+  # Schema for the native-Snowflake bronze (Fivetran loads tables into
+  # Snowflake managed storage). Used by target `prod_native`.
+  bronze_schema: BRONZE
+  # Schema for the MDLS-Iceberg bronze. In this demo we register the
+  # Iceberg tables into the same BRONZE schema, so the two vars are
+  # equal — keeping them separate lets a future MDLS layout that uses
+  # the Fivetran connector-id schema (e.g. JASON_CHLETSOS_SENTINEL_FDIC_FILES)
+  # flip via `--vars 'bronze_iceberg_schema: ...'` without touching SQL.
+  bronze_iceberg_schema: BRONZE

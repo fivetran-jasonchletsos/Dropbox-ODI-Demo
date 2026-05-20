@@ -1,0 +1,110 @@
+{
+  "cert_id": "52639",
+  "name": "Sentinel Bank of South Carolina",
+  "city": "Lakeside",
+  "state": "SC",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.839,
+  "branches": 11,
+  "established_year": 1960,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.08,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 0.57,
+  "branches_by_state": [
+    {
+      "state": "SC",
+      "count": 8,
+      "deposits_b": 0.59
+    },
+    {
+      "state": "WV",
+      "count": 1,
+      "deposits_b": 0.08
+    },
+    {
+      "state": "NV",
+      "count": 2,
+      "deposits_b": 0.17
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "South Carolina Pinnacle Bank",
+      "close_date": "2012-10-16",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Patriot Partners",
+      "close_date": "2012-01-04",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Pacific Bank of South Carolina",
+      "close_date": "2010-07-02",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2010-03-28",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.819,
+      "npl_ratio": 0.28,
+      "capital_ratio": 14.72
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.863,
+      "npl_ratio": 0.25,
+      "capital_ratio": 14.44
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.906,
+      "npl_ratio": 0.19,
+      "capital_ratio": 14.05
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.931,
+      "npl_ratio": 0.12,
+      "capital_ratio": 14.28
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.92,
+      "npl_ratio": 0.16,
+      "capital_ratio": 14.51
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.917,
+      "npl_ratio": 0.17,
+      "capital_ratio": 14.4
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.887,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.53
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.898,
+      "npl_ratio": 0.1,
+      "capital_ratio": 14.69
+    }
+  ],
+  "ai_summary": "Sentinel Bank of South Carolina (Lakeside, SC) holds $0.84B in deposits across 11 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.08% and ROA of 0.57% benchmark this institution against 100M-1B peers."
+}

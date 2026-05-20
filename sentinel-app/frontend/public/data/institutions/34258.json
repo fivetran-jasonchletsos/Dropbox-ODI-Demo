@@ -1,0 +1,114 @@
+{
+  "cert_id": "34258",
+  "name": "Oklahoma Pinnacle Bank",
+  "city": "Madison",
+  "state": "OK",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.352,
+  "branches": 21,
+  "established_year": 1909,
+  "risk_score": 8,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.45,
+  "net_charge_off_ratio_pct": 0.23,
+  "return_on_assets_pct": 1.32,
+  "branches_by_state": [
+    {
+      "state": "OK",
+      "count": 17,
+      "deposits_b": 5.885
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.437
+    },
+    {
+      "state": "MA",
+      "count": 1,
+      "deposits_b": 0.302
+    },
+    {
+      "state": "UT",
+      "count": 1,
+      "deposits_b": 0.27
+    },
+    {
+      "state": "MI",
+      "count": 1,
+      "deposits_b": 0.458
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Summit & Atlantic Savings",
+      "close_date": "2009-12-10",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Oklahoma National Bank",
+      "close_date": "2009-05-08",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Valley & River Bank",
+      "close_date": "2009-05-04",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 6.456,
+      "npl_ratio": 0.33,
+      "capital_ratio": 11.39
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 6.764,
+      "npl_ratio": 0.34,
+      "capital_ratio": 11.57
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.02,
+      "npl_ratio": 0.29,
+      "capital_ratio": 11.87
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.394,
+      "npl_ratio": 0.34,
+      "capital_ratio": 12.14
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 7.618,
+      "npl_ratio": 0.24,
+      "capital_ratio": 12.15
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 7.657,
+      "npl_ratio": 0.14,
+      "capital_ratio": 12.36
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 8.038,
+      "npl_ratio": 0.11,
+      "capital_ratio": 12.59
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 8.049,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.48
+    }
+  ],
+  "ai_summary": "Oklahoma Pinnacle Bank (Madison, OK) holds $7.35B in deposits across 21 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.45% and ROA of 1.32% benchmark this institution against 1B-10B peers."
+}

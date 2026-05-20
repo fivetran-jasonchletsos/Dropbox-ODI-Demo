@@ -1,0 +1,125 @@
+{
+  "cert_id": "64319",
+  "name": "Frontier Federal Bank",
+  "city": "Allentown",
+  "state": "PA",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 8.716,
+  "branches": 13,
+  "established_year": 1956,
+  "risk_score": 9,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.5,
+  "net_charge_off_ratio_pct": 0.4,
+  "return_on_assets_pct": 1.92,
+  "branches_by_state": [
+    {
+      "state": "PA",
+      "count": 9,
+      "deposits_b": 6.322
+    },
+    {
+      "state": "AK",
+      "count": 1,
+      "deposits_b": 0.873
+    },
+    {
+      "state": "AR",
+      "count": 1,
+      "deposits_b": 0.395
+    },
+    {
+      "state": "NJ",
+      "count": 1,
+      "deposits_b": 0.297
+    },
+    {
+      "state": "MN",
+      "count": 1,
+      "deposits_b": 0.194
+    },
+    {
+      "state": "WV",
+      "count": 0,
+      "deposits_b": 0.636
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Republic First Bank",
+      "close_date": "2024-04-26",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pinnacle Community Bank",
+      "close_date": "2013-07-17",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Capital State Bank",
+      "close_date": "2011-05-11",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Plains Financial",
+      "close_date": "2011-03-02",
+      "charter_class": "SB",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.763,
+      "npl_ratio": 0.51,
+      "capital_ratio": 15.33
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.495,
+      "npl_ratio": 0.47,
+      "capital_ratio": 15.58
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.414,
+      "npl_ratio": 0.45,
+      "capital_ratio": 15.5
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.212,
+      "npl_ratio": 0.35,
+      "capital_ratio": 15.49
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.939,
+      "npl_ratio": 0.4,
+      "capital_ratio": 15.13
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.7,
+      "npl_ratio": 0.32,
+      "capital_ratio": 15.24
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.717,
+      "npl_ratio": 0.21,
+      "capital_ratio": 15.35
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.589,
+      "npl_ratio": 0.27,
+      "capital_ratio": 15.33
+    }
+  ],
+  "ai_summary": "Frontier Federal Bank (Allentown, PA) holds $8.72B in deposits across 13 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.50% and ROA of 1.92% benchmark this institution against 1B-10B peers."
+}

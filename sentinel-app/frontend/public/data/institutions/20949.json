@@ -1,0 +1,110 @@
+{
+  "cert_id": "20949",
+  "name": "Kentucky First Bank",
+  "city": "Fairview",
+  "state": "KY",
+  "charter_class": "SA",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.942,
+  "branches": 13,
+  "established_year": 1899,
+  "risk_score": 56,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 12.4,
+  "net_charge_off_ratio_pct": 0.7,
+  "return_on_assets_pct": 0.35,
+  "branches_by_state": [
+    {
+      "state": "KY",
+      "count": 7,
+      "deposits_b": 0.522
+    },
+    {
+      "state": "HI",
+      "count": 3,
+      "deposits_b": 0.19
+    },
+    {
+      "state": "CT",
+      "count": 3,
+      "deposits_b": 0.23
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Kentucky National Bank",
+      "close_date": "2014-12-08",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Valley Bank of Kentucky",
+      "close_date": "2012-02-09",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Cardinal Commerce Bank",
+      "close_date": "2011-11-14",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Independence Bank of Kentucky",
+      "close_date": "2010-09-25",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.879,
+      "npl_ratio": 0.81,
+      "capital_ratio": 12.39
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.88,
+      "npl_ratio": 0.95,
+      "capital_ratio": 12.23
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.885,
+      "npl_ratio": 1.04,
+      "capital_ratio": 12.57
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.897,
+      "npl_ratio": 1.01,
+      "capital_ratio": 12.65
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.937,
+      "npl_ratio": 1.03,
+      "capital_ratio": 12.89
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.985,
+      "npl_ratio": 1.15,
+      "capital_ratio": 12.8
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.981,
+      "npl_ratio": 1.11,
+      "capital_ratio": 12.96
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.949,
+      "npl_ratio": 1.14,
+      "capital_ratio": 12.8
+    }
+  ],
+  "ai_summary": "Kentucky First Bank (Fairview, KY) holds $0.94B in deposits across 13 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 12.40% and ROA of 0.35% benchmark this institution against 100M-1B peers. Peer failures in KY since 2021 suggest elevated regional stress."
+}

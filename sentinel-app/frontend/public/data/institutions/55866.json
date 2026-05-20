@@ -1,0 +1,115 @@
+{
+  "cert_id": "55866",
+  "name": "Atlantic Banking Bank",
+  "city": "Riverside",
+  "state": "AL",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 6.464,
+  "branches": 24,
+  "established_year": 1987,
+  "risk_score": 21,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.28,
+  "net_charge_off_ratio_pct": 0.65,
+  "return_on_assets_pct": 0.33,
+  "branches_by_state": [
+    {
+      "state": "AL",
+      "count": 19,
+      "deposits_b": 5.05
+    },
+    {
+      "state": "IL",
+      "count": 2,
+      "deposits_b": 0.529
+    },
+    {
+      "state": "FL",
+      "count": 1,
+      "deposits_b": 0.382
+    },
+    {
+      "state": "MS",
+      "count": 2,
+      "deposits_b": 0.504
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Cornerstone & Midwest Savings",
+      "close_date": "2011-12-08",
+      "charter_class": "SA",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Alabama Sterling Bank",
+      "close_date": "2011-07-10",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Plains Bank of Alabama",
+      "close_date": "2010-09-03",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Alabama Heritage Bank",
+      "close_date": "2010-06-23",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 5.847,
+      "npl_ratio": 0.71,
+      "capital_ratio": 13.85
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 5.798,
+      "npl_ratio": 0.68,
+      "capital_ratio": 13.99
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 5.929,
+      "npl_ratio": 0.7,
+      "capital_ratio": 14.33
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 6.106,
+      "npl_ratio": 0.8,
+      "capital_ratio": 14.38
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 6.041,
+      "npl_ratio": 0.85,
+      "capital_ratio": 14.54
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 6.057,
+      "npl_ratio": 0.92,
+      "capital_ratio": 14.21
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 6.341,
+      "npl_ratio": 0.89,
+      "capital_ratio": 14.22
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 6.119,
+      "npl_ratio": 0.97,
+      "capital_ratio": 14.12
+    }
+  ],
+  "ai_summary": "Atlantic Banking Bank (Riverside, AL) holds $6.46B in deposits across 24 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.28% and ROA of 0.33% benchmark this institution against 1B-10B peers."
+}

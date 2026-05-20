@@ -1,0 +1,125 @@
+{
+  "cert_id": "44306",
+  "name": "Independence Republic",
+  "city": "Macon",
+  "state": "GA",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 1.245,
+  "branches": 90,
+  "established_year": 1904,
+  "risk_score": 26,
+  "risk_tier": "low",
+  "capital_ratio_pct": 10.09,
+  "net_charge_off_ratio_pct": 0.06,
+  "return_on_assets_pct": 1.48,
+  "branches_by_state": [
+    {
+      "state": "GA",
+      "count": 52,
+      "deposits_b": 0.716
+    },
+    {
+      "state": "HI",
+      "count": 14,
+      "deposits_b": 0.195
+    },
+    {
+      "state": "IA",
+      "count": 5,
+      "deposits_b": 0.071
+    },
+    {
+      "state": "VT",
+      "count": 9,
+      "deposits_b": 0.122
+    },
+    {
+      "state": "ID",
+      "count": 3,
+      "deposits_b": 0.043
+    },
+    {
+      "state": "NH",
+      "count": 7,
+      "deposits_b": 0.099
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First & First Trust",
+      "close_date": "2012-10-27",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Summit Trust Bank",
+      "close_date": "2012-07-18",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pinnacle & Sterling Bank",
+      "close_date": "2012-06-25",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Mountain National Bank",
+      "close_date": "2012-06-06",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1.083,
+      "npl_ratio": 0.24,
+      "capital_ratio": 10.56
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1.098,
+      "npl_ratio": 0.27,
+      "capital_ratio": 10.24
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1.128,
+      "npl_ratio": 0.34,
+      "capital_ratio": 9.88
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1.138,
+      "npl_ratio": 0.44,
+      "capital_ratio": 10.19
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 1.177,
+      "npl_ratio": 0.41,
+      "capital_ratio": 10.2
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 1.219,
+      "npl_ratio": 0.4,
+      "capital_ratio": 10.5
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 1.26,
+      "npl_ratio": 0.36,
+      "capital_ratio": 10.34
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1.299,
+      "npl_ratio": 0.39,
+      "capital_ratio": 10.41
+    }
+  ],
+  "ai_summary": "Independence Republic (Macon, GA) holds $1.25B in deposits across 90 branches and remains well-capitalized with healthy earnings. Capital ratio of 10.09% and ROA of 1.48% benchmark this institution against 1B-10B peers."
+}

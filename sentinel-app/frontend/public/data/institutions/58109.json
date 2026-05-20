@@ -1,0 +1,110 @@
+{
+  "cert_id": "58109",
+  "name": "Florida Sterling Bank",
+  "city": "Orlando",
+  "state": "FL",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.313,
+  "branches": 4,
+  "established_year": 1903,
+  "risk_score": 59,
+  "risk_tier": "elevated",
+  "capital_ratio_pct": 9.6,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": -0.01,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 2,
+      "deposits_b": 0.187
+    },
+    {
+      "state": "IN",
+      "count": 1,
+      "deposits_b": 0.044
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.082
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.289,
+      "npl_ratio": 0.26,
+      "capital_ratio": 10.22
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.302,
+      "npl_ratio": 0.22,
+      "capital_ratio": 10.31
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.317,
+      "npl_ratio": 0.3,
+      "capital_ratio": 10.3
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.318,
+      "npl_ratio": 0.36,
+      "capital_ratio": 10.51
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.316,
+      "npl_ratio": 0.51,
+      "capital_ratio": 10.43
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.317,
+      "npl_ratio": 0.62,
+      "capital_ratio": 10.68
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.313,
+      "npl_ratio": 0.69,
+      "capital_ratio": 10.69
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.313,
+      "npl_ratio": 0.68,
+      "capital_ratio": 10.72
+    }
+  ],
+  "ai_summary": "Florida Sterling Bank (Orlando, FL) holds $0.31B in deposits across 4 branches and is operating with deteriorating credit metrics worth monitoring. Capital ratio of 9.60% and ROA of -0.01% benchmark this institution against 100M-1B peers. Peer failures in FL since 2021 suggest elevated regional stress."
+}

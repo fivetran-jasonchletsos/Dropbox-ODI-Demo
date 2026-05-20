@@ -1,0 +1,115 @@
+{
+  "cert_id": "25339",
+  "name": "Commonwealth State Bank",
+  "city": "Madison",
+  "state": "LA",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.456,
+  "branches": 2,
+  "established_year": 1923,
+  "risk_score": 14,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.33,
+  "net_charge_off_ratio_pct": 0.47,
+  "return_on_assets_pct": -0.11,
+  "branches_by_state": [
+    {
+      "state": "LA",
+      "count": 2,
+      "deposits_b": 0.353
+    },
+    {
+      "state": "MT",
+      "count": 1,
+      "deposits_b": 0.033
+    },
+    {
+      "state": "PR",
+      "count": 1,
+      "deposits_b": 0.025
+    },
+    {
+      "state": "MI",
+      "count": -2,
+      "deposits_b": 0.045
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Patriot Bank of Louisiana",
+      "close_date": "2017-02-13",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Louisiana National Bank",
+      "close_date": "2012-12-28",
+      "charter_class": "SB",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Pacific Bank of Louisiana",
+      "close_date": "2012-02-06",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Louisiana Heritage Bank",
+      "close_date": "2009-08-02",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.398,
+      "npl_ratio": 0.6,
+      "capital_ratio": 12.23
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.4,
+      "npl_ratio": 0.63,
+      "capital_ratio": 12.54
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.421,
+      "npl_ratio": 0.57,
+      "capital_ratio": 12.28
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.411,
+      "npl_ratio": 0.59,
+      "capital_ratio": 12.2
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.425,
+      "npl_ratio": 0.49,
+      "capital_ratio": 11.82
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.444,
+      "npl_ratio": 0.49,
+      "capital_ratio": 11.44
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.459,
+      "npl_ratio": 0.49,
+      "capital_ratio": 11.47
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.448,
+      "npl_ratio": 0.49,
+      "capital_ratio": 11.23
+    }
+  ],
+  "ai_summary": "Commonwealth State Bank (Madison, LA) holds $0.46B in deposits across 2 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.33% and ROA of -0.11% benchmark this institution against 100M-1B peers."
+}

@@ -1,0 +1,115 @@
+{
+  "cert_id": "29191",
+  "name": "Harbor & Valley Bank",
+  "city": "Orlando",
+  "state": "FL",
+  "charter_class": "N",
+  "asset_class": "<100M",
+  "deposits_b": 0.023,
+  "branches": 3,
+  "established_year": 1898,
+  "risk_score": 50,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.23,
+  "net_charge_off_ratio_pct": 0.05,
+  "return_on_assets_pct": 1.04,
+  "branches_by_state": [
+    {
+      "state": "FL",
+      "count": 2,
+      "deposits_b": 0.015
+    },
+    {
+      "state": "NE",
+      "count": 1,
+      "deposits_b": 0.003
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.001
+    },
+    {
+      "state": "WV",
+      "count": -1,
+      "deposits_b": 0.003
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Bank of Florida",
+      "close_date": "2014-06-06",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Harbor Bank of Florida",
+      "close_date": "2013-03-26",
+      "charter_class": "SB",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Mountain & Founders Savings",
+      "close_date": "2012-10-26",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Beacon & Mercantile Savings",
+      "close_date": "2012-06-17",
+      "charter_class": "SM",
+      "reason": "Tech-sector deposit concentration"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.021,
+      "npl_ratio": 0.23,
+      "capital_ratio": 11.85
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.02,
+      "npl_ratio": 0.28,
+      "capital_ratio": 11.72
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.02,
+      "npl_ratio": 0.23,
+      "capital_ratio": 11.64
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.021,
+      "npl_ratio": 0.35,
+      "capital_ratio": 11.51
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.021,
+      "npl_ratio": 0.34,
+      "capital_ratio": 11.2
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.02,
+      "npl_ratio": 0.42,
+      "capital_ratio": 11.51
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.02,
+      "npl_ratio": 0.54,
+      "capital_ratio": 11.73
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.02,
+      "npl_ratio": 0.63,
+      "capital_ratio": 11.98
+    }
+  ],
+  "ai_summary": "Harbor & Valley Bank (Orlando, FL) holds $0.02B in deposits across 3 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.23% and ROA of 1.04% benchmark this institution against <100M peers."
+}

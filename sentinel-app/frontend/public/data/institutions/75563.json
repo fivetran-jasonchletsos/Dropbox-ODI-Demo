@@ -1,0 +1,120 @@
+{
+  "cert_id": "75563",
+  "name": "Heritage & Sentinel Bank",
+  "city": "Syracuse",
+  "state": "NY",
+  "charter_class": "SM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.857,
+  "branches": 8,
+  "established_year": 1997,
+  "risk_score": 46,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.65,
+  "net_charge_off_ratio_pct": 0.1,
+  "return_on_assets_pct": 1.64,
+  "branches_by_state": [
+    {
+      "state": "NY",
+      "count": 6,
+      "deposits_b": 0.688
+    },
+    {
+      "state": "OH",
+      "count": 1,
+      "deposits_b": 0.076
+    },
+    {
+      "state": "CA",
+      "count": 1,
+      "deposits_b": 0.025
+    },
+    {
+      "state": "NC",
+      "count": 1,
+      "deposits_b": 0.03
+    },
+    {
+      "state": "IL",
+      "count": -1,
+      "deposits_b": 0.038
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Signature Bank",
+      "close_date": "2023-03-12",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Lake Bank of New York",
+      "close_date": "2014-09-26",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Capital Bank of New York",
+      "close_date": "2014-08-12",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Liberty Bank of New York",
+      "close_date": "2014-04-10",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.799,
+      "npl_ratio": 0.23,
+      "capital_ratio": 12.92
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.815,
+      "npl_ratio": 0.34,
+      "capital_ratio": 13.27
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.854,
+      "npl_ratio": 0.28,
+      "capital_ratio": 13.51
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.903,
+      "npl_ratio": 0.33,
+      "capital_ratio": 13.38
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.955,
+      "npl_ratio": 0.42,
+      "capital_ratio": 13.51
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.95,
+      "npl_ratio": 0.39,
+      "capital_ratio": 13.83
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.933,
+      "npl_ratio": 0.45,
+      "capital_ratio": 14.13
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.982,
+      "npl_ratio": 0.55,
+      "capital_ratio": 13.98
+    }
+  ],
+  "ai_summary": "Heritage & Sentinel Bank (Syracuse, NY) holds $0.86B in deposits across 8 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.65% and ROA of 1.64% benchmark this institution against 100M-1B peers."
+}

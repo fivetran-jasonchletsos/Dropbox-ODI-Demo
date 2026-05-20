@@ -1,0 +1,110 @@
+{
+  "cert_id": "31272",
+  "name": "Nevada National Bank",
+  "city": "Franklin",
+  "state": "NV",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.192,
+  "branches": 13,
+  "established_year": 2001,
+  "risk_score": 36,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 12.65,
+  "net_charge_off_ratio_pct": 0.79,
+  "return_on_assets_pct": 0.85,
+  "branches_by_state": [
+    {
+      "state": "NV",
+      "count": 11,
+      "deposits_b": 0.161
+    },
+    {
+      "state": "MN",
+      "count": 1,
+      "deposits_b": 0.011
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.02
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Mutual",
+      "close_date": "2011-10-14",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Nevada National Bank",
+      "close_date": "2009-08-26",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Pacific Bank of Nevada",
+      "close_date": "2009-06-17",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "River & Cardinal Bank",
+      "close_date": "2009-01-03",
+      "charter_class": "N",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.17,
+      "npl_ratio": 0.94,
+      "capital_ratio": 13.51
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.166,
+      "npl_ratio": 1.01,
+      "capital_ratio": 13.42
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.175,
+      "npl_ratio": 1.1,
+      "capital_ratio": 13.72
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.182,
+      "npl_ratio": 1.13,
+      "capital_ratio": 13.56
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.191,
+      "npl_ratio": 1.16,
+      "capital_ratio": 13.78
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.183,
+      "npl_ratio": 1.22,
+      "capital_ratio": 13.84
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.19,
+      "npl_ratio": 1.33,
+      "capital_ratio": 13.75
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.199,
+      "npl_ratio": 1.34,
+      "capital_ratio": 13.51
+    }
+  ],
+  "ai_summary": "Nevada National Bank (Franklin, NV) holds $0.19B in deposits across 13 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 12.65% and ROA of 0.85% benchmark this institution against 100M-1B peers."
+}

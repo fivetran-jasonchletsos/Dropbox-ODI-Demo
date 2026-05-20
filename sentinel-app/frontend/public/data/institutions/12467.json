@@ -1,0 +1,115 @@
+{
+  "cert_id": "12467",
+  "name": "California Heritage Bank",
+  "city": "Oakland",
+  "state": "CA",
+  "charter_class": "NM",
+  "asset_class": "10B-100B",
+  "deposits_b": 40.653,
+  "branches": 117,
+  "established_year": 1952,
+  "risk_score": 22,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.43,
+  "net_charge_off_ratio_pct": 0.93,
+  "return_on_assets_pct": 1.2,
+  "branches_by_state": [
+    {
+      "state": "CA",
+      "count": 69,
+      "deposits_b": 24.114
+    },
+    {
+      "state": "ND",
+      "count": 12,
+      "deposits_b": 4.186
+    },
+    {
+      "state": "PR",
+      "count": 17,
+      "deposits_b": 5.762
+    },
+    {
+      "state": "MA",
+      "count": 19,
+      "deposits_b": 6.59
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "First Republic Bank",
+      "close_date": "2023-05-01",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "close_date": "2023-03-10",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Silvergate Bank",
+      "close_date": "2023-03-08",
+      "charter_class": "NM",
+      "reason": "Capital deficiency under PCA"
+    },
+    {
+      "name": "Midwest Bank of California",
+      "close_date": "2020-08-07",
+      "charter_class": "SB",
+      "reason": "Crypto-sector deposit run"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 38.865,
+      "npl_ratio": 0.89,
+      "capital_ratio": 13.48
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 40.543,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.58
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 39.194,
+      "npl_ratio": 0.79,
+      "capital_ratio": 13.58
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 40.747,
+      "npl_ratio": 0.89,
+      "capital_ratio": 13.49
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 41.782,
+      "npl_ratio": 0.79,
+      "capital_ratio": 13.17
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 41.439,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.41
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 42.95,
+      "npl_ratio": 0.89,
+      "capital_ratio": 13.71
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 45.466,
+      "npl_ratio": 0.87,
+      "capital_ratio": 13.76
+    }
+  ],
+  "ai_summary": "California Heritage Bank (Oakland, CA) holds $40.65B in deposits across 117 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.43% and ROA of 1.20% benchmark this institution against 10B-100B peers."
+}

@@ -1,0 +1,120 @@
+{
+  "cert_id": "45403",
+  "name": "Patriot Bank of Illinois",
+  "city": "Naperville",
+  "state": "IL",
+  "charter_class": "SB",
+  "asset_class": "1B-10B",
+  "deposits_b": 8.31,
+  "branches": 23,
+  "established_year": 1890,
+  "risk_score": 16,
+  "risk_tier": "low",
+  "capital_ratio_pct": 11.59,
+  "net_charge_off_ratio_pct": 0.31,
+  "return_on_assets_pct": 1.15,
+  "branches_by_state": [
+    {
+      "state": "IL",
+      "count": 15,
+      "deposits_b": 5.5
+    },
+    {
+      "state": "ND",
+      "count": 4,
+      "deposits_b": 1.284
+    },
+    {
+      "state": "NH",
+      "count": 1,
+      "deposits_b": 0.482
+    },
+    {
+      "state": "NY",
+      "count": 1,
+      "deposits_b": 0.41
+    },
+    {
+      "state": "NJ",
+      "count": 2,
+      "deposits_b": 0.634
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley Exchange Bank",
+      "close_date": "2019-11-10",
+      "charter_class": "NM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Heritage Bank",
+      "close_date": "2014-11-07",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "First Bank of Illinois",
+      "close_date": "2014-10-08",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Illinois Pinnacle Bank",
+      "close_date": "2013-08-26",
+      "charter_class": "N",
+      "reason": "Asset-liability mismatch"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.626,
+      "npl_ratio": 0.4,
+      "capital_ratio": 10.32
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.988,
+      "npl_ratio": 0.47,
+      "capital_ratio": 10.04
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 8.019,
+      "npl_ratio": 0.49,
+      "capital_ratio": 10.11
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 8.238,
+      "npl_ratio": 0.43,
+      "capital_ratio": 9.86
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 8.262,
+      "npl_ratio": 0.4,
+      "capital_ratio": 9.68
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 8.01,
+      "npl_ratio": 0.29,
+      "capital_ratio": 9.93
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 8.077,
+      "npl_ratio": 0.25,
+      "capital_ratio": 9.81
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 8.402,
+      "npl_ratio": 0.24,
+      "capital_ratio": 9.73
+    }
+  ],
+  "ai_summary": "Patriot Bank of Illinois (Naperville, IL) holds $8.31B in deposits across 23 branches and remains well-capitalized with healthy earnings. Capital ratio of 11.59% and ROA of 1.15% benchmark this institution against 1B-10B peers."
+}

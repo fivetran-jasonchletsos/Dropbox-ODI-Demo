@@ -1,0 +1,110 @@
+{
+  "cert_id": "53074",
+  "name": "Summit Bank of Wyoming",
+  "city": "Bridgeport",
+  "state": "WY",
+  "charter_class": "NM",
+  "asset_class": "1B-10B",
+  "deposits_b": 7.787,
+  "branches": 84,
+  "established_year": 2000,
+  "risk_score": 41,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.91,
+  "net_charge_off_ratio_pct": 0.27,
+  "return_on_assets_pct": 1.35,
+  "branches_by_state": [
+    {
+      "state": "WY",
+      "count": 52,
+      "deposits_b": 4.843
+    },
+    {
+      "state": "RI",
+      "count": 13,
+      "deposits_b": 1.171
+    },
+    {
+      "state": "AK",
+      "count": 19,
+      "deposits_b": 1.773
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Prairie Community Bank",
+      "close_date": "2016-05-24",
+      "charter_class": "SM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Beacon Financial",
+      "close_date": "2013-11-25",
+      "charter_class": "SB",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Mercantile & Beacon Savings",
+      "close_date": "2012-03-18",
+      "charter_class": "SB",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Valley Bank of Wyoming",
+      "close_date": "2011-10-06",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 7.116,
+      "npl_ratio": 0.54,
+      "capital_ratio": 13.36
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 7.343,
+      "npl_ratio": 0.61,
+      "capital_ratio": 13.61
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 7.393,
+      "npl_ratio": 0.58,
+      "capital_ratio": 13.62
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 7.278,
+      "npl_ratio": 0.54,
+      "capital_ratio": 13.68
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 7.15,
+      "npl_ratio": 0.61,
+      "capital_ratio": 13.47
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 7.23,
+      "npl_ratio": 0.7,
+      "capital_ratio": 13.44
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 7.661,
+      "npl_ratio": 0.69,
+      "capital_ratio": 13.61
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 7.602,
+      "npl_ratio": 0.81,
+      "capital_ratio": 13.53
+    }
+  ],
+  "ai_summary": "Summit Bank of Wyoming (Bridgeport, WY) holds $7.79B in deposits across 84 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.91% and ROA of 1.35% benchmark this institution against 1B-10B peers."
+}

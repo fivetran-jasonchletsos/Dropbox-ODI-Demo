@@ -1,0 +1,110 @@
+{
+  "cert_id": "87324",
+  "name": "Valley & Atlantic Trust",
+  "city": "Lakeside",
+  "state": "IA",
+  "charter_class": "NM",
+  "asset_class": "10B-100B",
+  "deposits_b": 31.729,
+  "branches": 363,
+  "established_year": 1910,
+  "risk_score": 2,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.3,
+  "net_charge_off_ratio_pct": 0.02,
+  "return_on_assets_pct": 2.5,
+  "branches_by_state": [
+    {
+      "state": "IA",
+      "count": 255,
+      "deposits_b": 22.304
+    },
+    {
+      "state": "IN",
+      "count": 45,
+      "deposits_b": 3.965
+    },
+    {
+      "state": "DE",
+      "count": 63,
+      "deposits_b": 5.46
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Pinnacle & Harbor Savings",
+      "close_date": "2011-12-26",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Cardinal Federal",
+      "close_date": "2011-09-03",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Iowa Pinnacle Bank",
+      "close_date": "2011-07-07",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Midwest & Frontier Trust",
+      "close_date": "2010-07-28",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 29.676,
+      "npl_ratio": 0.21,
+      "capital_ratio": 12.86
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 29.786,
+      "npl_ratio": 0.1,
+      "capital_ratio": 13.02
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 30.549,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.9
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 32.306,
+      "npl_ratio": 0.1,
+      "capital_ratio": 13.13
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 31.073,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.97
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 31.967,
+      "npl_ratio": 0.1,
+      "capital_ratio": 12.91
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 33.433,
+      "npl_ratio": 0.17,
+      "capital_ratio": 12.88
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 32.868,
+      "npl_ratio": 0.11,
+      "capital_ratio": 13.09
+    }
+  ],
+  "ai_summary": "Valley & Atlantic Trust (Lakeside, IA) holds $31.73B in deposits across 363 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.30% and ROA of 2.50% benchmark this institution against 10B-100B peers."
+}

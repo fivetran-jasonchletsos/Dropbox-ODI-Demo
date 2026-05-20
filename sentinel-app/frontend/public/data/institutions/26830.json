@@ -1,0 +1,110 @@
+{
+  "cert_id": "26830",
+  "name": "Texas Pinnacle Bank",
+  "city": "El Paso",
+  "state": "TX",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 4.178,
+  "branches": 19,
+  "established_year": 1905,
+  "risk_score": 27,
+  "risk_tier": "low",
+  "capital_ratio_pct": 14.99,
+  "net_charge_off_ratio_pct": 0.64,
+  "return_on_assets_pct": 1.76,
+  "branches_by_state": [
+    {
+      "state": "TX",
+      "count": 12,
+      "deposits_b": 2.564
+    },
+    {
+      "state": "VA",
+      "count": 3,
+      "deposits_b": 0.615
+    },
+    {
+      "state": "AZ",
+      "count": 4,
+      "deposits_b": 0.999
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Lake State",
+      "close_date": "2019-03-13",
+      "charter_class": "SM",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Patriot State Bank",
+      "close_date": "2017-12-27",
+      "charter_class": "NM",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Valley Bank of Texas",
+      "close_date": "2017-07-15",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Texas National Bank",
+      "close_date": "2016-08-12",
+      "charter_class": "NM",
+      "reason": "Mortgage book impairment"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 3.578,
+      "npl_ratio": 0.8,
+      "capital_ratio": 15.13
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 3.653,
+      "npl_ratio": 0.75,
+      "capital_ratio": 15.02
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 3.807,
+      "npl_ratio": 0.7,
+      "capital_ratio": 15.21
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 3.922,
+      "npl_ratio": 0.7,
+      "capital_ratio": 15.11
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 3.775,
+      "npl_ratio": 0.62,
+      "capital_ratio": 15.03
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 3.784,
+      "npl_ratio": 0.71,
+      "capital_ratio": 14.82
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 4.008,
+      "npl_ratio": 0.7,
+      "capital_ratio": 15.08
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 3.903,
+      "npl_ratio": 0.64,
+      "capital_ratio": 14.89
+    }
+  ],
+  "ai_summary": "Texas Pinnacle Bank (El Paso, TX) holds $4.18B in deposits across 19 branches and remains well-capitalized with healthy earnings. Capital ratio of 14.99% and ROA of 1.76% benchmark this institution against 1B-10B peers."
+}

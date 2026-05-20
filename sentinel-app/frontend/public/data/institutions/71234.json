@@ -1,0 +1,125 @@
+{
+  "cert_id": "71234",
+  "name": "Sterling Commerce Bank",
+  "city": "Madison",
+  "state": "ID",
+  "charter_class": "SA",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.674,
+  "branches": 3,
+  "established_year": 1915,
+  "risk_score": 22,
+  "risk_tier": "low",
+  "capital_ratio_pct": 12.84,
+  "net_charge_off_ratio_pct": 0.71,
+  "return_on_assets_pct": 0.79,
+  "branches_by_state": [
+    {
+      "state": "ID",
+      "count": 2,
+      "deposits_b": 0.375
+    },
+    {
+      "state": "WA",
+      "count": 1,
+      "deposits_b": 0.104
+    },
+    {
+      "state": "LA",
+      "count": 1,
+      "deposits_b": 0.095
+    },
+    {
+      "state": "AL",
+      "count": 1,
+      "deposits_b": 0.029
+    },
+    {
+      "state": "AK",
+      "count": 1,
+      "deposits_b": 0.034
+    },
+    {
+      "state": "OK",
+      "count": -3,
+      "deposits_b": 0.037
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Valley & Pinnacle Trust",
+      "close_date": "2016-01-18",
+      "charter_class": "SB",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Founders & Pinnacle Savings",
+      "close_date": "2011-02-18",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Lake Commerce",
+      "close_date": "2010-05-28",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Pacific Bank of Idaho",
+      "close_date": "2010-01-19",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.657,
+      "npl_ratio": 0.81,
+      "capital_ratio": 13.82
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.63,
+      "npl_ratio": 0.85,
+      "capital_ratio": 13.97
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.662,
+      "npl_ratio": 0.91,
+      "capital_ratio": 14.03
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.637,
+      "npl_ratio": 0.89,
+      "capital_ratio": 13.95
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.626,
+      "npl_ratio": 0.91,
+      "capital_ratio": 14.21
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.661,
+      "npl_ratio": 0.9,
+      "capital_ratio": 13.97
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.649,
+      "npl_ratio": 0.88,
+      "capital_ratio": 14.29
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.639,
+      "npl_ratio": 0.94,
+      "capital_ratio": 14.49
+    }
+  ],
+  "ai_summary": "Sterling Commerce Bank (Madison, ID) holds $0.67B in deposits across 3 branches and remains well-capitalized with healthy earnings. Capital ratio of 12.84% and ROA of 0.79% benchmark this institution against 100M-1B peers."
+}

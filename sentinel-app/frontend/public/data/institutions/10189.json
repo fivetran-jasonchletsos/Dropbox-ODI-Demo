@@ -1,0 +1,120 @@
+{
+  "cert_id": "10189",
+  "name": "Sentinel Savings Bank",
+  "city": "Raleigh",
+  "state": "NC",
+  "charter_class": "NM",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.994,
+  "branches": 7,
+  "established_year": 1906,
+  "risk_score": 36,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 11.55,
+  "net_charge_off_ratio_pct": 1.28,
+  "return_on_assets_pct": 0.84,
+  "branches_by_state": [
+    {
+      "state": "NC",
+      "count": 5,
+      "deposits_b": 0.641
+    },
+    {
+      "state": "AZ",
+      "count": 1,
+      "deposits_b": 0.12
+    },
+    {
+      "state": "IN",
+      "count": 1,
+      "deposits_b": 0.086
+    },
+    {
+      "state": "VA",
+      "count": 1,
+      "deposits_b": 0.052
+    },
+    {
+      "state": "UT",
+      "count": -1,
+      "deposits_b": 0.095
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Commonwealth Federal",
+      "close_date": "2015-12-06",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Patriot & Mountain Savings",
+      "close_date": "2015-02-22",
+      "charter_class": "SB",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Heritage Bank of North Carolina",
+      "close_date": "2014-12-04",
+      "charter_class": "NM",
+      "reason": "Operational losses from fraud"
+    },
+    {
+      "name": "Cardinal & Independence Trust",
+      "close_date": "2012-12-17",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.971,
+      "npl_ratio": 1.49,
+      "capital_ratio": 10.27
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.96,
+      "npl_ratio": 1.59,
+      "capital_ratio": 10.18
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.964,
+      "npl_ratio": 1.62,
+      "capital_ratio": 10.02
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1.01,
+      "npl_ratio": 1.61,
+      "capital_ratio": 10.21
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.976,
+      "npl_ratio": 1.53,
+      "capital_ratio": 10.13
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.94,
+      "npl_ratio": 1.49,
+      "capital_ratio": 10.01
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.935,
+      "npl_ratio": 1.5,
+      "capital_ratio": 9.75
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.969,
+      "npl_ratio": 1.46,
+      "capital_ratio": 9.48
+    }
+  ],
+  "ai_summary": "Sentinel Savings Bank (Raleigh, NC) holds $0.99B in deposits across 7 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 11.55% and ROA of 0.84% benchmark this institution against 100M-1B peers."
+}

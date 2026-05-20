@@ -1,0 +1,110 @@
+{
+  "cert_id": "61699",
+  "name": "Summit Holdings Bank",
+  "city": "Cleveland",
+  "state": "OH",
+  "charter_class": "N",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.934,
+  "branches": 14,
+  "established_year": 1883,
+  "risk_score": 26,
+  "risk_tier": "low",
+  "capital_ratio_pct": 15.47,
+  "net_charge_off_ratio_pct": 0.97,
+  "return_on_assets_pct": 2.34,
+  "branches_by_state": [
+    {
+      "state": "OH",
+      "count": 10,
+      "deposits_b": 0.688
+    },
+    {
+      "state": "AR",
+      "count": 2,
+      "deposits_b": 0.096
+    },
+    {
+      "state": "IA",
+      "count": 2,
+      "deposits_b": 0.149
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Heritage Partners Bank",
+      "close_date": "2023-01-15",
+      "charter_class": "N",
+      "reason": "Tech-sector deposit concentration"
+    },
+    {
+      "name": "Independence State Bank",
+      "close_date": "2019-09-08",
+      "charter_class": "NM",
+      "reason": "Crypto-sector deposit run"
+    },
+    {
+      "name": "Ohio First Bank",
+      "close_date": "2017-07-06",
+      "charter_class": "SB",
+      "reason": "Concentrated CRE exposure deteriorated"
+    },
+    {
+      "name": "Commonwealth Bank of Ohio",
+      "close_date": "2014-02-10",
+      "charter_class": "SA",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.859,
+      "npl_ratio": 1.06,
+      "capital_ratio": 15.74
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.828,
+      "npl_ratio": 1.06,
+      "capital_ratio": 15.34
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.853,
+      "npl_ratio": 1.11,
+      "capital_ratio": 15.1
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.848,
+      "npl_ratio": 1.07,
+      "capital_ratio": 15.16
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.837,
+      "npl_ratio": 1.13,
+      "capital_ratio": 15.45
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.819,
+      "npl_ratio": 1.18,
+      "capital_ratio": 15.25
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.805,
+      "npl_ratio": 1.17,
+      "capital_ratio": 15.12
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.824,
+      "npl_ratio": 1.21,
+      "capital_ratio": 15.22
+    }
+  ],
+  "ai_summary": "Summit Holdings Bank (Cleveland, OH) holds $0.93B in deposits across 14 branches and remains well-capitalized with healthy earnings. Capital ratio of 15.47% and ROA of 2.34% benchmark this institution against 100M-1B peers."
+}

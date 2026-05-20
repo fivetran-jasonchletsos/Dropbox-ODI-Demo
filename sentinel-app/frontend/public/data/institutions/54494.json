@@ -1,0 +1,120 @@
+{
+  "cert_id": "54494",
+  "name": "Commonwealth Financial",
+  "city": "Flint",
+  "state": "MI",
+  "charter_class": "SA",
+  "asset_class": "100M-1B",
+  "deposits_b": 0.673,
+  "branches": 13,
+  "established_year": 1923,
+  "risk_score": 35,
+  "risk_tier": "watch",
+  "capital_ratio_pct": 13.16,
+  "net_charge_off_ratio_pct": 0.57,
+  "return_on_assets_pct": 0.31,
+  "branches_by_state": [
+    {
+      "state": "MI",
+      "count": 10,
+      "deposits_b": 0.532
+    },
+    {
+      "state": "KS",
+      "count": 1,
+      "deposits_b": 0.06
+    },
+    {
+      "state": "GA",
+      "count": 1,
+      "deposits_b": 0.037
+    },
+    {
+      "state": "MA",
+      "count": 1,
+      "deposits_b": 0.014
+    },
+    {
+      "state": "DE",
+      "count": 0,
+      "deposits_b": 0.03
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Capital Federal",
+      "close_date": "2017-07-12",
+      "charter_class": "SM",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Cornerstone State",
+      "close_date": "2011-11-20",
+      "charter_class": "N",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Michigan First Bank",
+      "close_date": "2011-02-11",
+      "charter_class": "SA",
+      "reason": "Liquidity crisis from depositor outflows"
+    },
+    {
+      "name": "Frontier Federal Bank",
+      "close_date": "2010-11-10",
+      "charter_class": "N",
+      "reason": "Operational losses from fraud"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 0.587,
+      "npl_ratio": 0.71,
+      "capital_ratio": 12.22
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 0.592,
+      "npl_ratio": 0.73,
+      "capital_ratio": 12.24
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 0.584,
+      "npl_ratio": 0.78,
+      "capital_ratio": 12.24
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 0.616,
+      "npl_ratio": 0.7,
+      "capital_ratio": 12.29
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 0.625,
+      "npl_ratio": 0.65,
+      "capital_ratio": 12.57
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 0.649,
+      "npl_ratio": 0.64,
+      "capital_ratio": 12.69
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 0.682,
+      "npl_ratio": 0.76,
+      "capital_ratio": 12.77
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 0.706,
+      "npl_ratio": 0.78,
+      "capital_ratio": 12.92
+    }
+  ],
+  "ai_summary": "Commonwealth Financial (Flint, MI) holds $0.67B in deposits across 13 branches and shows early-warning indicators but capital coverage is adequate. Capital ratio of 13.16% and ROA of 0.31% benchmark this institution against 100M-1B peers."
+}

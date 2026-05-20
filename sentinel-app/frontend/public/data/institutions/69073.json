@@ -1,0 +1,115 @@
+{
+  "cert_id": "69073",
+  "name": "Summit & Valley Trust",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "charter_class": "N",
+  "asset_class": "1B-10B",
+  "deposits_b": 1.327,
+  "branches": 30,
+  "established_year": 2011,
+  "risk_score": 27,
+  "risk_tier": "low",
+  "capital_ratio_pct": 13.84,
+  "net_charge_off_ratio_pct": 0.2,
+  "return_on_assets_pct": 1.51,
+  "branches_by_state": [
+    {
+      "state": "MI",
+      "count": 22,
+      "deposits_b": 0.981
+    },
+    {
+      "state": "CT",
+      "count": 4,
+      "deposits_b": 0.16
+    },
+    {
+      "state": "AR",
+      "count": 2,
+      "deposits_b": 0.084
+    },
+    {
+      "state": "WV",
+      "count": 2,
+      "deposits_b": 0.102
+    }
+  ],
+  "peer_failures": [
+    {
+      "name": "Capital Federal",
+      "close_date": "2017-07-12",
+      "charter_class": "SM",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Cornerstone State",
+      "close_date": "2011-11-20",
+      "charter_class": "N",
+      "reason": "Mortgage book impairment"
+    },
+    {
+      "name": "Michigan First Bank",
+      "close_date": "2011-02-11",
+      "charter_class": "SA",
+      "reason": "Asset-liability mismatch"
+    },
+    {
+      "name": "Frontier Federal Bank",
+      "close_date": "2010-11-10",
+      "charter_class": "N",
+      "reason": "Capital deficiency under PCA"
+    }
+  ],
+  "quarterly": [
+    {
+      "q": "Q2 2024",
+      "deposits_b": 1.266,
+      "npl_ratio": 0.38,
+      "capital_ratio": 14.17
+    },
+    {
+      "q": "Q3 2024",
+      "deposits_b": 1.258,
+      "npl_ratio": 0.33,
+      "capital_ratio": 13.88
+    },
+    {
+      "q": "Q4 2024",
+      "deposits_b": 1.216,
+      "npl_ratio": 0.28,
+      "capital_ratio": 14.14
+    },
+    {
+      "q": "Q1 2025",
+      "deposits_b": 1.197,
+      "npl_ratio": 0.25,
+      "capital_ratio": 13.96
+    },
+    {
+      "q": "Q2 2025",
+      "deposits_b": 1.174,
+      "npl_ratio": 0.18,
+      "capital_ratio": 13.67
+    },
+    {
+      "q": "Q3 2025",
+      "deposits_b": 1.179,
+      "npl_ratio": 0.17,
+      "capital_ratio": 13.67
+    },
+    {
+      "q": "Q4 2025",
+      "deposits_b": 1.239,
+      "npl_ratio": 0.23,
+      "capital_ratio": 13.82
+    },
+    {
+      "q": "Q1 2026",
+      "deposits_b": 1.288,
+      "npl_ratio": 0.26,
+      "capital_ratio": 13.57
+    }
+  ],
+  "ai_summary": "Summit & Valley Trust (Ann Arbor, MI) holds $1.33B in deposits across 30 branches and remains well-capitalized with healthy earnings. Capital ratio of 13.84% and ROA of 1.51% benchmark this institution against 1B-10B peers."
+}

@@ -1,0 +1,62 @@
+# dbt profile for the Sentinel ODI demo.
+#
+# Three targets, same Snowflake user (DBT_BUILDER):
+#
+#   dev          – local seeds path. Bronze SQL pivots to seeds when
+#                  target.name == 'dev' (see models/bronze/br_*.sql).
+#   prod         – ODI path. Bronze sources resolve to the Iceberg
+#                  tables registered by infra/snowflake_iceberg_setup.sql
+#                  (data lives in S3, metadata in Glue).
+#   prod_native  – Original Fivetran-native-Snowflake path, kept for
+#                  side-by-side comparison demos.
+#
+# The dev/prod/native switch is driven entirely by dbt vars in
+# dbt_project.yml; no model SQL needs to change between targets.
+
+odi_dropbox:
+  target: dev
+  outputs:
+
+    dev:
+      type: snowflake
+      account: "<your-account>.<region>"
+      user: "<your-snowflake-user>"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: DBT_BUILDER
+      warehouse: ODI_WH
+      database: ODI_DROPBOX
+      schema: silver
+      threads: 4
+      client_session_keep_alive: false
+
+    # ODI / MDLS Iceberg path — recommended.
+    # Bronze sources resolve to ODI_DROPBOX.BRONZE.* where each table is
+    # a Snowflake Iceberg object pointing at S3 + Glue. No data is
+    # copied into Snowflake; the warehouse only pays for query compute.
+    prod:
+      type: snowflake
+      account: "<your-account>.<region>"
+      user: "<your-snowflake-user>"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: DBT_BUILDER
+      warehouse: ODI_WH
+      database: ODI_DROPBOX
+      schema: silver
+      threads: 4
+      client_session_keep_alive: false
+
+    # Legacy native-Snowflake path — Fivetran loads BRONZE.* directly
+    # into Snowflake managed storage. Identical credentials; the only
+    # difference is the `bronze_*_schema` vars resolved in
+    # dbt_project.yml. Useful for "same dbt, two storage models" demos.
+    prod_native:
+      type: snowflake
+      account: "<your-account>.<region>"
+      user: "<your-snowflake-user>"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: DBT_BUILDER
+      warehouse: ODI_WH
+      database: ODI_DROPBOX
+      schema: silver
+      threads: 4
+      client_session_keep_alive: false
