@@ -4,6 +4,29 @@ import { ExternalLink, Github, Layers, Sparkles, Zap } from 'lucide-react';
 export default function AboutPage() {
   return (
     <div className="space-y-6 max-w-4xl">
+      <section className="rounded-lg border border-[#163d6d] bg-[#002a5c]/60 p-6">
+        <div className="eyebrow text-[#FFCB05]">The ODI Story</div>
+        <h2 className="font-display text-3xl font-bold mt-1 text-slate-50">
+          Data infrastructure for agents you trust.
+        </h2>
+        <p className="mt-3 text-slate-300 text-sm leading-relaxed">
+          <em>"MDS was optimized for humans. ODI is designed for a future with humans and
+          production agents at scale."</em> This demo is one instance of that architecture:
+          Fivetran's 750+ connectors and Managed Data Lake Service (MDLS) land data into open
+          table formats; <span className="text-[#FFCB05] font-semibold">dbt</span> transformations
+          build the governed semantic layer; multiple compute engines and AI agents read the same
+          gold tables.
+        </p>
+        <a
+          href="https://fivetran-jasonchletsos.github.io/Fivetran-Demo-Repository/story/"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#FFCB05] hover:text-cyan-200"
+        >
+          Read the full ODI Story →
+        </a>
+      </section>
+
       <div>
         <div className="eyebrow">Meta</div>
         <h1 className="font-display text-4xl font-bold mt-1">About Sentinel</h1>
