@@ -5,7 +5,8 @@
     "size_kb": 1.8,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_fdic_failed_bank_list_csv"
+    "table_name": "raw_fdic_failed_bank_list_csv",
+    "fivetran_id": "dropbox_fdic_failed_bank_list_csv"
   },
   {
     "name": "FDIC Summary of Deposits 2024.csv",
@@ -13,7 +14,8 @@
     "size_kb": 38420,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_fdic_summary_of_deposits_2024_csv"
+    "table_name": "raw_fdic_summary_of_deposits_2024_csv",
+    "fivetran_id": "dropbox_fdic_summary_of_deposits_2024_csv"
   },
   {
     "name": "FDIC Institutions Q2 2026.csv",
@@ -21,7 +23,8 @@
     "size_kb": 12300,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_fdic_institutions_q2_2026_csv"
+    "table_name": "raw_fdic_institutions_q2_2026_csv",
+    "fivetran_id": "dropbox_fdic_institutions_q2_2026_csv"
   },
   {
     "name": "Bank Reviews.xlsx",
@@ -43,7 +46,8 @@
     "size_kb": 47200,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_call_reports_q2_2026_csv"
+    "table_name": "raw_call_reports_q2_2026_csv",
+    "fivetran_id": "dropbox_call_reports_q2_2026_csv"
   },
   {
     "name": "Branch Locations Master.xlsx",
@@ -51,7 +55,8 @@
     "size_kb": 8420,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_branch_locations_master_xlsx"
+    "table_name": "raw_branch_locations_master_xlsx",
+    "fivetran_id": "dropbox_branch_locations_master_xlsx"
   },
   {
     "name": "Peer Group Definitions.csv",
@@ -59,7 +64,8 @@
     "size_kb": 420,
     "domain": "FinServ",
     "parsed": true,
-    "table_name": "raw_peer_group_definitions_csv"
+    "table_name": "raw_peer_group_definitions_csv",
+    "fivetran_id": "dropbox_peer_group_definitions_csv"
   },
   {
     "name": "Capital Adequacy Memo.pdf",

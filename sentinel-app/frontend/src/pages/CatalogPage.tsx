@@ -5,7 +5,7 @@ import type { CatalogFile, Summary } from '../types';
 import Loading from '../components/Loading';
 import Panel from '../components/Panel';
 import { fmtInt, fmtBytes } from '../lib/format';
-import { Search, FileText, Database, CheckCircle2, Circle } from 'lucide-react';
+import { Search, CheckCircle2, Circle, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
 
 const DOMAIN_COLORS: Record<string, string> = {
@@ -107,19 +107,19 @@ export default function CatalogPage() {
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder="Search filenames…"
-              className="w-full rounded-lg bg-[#001f44] border border-[#163d6d] pl-10 pr-3 py-2 text-sm placeholder:text-slate-500 focus:border-[#FFCB05]/60 focus:outline-none"
+              className="w-full rounded-lg bg-[#161d2a] border border-[#253047] pl-10 pr-3 py-2 text-sm placeholder:text-slate-600 focus:border-[#0061FF]/60 focus:outline-none"
             />
           </div>
-          <select value={ext} onChange={(e) => setExt(e.target.value)} className="rounded-lg bg-[#001f44] border border-[#163d6d] px-3 py-2 text-sm focus:border-[#FFCB05]/60 focus:outline-none">
+          <select value={ext} onChange={(e) => setExt(e.target.value)} className="rounded-lg bg-[#161d2a] border border-[#253047] px-3 py-2 text-sm focus:border-[#0061FF]/60 focus:outline-none text-slate-300">
             <option value="">All extensions</option>
             {summary.file_inventory.by_ext.map((e) => <option key={e.ext} value={e.ext}>{e.ext} ({e.count})</option>)}
           </select>
-          <select value={domain} onChange={(e) => setDomain(e.target.value)} className="rounded-lg bg-[#001f44] border border-[#163d6d] px-3 py-2 text-sm focus:border-[#FFCB05]/60 focus:outline-none">
+          <select value={domain} onChange={(e) => setDomain(e.target.value)} className="rounded-lg bg-[#161d2a] border border-[#253047] px-3 py-2 text-sm focus:border-[#0061FF]/60 focus:outline-none text-slate-300">
             <option value="">All domains</option>
             {summary.file_inventory.by_domain.map((d) => <option key={d.domain} value={d.domain}>{d.domain} ({d.count})</option>)}
           </select>
-          <label className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#001f44] border border-[#163d6d] text-sm cursor-pointer hover:border-[#FFCB05]/40">
-            <input type="checkbox" checked={parsedOnly} onChange={(e) => setParsedOnly(e.target.checked)} className="accent-cyan-400" />
+          <label className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#161d2a] border border-[#253047] text-sm cursor-pointer hover:border-[#0061FF]/40">
+            <input type="checkbox" checked={parsedOnly} onChange={(e) => setParsedOnly(e.target.checked)} className="accent-blue-400" />
             <span className="text-slate-300">Parsed only</span>
           </label>
         </div>
@@ -132,13 +132,14 @@ export default function CatalogPage() {
         <div className="overflow-x-auto scroll-thin max-h-[640px]">
           <table className="w-full text-sm">
             <thead>
-              <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#001f44] sticky top-0">
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d]">File</th>
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d]">Ext</th>
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d]">Domain</th>
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d] text-right">Size</th>
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d]">Status</th>
-                <th className="px-3 py-3 font-semibold border-b border-[#163d6d]">Bronze table</th>
+              <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#161d2a] sticky top-0">
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">File</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">Ext</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">Domain</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047] text-right">Size</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">Status</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">Bronze table</th>
+                <th className="px-3 py-3 font-semibold border-b border-[#253047]">Fivetran</th>
               </tr>
             </thead>
             <tbody>
@@ -146,7 +147,7 @@ export default function CatalogPage() {
                 <tr key={i} className="table-row">
                   <td className="px-3 py-2.5">
                     <div className="flex items-center gap-2">
-                      <span className="font-mono text-[#FFCB05] text-[14px] w-5 text-center">{EXT_ICONS[f.ext] ?? '·'}</span>
+                      <span className="font-mono text-[#4d8fff] text-[14px] w-5 text-center">{EXT_ICONS[f.ext] ?? '·'}</span>
                       <span className="text-slate-200 font-medium">{f.name}</span>
                     </div>
                   </td>
@@ -160,7 +161,7 @@ export default function CatalogPage() {
                   <td className="px-3 py-2.5 text-right font-mono tabular text-slate-400 text-xs">{fmtBytes(f.size_kb * 1024)}</td>
                   <td className="px-3 py-2.5">
                     {f.parsed ? (
-                      <span className="inline-flex items-center gap-1.5 text-[#FFCB05] text-xs">
+                      <span className="inline-flex items-center gap-1.5 text-[#4d8fff] text-xs">
                         <CheckCircle2 className="h-3.5 w-3.5" /> Parsed
                       </span>
                     ) : (
@@ -171,7 +172,23 @@ export default function CatalogPage() {
                   </td>
                   <td className="px-3 py-2.5">
                     {f.table_name ? (
-                      <span className="font-mono text-xs text-[#FFCB05]/90">{f.table_name}</span>
+                      <span className="font-mono text-xs text-[#4d8fff]/90">{f.table_name}</span>
+                    ) : (
+                      <span className="text-slate-600 text-xs">—</span>
+                    )}
+                  </td>
+                  <td className="px-3 py-2.5">
+                    {f.fivetran_id ? (
+                      <a
+                        href={`https://fivetran.com/dashboard/connectors/dropbox_odi_sandbox/files/${f.fivetran_id}`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1 text-[11px] font-mono text-[#4d8fff] hover:text-[#00c9b1] transition-colors"
+                        title={`Open in Fivetran`}
+                      >
+                        Open in Fivetran
+                        <ExternalLink className="h-3 w-3 shrink-0" />
+                      </a>
                     ) : (
                       <span className="text-slate-600 text-xs">—</span>
                     )}
@@ -182,7 +199,7 @@ export default function CatalogPage() {
           </table>
         </div>
         {filtered.length > 200 && (
-          <div className="px-4 py-3 border-t border-[#163d6d] text-xs text-slate-400 text-center">
+          <div className="px-4 py-3 border-t border-[#253047] text-xs text-slate-400 text-center">
             First 200 shown of {fmtInt(filtered.length)} matches — refine filters above.
           </div>
         )}

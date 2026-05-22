@@ -97,7 +97,7 @@ export default function InstitutionsPage() {
             <span className="text-sm text-slate-400">{selected.size} selected</span>
             <button
               onClick={addSelectedToWatchlist}
-              className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-[#FFCB05]/15 text-cyan-200 border border-[#FFCB05]/30 hover:bg-[#FFCB05]/25 text-sm font-medium"
+              className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-[#4d8fff]/15 text-cyan-200 border border-[#4d8fff]/30 hover:bg-[#4d8fff]/25 text-sm font-medium"
             >
               <Star className="h-4 w-4" /> Add to watchlist
             </button>
@@ -113,7 +113,7 @@ export default function InstitutionsPage() {
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder="Search by name, city, state, cert…"
-              className="w-full rounded-lg bg-[#001f44] border border-[#163d6d] pl-10 pr-3 py-2 text-sm placeholder:text-slate-500 focus:border-[#FFCB05]/60 focus:outline-none"
+              className="w-full rounded-lg bg-[#161d2a] border border-[#253047] pl-10 pr-3 py-2 text-sm placeholder:text-slate-500 focus:border-[#4d8fff]/60 focus:outline-none"
             />
           </div>
           <Select label="State" value={state} onChange={setState} options={states} />
@@ -123,9 +123,9 @@ export default function InstitutionsPage() {
         </div>
         {hasFilters && (
           <div className="mt-3 flex items-center gap-2 text-xs">
-            <Filter className="h-3 w-3 text-[#FFCB05]" />
+            <Filter className="h-3 w-3 text-[#4d8fff]" />
             <span className="text-slate-400">Filters active</span>
-            <button onClick={clearFilters} className="ml-2 text-[#FFCB05] hover:text-cyan-200 inline-flex items-center gap-1">
+            <button onClick={clearFilters} className="ml-2 text-[#4d8fff] hover:text-cyan-200 inline-flex items-center gap-1">
               Clear <X className="h-3 w-3" />
             </button>
           </div>
@@ -136,7 +136,7 @@ export default function InstitutionsPage() {
         <div className="overflow-x-auto scroll-thin">
           <table className="w-full text-sm">
             <thead>
-              <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#001f44] sticky top-0 z-10">
+              <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#161d2a] sticky top-0 z-10">
                 <Th className="w-8">{' '}</Th>
                 <Th onClick={() => toggleSort('name')} sortable active={sortKey==='name'} dir={sortDir}>Institution</Th>
                 <Th onClick={() => toggleSort('state')} sortable active={sortKey==='state'} dir={sortDir}>State</Th>
@@ -161,14 +161,14 @@ export default function InstitutionsPage() {
                         onClick={() => toggleSelect(r.cert_id)}
                         className={clsx(
                           'h-4 w-4 rounded border flex items-center justify-center transition-colors',
-                          isSelected ? 'bg-[#FFCB05] border-[#FFCB05] text-[#00152e]' : 'border-slate-600 hover:border-[#FFCB05]'
+                          isSelected ? 'bg-[#4d8fff] border-[#4d8fff] text-[#0d1117]' : 'border-slate-600 hover:border-[#4d8fff]'
                         )}
                       >
                         {isSelected && <Check className="h-3 w-3" />}
                       </button>
                     </td>
                     <td className="px-3 py-2.5 align-middle">
-                      <Link to={`/institutions/${r.cert_id}`} className="text-slate-100 hover:text-[#FFCB05] font-medium">
+                      <Link to={`/institutions/${r.cert_id}`} className="text-slate-100 hover:text-[#4d8fff] font-medium">
                         {r.name}
                       </Link>
                       <div className="text-[11px] text-slate-500">{r.city} · cert {r.cert_id} · est. {r.established_year}</div>
@@ -179,13 +179,13 @@ export default function InstitutionsPage() {
                     <td className="px-3 py-2.5 align-middle text-right font-mono tabular text-slate-100">{r.deposits_b.toFixed(2)}</td>
                     <td className="px-3 py-2.5 align-middle text-right font-mono tabular text-slate-300">{fmtInt(r.branches)}</td>
                     <td className="px-3 py-2.5 align-middle text-right font-mono tabular text-slate-300">{r.capital_ratio_pct.toFixed(2)}</td>
-                    <td className={clsx('px-3 py-2.5 align-middle text-right font-mono tabular', r.return_on_assets_pct >= 0 ? 'text-[#FFCB05]' : 'text-rose-300')}>
+                    <td className={clsx('px-3 py-2.5 align-middle text-right font-mono tabular', r.return_on_assets_pct >= 0 ? 'text-[#4d8fff]' : 'text-rose-300')}>
                       {r.return_on_assets_pct.toFixed(2)}
                     </td>
                     <td className="px-3 py-2.5 align-middle">
                       <div className="flex items-center gap-2">
                         <RiskChip tier={r.risk_tier} />
-                        <div className="flex-1 max-w-[60px] h-1.5 rounded-full bg-[#163d6d] overflow-hidden">
+                        <div className="flex-1 max-w-[60px] h-1.5 rounded-full bg-[#253047] overflow-hidden">
                           <div className="h-full" style={{ width: `${r.risk_score}%`, background: tierColor(r.risk_tier) }} />
                         </div>
                         <span className="font-mono text-[11px] tabular text-slate-400">{r.risk_score}</span>
@@ -196,7 +196,7 @@ export default function InstitutionsPage() {
                         onClick={() => watchlist.toggle(r.cert_id)}
                         className={clsx(
                           'h-7 w-7 rounded-md inline-flex items-center justify-center transition-colors',
-                          isWatched ? 'text-amber-300 bg-amber-300/10' : 'text-slate-500 hover:text-amber-300 hover:bg-[#002a5c]'
+                          isWatched ? 'text-amber-300 bg-amber-300/10' : 'text-slate-500 hover:text-amber-300 hover:bg-[#1e2a3d]'
                         )}
                         title={isWatched ? 'Remove from watchlist' : 'Add to watchlist'}
                       >
@@ -210,7 +210,7 @@ export default function InstitutionsPage() {
           </table>
         </div>
         {sorted.length > 250 && (
-          <div className="px-4 py-3 border-t border-[#163d6d] text-xs text-slate-400 text-center">
+          <div className="px-4 py-3 border-t border-[#253047] text-xs text-slate-400 text-center">
             Showing first 250 of {fmtInt(sorted.length)} matches — refine filters above.
           </div>
         )}
@@ -222,11 +222,11 @@ export default function InstitutionsPage() {
 function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: string[] }) {
   return (
     <div className="relative">
-      <label className="absolute -top-2 left-2 px-1 bg-[#00152e] text-[10px] font-mono uppercase tracking-[0.16em] text-slate-500">{label}</label>
+      <label className="absolute -top-2 left-2 px-1 bg-[#0d1117] text-[10px] font-mono uppercase tracking-[0.16em] text-slate-500">{label}</label>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-lg bg-[#001f44] border border-[#163d6d] px-3 py-2 text-sm text-slate-200 focus:border-[#FFCB05]/60 focus:outline-none appearance-none cursor-pointer"
+        className="w-full rounded-lg bg-[#161d2a] border border-[#253047] px-3 py-2 text-sm text-slate-200 focus:border-[#4d8fff]/60 focus:outline-none appearance-none cursor-pointer"
       >
         <option value="">All</option>
         {options.map((o) => <option key={o} value={o}>{o}</option>)}
@@ -240,10 +240,10 @@ function Th({ children, onClick, sortable, active, dir, right, className }: { ch
     <th
       onClick={onClick}
       className={clsx(
-        'px-3 py-3 border-b border-[#163d6d] font-semibold',
+        'px-3 py-3 border-b border-[#253047] font-semibold',
         sortable && 'cursor-pointer select-none hover:text-slate-300',
         right && 'text-right',
-        active && 'text-[#FFCB05]',
+        active && 'text-[#4d8fff]',
         className
       )}
     >

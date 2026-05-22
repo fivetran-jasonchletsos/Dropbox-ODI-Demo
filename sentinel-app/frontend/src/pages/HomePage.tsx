@@ -37,20 +37,20 @@ export default function HomePage() {
   return (
     <div className="space-y-10">
       {/* HERO */}
-      <section className="relative overflow-hidden rounded-2xl border border-[#163d6d] p-8 lg:p-12">
-        <div className="absolute -top-32 -right-24 h-[420px] w-[420px] rounded-full blur-3xl opacity-30 accent-grad" />
-        <div className="absolute -bottom-32 -left-20 h-[320px] w-[320px] rounded-full blur-3xl opacity-20 bg-[#00274C]" />
+      <section className="relative overflow-hidden rounded-2xl border border-[#253047] p-8 lg:p-12">
+        <div className="absolute -top-32 -right-24 h-[420px] w-[420px] rounded-full blur-3xl opacity-20" style={{ background: 'radial-gradient(circle, #0061FF 0%, transparent 70%)' }} />
+        <div className="absolute -bottom-32 -left-20 h-[320px] w-[320px] rounded-full blur-3xl opacity-15" style={{ background: 'radial-gradient(circle, #00c9b1 0%, transparent 70%)' }} />
         <div className="relative">
-          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-slate-400 font-mono mb-5">
+          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-slate-500 font-mono mb-5">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 pulse-dot" />
             FDIC public data · synced {new Date(summary.last_synced_at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
           </div>
-          <h1 className="font-display text-[68px] lg:text-[88px] leading-[0.95] font-bold tracking-tight">
+          <h1 className="font-display text-[60px] sm:text-[80px] lg:text-[92px] leading-[0.92] font-semibold tracking-tight" style={{ fontOpticalSizing: 'auto' }}>
             <span className="accent-text">Sentinel</span>
           </h1>
-          <div className="mt-3 text-[18px] lg:text-[22px] text-slate-300 max-w-3xl">
-            US bank risk watch — a CDO inherits 583 files and turns them into a national risk picture, on{' '}
-            <span className="text-[#FFCB05] font-semibold">Open Data Infrastructure</span>.
+          <div className="mt-4 text-[17px] lg:text-[21px] text-slate-300 max-w-3xl leading-relaxed">
+            A CDO inherits 583 files and turns them into a national risk picture, on{' '}
+            <span className="text-[#4d8fff] font-semibold">Open Data Infrastructure</span>.
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
@@ -59,21 +59,21 @@ export default function HomePage() {
               label="Institutions tracked"
               value={summary.total_institutions}
               format={(n) => fmtInt(Math.round(n))}
-              accent="from-[#FFCB05]/30 to-emerald-400/0"
+              accent="from-emerald-400/25 to-emerald-400/0"
             />
             <Kpi
-              icon={<DollarSign className="h-5 w-5 text-[#FFCB05]" />}
+              icon={<DollarSign className="h-5 w-5 text-[#4d8fff]" />}
               label="Deposits monitored"
               value={summary.total_deposits_b}
               format={(n) => '$' + fmtB(n, 1)}
-              accent="from-[#FFCB05]/30 to-[#FFCB05]/0"
+              accent="from-[#0061FF]/25 to-[#0061FF]/0"
             />
             <Kpi
               icon={<AlertTriangle className="h-5 w-5 text-rose-400" />}
               label="Failures since 2008"
               value={summary.total_failed_banks_since_2008}
               format={(n) => fmtInt(Math.round(n))}
-              accent="from-rose-400/30 to-rose-400/0"
+              accent="from-rose-400/25 to-rose-400/0"
             />
           </div>
         </div>
@@ -85,18 +85,18 @@ export default function HomePage() {
           icon={<Database className="h-5 w-5" />}
           eyebrow="Open Storage"
           title="Apache Iceberg"
-          body="Open table format on object storage. No proprietary lock-in. Snapshots, schema evolution, time travel — by design."
+          body="Open table format on object storage. No proprietary lock-in. Snapshots, schema evolution, time travel by design."
         />
         <PillarCard
           icon={<Cpu className="h-5 w-5" />}
           eyebrow="Multi-Engine"
           title="Pick your compute"
-          body="Snowflake, DuckDB, Athena, Trino, Spark — all read the same gold tables. Your data, your engine."
+          body="Snowflake, DuckDB, Athena, Trino, Spark — all query the same gold tables. Your data, your engine."
         />
         <PillarCard
           icon={<Sparkles className="h-5 w-5" />}
           eyebrow="AI-Ready"
-          title="Cortex & beyond"
+          title="Cortex and beyond"
           body="Gold layer is wired for AI: vector indexes, dbt semantic models, and clean facts ready for retrieval-augmented agents."
         />
       </section>
@@ -115,7 +115,7 @@ export default function HomePage() {
         >
           <p className="text-sm text-slate-400 mb-5 leading-relaxed">
             A single Dropbox folder. Mixed exports from prior projects across seven business domains.
-            Fivetran indexed every file; <span className="text-[#FFCB05] font-semibold">dbt labs</span> conformed them into bronze, silver, gold.
+            Fivetran indexed every file; <span className="text-[#4d8fff] font-semibold">dbt labs</span> conformed them into bronze, silver, gold.
           </p>
 
           <div className="relative h-9 rounded-md overflow-hidden border border-[#163d6d] flex">
@@ -196,9 +196,9 @@ export default function HomePage() {
 
 function Kpi({ icon, label, value, format, accent }: { icon: React.ReactNode; label: string; value: number; format?: (n: number) => string; accent: string }) {
   return (
-    <div className={`relative rounded-xl border border-[#163d6d] bg-[#001f44] p-5 overflow-hidden`}>
+    <div className={`relative rounded-xl border border-[#253047] bg-[#161d2a] p-5 overflow-hidden`}>
       <div className={`absolute -top-20 -right-20 h-40 w-40 rounded-full bg-gradient-to-br ${accent} opacity-60 blur-2xl pointer-events-none`} />
-      <div className="flex items-center gap-2 text-slate-400 text-[11px] uppercase tracking-[0.18em]">
+      <div className="flex items-center gap-2 text-slate-500 text-[11px] uppercase tracking-[0.18em] font-mono">
         {icon}
         <span>{label}</span>
       </div>
@@ -212,9 +212,9 @@ function Kpi({ icon, label, value, format, accent }: { icon: React.ReactNode; la
 function PillarCard({ icon, eyebrow, title, body }: { icon: React.ReactNode; eyebrow: string; title: string; body: string }) {
   return (
     <div className="relative panel p-5 overflow-hidden group">
-      <div className="absolute -top-16 -right-16 h-32 w-32 rounded-full accent-grad opacity-10 blur-2xl group-hover:opacity-25 transition-opacity" />
+      <div className="absolute -top-16 -right-16 h-32 w-32 rounded-full opacity-10 blur-2xl group-hover:opacity-20 transition-opacity" style={{ background: 'radial-gradient(circle, #0061FF 0%, #00c9b1 100%)' }} />
       <div className="relative">
-        <div className="h-9 w-9 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-[#FFCB05] mb-4">
+        <div className="h-9 w-9 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff] mb-4">
           {icon}
         </div>
         <div className="eyebrow">{eyebrow}</div>
@@ -236,15 +236,15 @@ function Stat({ label, value }: { label: string; value: string }) {
 
 function QuickLink({ to, icon, title, body }: { to: string; icon: React.ReactNode; title: string; body: string }) {
   return (
-    <Link to={to} className="group panel p-5 flex items-center gap-4 hover:border-[#FFCB05]/40 transition-colors">
-      <div className="h-10 w-10 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-[#FFCB05] shrink-0">
+    <Link to={to} className="group panel p-5 flex items-center gap-4 hover:border-[#0061FF]/40 transition-colors">
+      <div className="h-10 w-10 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff] shrink-0">
         {icon}
       </div>
       <div className="flex-1 min-w-0">
         <div className="font-semibold text-slate-100 group-hover:text-white">{title}</div>
         <div className="text-[12.5px] text-slate-400 truncate">{body}</div>
       </div>
-      <ArrowRight className="h-4 w-4 text-slate-500 group-hover:text-[#FFCB05] group-hover:translate-x-0.5 transition-all" />
+      <ArrowRight className="h-4 w-4 text-slate-500 group-hover:text-[#4d8fff] group-hover:translate-x-0.5 transition-all" />
     </Link>
   );
 }

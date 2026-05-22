@@ -52,12 +52,12 @@ export default function WatchlistPage() {
       {rows.length === 0 ? (
         <Panel>
           <div className="text-center py-12">
-            <div className="h-14 w-14 rounded-xl bg-[#002a5c] border border-[#163d6d] flex items-center justify-center mx-auto mb-4 text-slate-500">
+            <div className="h-14 w-14 rounded-xl bg-[#1e2a3d] border border-[#253047] flex items-center justify-center mx-auto mb-4 text-slate-500">
               <Star className="h-7 w-7" />
             </div>
             <div className="text-slate-300 font-medium">No institutions in your watchlist yet.</div>
             <p className="text-slate-500 text-sm mt-2 max-w-md mx-auto">
-              Open the <Link className="text-[#FFCB05] hover:text-cyan-200" to="/institutions">Institutions</Link> page, pick the banks you want to monitor, and they'll appear here.
+              Open the <Link className="text-[#4d8fff] hover:text-cyan-200" to="/institutions">Institutions</Link> page, pick the banks you want to monitor, and they'll appear here.
             </p>
           </div>
         </Panel>
@@ -73,21 +73,21 @@ export default function WatchlistPage() {
             <div className="overflow-x-auto scroll-thin">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#001f44]">
-                    <th className="px-3 py-3 border-b border-[#163d6d]">Institution</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d]">State</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d] text-right">Deposits $B</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d] text-right">Capital %</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d] text-right">ROA %</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d]">Risk</th>
-                    <th className="px-3 py-3 border-b border-[#163d6d] w-8" />
+                  <tr className="text-left text-[10.5px] uppercase tracking-[0.16em] text-slate-500 font-mono bg-[#161d2a]">
+                    <th className="px-3 py-3 border-b border-[#253047]">Institution</th>
+                    <th className="px-3 py-3 border-b border-[#253047]">State</th>
+                    <th className="px-3 py-3 border-b border-[#253047] text-right">Deposits $B</th>
+                    <th className="px-3 py-3 border-b border-[#253047] text-right">Capital %</th>
+                    <th className="px-3 py-3 border-b border-[#253047] text-right">ROA %</th>
+                    <th className="px-3 py-3 border-b border-[#253047]">Risk</th>
+                    <th className="px-3 py-3 border-b border-[#253047] w-8" />
                   </tr>
                 </thead>
                 <tbody>
                   {rows.map((r) => (
                     <tr key={r.cert_id} className="table-row">
                       <td className="px-3 py-2.5">
-                        <Link to={`/institutions/${r.cert_id}`} className="text-slate-100 hover:text-[#FFCB05] font-medium">{r.name}</Link>
+                        <Link to={`/institutions/${r.cert_id}`} className="text-slate-100 hover:text-[#4d8fff] font-medium">{r.name}</Link>
                         <div className="text-[11px] text-slate-500">{r.city} · cert {r.cert_id}</div>
                       </td>
                       <td className="px-3 py-2.5 font-mono text-slate-300">{r.state}</td>
@@ -97,7 +97,7 @@ export default function WatchlistPage() {
                       <td className="px-3 py-2.5">
                         <div className="flex items-center gap-2">
                           <RiskChip tier={r.risk_tier} />
-                          <div className="flex-1 max-w-[60px] h-1.5 rounded-full bg-[#163d6d] overflow-hidden">
+                          <div className="flex-1 max-w-[60px] h-1.5 rounded-full bg-[#253047] overflow-hidden">
                             <div className="h-full" style={{ width: `${r.risk_score}%`, background: tierColor(r.risk_tier) }} />
                           </div>
                         </div>
@@ -121,8 +121,8 @@ export default function WatchlistPage() {
 
 function Stat({ label, value, accent }: { label: string; value: string; accent: 'cyan' | 'violet' | 'amber' }) {
   const grad = {
-    cyan: 'from-[#FFCB05]/25',
-    violet: 'from-[#00274C]/25',
+    cyan: 'from-[#4d8fff]/25',
+    violet: 'from-[#1e2a3d]/25',
     amber: 'from-amber-400/25',
   }[accent];
   return (

@@ -30,7 +30,7 @@ export default function InstitutionDetailPage() {
   return (
     <div className="space-y-6">
       <div>
-        <Link to="/institutions" className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-[#FFCB05]">
+        <Link to="/institutions" className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-[#4d8fff]">
           <ArrowLeft className="h-4 w-4" /> All institutions
         </Link>
       </div>
@@ -39,7 +39,7 @@ export default function InstitutionDetailPage() {
         <div className="absolute -top-32 -right-20 h-72 w-72 rounded-full blur-3xl opacity-20" style={{ background: tierColor(d.risk_tier) }} />
         <div className="relative flex items-start justify-between gap-4 flex-wrap">
           <div className="flex items-start gap-4">
-            <div className="h-12 w-12 rounded-xl bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-[#FFCB05]">
+            <div className="h-12 w-12 rounded-xl bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff]">
               <Building2 className="h-5 w-5" />
             </div>
             <div>
@@ -48,8 +48,8 @@ export default function InstitutionDetailPage() {
               <div className="flex items-center gap-4 mt-2 text-sm text-slate-400">
                 <span className="inline-flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5" />{d.city}, {d.state}</span>
                 <span className="inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5" />Est. {d.established_year}</span>
-                <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-[#001f44] border border-[#163d6d]">{d.charter_class}</span>
-                <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-[#001f44] border border-[#163d6d]">{d.asset_class}</span>
+                <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-[#161d2a] border border-[#253047]">{d.charter_class}</span>
+                <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-[#161d2a] border border-[#253047]">{d.asset_class}</span>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function InstitutionDetailPage() {
                 'inline-flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-medium transition-colors',
                 isWatched
                   ? 'bg-amber-400/10 text-amber-200 border-amber-400/40 hover:bg-amber-400/20'
-                  : 'border-[#163d6d] text-slate-300 hover:bg-[#002a5c]'
+                  : 'border-[#253047] text-slate-300 hover:bg-[#1e2a3d]'
               )}
             >
               <Star className="h-4 w-4" fill={isWatched ? 'currentColor' : 'none'} />
@@ -83,18 +83,18 @@ export default function InstitutionDetailPage() {
           <div className="h-[280px] w-full px-3 pt-3 pb-1">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={d.quarterly} margin={{ left: 8, right: 12, top: 12, bottom: 8 }}>
-                <CartesianGrid stroke="#163d6d" strokeDasharray="2 4" vertical={false} />
+                <CartesianGrid stroke="#253047" strokeDasharray="2 4" vertical={false} />
                 <XAxis dataKey="q" stroke="#475569" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
                 <YAxis yAxisId="left" stroke="#475569" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={36} />
                 <YAxis yAxisId="right" orientation="right" stroke="#475569" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={36} />
                 <Tooltip
-                  contentStyle={{ background: '#001f44', border: '1px solid #163d6d', borderRadius: 8, fontSize: 12 }}
+                  contentStyle={{ background: '#161d2a', border: '1px solid #253047', borderRadius: 8, fontSize: 12 }}
                   labelStyle={{ color: '#94a3b8' }}
                 />
                 <Legend wrapperStyle={{ fontSize: 11, color: '#94a3b8' }} />
-                <Line yAxisId="left" type="monotone" dataKey="deposits_b" name="Deposits $B" stroke="#FFDA47" strokeWidth={2} dot={{ r: 3, fill: '#FFDA47' }} />
+                <Line yAxisId="left" type="monotone" dataKey="deposits_b" name="Deposits $B" stroke="#00c9b1" strokeWidth={2} dot={{ r: 3, fill: '#00c9b1' }} />
                 <Line yAxisId="right" type="monotone" dataKey="npl_ratio" name="NPL %" stroke="#fb7185" strokeWidth={2} dot={{ r: 3, fill: '#fb7185' }} />
-                <Line yAxisId="right" type="monotone" dataKey="capital_ratio" name="Capital %" stroke="#FFCB05" strokeWidth={2} dot={{ r: 3, fill: '#FFCB05' }} />
+                <Line yAxisId="right" type="monotone" dataKey="capital_ratio" name="Capital %" stroke="#4d8fff" strokeWidth={2} dot={{ r: 3, fill: '#4d8fff' }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -102,12 +102,12 @@ export default function InstitutionDetailPage() {
 
         <div className="panel p-5 relative overflow-hidden glow-ring">
           <div className="flex items-center gap-2 mb-3">
-            <Sparkles className="h-4 w-4 text-[#2F65A7]" />
+            <Sparkles className="h-4 w-4 text-[#0061FF]" />
             <div className="eyebrow">AI Summary</div>
           </div>
           <p className="text-sm text-slate-300 leading-relaxed">{d.ai_summary}</p>
           <div className="mt-4 text-[11px] text-slate-500 font-mono">
-            Generated by gold.mart_institution_risk_score · Cortex Complete
+            mart_institution_risk_score · Cortex Complete
           </div>
         </div>
       </div>
@@ -117,11 +117,11 @@ export default function InstitutionDetailPage() {
           <div className="h-[280px] w-full px-3 pt-3 pb-1">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={d.branches_by_state} margin={{ left: 8, right: 12, top: 12, bottom: 8 }}>
-                <CartesianGrid stroke="#163d6d" strokeDasharray="2 4" vertical={false} />
+                <CartesianGrid stroke="#253047" strokeDasharray="2 4" vertical={false} />
                 <XAxis dataKey="state" stroke="#475569" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
                 <YAxis stroke="#475569" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={36} />
                 <Tooltip
-                  contentStyle={{ background: '#001f44', border: '1px solid #163d6d', borderRadius: 8, fontSize: 12 }}
+                  contentStyle={{ background: '#161d2a', border: '1px solid #253047', borderRadius: 8, fontSize: 12 }}
                   formatter={(v: any, name: any) => name === 'count' ? [fmtInt(v as number), 'Branches'] : [`$${(v as number).toFixed(2)}B`, 'Deposits']}
                 />
                 <Bar dataKey="count" radius={[4, 4, 0, 0]}>
@@ -165,16 +165,16 @@ export default function InstitutionDetailPage() {
 
 function Tile({ label, value, accent }: { label: string; value: string; accent: 'emerald' | 'amber' | 'rose' | 'cyan' }) {
   const grad = {
-    emerald: 'from-[#FFCB05]/25',
+    emerald: 'from-[#0061FF]/25',
     amber: 'from-amber-400/25',
     rose: 'from-rose-400/25',
-    cyan: 'from-[#FFCB05]/25',
+    cyan: 'from-[#0061FF]/25',
   }[accent];
   const text = {
-    emerald: 'text-[#FFCB05]',
+    emerald: 'text-[#4d8fff]',
     amber: 'text-amber-300',
     rose: 'text-rose-300',
-    cyan: 'text-[#FFCB05]',
+    cyan: 'text-[#4d8fff]',
   }[accent];
   return (
     <div className="relative panel p-5 overflow-hidden">

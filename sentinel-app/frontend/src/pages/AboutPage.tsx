@@ -4,8 +4,8 @@ import { ExternalLink, Github, Layers, Sparkles, Zap } from 'lucide-react';
 export default function AboutPage() {
   return (
     <div className="space-y-6 max-w-4xl">
-      <section className="rounded-lg border border-[#163d6d] bg-[#002a5c]/60 p-6">
-        <div className="eyebrow text-[#FFCB05]">The ODI Story</div>
+      <section className="rounded-lg border border-[#253047] bg-[#1e2a3d]/60 p-6">
+        <div className="eyebrow text-[#4d8fff]">The ODI Story</div>
         <h2 className="font-display text-3xl font-bold mt-1 text-slate-50">
           Data infrastructure for agents you trust.
         </h2>
@@ -13,7 +13,7 @@ export default function AboutPage() {
           <em>"MDS was optimized for humans. ODI is designed for a future with humans and
           production agents at scale."</em> This demo is one instance of that architecture:
           Fivetran's 750+ connectors and Managed Data Lake Service (MDLS) land data into open
-          table formats; <span className="text-[#FFCB05] font-semibold">dbt</span> transformations
+          table formats; <span className="text-[#4d8fff] font-semibold">dbt</span> transformations
           build the governed semantic layer; multiple compute engines and AI agents read the same
           gold tables.
         </p>
@@ -21,7 +21,7 @@ export default function AboutPage() {
           href="https://fivetran-jasonchletsos.github.io/Fivetran-Demo-Repository/story/"
           target="_blank"
           rel="noreferrer"
-          className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#FFCB05] hover:text-cyan-200"
+          className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#4d8fff] hover:text-[#00c9b1] transition-colors"
         >
           Read the full ODI Story →
         </a>
@@ -32,7 +32,7 @@ export default function AboutPage() {
         <h1 className="font-display text-4xl font-bold mt-1">About Sentinel</h1>
         <p className="text-slate-400 text-sm mt-1 max-w-2xl">
           Sentinel is the customer-facing surface of the Dropbox ODI demo. A CDO inherits a shared drive with 583 files. Fivetran picks them up,
-          <span className="text-[#FFCB05] font-semibold"> dbt labs</span> conforms them on bronze → silver and silver → gold, and Sentinel is the gold-layer dashboard.
+          <span className="text-[#4d8fff] font-semibold"> dbt labs</span> conforms them on bronze to silver and silver to gold, and Sentinel is the gold-layer dashboard.
         </p>
       </div>
 
@@ -50,20 +50,20 @@ export default function AboutPage() {
       <Panel eyebrow="Data lineage" title="What feeds this app">
         <div className="space-y-3 text-sm text-slate-300 leading-relaxed">
           <div className="flex items-start gap-3">
-            <div className="h-7 w-7 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-[#FFCB05] shrink-0"><Zap className="h-3.5 w-3.5" /></div>
+            <div className="h-7 w-7 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff] shrink-0"><Zap className="h-3.5 w-3.5" /></div>
             <div><strong className="text-slate-100">Fivetran</strong> · Dropbox connector continuously syncs the source folder. Schema drift handled automatically.</div>
           </div>
           <div className="flex items-start gap-3">
-            <div className="h-7 w-7 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-amber-300 shrink-0"><Layers className="h-3.5 w-3.5" /></div>
+            <div className="h-7 w-7 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-amber-300 shrink-0"><Layers className="h-3.5 w-3.5" /></div>
             <div><strong className="text-slate-100">Bronze · Iceberg</strong> · Raw landing tables, one per source file shape. Schema-on-read, time travel, snapshots.</div>
           </div>
           <div className="flex items-start gap-3">
-            <div className="h-7 w-7 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-[#FFCB05] shrink-0 font-mono text-[10px] font-bold">dbt</div>
+            <div className="h-7 w-7 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff] shrink-0 font-mono text-[10px] font-bold">dbt</div>
             <div><strong className="text-slate-100">dbt labs</strong> · Tests, lineage, and semantic models for every transformation between bronze, silver, and gold.</div>
           </div>
           <div className="flex items-start gap-3">
-            <div className="h-7 w-7 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center text-yellow-300 shrink-0"><Sparkles className="h-3.5 w-3.5" /></div>
-            <div><strong className="text-slate-100">Gold · marts</strong> · The tables Sentinel reads: <span className="font-mono text-xs text-[#FFCB05]/90">mart_institution_risk_score</span>, <span className="font-mono text-xs text-[#FFCB05]/90">agg_state_risk</span>, <span className="font-mono text-xs text-[#FFCB05]/90">fact_failed_banks</span>.</div>
+            <div className="h-7 w-7 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center text-[#4d8fff] shrink-0"><Sparkles className="h-3.5 w-3.5" /></div>
+            <div><strong className="text-slate-100">Gold · marts</strong> · The tables Sentinel reads: <span className="font-mono text-xs text-[#4d8fff]/90">mart_institution_risk_score</span>, <span className="font-mono text-xs text-[#4d8fff]/90">agg_state_risk</span>, <span className="font-mono text-xs text-[#4d8fff]/90">fact_failed_banks</span>.</div>
           </div>
         </div>
       </Panel>
@@ -71,16 +71,16 @@ export default function AboutPage() {
       <Panel eyebrow="Data sources" title="Public FDIC datasets">
         <ul className="space-y-2 text-sm text-slate-300">
           <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#FFCB05]" />
-            <span>FDIC Failed Bank List · <a className="text-[#FFCB05] hover:text-cyan-200 inline-flex items-center gap-1" href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/" target="_blank" rel="noreferrer">fdic.gov <ExternalLink className="h-3 w-3" /></a></span>
+            <span className="h-1.5 w-1.5 rounded-full bg-[#4d8fff]" />
+            <span>FDIC Failed Bank List · <a className="text-[#4d8fff] hover:text-[#00c9b1] inline-flex items-center gap-1" href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/" target="_blank" rel="noreferrer">fdic.gov <ExternalLink className="h-3 w-3" /></a></span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#FFCB05]" />
-            <span>FDIC Summary of Deposits · <a className="text-[#FFCB05] hover:text-cyan-200 inline-flex items-center gap-1" href="https://www7.fdic.gov/sod/" target="_blank" rel="noreferrer">fdic.gov/sod <ExternalLink className="h-3 w-3" /></a></span>
+            <span className="h-1.5 w-1.5 rounded-full bg-[#4d8fff]" />
+            <span>FDIC Summary of Deposits · <a className="text-[#4d8fff] hover:text-[#00c9b1] inline-flex items-center gap-1" href="https://www7.fdic.gov/sod/" target="_blank" rel="noreferrer">fdic.gov/sod <ExternalLink className="h-3 w-3" /></a></span>
           </li>
           <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#FFCB05]" />
-            <span>FDIC BankFind Suite (Institutions) · <a className="text-[#FFCB05] hover:text-cyan-200 inline-flex items-center gap-1" href="https://banks.data.fdic.gov/" target="_blank" rel="noreferrer">banks.data.fdic.gov <ExternalLink className="h-3 w-3" /></a></span>
+            <span className="h-1.5 w-1.5 rounded-full bg-[#4d8fff]" />
+            <span>FDIC BankFind Suite (Institutions) · <a className="text-[#4d8fff] hover:text-[#00c9b1] inline-flex items-center gap-1" href="https://banks.data.fdic.gov/" target="_blank" rel="noreferrer">banks.data.fdic.gov <ExternalLink className="h-3 w-3" /></a></span>
           </li>
         </ul>
         <p className="text-[12.5px] text-slate-500 mt-4 leading-relaxed">
@@ -91,7 +91,7 @@ export default function AboutPage() {
 
       <Panel eyebrow="Credits" title="Built by Jason Chletsos">
         <p className="text-sm text-slate-300 leading-relaxed">
-          Part of the Fivetran <span className="text-[#FFCB05]">Open Data Infrastructure</span> demo series. Sister demos: Meridian Capital (FinServ),
+          Part of the Fivetran <span className="text-[#4d8fff]">Open Data Infrastructure</span> demo series. Sister demos: Meridian Capital (FinServ),
           Epic Clarity (Healthcare), Atlas Risk (Insurance), Lighthouse Media, Storefront Analytics (Retail), and more.
         </p>
         <div className="mt-4 flex items-center gap-2 text-xs text-slate-500 font-mono">

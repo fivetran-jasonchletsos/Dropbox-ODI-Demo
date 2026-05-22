@@ -82,7 +82,7 @@ export interface PipelineTable {
 }
 
 export interface Pipeline {
-  source: { connector: 'dropbox' | 'fdic_api'; folder: string; file_count: number; last_run: string };
+  source: { connector: 'dropbox' | 'fdic_api'; folder: string; file_count: number; last_run: string; fivetran_id?: string; fivetran_connector_url?: string };
   layers: {
     bronze: { tables: PipelineTable[]; status: StatusLevel };
     silver: { tables: PipelineTable[]; status: StatusLevel };
@@ -98,4 +98,5 @@ export interface CatalogFile {
   domain: string;
   parsed: boolean;
   table_name?: string;
+  fivetran_id?: string;
 }

@@ -3,7 +3,9 @@
     "connector": "dropbox",
     "folder": "/Shared/ODI Sandbox",
     "file_count": 583,
-    "last_run": "2026-05-15T15:30:00.000Z"
+    "last_run": "2026-05-15T15:30:00.000Z",
+    "fivetran_id": "dropbox_odi_sandbox",
+    "fivetran_connector_url": "https://fivetran.com/dashboard/connectors/dropbox_odi_sandbox"
   },
   "layers": {
     "bronze": {

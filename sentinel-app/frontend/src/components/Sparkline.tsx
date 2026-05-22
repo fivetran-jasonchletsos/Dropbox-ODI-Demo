@@ -5,7 +5,7 @@ interface Props {
   stroke?: string;
 }
 
-export default function Sparkline({ data, width = 220, height = 56, stroke = '#FFDA47' }: Props) {
+export default function Sparkline({ data, width = 220, height = 56, stroke = '#00c9b1' }: Props) {
   if (data.length === 0) return null;
   const min = Math.min(...data);
   const max = Math.max(...data);

@@ -4,7 +4,7 @@ import type { Pipeline, EventLevel } from '../types';
 import Loading from '../components/Loading';
 import Panel from '../components/Panel';
 import { fmtInt, fmtDateTime } from '../lib/format';
-import { Database, Boxes, Layers, BadgeCheck, AlertTriangle, X, RefreshCw, Folder } from 'lucide-react';
+import { Database, Boxes, Layers, BadgeCheck, AlertTriangle, X, Folder, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
 
 export default function PipelinePage() {
@@ -22,20 +22,33 @@ export default function PipelinePage() {
         <div>
           <div className="eyebrow">ODI</div>
           <h1 className="font-display text-4xl font-bold mt-1">Pipeline</h1>
-          <p className="text-slate-400 text-sm mt-1">Fivetran → Snowflake bronze → <span className="text-[#FFCB05] font-semibold">dbt labs</span> → silver → <span className="text-[#FFCB05] font-semibold">dbt labs</span> → gold.</p>
+          <p className="text-slate-400 text-sm mt-1">Fivetran ingests Dropbox files into bronze <span className="text-[#4d8fff] font-semibold">Iceberg</span>, then <span className="text-[#4d8fff] font-semibold">dbt labs</span> promotes through silver to gold.</p>
         </div>
-        <button
-          onClick={() => setFailing((f) => !f)}
-          className={clsx(
-            'inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium transition-colors',
-            failing
-              ? 'bg-rose-500/20 text-rose-200 border-rose-400/40 hover:bg-rose-500/30'
-              : 'border-[#163d6d] text-slate-300 hover:bg-[#002a5c]'
+        <div className="flex items-center gap-2 flex-wrap">
+          {p.source.fivetran_connector_url && (
+            <a
+              href={p.source.fivetran_connector_url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-[#0061FF]/50 text-[#4d8fff] bg-[#0061FF]/10 hover:bg-[#0061FF]/20 text-sm font-medium transition-colors"
+            >
+              <ExternalLink className="h-4 w-4" />
+              Open in Fivetran
+            </a>
           )}
-        >
-          {failing ? <X className="h-4 w-4" /> : <AlertTriangle className="h-4 w-4" />}
-          {failing ? 'Recover pipeline' : 'Simulate failure'}
-        </button>
+          <button
+            onClick={() => setFailing((f) => !f)}
+            className={clsx(
+              'inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium transition-colors',
+              failing
+                ? 'bg-rose-500/20 text-rose-200 border-rose-400/40 hover:bg-rose-500/30'
+                : 'border-[#253047] text-slate-300 hover:bg-[#1e2a3d]'
+            )}
+          >
+            {failing ? <X className="h-4 w-4" /> : <AlertTriangle className="h-4 w-4" />}
+            {failing ? 'Recover pipeline' : 'Simulate failure'}
+          </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
@@ -51,6 +64,8 @@ export default function PipelinePage() {
             { name: p.source.folder, rows: p.source.file_count, updated_at: p.source.last_run },
           ]}
           showLabel={false}
+          fivetranId={p.source.fivetran_id}
+          fivetranUrl={p.source.fivetran_connector_url}
         />
         <Stage
           icon={<Database className="h-5 w-5" />}
@@ -134,16 +149,18 @@ interface StageProps {
   edgeLabel?: string;
   showLabel?: boolean;
   last?: boolean;
+  fivetranId?: string;
+  fivetranUrl?: string;
 }
 
-function Stage({ icon, title, subtitle, status, rows, metric, tables, edgeLabel, last }: StageProps) {
-  const titleColor = title === 'Bronze' ? 'text-amber-300' : title === 'Silver' ? 'text-slate-200' : title === 'Gold' ? 'text-yellow-200' : 'text-[#FFCB05]';
+function Stage({ icon, title, subtitle, status, rows, metric, tables, edgeLabel, last, fivetranId, fivetranUrl }: StageProps) {
+  const titleColor = title === 'Bronze' ? 'text-amber-300' : title === 'Silver' ? 'text-slate-200' : title === 'Gold' ? 'text-[#4d8fff]' : 'text-[#4d8fff]';
   return (
     <div className="relative">
       <div className="panel p-4 h-full flex flex-col">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className={clsx('h-8 w-8 rounded-lg bg-[#002a5c] border border-[#163d6d] flex items-center justify-center', titleColor)}>
+            <div className={clsx('h-8 w-8 rounded-lg bg-[#1e2a3d] border border-[#253047] flex items-center justify-center', titleColor)}>
               {icon}
             </div>
             <div>
@@ -160,7 +177,7 @@ function Stage({ icon, title, subtitle, status, rows, metric, tables, edgeLabel,
           <div className="text-[11px] text-slate-500 mt-1">{tables.length} {tables.length === 1 ? 'object' : 'tables'}</div>
         </div>
 
-        <div className="mt-3 pt-3 border-t border-[#163d6d] flex-1 overflow-hidden">
+        <div className="mt-3 pt-3 border-t border-[#253047] flex-1 overflow-hidden">
           <div className="space-y-1 max-h-[180px] overflow-y-auto scroll-thin pr-1">
             {tables.slice(0, 10).map((t) => (
               <div key={t.name} className="flex items-center justify-between text-[11.5px] font-mono">
@@ -170,6 +187,20 @@ function Stage({ icon, title, subtitle, status, rows, metric, tables, edgeLabel,
             ))}
             {tables.length > 10 && <div className="text-[11px] text-slate-500">+{tables.length - 10} more…</div>}
           </div>
+          {fivetranId && fivetranUrl && (
+            <div className="mt-3 pt-2 border-t border-[#253047]">
+              <a
+                href={fivetranUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 text-[11px] font-mono text-[#4d8fff] hover:text-[#00c9b1] transition-colors"
+              >
+                <ExternalLink className="h-3 w-3" />
+                Open in Fivetran
+              </a>
+              <div className="text-[10px] text-slate-600 font-mono mt-0.5">{fivetranId}</div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -185,18 +216,18 @@ function Stage({ icon, title, subtitle, status, rows, metric, tables, edgeLabel,
 function FlowArrow({ label }: { label: string }) {
   return (
     <div className="relative flex flex-col items-center">
-      <div className="absolute -top-7 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.18em] font-mono text-[#FFCB05] bg-[#00152e] px-2 py-0.5 border border-[#FFCB05]/30 rounded">
+      <div className="absolute -top-7 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.18em] font-mono text-[#4d8fff] bg-[#0d1117] px-2 py-0.5 border border-[#4d8fff]/30 rounded">
         {label}
       </div>
       <svg width="32" height="20" viewBox="0 0 32 20" className="overflow-visible">
         <defs>
           <linearGradient id="flow-arrow" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stopColor="#FFDA47" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="#FFDA47" stopOpacity="1" />
+            <stop offset="0%" stopColor="#4d8fff" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="#4d8fff" stopOpacity="1" />
           </linearGradient>
         </defs>
         <line x1="0" y1="10" x2="24" y2="10" stroke="url(#flow-arrow)" strokeWidth="2" className="arrow-flow" />
-        <polygon points="24,4 32,10 24,16" fill="#FFDA47" />
+        <polygon points="24,4 32,10 24,16" fill="#4d8fff" />
       </svg>
     </div>
   );
@@ -204,7 +235,7 @@ function FlowArrow({ label }: { label: string }) {
 
 function StatusPill({ status }: { status: 'ok' | 'warn' | 'error' }) {
   const cfg = {
-    ok:    { c: 'text-[#FFCB05] bg-emerald-400/10 border-emerald-400/30', label: 'OK', Icon: BadgeCheck },
+    ok:    { c: 'text-emerald-300 bg-emerald-400/10 border-emerald-400/30', label: 'OK', Icon: BadgeCheck },
     warn:  { c: 'text-amber-300 bg-amber-400/10 border-amber-400/30', label: 'WARN', Icon: AlertTriangle },
     error: { c: 'text-rose-300 bg-rose-400/10 border-rose-400/30', label: 'ERROR', Icon: AlertTriangle },
   }[status];
@@ -217,13 +248,13 @@ function StatusPill({ status }: { status: 'ok' | 'warn' | 'error' }) {
 }
 
 function LevelDot({ level }: { level: EventLevel }) {
-  const c = level === 'error' ? 'bg-rose-400' : level === 'warn' ? 'bg-amber-400' : 'bg-[#FFCB05]';
+  const c = level === 'error' ? 'bg-rose-400' : level === 'warn' ? 'bg-amber-400' : 'bg-[#4d8fff]';
   return <span className={clsx('h-2 w-2 rounded-full mt-1.5 shrink-0', c)} />;
 }
 
 function LevelBadge({ level }: { level: EventLevel }) {
   const cfg = {
-    info:  { c: 'text-[#FFCB05] bg-[#FFCB05]/10 border-[#FFCB05]/30',  label: 'INFO' },
+    info:  { c: 'text-[#4d8fff] bg-[#0061FF]/10 border-[#0061FF]/30',  label: 'INFO' },
     warn:  { c: 'text-amber-300 bg-amber-400/10 border-amber-400/30', label: 'WARN' },
     error: { c: 'text-rose-300 bg-rose-400/10 border-rose-400/30', label: 'ERROR' },
   }[level];

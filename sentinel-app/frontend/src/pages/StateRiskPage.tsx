@@ -80,7 +80,7 @@ export default function StateRiskPage() {
                 const x = col * (hexW + xGap) + (row % 2 ? (hexW + xGap) / 2 : 0);
                 const y = row * (hexH + yGap);
                 const data = byState.get(state);
-                const color = data ? riskIndexColor(data.risk_index) : '#163d6d';
+                const color = data ? riskIndexColor(data.risk_index) : '#253047';
                 const isActive = state === sel;
                 const isHover = state === hover;
                 return (
@@ -93,7 +93,7 @@ export default function StateRiskPage() {
                       points={hexPoints(x, y, hexW, hexH)}
                       fill={color}
                       fillOpacity={isActive ? 0.95 : isHover ? 0.85 : 0.55}
-                      stroke={isActive ? '#fff' : isHover ? '#FFDA47' : 'rgba(15,23,42,0.6)'}
+                      stroke={isActive ? '#fff' : isHover ? '#00c9b1' : 'rgba(15,23,42,0.6)'}
                       strokeWidth={isActive ? 2 : 1}
                     />
                     <text
@@ -103,7 +103,7 @@ export default function StateRiskPage() {
                       className="font-mono"
                       fontSize="11"
                       fontWeight="700"
-                      fill={isActive ? '#00152e' : 'rgba(15,23,42,0.85)'}
+                      fill={isActive ? '#0d1117' : 'rgba(15,23,42,0.85)'}
                     >
                       {state}
                     </text>
@@ -115,7 +115,7 @@ export default function StateRiskPage() {
                         className="font-mono"
                         fontSize="9"
                         fontWeight="600"
-                        fill={isActive ? '#00152e' : 'rgba(15,23,42,0.7)'}
+                        fill={isActive ? '#0d1117' : 'rgba(15,23,42,0.7)'}
                       >
                         {data.risk_index}
                       </text>
@@ -129,7 +129,7 @@ export default function StateRiskPage() {
             <span>Risk index</span>
             <div className="flex items-center gap-1 flex-1 max-w-md">
               <span>0</span>
-              <div className="flex-1 h-1.5 rounded-full" style={{ background: 'linear-gradient(90deg, #FFCB05 0%, #fbbf24 33%, #fb923c 66%, #fb7185 100%)' }} />
+              <div className="flex-1 h-1.5 rounded-full" style={{ background: 'linear-gradient(90deg, #4d8fff 0%, #fbbf24 33%, #fb923c 66%, #fb7185 100%)' }} />
               <span>100</span>
             </div>
           </div>
@@ -159,9 +159,9 @@ export default function StateRiskPage() {
               {selInsts.length === 0 ? (
                 <div className="p-4 text-sm text-slate-400">No tracked institutions in this state.</div>
               ) : (
-                <ul className="divide-y divide-[#163d6d]">
+                <ul className="divide-y divide-[#253047]">
                   {selInsts.slice(0, 8).map((i) => (
-                    <li key={i.cert_id} className="px-4 py-3 hover:bg-[#001a37] flex items-center gap-3">
+                    <li key={i.cert_id} className="px-4 py-3 hover:bg-[#111827] flex items-center gap-3">
                       <Link to={`/institutions/${i.cert_id}`} className="flex-1 min-w-0">
                         <div className="text-sm text-slate-200 font-medium truncate">{i.name}</div>
                         <div className="text-[11px] text-slate-500">{i.city} · ${i.deposits_b.toFixed(2)}B · {i.branches} branches</div>
@@ -176,7 +176,7 @@ export default function StateRiskPage() {
 
           {selData && selFails.length > 0 && (
             <Panel eyebrow="Failures" title={`${selData.state_name} since 2008`} bodyClassName="p-0">
-              <ul className="divide-y divide-[#163d6d]">
+              <ul className="divide-y divide-[#253047]">
                 {selFails.map((f) => (
                   <li key={f.cert_id} className="px-4 py-3 text-sm flex items-center gap-3">
                     <span className="h-1.5 w-1.5 rounded-full bg-rose-400 shrink-0" />

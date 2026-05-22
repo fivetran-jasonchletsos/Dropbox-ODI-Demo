@@ -149,8 +149,8 @@ export default function ArchitecturePage() {
               className={clsx(
                 'inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border text-sm font-medium transition-colors',
                 engineKey === e.key
-                  ? 'bg-[#002a5c] border-[#FFCB05]/50 text-cyan-200'
-                  : 'border-[#163d6d] text-slate-300 hover:bg-[#001a37]'
+                  ? 'bg-[#1e2a3d] border-[#0061FF]/50 text-[#4d8fff]'
+                  : 'border-[#253047] text-slate-300 hover:bg-[#161d2a]'
               )}
             >
               <span className="h-2 w-2 rounded-full" style={{ background: e.color }} />
@@ -162,7 +162,7 @@ export default function ArchitecturePage() {
           <div className="text-[11px] uppercase tracking-[0.18em] text-slate-500 font-mono">{engine.tagline}</div>
           <div className="text-[11px] text-slate-500 font-mono">gold.mart_institution_risk_score</div>
         </div>
-        <pre className="rounded-lg bg-[#05080f] border border-[#163d6d] p-5 overflow-x-auto scroll-thin text-[13px] font-mono leading-relaxed text-slate-200">
+        <pre className="rounded-lg bg-[#0a0e16] border border-[#253047] p-5 overflow-x-auto scroll-thin text-[13px] font-mono leading-relaxed text-slate-200">
           <code dangerouslySetInnerHTML={{ __html: highlightSql(engine.sql) }} />
         </pre>
       </Panel>
@@ -203,7 +203,7 @@ export default function ArchitecturePage() {
                 className={clsx(
                   'px-3 py-1.5 text-xs font-mono uppercase tracking-[0.16em] rounded-md transition-colors',
                   openLayer === l
-                    ? l === 'bronze' ? 'bg-amber-500/20 text-amber-200' : l === 'silver' ? 'bg-slate-500/20 text-slate-200' : 'bg-yellow-500/20 text-yellow-200'
+                    ? l === 'bronze' ? 'bg-amber-500/20 text-amber-200' : l === 'silver' ? 'bg-slate-500/20 text-slate-200' : 'bg-[#0061FF]/15 text-[#4d8fff]'
                     : 'text-slate-400 hover:text-slate-200'
                 )}
               >
@@ -255,11 +255,11 @@ function LineageDiagram() {
       <svg viewBox="0 0 1080 220" className="w-full min-w-[940px] block">
         <defs>
           <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stopColor="#FFDA47" stopOpacity="0.25" />
-            <stop offset="100%" stopColor="#FFDA47" stopOpacity="0.9" />
+            <stop offset="0%" stopColor="#4d8fff" stopOpacity="0.25" />
+            <stop offset="100%" stopColor="#4d8fff" stopOpacity="0.9" />
           </linearGradient>
           <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#FFDA47" />
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#4d8fff" />
           </marker>
         </defs>
 
@@ -274,8 +274,8 @@ function LineageDiagram() {
               <line x1={x1} y1={y} x2={x2 - 8} y2={y} stroke="url(#edgeGrad)" strokeWidth="2.5" className="arrow-flow" markerEnd="url(#arrowhead)" />
               {e.label && (
                 <g>
-                  <rect x={(x1 + x2) / 2 - 38} y={y - 32} width="76" height="20" rx="4" fill="#00152e" stroke="#FFDA47" strokeOpacity="0.5" />
-                  <text x={(x1 + x2) / 2} y={y - 18} textAnchor="middle" fontSize="11" fontWeight="700" fill="#FFDA47" className="font-mono" style={{ letterSpacing: '0.1em' }}>
+                  <rect x={(x1 + x2) / 2 - 38} y={y - 32} width="76" height="20" rx="4" fill="#0d1117" stroke="#4d8fff" strokeOpacity="0.5" />
+                  <text x={(x1 + x2) / 2} y={y - 18} textAnchor="middle" fontSize="11" fontWeight="700" fill="#4d8fff" className="font-mono" style={{ letterSpacing: '0.1em' }}>
                     {e.label.toUpperCase()}
                   </text>
                 </g>
@@ -286,7 +286,7 @@ function LineageDiagram() {
 
         {nodes.map((n) => (
           <g key={n.key} transform={`translate(${n.x}, ${n.y})`}>
-            <rect width="80" height="80" rx="14" fill="#001f44" stroke={n.color} strokeOpacity="0.6" strokeWidth="1.5" />
+            <rect width="80" height="80" rx="14" fill="#161d2a" stroke={n.color} strokeOpacity="0.6" strokeWidth="1.5" />
             <rect width="80" height="80" rx="14" fill={n.color} fillOpacity="0.07" />
             <foreignObject x="0" y="0" width="80" height="80">
               <div style={{ width: 80, height: 80, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: n.color }}>
@@ -308,9 +308,9 @@ function highlightSql(src: string): string {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
   return escaped
-    .replace(/(--[^\n]*)/g, '<span style="color:#64748b">$1</span>')
-    .replace(/('[^']*')/g, '<span style="color:#fcd34d">$1</span>')
+    .replace(/(--[^\n]*)/g, '<span style="color:#475569">$1</span>')
+    .replace(/('[^']*')/g, '<span style="color:#00c9b1">$1</span>')
     .replace(/\b(SELECT|FROM|WHERE|GROUP BY|ORDER BY|JOIN|ON|AS|AND|OR|COUNT|SUM|AVG|ROUND|MIN|MAX|WITH|CASE|WHEN|THEN|ELSE|END|DESC|ASC|LIMIT|HAVING|INSTALL|LOAD|spark\.read|format|load|filter|groupBy|agg|orderBy|count|sum|avg|round|alias|col|show|read|iceberg_scan)\b/gi,
-      '<span style="color:#FFDA47;font-weight:600">$1</span>')
-    .replace(/\b(DECIMAL|VARCHAR|TIMESTAMP|INT|DATE|BOOLEAN)\b/gi, '<span style="color:#2F65A7">$1</span>');
+      '<span style="color:#4d8fff;font-weight:600">$1</span>')
+    .replace(/\b(DECIMAL|VARCHAR|TIMESTAMP|INT|DATE|BOOLEAN)\b/gi, '<span style="color:#0061FF">$1</span>');
 }
