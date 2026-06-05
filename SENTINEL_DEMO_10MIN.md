@@ -164,7 +164,8 @@ Tab through the five engines:
 > "Same gold table. Snowflake query — fast, default. Databricks SQL —
 > works, same Iceberg-shaped tables. Athena via external table —
 > works. DuckDB on the parquet exports — works for an analyst's laptop.
-> Snowflake Cortex for the AI calls. **Storage is open. Catalog is open.
+> dbt-wizard run-time agents for the AI calls — humans and agents read
+> the same gold layer. **Storage is open. Catalog is open.
 > Compute is a choice.** That's ODI."
 
 ### 8:00 — The ODI thesis (45 sec)
@@ -175,7 +176,7 @@ Sit on the architecture page. No clicks.
 > storage, catalog, compute — used to be one vendor's stack. ODI says
 > they're independently swappable open standards. Iceberg or Delta for
 > storage. Glue or Polaris or Unity for catalog. Snowflake or Athena or
-> Spark or DuckDB or Cortex for compute. **The minute any of those three
+> Spark or DuckDB for compute, run-time agents for AI. **The minute any of those three
 > becomes a lock-in, you've stopped doing ODI and started doing the
 > warehouse you said you didn't want.**"
 
@@ -257,7 +258,7 @@ Hand back to AE.
 |---|---|
 | "We're a Databricks shop — why are you showing Snowflake?" | "Snowflake's the default in this build. The architecture page has a Databricks tab on the same gold tables. You don't migrate; you point. ODI's whole pitch is the engine doesn't dictate the data." |
 | "Dropbox sources aren't real enterprise data — show me ERP." | "Agreed that ERP matters. The same connector pattern lands SAP, Oracle, NetSuite. Dropbox is in this demo because it's the source that customers most often *underestimate* — and where shadow data lives. Pick any source and the silver/gold story is identical." |
-| "We can do this with vanilla dbt on Snowflake." | "You can do the transformation half. You can't do the part where the gold tables are also queryable from Databricks, Athena, DuckDB, and Cortex without copies. The lock-in shows up the next time someone wants a non-Snowflake engine." |
+| "We can do this with vanilla dbt on Snowflake." | "You can do the transformation half. You can't do the part where the gold tables are also queryable from Databricks, Athena, and DuckDB, and read by run-time agents, without copies. The lock-in shows up the next time someone wants a non-Snowflake engine." |
 | "What happens when the Dropbox folder structure changes?" | "Bronze tracks the folder via a cursor + rev hash. A new file lands as a new bronze table. A renamed file lands as a new row with a `superseded_by` reference. The silver staging models are the contract — if the underlying file shape changes in a way that breaks them, the test fails and gold doesn't update." |
 | "How do you handle PII in the shared drive?" | "Two answers. One — the catalog flags every file's domain (FinServ, Healthcare, etc.) so PII-bearing files get a different lifecycle. Two — dbt has column-level lineage and PII tags on the silver edges. If a column is PII, it doesn't leak into a gold mart that's published to an AI agent unless the agent has the right role. Snowflake row-access policies enforce it at query time." |
 
@@ -286,7 +287,7 @@ Hand back to AE.
 |---|---|
 | "Our pain isn't ingestion, it's mapping" | `/architecture` — dbt labs on both edges. Reusable canonical models, semantic layer, mapping logic versioned in git. |
 | "How does this compare to Databricks Lakehouse / Snowflake Iceberg?" | Both are engines in the architecture page. Iceberg under the hood. The point isn't to pick one — it's to make them swappable. |
-| "AI / Cortex / Claude" | The institution detail page's AI summary. Templated off marts. Not a vector blob. |
+| "AI / run-time agents / Claude" | The institution detail page's AI summary. Templated off marts by a dbt-wizard run-time agent. Not a vector blob. |
 | "Procurement / security review" | "Fivetran is already through your procurement cycle for the existing connectors — extending to a new connector doesn't restart the clock." |
 | "What about real-time?" | "Bronze refresh cadence is set by the connector. Most shared-drive sources are hourly or daily — that's appropriate. If a source needs CDC, Fivetran has it; ODI doesn't change that." |
 | "Show me lineage" | `/architecture` → scroll to the dbt-emitted lineage panel. Column-level. Auto-generated on every build. |

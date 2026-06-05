@@ -107,7 +107,7 @@ export default function InstitutionDetailPage() {
           </div>
           <p className="text-sm text-slate-300 leading-relaxed">{d.ai_summary}</p>
           <div className="mt-4 text-[11px] text-slate-500 font-mono">
-            mart_institution_risk_score · Cortex Complete
+            mart_institution_risk_score · dbt-wizard run-time agent
           </div>
         </div>
       </div>

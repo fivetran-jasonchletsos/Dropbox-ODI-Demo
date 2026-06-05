@@ -104,7 +104,7 @@ const STACK_COMPARE = [
   { label: 'Compute', mds: 'One engine', odi: 'Any engine — Snowflake, DuckDB, Athena, Trino, Spark' },
   { label: 'Transform', mds: 'Vendor SQL only', odi: 'dbt labs — bronze · silver · gold' },
   { label: 'Egress cost', mds: 'High · vendor-priced', odi: 'Cloud storage rates' },
-  { label: 'AI workloads', mds: 'Bolt-on', odi: 'Native · same gold tables feed Cortex, vector DBs, agents' },
+  { label: 'AI workloads', mds: 'Bolt-on', odi: 'Native · same gold tables feed run-time agents, vector DBs, retrieval' },
   { label: 'Lock-in', mds: 'Multi-year contract', odi: 'Move data by changing the catalog pointer' },
 ];
 

@@ -39,7 +39,8 @@ US bank-risk persona on the Dropbox-ODI-Demo. Print this. Bring it to the call.
                               │  9 routes · static JSON snapshot      │
                               └───────────────────────────────────────┘
 
-   Engines on the same gold tables:  Snowflake · Databricks · Athena · DuckDB · Cortex
+   Engines on the same gold tables:  Snowflake · Databricks · Athena · DuckDB
+   Humans and run-time agents read the same gold layer (Explorer · Summary · Worker · Verification)
 ```
 
 ## Connectors (3, listed in demo order)

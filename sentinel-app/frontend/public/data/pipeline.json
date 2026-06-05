@@ -290,7 +290,7 @@
     {
       "ts": "2026-05-15T10:06:00.000Z",
       "level": "info",
-      "msg": "Cortex AI summaries generated for 4,503 institutions (avg 312 ms)"
+      "msg": "Run-time agent AI summaries generated for 4,503 institutions (avg 312 ms)"
     }
   ]
 }

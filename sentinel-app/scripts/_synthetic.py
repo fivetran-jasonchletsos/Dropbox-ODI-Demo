@@ -752,7 +752,7 @@ def _pipeline_payload(catalog: list[dict], institutions: list[dict],
             },
             {
                 "name": "Semantic / App",
-                "engine": "Sentinel + Snowflake Cortex",
+                "engine": "Sentinel + dbt-wizard run-time agents",
                 "tables": gold_marts,
                 "rows": 0,
                 "freshness_minutes": 11,

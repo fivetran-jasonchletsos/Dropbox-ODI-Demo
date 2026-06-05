@@ -494,7 +494,7 @@ const pipeline = {
     { ts: iso(shiftHours(NOW, 3.2)),  level: 'info', msg: 'FDIC public-API delta: +18 quarterly call-reports, +2 failure events' },
     { ts: iso(shiftHours(NOW, 4.8)),  level: 'error', msg: 'Stale file detected: BankReviews_v2.xlsx unchanged 47 days · parking in quarantine' },
     { ts: iso(shiftHours(NOW, 6.1)),  level: 'info', msg: 'Dropbox watcher attached: 583 files indexed, 76.5 GB total' },
-    { ts: iso(shiftHours(NOW, 8.4)),  level: 'info', msg: 'Cortex AI summaries generated for 4,503 institutions (avg 312 ms)' },
+    { ts: iso(shiftHours(NOW, 8.4)),  level: 'info', msg: 'Run-time agent AI summaries generated for 4,503 institutions (avg 312 ms)' },
   ],
 };
 

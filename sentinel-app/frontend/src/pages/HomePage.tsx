@@ -96,8 +96,8 @@ export default function HomePage() {
         <PillarCard
           icon={<Sparkles className="h-5 w-5" />}
           eyebrow="AI-Ready"
-          title="Cortex and beyond"
-          body="Gold layer is wired for AI: vector indexes, dbt semantic models, and clean facts ready for retrieval-augmented agents."
+          title="Run-time agents and beyond"
+          body="Gold layer is wired for AI: vector indexes, dbt semantic models, and clean facts ready for retrieval-augmented agents. Humans and agents read the same gold layer."
         />
       </section>
 
